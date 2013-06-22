@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Hello!</title>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      ul {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Menu App</h1>
+    <p>What is your favourite food?</p>
+    <form id="menu-form">
+      <input id="menu-item" type="text">
+      <input type="submit">
+    </form>
+    <ul id="favorites"></ul>
+    <script>
+      window.MenuApp = {};
+      MenuApp.favorites = [];
+      var input = document.getElementById('menu-item');
+      var form = document.getElementById('menu-form');
+      form.onsubmit = function(event) {
+        event.preventDefault();
+        MenuApp.favorites.push(input.value);
+      };
+      window.render = function() {
+        MenuApp.favorites.forEach(function(favorite) {
+          var li = document.createElement('li');
+          li.appendChild(document.createTextNode(favorite));
+          document.getElementById('favorites').appendChild(li);
+        });
+      };
+    </script>
+  </body>
+</html>
