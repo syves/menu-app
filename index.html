@@ -15,25 +15,36 @@
     <h1>Menu App</h1>
     <p>What is your favourite food?</p>
     <form id="menu-form">
-      <input id="menu-item" type="text">
-      <input type="submit">
+      <input id="menu-item" type="text" placeholder = 'food'>
+      <input id="item-score" type="text" placeholder = 'enter score'>
+      <input type="submit" value = 'add'>
     </form>
+    <!--ul = unordered list-->
     <ul id="favorites"></ul>
     <script>
+    //
       window.MenuApp = {};
-      MenuApp.favorites = [];
+      MenuApp.favorites = {};
       var input = document.getElementById('menu-item');
       var form = document.getElementById('menu-form');
+      var score = document.getElementById('item-score');
       form.onsubmit = function(event) {
+        //prevents page reload
         event.preventDefault();
-        MenuApp.favorites.push(input.value);
+        //made object set vallue to 1 for all items
+        MenuApp.favorites[input.value] = score.value;
+        input.value = score.value = '';
       };
-      window.render = function() {
-        MenuApp.favorites.forEach(function(favorite) {
+      MenuApp.render = function() {
+        //looping thru fav object(aray)
+        for (var favorite in MenuApp.favorites) {
+          //creating html list empty
           var li = document.createElement('li');
+          //set the text content of li to favorite
           li.appendChild(document.createTextNode(favorite));
+          //insertng item into doc on screen
           document.getElementById('favorites').appendChild(li);
-        });
+        }
       };
     </script>
   </body>
