@@ -1,0 +1,8 @@
+{
+  "name": "menuapp",
+  "version": "0.0.0",
+  "dependencies": {
+    "airwaves": "0.2.x",
+    "express": "3.4.x"
+  }
+}
