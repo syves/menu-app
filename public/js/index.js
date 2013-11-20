@@ -92,19 +92,21 @@ var showTop5 = function(){
     if (a[0] < b[0]) return +1;
     return 0;
   });
-  console.log('your top 5!')
+  
   pairs.slice(0,5).forEach(function(pair) {
     var score = pair[0];
     var name = pair[1];
     console.log(name + ' (' + score.toFixed(1) + ') Ingredients: ' + Thai_menu[name].join(', '))
   });
-
+//clear top 5 results here?
 
   //show results on index.html: setting floats to stars?
   //ratings:1. saving local storage, 2.option for trying new things rating/slider, 
   //good job!!!
 
   var suggestions = document.getElementById('suggestions');
+  // delete old stuff
+  suggestions.innerHTML='';
   pairs.slice(0, 5).forEach(function(pair) {
     var score = pair[0];
     var name = pair[1];
@@ -116,10 +118,6 @@ var showTop5 = function(){
     suggestions.appendChild(li);
   });
 }
-
-
-
-
 
 document.getElementById("Select-Thai-menu").addEventListener('click', function(event) {
   event.preventDefault();
