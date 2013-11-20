@@ -1,4 +1,5 @@
 var channel=new airwaves.Channel();
+MenuApp.channel = channel;
 var ol = document.getElementById("stars");
 
 var ingredients = ["fresh roll", "vegetables", "tofu", "peanuts", "chili", 
@@ -27,19 +28,23 @@ var showNextIngredient = function() {
   if (rating === undefined) {
     // Display ingredient so it can be rated.
     document.getElementById('ingredient').innerHTML = ingredient;
+    channel.broadcast('renderStars', 0);
   } else {
     // Ingredient has already been rated. Try the next ingredient.
     showNextIngredient();
   }
 };
 
-showNextIngredient();
 //workshop code
 channel.subscribe("starSelect",function(ingredient, starNumber){
   console.log(ingredient + ' was rated ' + Array(starNumber + 1).join('★'));
 });
 //shows/updates star select 
 channel.subscribe("starSelect",function(ingredient, starNumber){
+  channel.broadcast('renderStars', starNumber);
+});
+
+channel.subscribe('renderStars', function(starNumber){
   var stars = ol.getElementsByTagName("li");
   for(var i = 0; i < stars.length; i++) {
     stars[i].className = i < starNumber ? "selected" : "";
@@ -57,3 +62,4 @@ ol.addEventListener("click",function(event){
   channel.broadcast("starSelect", ingredient, starRating);
 },false);
 
+showNextIngredient();
