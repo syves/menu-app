@@ -22,7 +22,15 @@ var showNextIngredient = function() {
   // update DOM
   //to do:never reaching first item in list!
   ingredients.shift();
-  document.getElementById("ingredient").innerHTML = ingredients[0];
+  var ingredient = ingredients[0];
+  var rating = MenuApp.store.get(ingredient);
+  if (rating === undefined) {
+    // Display ingredient so it can be rated.
+    document.getElementById('ingredient').innerHTML = ingredient;
+  } else {
+    // Ingredient has already been rated. Try the next ingredient.
+    showNextIngredient();
+  }
 };
 
 showNextIngredient();
