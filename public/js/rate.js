@@ -19,17 +19,16 @@ var preparation = ["stewed", "fried", "fry","saute", "grilled", "baked",
 
 channel.subscribe('starSelect', MenuApp.store.set);
 
+var index = 0;
+
 var showNextIngredient = function() {
-  // update DOM
-  //to do:never reaching first item in list!
-  ingredients.shift();
-  var ingredient = ingredients[0];
+  var ingredient = ingredients[index++];
   var rating = MenuApp.store.get(ingredient);
   if (rating === undefined) {
     // Display ingredient so it can be rated.
     document.getElementById('ingredient').innerHTML = ingredient;
     channel.broadcast('renderStars', 0);
-  } else {
+  } else if (index < ingredients.length) {
     // Ingredient has already been rated. Try the next ingredient.
     showNextIngredient();
   }
@@ -56,6 +55,10 @@ document.getElementById('next-ingredient').addEventListener('click', function(ev
   showNextIngredient();
 }, false);
 
+document.getElementById("main-menu").addEventListener('click', function(event) {
+}, false);
+
+
 ol.addEventListener("click",function(event){
   var ingredient = ingredients[0];
   var starRating = Number(event.target.getAttribute("data-star-number"));
@@ -64,5 +67,3 @@ ol.addEventListener("click",function(event){
 
 showNextIngredient();
 
-document.getElementById("main-menu").addEventListener('click', function(event) {
-}, false);main-menu
