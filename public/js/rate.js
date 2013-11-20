@@ -63,3 +63,6 @@ ol.addEventListener("click",function(event){
 },false);
 
 showNextIngredient();
+
+document.getElementById("main-menu").addEventListener('click', function(event) {
+}, false);main-menu
