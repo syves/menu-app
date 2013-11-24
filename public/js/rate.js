@@ -22,15 +22,19 @@ channel.subscribe('starSelect', MenuApp.store.set);
 var index = 0;
 
 var showNextIngredient = function() {
-  var ingredient = ingredients[index++];
-  var rating = MenuApp.store.get(ingredient);
-  if (rating === undefined) {
-    // Display ingredient so it can be rated.
-    document.getElementById('ingredient').innerHTML = ingredient;
-    channel.broadcast('renderStars', 0);
-  } else if (index < ingredients.length) {
-    // Ingredient has already been rated. Try the next ingredient.
-    showNextIngredient();
+  if (index >= ingredients.length) {
+    document.body.classList.add('all-done');
+  } else {
+    var ingredient = ingredients[index++];
+    var rating = MenuApp.store.get(ingredient);
+    if (rating === undefined) {
+      // Display ingredient so it can be rated.
+      document.getElementById('ingredient').innerHTML = ingredient;
+      channel.broadcast('renderStars', 0);
+    } else if (index < ingredients.length) {
+      // Ingredient has already been rated. Try the next ingredient.
+      showNextIngredient();
+    }
   }
 };
 

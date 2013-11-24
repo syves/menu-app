@@ -17,3 +17,16 @@ body {
   content: "★";
 }
 
+#all-done {
+  display: none;
+}
+body.all-done #stars {
+  display: none;
+}
+body.all-done #ingredient {
+  display: none;
+}
+body.all-done #all-done {
+  display: block;
+}
+
