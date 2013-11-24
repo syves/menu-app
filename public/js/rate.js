@@ -60,7 +60,7 @@ document.getElementById("main-menu").addEventListener('click', function(event) {
 
 
 ol.addEventListener("click",function(event){
-  var ingredient = ingredients[0];
+  var ingredient = ingredients[index - 1];
   var starRating = Number(event.target.getAttribute("data-star-number"));
   channel.broadcast("starSelect", ingredient, starRating);
 },false);
