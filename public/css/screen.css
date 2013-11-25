@@ -30,3 +30,9 @@ body.all-done #all-done {
   display: block;
 }
 
+img.full-star, img.half-star {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 2px;
+}
