@@ -1,3 +1,4 @@
+
 MenuApp.menus["Thai-menu"] = {
   "Paupia": [
     "crispy",
@@ -66,5 +67,86 @@ MenuApp.menus["Thai-menu"] = {
     "beansprouts",
     "chives",
     "roasted sriracha chili"
+  ],
+  return
+  //marni thai
+  "Meat Ball Noodle Soup": [
+   "beef ball",
+   "sliced beef",
+   "bean sprouts"
+   ],
+   "Yen Ta Four: [
+   "noodle soup",
+   "fish ball", 
+   "fried tofu", 
+   "prawn", 
+   "calamari", 
+   "white fungus", 
+   "spinach"  
+   "special sauce"
+  ],
+  "Pad Se Ew": [
+  "sauté",
+  "rice noodles",
+  "soy bean", 
+  "broccoli",
+  "egg",
+  "chicken"
+  ],
+  "Pad Kee Mao": [
+  "rice noodles",
+  "pan fried",
+   "chili",
+   "garlic",
+   "tomato",
+   "thai basil",
+   "bed of lettuce",
+   "beef"
+   ],
+  "Rad Na": [
+  "sauté rice noodles", 
+  "broccoli",
+  "gravy",
+  "beef"
+  ],
+  "Guay Tiew Koor": [
+  "sauté rice noodles",
+   "chicken", 
+   "egg", 
+   "bean sprouts",
+   "ground peanuts",
+   "Roasted Duck"
+   ],
+  "Chan Pad Poo": [
+  "spicy",
+  "fried rice stick noodles",
+  "crab meat",
+  "egg",
+  "green onions"
+  ]
+  "Pad Thai": [
+  "fried rice stick noodles",
+  "prawn",
+  "bean curd",
+  "egg",
+  "bean sprout",
+  "ground peanut"
+  ],
+  "Noodles And Curry": [
+  "red curry",
+  "coconut milk", 
+  "bamboo shoots",
+  "thai basil"," 
+  "beef",
+  "vermicelli noodle",
+  "prawn"
+  ],
+  "Khao Soy Chicken": [
+   "egg noodles",
+   "chicken",
+  "yellow curry",
+  "pickled mustard", 
+  "red onion",
+  "roasted chili paste"
   ]
 };
