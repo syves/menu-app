@@ -1,73 +1,3 @@
-var Thai_menu = {
-  "Paupia": [
-    "crispy",
-    "vegetable",
-    "rolls"
-  ],
-  "Paupia Sod": [
-    "fresh roll",
-    "vegetables",
-    "tofu",
-    "peanuts",
-    "chili",
-    "lime vinaigrette"
-  ],
-  "Kao Pode Tod": [
-    "thai spiced corn fritters",
-    "cool cucumber",
-    "crushed peanuts",
-    "salad"
-  ],
-  "Keow Wan Roti": [
-    "grilled",
-    "indian bread",
-    "eggplant",
-    "bell peppers",
-    "basil",
-    "green curry dipping"
-  ],
-  "Basil Panstickers": [
-    "pan-fried dumplings",
-    "shrimp",
-    "pork",
-    "thai ginger",
-    "soy"
-  ],
-  "Tod Mun thai": [
-    "spiced",
-    "fish cakes",
-    "yard long beans",
-    "nuts",
-    "cucumber vinaigrette"
-  ],
-  "Goong Gra Bog": [
-    "crispy",
-    "wrapped whole tiger prawns",
-    "sweet chili",
-    "vinaigrette"
-  ],
-  "Toong Tong": [
-    "golden pouches",
-    "crab",
-    "pork",
-    "salad",
-    "cucumber",
-    "pineapple"
-  ],
-  "Plamuk Tod": [
-    "fried",
-    "calamari",
-    "sriracha",
-    "chili vinaigrette"
-  ],
-  "Kanom Pak Gard": [
-    "turnip cakes",
-    "stir-fried",
-    "beansprouts",
-    "chives",
-    "roasted sriracha chili"
-  ]
-};
 
 
 
@@ -80,11 +10,11 @@ var scoreMenuItem = function(itemAttrs, defaultRating){
 }
 
 
-var showTop5 = function(){
+var showTop5 = function(menu){
   var pairs =[]
 
-  for (var name in Thai_menu) {
-    var score = scoreMenuItem(Thai_menu[name], 3);
+  for (var name in menu) {
+    var score = scoreMenuItem(menu[name], 3);
     pairs.push([score, name]);
   }
   pairs.sort(function(a,b){
@@ -96,13 +26,14 @@ var showTop5 = function(){
   pairs.slice(0,5).forEach(function(pair) {
     var score = pair[0];
     var name = pair[1];
-    console.log(name + ' (' + score.toFixed(1) + ') Ingredients: ' + Thai_menu[name].join(', '))
+    console.log(name + ' (' + score.toFixed(1) + ') Ingredients: ' + menu[name].join(', '))
   });
-//clear top 5 results here?
 
   //show results on index.html: setting floats to stars?
-  //ratings:1. saving local storage, 2.option for trying new things rating/slider, 
+// 2.option for trying new things rating/slider, 
   //good job!!!
+
+
 
   var suggestions = document.getElementById('suggestions');
   // delete old stuff
@@ -114,7 +45,7 @@ var showTop5 = function(){
     var b = document.createElement('b');
     b.appendChild(document.createTextNode(name));
     li.appendChild(b);
-    li.innerHTML += ' (' + starScore(score) + ') Ingredients: ' + Thai_menu[name].join(', ');
+    li.innerHTML += ' (' + starScore(score) + ') Ingredients: ' + menu[name].join(', ');
     suggestions.appendChild(li);
   });
 }
@@ -128,7 +59,7 @@ document.getElementById("Rate-my-ingredients").addEventListener('click', functio
 
 document.getElementById("showTopFive").addEventListener('click', function(event) {
   event.preventDefault();
-  showTop5()
+  showTop5(MenuApp.menus["Thai-menu"]);
 }, false);
 
 

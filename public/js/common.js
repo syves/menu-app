@@ -12,3 +12,4 @@ MenuApp.store = {
     }
   }
 };
+MenuApp.menus = {}
