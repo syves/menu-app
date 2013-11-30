@@ -18,7 +18,7 @@ MenuApp.menus["Japanese-menu"] = {
   "Shio-Kara": [
     "salted fresh squid",
     "fermented"
-  ]
+  ],
   "Ume Okra": [
    "sliced okra",
     "japanese pickled plum"	
@@ -44,17 +44,17 @@ MenuApp.menus["Japanese-menu"] = {
   "Cucumber With Japanese Plum": [
     "fresh cucumber",
     "plum dip"
-    ]
+    ],
   "Kimchee Cucumber": [
     "kimchee",
      "seasoned",
     "cucumber"
-    ]
+    ],
   "Takoyaki fried octopus balls": [
-    "wasabi sauce"
+    "wasabi sauce",
     "fried",
     "octopus balls"
-    ]
+    ],
   "Fresh Salmon Carpaccio": [
     "onion",
     "kaiware",
@@ -69,7 +69,7 @@ MenuApp.menus["Japanese-menu"] = {
     "wasabi", 
     "mayo",
     "dip"	
-    ] 	 	
+    ], 	 	
   "Roku Salad six": [
     "vegetables",
     "bacon", 
@@ -87,7 +87,7 @@ MenuApp.menus["Japanese-menu"] = {
      "yuzu",
      "wasabi",
      "dressing"	
-     ]
+     ],
   "Shabu Shabu Salad": [
     "thinly sliced beef",
     "greens", 
@@ -125,22 +125,22 @@ MenuApp.menus["Japanese-menu"] = {
   "Kakuni": [
     "soft braised",
     "pork belly"	
-    ]
+    ],
   "Fried Sweet Potato Fries": [
     "fried",
     "sweet potato"
-    ]
+    ],
   "Chikuwa Isobeage": [
     "fried",
     "seafood cake",
     "seaweed"
-    ]
+    ],
   "Roku'n Octopus": [
     "deep fried",
     "baby octopus", 
     "salt and pepper",
     "spicy"
-    ]
+    ],
   "Agedashi Tofu": [
     "deep fried tofu",
     "green onion", 
@@ -155,7 +155,7 @@ MenuApp.menus["Japanese-menu"] = {
     "on a spoon"
     ],
   "Nasu Dengaku": [
-    "fried eggplant"
+    "fried eggplant",
     "county miso", 
     "shrim", 
     "edamame beans"	 
@@ -237,7 +237,7 @@ MenuApp.menus["Japanese-menu"] = {
     ],
   "Shake Foil steamed salmon": [
     "salmon",
-    "miso-butter"
+    "miso-butter",
     "soy sauce"
     ],
   "Yakitori Momo": [
@@ -291,11 +291,11 @@ MenuApp.menus["Japanese-menu"] = {
     "garlic",
     "fried",
     "rice"
-  ] 	 	 	 
+  ], 	 	 	 
   "Ocha-Zuke": [
-    "green tea"
-    "dashi"
-    "rice"
+    "green tea",
+    "dashi",
+    "rice",
     "nori",
     "wasabi",
     "Japanese Pickled Plum",
@@ -336,7 +336,7 @@ MenuApp.menus["Japanese-menu"] = {
   "ice cream"
     ],
   "Red Beans Ice Cream ": [
-  "ice cream"
+  "ice cream",
   "red beans"
     ],	 	 	 
   "Green Tea Ice Cream": [
@@ -344,16 +344,16 @@ MenuApp.menus["Japanese-menu"] = {
   "green tea"
     ],	 	 	 
   "Petit Tomato's Compote": [
-  "lemon julee"
+  "lemon julee",
   "compote"
     ],	 	 	 
   "Mochi Ice Cream green tea": [
-  "mochi"
+  "mochi",
   "ice cream",
   "green tea"
     ],
   "Mochi Ice Cream vanilla": [
-  "mochi"
+  "mochi",
   "ice cream",
   "vanilla"
     ],	 	 	 
@@ -371,7 +371,7 @@ MenuApp.menus["Japanese-menu"] = {
     "strawberries", 
     "blueberries", 
     "mint", 
-    "whipped cream"
+    "whipped cream",
     "vanilla ice cream"
-    ],
+  ],
     };

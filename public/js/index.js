@@ -50,8 +50,12 @@ var showTop5 = function(menu){
   });
 }
 
-document.getElementById("Select-Thai-menu").addEventListener('click', function(event) {
-  event.preventDefault();
+var selectedMenu = null;
+
+document.body.addEventListener('click', function(event) {
+  if (event.target.classList.contains("menu")){
+    selectedMenu = event.target.id;
+  }
 }, false);
 
 document.getElementById("Rate-my-ingredients").addEventListener('click', function(event) {
@@ -59,7 +63,7 @@ document.getElementById("Rate-my-ingredients").addEventListener('click', functio
 
 document.getElementById("showTopFive").addEventListener('click', function(event) {
   event.preventDefault();
-  showTop5(MenuApp.menus["Thai-menu"]);
+  showTop5(MenuApp.menus[selectedMenu]);
 }, false);
 
 

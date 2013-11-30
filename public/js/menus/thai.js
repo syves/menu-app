@@ -68,21 +68,20 @@ MenuApp.menus["Thai-menu"] = {
     "chives",
     "roasted sriracha chili"
   ],
-  return
   //marni thai
   "Meat Ball Noodle Soup": [
    "beef ball",
    "sliced beef",
    "bean sprouts"
    ],
-   "Yen Ta Four: [
+   "Yen Ta Four": [
    "noodle soup",
    "fish ball", 
    "fried tofu", 
    "prawn", 
    "calamari", 
    "white fungus", 
-   "spinach"  
+   "spinach",
    "special sauce"
   ],
   "Pad Se Ew": [
@@ -123,7 +122,7 @@ MenuApp.menus["Thai-menu"] = {
   "crab meat",
   "egg",
   "green onions"
-  ]
+  ],
   "Pad Thai": [
   "fried rice stick noodles",
   "prawn",
@@ -136,7 +135,7 @@ MenuApp.menus["Thai-menu"] = {
   "red curry",
   "coconut milk", 
   "bamboo shoots",
-  "thai basil"," 
+  "thai basil", 
   "beef",
   "vermicelli noodle",
   "prawn"
