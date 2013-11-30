@@ -2,20 +2,23 @@ var channel=new airwaves.Channel();
 MenuApp.channel = channel;
 var ol = document.getElementById("stars");
 
-var ingredients = ["fresh roll", "vegetables", "tofu", "peanuts", "chili", 
-                  "lime", "thai spiced", "corn", "fritters", "cucumber", 
-                  "salad", "indian bread", "eggplant", "bell peppers", 
-                  "basil", "green curry",	"dumplings", "shrimp", "pork", 
-                  "thai ginger", "soy",	"puff pastry", "duck", "sweet potato",	 	 	
-                  "spiced", "fish cakes", "yard long beans","nuts", "crispy", 
-                  "tiger prawns", "sweet chili", "vinaigrette",	"golden pouches", 
-                  "crab", "pineapple", "calamari","sriracha", "turnip cakes", 
-                  "beansprouts", "chives", "beef", "chicken", "fish",
-                  "scallops", "garlic", "bean curd",];
-                  
 var preparation = ["stewed", "fried", "fry","saute", "grilled", "baked", 
                   "seared","boiled", "pan-fried","roasted", "steamed", "poached", 
                   "fresh", "curried", "barecue", "toasted","stir-fried",]
+
+var getIngredients = function(menu){
+  var ingredients = {};              
+  for (var itemName in menu) {
+    menu[itemName].forEach(function(ingredient){
+      ingredients[ingredient]=1
+    })
+  }
+  return Object.keys(ingredients)
+}
+
+//link up to index html to replace 'japanese' with selected menu
+var ingredients = getIngredients(MenuApp.menus['Japanese-menu']);
+
 
 channel.subscribe('starSelect', MenuApp.store.set);
 
