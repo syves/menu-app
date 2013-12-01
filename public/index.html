@@ -5,9 +5,9 @@
   <link href="/css/screen.css" rel="stylesheet">
 </head>
 <body>
-  <div >How menuSTAR works: </div>
+  <div id="heading">menuSTAR</div>
   <br>
-  <div> 1.Upload your menu.</div> 
+  <div>Step 1.Select a menu.</div> 
   
   <select id="menus">
     <option value="Breakfast-menu">Breakfast</option>
@@ -15,9 +15,8 @@
     <option value="Thai-menu">Thai</option>
   </select>
  
-  <div>2.MenuStar collects your ratings of ingredients</div>
-  <h2> "Rate ingredients!"</h2>
-  <h2 id='ingredient'></h2>
+  <div id="rateIngredinets">Step 2.Rate ingredients</h2>
+  <div id='ingredient'></div>
   <ol id="stars">
   <li data-star-number="1"></li>
   <li data-star-number="2"></li>
@@ -29,9 +28,7 @@
   <p>You've rated everything!</p>
 </div>
 
-  <div>  3.MenuSTAR offers Top5 menu items</div>
-  <div>based on your preferences!</div>
-  <br id="foo">
+  <div>Your Top5 menu items:</div>
 
   <ol id="suggestions"></ol>
     
