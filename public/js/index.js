@@ -60,12 +60,11 @@ var selectMenu = function(menuId) {
   index = 0;
   showNextIngredient();
   showTop5(menu);
+  document.getElementById('menus').value = menuId;
 };
 
-document.body.addEventListener('click', function(event) {
-  if (event.target.classList.contains("menu")){
-    selectMenu(event.target.id);
-  }
+document.getElementById("menus").addEventListener('change', function() {
+  selectMenu(this.value);
 }, false);
 
 // Takes a number representing a star rating and returns a string
