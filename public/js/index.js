@@ -68,12 +68,6 @@ document.body.addEventListener('click', function(event) {
   }
 }, false);
 
-document.getElementById("showTopFive").addEventListener('click', function(event) {
-  event.preventDefault();
-  showTop5(MenuApp.menus[selectedMenu]);
-}, false);
-
-
 // Takes a number representing a star rating and returns a string
 // of HTML containing the stars, as images.
 var starScore = function(rating) {
