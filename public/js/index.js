@@ -55,8 +55,11 @@ var ingredients = null;
 var index = null;
 var selectMenu = function(menuId) {
   selectedMenu = menuId;
-  ingredients = getIngredients(MenuApp.menus[selectedMenu]);
+  var menu = MenuApp.menus[selectedMenu];
+  ingredients = getIngredients(menu);
   index = 0;
+  showNextIngredient();
+  showTop5(menu);
 };
 
 document.body.addEventListener('click', function(event) {
@@ -146,9 +149,6 @@ ol.addEventListener("click",function(event){
   var starRating = Number(event.target.getAttribute("data-star-number"));
   channel.broadcast("starSelect", ingredient, starRating);
 },false);
-
-selectMenu('Thai-menu');
-showNextIngredient();
 
 
 
@@ -286,3 +286,5 @@ var halfStar = [
   'NDCbenQpR/dpx01fa3vk+97ScAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABip/tSn/1Z/wB1',
   'AAZUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/9k="/>'
 ].join('');
+
+selectMenu('Thai-menu');
