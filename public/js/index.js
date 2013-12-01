@@ -51,10 +51,17 @@ var showTop5 = function(menu){
 }
 
 var selectedMenu = null;
+var ingredients = null;
+var index = null;
+var selectMenu = function(menuId) {
+  selectedMenu = menuId;
+  ingredients = getIngredients(MenuApp.menus[selectedMenu]);
+  index = 0;
+};
 
 document.body.addEventListener('click', function(event) {
   if (event.target.classList.contains("menu")){
-    selectedMenu = event.target.id;
+    selectMenu(event.target.id);
   }
 }, false);
 
@@ -94,13 +101,7 @@ var getIngredients = function(menu){
   return Object.keys(ingredients)
 }
 
-//link up to index html to replace 'japanese' with selected menu
-var ingredients = getIngredients(MenuApp.menus['Japanese-menu']);
-
-
 channel.subscribe('starSelect', MenuApp.store.set);
-
-var index = 0;
 
 var showNextIngredient = function() {
   if (index >= ingredients.length) {
@@ -146,6 +147,7 @@ ol.addEventListener("click",function(event){
   channel.broadcast("starSelect", ingredient, starRating);
 },false);
 
+selectMenu('Thai-menu');
 showNextIngredient();
 
 
