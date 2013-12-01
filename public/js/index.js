@@ -116,6 +116,13 @@ var showNextIngredient = function() {
     }
   }
 };
+//automatically shows next ingredient after half sec
+channel.subscribe('starSelect', function() {
+  setTimeout(function(){
+    showNextIngredient();
+    channel.broadcast('renderStars', 0);
+  }, 500);
+});
 
 //workshop code
 channel.subscribe("starSelect",function(ingredient, starNumber){
@@ -132,11 +139,6 @@ channel.subscribe('renderStars', function(starNumber){
     stars[i].className = i < starNumber ? "selected" : "";
   }
 });
-
-document.getElementById('next-ingredient').addEventListener('click', function(event) {
-  event.preventDefault();
-  showNextIngredient();
-}, false);
 
 ol.addEventListener("click",function(event){
   var ingredient = ingredients[index - 1];
