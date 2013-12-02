@@ -1,5 +1,5 @@
 //roku
-MenuApp.menus["Japanese-menu"] = {
+MenuApp.menus["roku"] = {
   
   "Edamame": [
     "boiled",

@@ -1,4 +1,4 @@
-{
+MenuApp.menus["savor"] = {
   "Coronado": [
     "coronado",
     "avocado",
