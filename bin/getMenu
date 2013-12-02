@@ -1,0 +1,54 @@
+#!/usr/bin/env node
+
+var http = require("http");
+var cheerio = require("cheerio");
+var _ = require('underscore');
+
+if (process.argv.length < 3) {
+  console.error("Please provide a restaurant name");
+  process.exit(1);
+}
+
+var url ="http://sanfrancisco.menupages.com/restaurants/" + process.argv[2] + "/menu";
+
+var ignoredWords = [
+  '&',
+  'a',
+  'and',
+  'half',
+  'in',
+  'of',
+  'on',
+  'one',
+  'three',
+  'two',
+  'with',
+];
+
+var getMenu = function(html) {
+  var $ = cheerio.load(html);
+  var menu = {};
+  $("cite").each(function(){
+    menu[this.text()] = _.without.apply(null, [
+      this.parent().text()
+      .toLowerCase()
+      .replace(/\(.*\)/g, '')
+      .trim()
+      .split(/[, \u00A0]+/)
+    ].concat(ignoredWords));
+  }) 
+  return menu;
+};
+
+http.get(url, function(res) {
+  var data = '';
+  res.setEncoding('utf8');
+  res.on('data', function(chunk) {
+    data += chunk;
+  });
+  res.on('end', function() {
+    console.log(JSON.stringify(getMenu(data), null, 2));
+  });
+}).on('error', function(err) {
+  console.log("Got error: " + err.message);
+});

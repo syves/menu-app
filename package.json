@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "airwaves": "0.2.x",
-    "express": "3.4.x"
+    "cheerio" : "0.12.x",
+    "express": "3.4.x",
+    "underscore": "1.5.x"
   }
 }
