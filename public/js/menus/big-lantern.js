@@ -1,4 +1,4 @@
-MenuApp.menus["big lantern"] = {
+MenuApp.menus["big-lantern"] = {
   "Mixed Vegetable": [
     "mixed",
     "vegetable"

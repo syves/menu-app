@@ -1,4 +1,4 @@
-MenuApp.menus["udapi palace"] = {{
+MenuApp.menus["udapi palace"] = {
   "1. Idly (2 Pieces)": [
     "1.",
     "idly",
