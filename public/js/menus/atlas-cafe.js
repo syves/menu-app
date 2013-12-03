@@ -176,7 +176,6 @@ MenuApp.menus["atlas"] = {
     "cheese"
   ],
   "Grilled Cheddar": [
-    "grilled",
     "cheddar"
   ],
   "Yam": [
@@ -219,7 +218,6 @@ MenuApp.menus["atlas"] = {
     "chocolate"
   ],
   "Steamed Milk": [
-    "steamed",
     "milk"
   ],
   "Espresso": [

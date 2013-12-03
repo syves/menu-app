@@ -1,4 +1,4 @@
-MenuApp.menus["marnee thai"] = {
+MenuApp.menus["marnee-thai"] = {
   "Meat Ball Noodle Soup Or Without Soup": [
     "meat",
     "ball",
@@ -26,7 +26,6 @@ MenuApp.menus["marnee thai"] = {
     "soup",
     "fish",
     "ball",
-    "fried",
     "tofu",
     "prawn",
     "calamari",
@@ -34,20 +33,18 @@ MenuApp.menus["marnee thai"] = {
     "fungus",
     "spinach",
     "special",
-    "sauce."
+    "sauce"
   ],
   "Roasted Duck Noodles (Soup Or Without Soup)": [
-    "roasted",
     "duck",
     "noodles",
     "egg",
     "noodles",
     "sliced",
     "boneless",
-    "roasted",
     "duck",
     "bean",
-    "sprouts."
+    "sprouts"
   ],
   "Combo Noodle Soup": [
     "combo",
@@ -62,13 +59,11 @@ MenuApp.menus["marnee thai"] = {
     "ball",
     "prawn",
     "calamari",
-    "fresh",
     "tofu",
     "bean",
-    "sprouts."
+    "sprouts"
   ],
   "Roasted Pork And Fish Ball Noodles": [
-    "roasted",
     "pork",
     "fish",
     "ball",
@@ -80,13 +75,12 @@ MenuApp.menus["marnee thai"] = {
     "without",
     "soup",
     "sliced",
-    "roasted",
     "pork",
     "fish",
     "ball",
     "fish",
     "cake",
-    "spinach."
+    "spinach"
   ],
   "Noodle Tom Yum Soup": [
     "noodle",
@@ -100,13 +94,12 @@ MenuApp.menus["marnee thai"] = {
     "pork",
     "fish",
     "ball",
-    "fried",
     "tofu",
     "chili",
     "ground",
     "peanut",
     "bean",
-    "sprouts."
+    "sprouts"
   ],
   "Pad Se - Ew": [
     "pad",
@@ -119,12 +112,12 @@ MenuApp.menus["marnee thai"] = {
     "soy",
     "bean",
     "broccoli",
-    "egg.",
+    "egg",
     "choice",
     "chicken",
     "beef",
     "or",
-    "pork."
+    "pork"
   ],
   "with prawn": [
     "prawn"
@@ -136,22 +129,20 @@ MenuApp.menus["marnee thai"] = {
     "rice",
     "noodles",
     "pan",
-    "fried",
     "chili",
     "garlic",
     "tomato",
     "thai",
     "basil",
     "bed",
-    "lettuce.",
+    "lettuce",
     "choice",
     "chicken",
     "beef",
     "or",
-    "pork."
+    "pork"
   ],
   "roasted duck": [
-    "roasted",
     "duck"
   ],
   "Rad Na": [
@@ -162,12 +153,12 @@ MenuApp.menus["marnee thai"] = {
     "noodles",
     "topped",
     "broccoli",
-    "gravy.",
+    "gravy",
     "choice",
     "chicken",
     "beef",
     "or",
-    "pork."
+    "pork"
   ],
   "Guay Tiew Koor": [
     "guay",
@@ -181,12 +172,11 @@ MenuApp.menus["marnee thai"] = {
     "bean",
     "sprouts",
     "ground",
-    "peanuts."
+    "peanuts"
   ],
   "with prawn or roasted duck": [
     "prawn",
     "or",
-    "roasted",
     "duck"
   ],
   "Chan Pad Poo": [
@@ -195,7 +185,6 @@ MenuApp.menus["marnee thai"] = {
     "poo",
     "*",
     "spicy",
-    "fried",
     "rice",
     "stick",
     "noodles",
@@ -204,13 +193,11 @@ MenuApp.menus["marnee thai"] = {
     "meat",
     "egg",
     "green",
-    "onions."
+    "onions"
   ],
   "Pad Thai": [
     "pad",
     "thai",
-    ".",
-    "fried",
     "rice",
     "stick",
     "noodles",
@@ -222,7 +209,7 @@ MenuApp.menus["marnee thai"] = {
     "bean",
     "sprout",
     "ground",
-    "peanut."
+    "peanut"
   ],
   "Noodles And Curry": [
     "noodles",
@@ -237,20 +224,18 @@ MenuApp.menus["marnee thai"] = {
     "bamboo",
     "shoots",
     "thai",
-    "basil.",
+    "basil",
     "choice",
     "chicken",
     "beef",
     "or",
     "pork",
-    "served",
     "special",
     "thai",
     "style",
-    "steamed",
     "rice",
     "vermicelli",
-    "noodle."
+    "noodle"
   ],
   "Khao Soy Chicken": [
     "khao",
@@ -266,7 +251,6 @@ MenuApp.menus["marnee thai"] = {
     "yellow",
     "curry",
     "sauce",
-    "served",
     "side",
     "dish",
     "pickled",
@@ -274,9 +258,8 @@ MenuApp.menus["marnee thai"] = {
     "red",
     "onion",
     "homemade",
-    "roasted",
     "chili",
-    "paste."
+    "paste"
   ],
   "Spicy Chicken Or Pork": [
     "spicy",
@@ -308,7 +291,7 @@ MenuApp.menus["marnee thai"] = {
     "peppers",
     "onions",
     "oyster",
-    "sauce."
+    "sauce"
   ],
   "Pad Nor Mai": [
     "pad",
@@ -327,7 +310,7 @@ MenuApp.menus["marnee thai"] = {
     "shoots",
     "egg",
     "thai",
-    "basil."
+    "basil"
   ],
   "Pad Ginger": [
     "pad",
@@ -342,7 +325,7 @@ MenuApp.menus["marnee thai"] = {
     "dried",
     "fungus",
     "mushrooms",
-    "onions."
+    "onions"
   ],
   "Pad Prik Pao": [
     "pad",
@@ -361,9 +344,8 @@ MenuApp.menus["marnee thai"] = {
     "bamboo",
     "shoots",
     "onions",
-    "roasted",
     "chili",
-    "paste."
+    "paste"
   ],
   "Beef With Broccoli & Mushrooms": [
     "beef",
@@ -376,30 +358,26 @@ MenuApp.menus["marnee thai"] = {
     "mushroom",
     "light",
     "oyster",
-    "sauce."
+    "sauce"
   ],
   "Roasted Duck Over Rice": [
-    "roasted",
     "duck",
     "over",
     "rice",
     "sliced",
     "boneless",
-    "roasted",
     "duck",
     "bed",
     "spinach",
     "special",
-    "sauce."
+    "sauce"
   ],
   "Thai Style Roasted Pork Over Rice": [
     "thai",
     "style",
-    "roasted",
     "pork",
     "over",
     "rice",
-    "roasted",
     "pork",
     "chicken",
     "sausage",
@@ -408,7 +386,7 @@ MenuApp.menus["marnee thai"] = {
     "special",
     "homemade",
     "gravy",
-    "sauce."
+    "sauce"
   ],
   "Kao Rad Kang": [
     "kao",
@@ -429,7 +407,7 @@ MenuApp.menus["marnee thai"] = {
     "chicken",
     "beef",
     "or",
-    "pork."
+    "pork"
   ],
   "Sweet & Sour Prawn": [
     "sweet",
@@ -445,7 +423,7 @@ MenuApp.menus["marnee thai"] = {
     "cucumber",
     "bell",
     "pepper",
-    "onion."
+    "onion"
   ],
   "Goong Kee Mao": [
     "goong",
@@ -461,7 +439,7 @@ MenuApp.menus["marnee thai"] = {
     "bell",
     "pepper",
     "thai",
-    "basil."
+    "basil"
   ],
   "Pad Phed": [
     "pad",
@@ -480,7 +458,7 @@ MenuApp.menus["marnee thai"] = {
     "shoot",
     "onion",
     "thai",
-    "basil."
+    "basil"
   ],
   "with prawn or calamari": [
     "prawn",
@@ -490,30 +468,26 @@ MenuApp.menus["marnee thai"] = {
   "Thai Style Fried Rice": [
     "thai",
     "style",
-    "fried",
     "rice",
     "choice",
     "chicken",
     "beef",
-    "roasted",
     "pork",
     "or",
     "chicken",
-    "sausage."
+    "sausage"
   ],
   "with prawn, crabmeat or roasted duck": [
     "prawn",
     "crabmeat",
     "or",
-    "roasted",
     "duck"
   ],
   "1. Imperial Rolls": [
-    "1.",
+    "1",
     "imperial",
     "rolls",
     "deep",
-    "fried",
     "rolls",
     "wrapped",
     "ground",
@@ -523,10 +497,10 @@ MenuApp.menus["marnee thai"] = {
     "mushroom",
     "bean",
     "thread",
-    "noodles."
+    "noodles"
   ],
   "2. Golden Triangles (Thai Samosas)": [
-    "2.",
+    "2",
     "golden",
     "triangles",
     "crispy",
@@ -538,7 +512,7 @@ MenuApp.menus["marnee thai"] = {
     "filling"
   ],
   "3. Chicken Or Beef Satay": [
-    "3.",
+    "3",
     "chicken",
     "or",
     "beef",
@@ -546,15 +520,14 @@ MenuApp.menus["marnee thai"] = {
     "marinated",
     "meat",
     "skewers",
-    "served",
     "peanut",
     "curry",
     "sauce",
     "cucumber",
-    "salad."
+    "salad"
   ],
   "4. Miang Kum": [
-    "4.",
+    "4",
     "miang",
     "kum",
     "spinach",
@@ -565,37 +538,31 @@ MenuApp.menus["marnee thai"] = {
     "lime",
     "wedges",
     "ginger",
-    "toasted",
-    "fresh",
     "coconut",
     "peanuts",
-    "served",
     "special",
     "herb",
-    "sauce."
+    "sauce"
   ],
   "5. Goong Sarong (Prawns In A Blanket)": [
-    "5.",
+    "5",
     "goong",
     "sarong",
     "deep",
-    "fried",
     "marinated",
     "prawns",
     "bacon",
-    "served",
     "sweet",
     "chili",
-    "sauce."
+    "sauce"
   ],
   "6. Spicy Angel Wings": [
-    "6.",
+    "6",
     "spicy",
     "angel",
     "wings",
     "*",
     "deep",
-    "fried",
     "chicken",
     "wings",
     "sautéed",
@@ -603,29 +570,22 @@ MenuApp.menus["marnee thai"] = {
     "sauce",
     "top",
     "crispy",
-    "basil."
+    "basil"
   ],
   "7. Corn Cake": [
-    "7.",
+    "7",
     "corn",
     "cake",
-    ".",
-    "fried",
-    "fresh",
     "corn",
     "fritters",
-    "served",
     "cucumber",
-    "salad."
+    "salad"
   ],
   "8. Fresh Egg Rolls": [
-    "8.",
-    "fresh",
+    "8",
     "egg",
     "rolls",
-    ".",
     "thai-style",
-    "fresh",
     "egg",
     "rolls",
     "stuffed",
@@ -640,14 +600,13 @@ MenuApp.menus["marnee thai"] = {
     "crab",
     "meat",
     "tamarind",
-    "sauce."
+    "sauce"
   ],
   "18. Tom Yum": [
-    "18.",
+    "18",
     "tom",
     "yum",
     "*",
-    ".",
     "spicy",
     "sour",
     "soup",
@@ -656,7 +615,7 @@ MenuApp.menus["marnee thai"] = {
     "lemongrass",
     "touch",
     "lime",
-    "juice."
+    "juice"
   ],
   "chicken": [
     "chicken"
@@ -665,11 +624,10 @@ MenuApp.menus["marnee thai"] = {
     "prawn"
   ],
   "19. Tom Ka": [
-    "19.",
+    "19",
     "tom",
     "ka",
     "*",
-    ".",
     "spicy",
     "sour",
     "soup",
@@ -677,10 +635,10 @@ MenuApp.menus["marnee thai"] = {
     "milk",
     "mushroom",
     "galanga",
-    "lemongrass."
+    "lemongrass"
   ],
   "20. Po Tak": [
-    "20.",
+    "20",
     "po",
     "tak",
     "*",
@@ -688,15 +646,13 @@ MenuApp.menus["marnee thai"] = {
     "sour",
     "soup",
     "combination",
-    "seafood",
-    "."
+    "seafood"
   ],
   "21. Gang Jued Soup": [
-    "21.",
+    "21",
     "gang",
     "jued",
     "soup",
-    ".",
     "choice",
     "soft",
     "tofu",
@@ -710,10 +666,10 @@ MenuApp.menus["marnee thai"] = {
     "chicken",
     "mushroom",
     "cabbage",
-    "onion."
+    "onion"
   ],
   "9. Chicken (Larb) Salad": [
-    "9.",
+    "9",
     "chicken",
     "salad",
     "minced",
@@ -723,18 +679,16 @@ MenuApp.menus["marnee thai"] = {
     "mint",
     "leaves",
     "cilantro",
-    "roasted",
     "rice",
     "powder",
     "spicy",
     "lime",
-    "dressing."
+    "dressing"
   ],
   "10. Calamari Salad": [
-    "10.",
+    "10",
     "calamari",
     "salad",
-    "cooked",
     "calamari",
     "ginger",
     "mint",
@@ -743,10 +697,10 @@ MenuApp.menus["marnee thai"] = {
     "onions",
     "spicy",
     "lime",
-    "dressing."
+    "dressing"
   ],
   "11. Prawn Salad": [
-    "11.",
+    "11",
     "prawn",
     "salad",
     "broiled",
@@ -757,16 +711,14 @@ MenuApp.menus["marnee thai"] = {
     "cilantro",
     "onions",
     "homemade",
-    "roasted",
     "chili",
-    "dressing."
+    "dressing"
   ],
   "12. Minced Pork Salad (Nam Sod)": [
-    "12.",
+    "12",
     "minced",
     "pork",
     "salad",
-    "cooked",
     "minced",
     "pork",
     "ginger",
@@ -777,10 +729,10 @@ MenuApp.menus["marnee thai"] = {
     "peanuts",
     "spicy",
     "lime",
-    "dressing."
+    "dressing"
   ],
   "13. Beef Salad (Nam Tok)": [
-    "13.",
+    "13",
     "beef",
     "salad",
     "beef",
@@ -788,34 +740,30 @@ MenuApp.menus["marnee thai"] = {
     "leaves",
     "cilantro",
     "onions",
-    "toasted",
     "rice",
     "powder",
     "spicy",
     "lime",
-    "dressing."
+    "dressing"
   ],
   "14. Roasted Duck Salad": [
-    "14.",
-    "roasted",
+    "14",
     "duck",
     "salad",
     "sliced",
-    "roasted",
     "duck",
     "mint",
     "leaves",
     "cilantro",
     "onions",
-    "toasted",
     "rice",
     "powder",
     "spicy",
     "lime",
-    "dressing."
+    "dressing"
   ],
   "15. Green Papaya Salad (Som Tum)": [
-    "15.",
+    "15",
     "green",
     "papaya",
     "salad"
@@ -826,11 +774,10 @@ MenuApp.menus["marnee thai"] = {
     "crab"
   ],
   "16. Green Mango Salad (Seasonal)": [
-    "16.",
+    "16",
     "green",
     "mango",
     "salad",
-    ".",
     "shredded",
     "mango",
     "prawns",
@@ -839,20 +786,17 @@ MenuApp.menus["marnee thai"] = {
     "spicy",
     "lime",
     "dressing",
-    "toasted",
     "coconut",
     "cashew",
-    "nuts."
+    "nuts"
   ],
   "17. Silver Noodle Salad": [
-    "17.",
+    "17",
     "silver",
     "noodle",
     "salad",
-    ".",
     "silver",
     "noodles",
-    "cooked",
     "prawn",
     "minced",
     "pork",
@@ -860,10 +804,10 @@ MenuApp.menus["marnee thai"] = {
     "onions",
     "spicy",
     "lime",
-    "dressing."
+    "dressing"
   ],
   "22. Panang Beef": [
-    "22.",
+    "22",
     "panang",
     "beef",
     "*",
@@ -877,37 +821,35 @@ MenuApp.menus["marnee thai"] = {
     "milk",
     "thai",
     "basil",
-    "served",
     "broccoli"
   ],
   "23. Kang Ka Ree": [
-    "23.",
+    "23",
     "kang",
     "ka",
     "ree",
     "yellow",
-    "curry.",
+    "curry",
     "mild",
     "curry",
     "coconut",
     "milk",
     "turmeric",
-    "fresh",
     "herbs",
     "spices",
     "yukon",
-    "potatoes."
+    "potatoes"
   ],
   "lamb": [
     "lamb"
   ],
   "24. Kang Dang": [
-    "24.",
+    "24",
     "kang",
     "dang",
     "*",
     "red",
-    "curry.",
+    "curry",
     "medium",
     "spicy",
     "curry",
@@ -916,7 +858,7 @@ MenuApp.menus["marnee thai"] = {
     "bamboo",
     "shoot",
     "thai",
-    "basil."
+    "basil"
   ],
   "beef, chicken or pork": [
     "beef",
@@ -925,19 +867,18 @@ MenuApp.menus["marnee thai"] = {
     "pork"
   ],
   "roasted duck (comes with pineapple, tomato and bell pepper)": [
-    "roasted",
     "duck"
   ],
   "prawn (comes with bamboo shoot and green bean)": [
     "prawn"
   ],
   "25. Kang Keaw": [
-    "25.",
+    "25",
     "kang",
     "keaw",
     "*",
     "green",
-    "curry.",
+    "curry",
     "spicy",
     "green",
     "curry",
@@ -947,10 +888,10 @@ MenuApp.menus["marnee thai"] = {
     "purple",
     "eggplant",
     "thai",
-    "basil."
+    "basil"
   ],
   "26. Mussaman Chicken Curry": [
-    "26.",
+    "26",
     "mussaman",
     "chicken",
     "curry",
@@ -964,21 +905,20 @@ MenuApp.menus["marnee thai"] = {
     "coconut",
     "milk",
     "potatoes",
-    "peanut."
+    "peanut"
   ],
   "27. Pad Kaprow": [
-    "27.",
+    "27",
     "pad",
     "kaprow",
     "*",
     "choice",
     "meat",
     "sautéed",
-    "fresh",
     "chili",
     "garlic",
     "thai",
-    "basil."
+    "basil"
   ],
   "chopped chicken, minced pork or sliced beef": [
     "chopped",
@@ -990,7 +930,6 @@ MenuApp.menus["marnee thai"] = {
     "beef"
   ],
   "roasted duck (sliced)": [
-    "roasted",
     "duck"
   ],
   "prawns or prawns and calamari with yellow onion": [
@@ -1002,7 +941,7 @@ MenuApp.menus["marnee thai"] = {
     "onion"
   ],
   "28. Pad Ginger": [
-    "28.",
+    "28",
     "pad",
     "ginger",
     "choice",
@@ -1016,16 +955,15 @@ MenuApp.menus["marnee thai"] = {
     "mushroom",
     "onions",
     "soybean",
-    "sauce."
+    "sauce"
   ],
   "with roasted duck or fish": [
-    "roasted",
     "duck",
     "or",
     "fish"
   ],
   "29. Pad Prig Khing": [
-    "29.",
+    "29",
     "pad",
     "prig",
     "khing",
@@ -1040,10 +978,10 @@ MenuApp.menus["marnee thai"] = {
     "chili",
     "paste",
     "string",
-    "beans."
+    "beans"
   ],
   "30. Pad Prig Pao": [
-    "30.",
+    "30",
     "pad",
     "prig",
     "pao",
@@ -1062,24 +1000,22 @@ MenuApp.menus["marnee thai"] = {
     "pepper",
     "onion",
     "homemade",
-    "roasted",
     "chili",
-    "paste."
+    "paste"
   ],
   "31. Pad Garlic": [
-    "31.",
+    "31",
     "pad",
     "garlic",
     "sliced",
     "pork",
     "sautéed",
-    "fresh",
     "garlic",
     "black",
     "pepper"
   ],
   "32. Pad Woonsen": [
-    "32.",
+    "32",
     "pad",
     "woonsen",
     "choice",
@@ -1093,10 +1029,10 @@ MenuApp.menus["marnee thai"] = {
     "fungus",
     "mushroom",
     "egg",
-    "onion."
+    "onion"
   ],
   "33. Pad Ma Kuer": [
-    "33.",
+    "33",
     "pad",
     "ma",
     "kuer",
@@ -1116,10 +1052,10 @@ MenuApp.menus["marnee thai"] = {
     "basil",
     "soy",
     "bean",
-    "sauce."
+    "sauce"
   ],
   "34. Pad Prew Wharn": [
-    "34.",
+    "34",
     "pad",
     "prew",
     "wharn",
@@ -1133,24 +1069,23 @@ MenuApp.menus["marnee thai"] = {
     "onion",
     "sweet",
     "sour",
-    "sauce."
+    "sauce"
   ],
   "35. Pad Cashew Nuts": [
-    "35.",
+    "35",
     "pad",
     "cashew",
     "nuts",
     "sautéed",
     "sliced",
     "chicken",
-    "roasted",
     "chili",
     "cashew",
     "nut",
     "onion"
   ],
   "36. Pad Pra Ram": [
-    "36.",
+    "36",
     "pad",
     "pra",
     "ram",
@@ -1160,11 +1095,10 @@ MenuApp.menus["marnee thai"] = {
     "peanut",
     "curry",
     "sauce",
-    "served",
-    "spinach."
+    "spinach"
   ],
   "37. Pad Phed": [
-    "37.",
+    "37",
     "pad",
     "phed",
     "*",
@@ -1181,11 +1115,10 @@ MenuApp.menus["marnee thai"] = {
     "onion",
     "bamboo",
     "shoot",
-    "fresh",
     "chili",
     "garlic",
     "thai",
-    "basil."
+    "basil"
   ],
   "with calamari or fish": [
     "calamari",
@@ -1197,7 +1130,7 @@ MenuApp.menus["marnee thai"] = {
     "prawn"
   ],
   "38. BBQ Chicken": [
-    "38.",
+    "38",
     "bbq",
     "chicken",
     "marinated",
@@ -1205,44 +1138,38 @@ MenuApp.menus["marnee thai"] = {
     "young",
     "tender",
     "chicken",
-    "fresh",
     "herbs",
-    "served",
     "sweet",
     "chili",
-    "sauce."
+    "sauce"
   ],
   "39. Roasted Duck": [
-    "39.",
-    "roasted",
+    "39",
     "duck",
-    "roasted",
     "boneless",
     "duck",
     "bed",
     "spinach",
     "homemade",
     "special",
-    "sauce."
+    "sauce"
   ],
   "40. BBQ Pork": [
-    "40.",
+    "40",
     "bbq",
     "pork",
     "broiled",
     "marinated",
     "pork",
     "chop",
-    "fresh",
     "herbs",
     "spices",
-    "served",
     "spicy",
     "tamarind",
-    "sauce."
+    "sauce"
   ],
   "41. Gai Samoon Prai": [
-    "41.",
+    "41",
     "gai",
     "samoon",
     "prai",
@@ -1250,12 +1177,10 @@ MenuApp.menus["marnee thai"] = {
     "sliced",
     "chicken",
     "onions",
-    "fresh",
-    "herbs",
-    "."
+    "herbs"
   ],
   "42. Pad Nor Mai": [
-    "42.",
+    "42",
     "pad",
     "nor",
     "mai",
@@ -1272,10 +1197,10 @@ MenuApp.menus["marnee thai"] = {
     "shoots",
     "egg",
     "thai",
-    "basil."
+    "basil"
   ],
   "43. Basa Fillet": [
-    "43.",
+    "43",
     "basa",
     "fillet",
     "basa",
@@ -1284,15 +1209,14 @@ MenuApp.menus["marnee thai"] = {
     "topped",
     "your",
     "choice",
-    "sauce.",
-    "fresh",
+    "sauce",
     "garlic",
     "black",
     "pepper",
-    "sauce."
+    "sauce"
   ],
   "44. Prawns And Scallop Pad Phong Karee": [
-    "44.",
+    "44",
     "prawns",
     "scallop",
     "pad",
@@ -1308,10 +1232,10 @@ MenuApp.menus["marnee thai"] = {
     "mushroom",
     "bell",
     "peppers",
-    "onions."
+    "onions"
   ],
   "45. Pad Cha Talay": [
-    "45.",
+    "45",
     "pad",
     "cha",
     "talay",
@@ -1319,21 +1243,20 @@ MenuApp.menus["marnee thai"] = {
     "sautéed",
     "combination",
     "seafood",
-    "fresh",
     "herbal",
     "sauce",
     "thai",
-    "basil.",
+    "basil",
     "natural",
-    "antidotes."
+    "antidotes"
   ],
   "46. Pad Thai": [
-    "46.",
+    "46",
     "pad",
     "thai"
   ],
   "47. Chan Pad Poo": [
-    "47.",
+    "47",
     "chan",
     "pad",
     "poo",
@@ -1342,16 +1265,15 @@ MenuApp.menus["marnee thai"] = {
     "rice",
     "stick",
     "noodles",
-    "stir-fried",
     "crab",
     "meat",
     "egg",
     "chili",
     "garlic",
-    "sauce."
+    "sauce"
   ],
   "48. Pad Kee Mao": [
-    "48.",
+    "48",
     "pad",
     "kee",
     "mao",
@@ -1359,7 +1281,6 @@ MenuApp.menus["marnee thai"] = {
     "rice",
     "noodles",
     "pan",
-    "fried",
     "choice",
     "chicken",
     "beef",
@@ -1372,34 +1293,31 @@ MenuApp.menus["marnee thai"] = {
     "thai",
     "basil",
     "bed",
-    "lettuce."
+    "lettuce"
   ],
   "49. Pad Se - Ew": [
-    "49.",
+    "49",
     "pad",
     "se",
     "-",
     "ew",
-    ".",
-    "fried",
     "rice",
     "noodles",
     "soy",
     "bean",
     "broccoli",
-    "egg.",
+    "egg",
     "choice",
     "chicken",
     "beef",
     "or",
-    "pork."
+    "pork"
   ],
   "50. Guay Tiew Koor": [
-    "50.",
+    "50",
     "guay",
     "tiew",
     "koor",
-    "fried",
     "rice",
     "noodles",
     "chicken",
@@ -1407,41 +1325,36 @@ MenuApp.menus["marnee thai"] = {
     "bean",
     "sprouts",
     "ground",
-    "peanuts."
+    "peanuts"
   ],
   "with prawns or roasted duck": [
     "prawns",
     "or",
-    "roasted",
     "duck"
   ],
   "51. Thai Style Fried Rice": [
-    "51.",
+    "51",
     "thai",
     "style",
-    "fried",
     "rice",
     "thai",
     "style",
-    "fried",
     "rice",
     "egg",
     "tomatoes",
-    "onion.",
+    "onion",
     "choice",
     "sliced",
     "chicken",
     "beef",
-    "roasted",
     "pork",
     "or",
     "chicken",
-    "sausage."
+    "sausage"
   ],
   "with prawns & pineapple, roasted duck with pineapple or crab meat without pineapple": [
     "prawns",
     "pineapple",
-    "roasted",
     "duck",
     "pineapple",
     "or",
@@ -1451,12 +1364,11 @@ MenuApp.menus["marnee thai"] = {
     "pineapple"
   ],
   "52. Vegetable Deluxe": [
-    "52.",
+    "52",
     "vegetable",
     "deluxe",
     "sautéed",
     "assorted",
-    "fresh",
     "vegetables",
     "tofu",
     "mushroom",
@@ -1464,26 +1376,24 @@ MenuApp.menus["marnee thai"] = {
     "corn",
     "light",
     "oyster",
-    "sauce."
+    "sauce"
   ],
   "53. Tofu": [
-    "53.",
+    "53",
     "tofu",
-    "fried",
     "soft",
     "tofu",
     "your",
     "choice",
-    "cooking:",
+    "cooking",
     "spicy",
-    "fresh",
     "chili",
     "garlic",
     "thai",
-    "basil."
+    "basil"
   ],
   "54. Mixed Vegetable Curry": [
-    "54.",
+    "54",
     "mixed",
     "vegetable",
     "curry",
@@ -1494,13 +1404,12 @@ MenuApp.menus["marnee thai"] = {
     "baby",
     "corn",
     "tofu",
-    "cooked",
     "red",
     "curry",
-    "sauce."
+    "sauce"
   ],
   "55. Spicy Ma Kuer": [
-    "55.",
+    "55",
     "spicy",
     "ma",
     "kuer",
@@ -1508,7 +1417,6 @@ MenuApp.menus["marnee thai"] = {
     "sautéed",
     "eggplant",
     "mushroom",
-    "fried",
     "tofu",
     "baby",
     "corn",
@@ -1520,7 +1428,7 @@ MenuApp.menus["marnee thai"] = {
     "basil"
   ],
   "56. Woonsen Vegetarian": [
-    "56.",
+    "56",
     "woonsen",
     "vegetarian",
     "silver",
@@ -1533,14 +1441,13 @@ MenuApp.menus["marnee thai"] = {
     "baby",
     "corn",
     "green",
-    "onion."
+    "onion"
   ],
   "57. Pad Thai Vegetarian": [
-    "57.",
+    "57",
     "pad",
     "thai",
     "vegetarian",
-    "fried",
     "rice",
     "stick",
     "noodles",
@@ -1552,10 +1459,10 @@ MenuApp.menus["marnee thai"] = {
     "bean",
     "sprouts",
     "ground",
-    "peanut."
+    "peanut"
   ],
   "58. Vegetarian Gluten Salad": [
-    "58.",
+    "58",
     "vegetarian",
     "gluten",
     "salad",
@@ -1571,18 +1478,16 @@ MenuApp.menus["marnee thai"] = {
     "spicy",
     "lime",
     "dressing",
-    "served",
-    "lettuce."
+    "lettuce"
   ],
   "59. Tom Kha Pak Soup": [
-    "59.",
+    "59",
     "tom",
     "kha",
     "pak",
     "soup",
     "*",
     "assorted",
-    "fresh",
     "vegetables",
     "coconut",
     "milk",
@@ -1595,40 +1500,36 @@ MenuApp.menus["marnee thai"] = {
     "grass",
     "touch",
     "lime",
-    "juice."
+    "juice"
   ],
   "60. Tofu Praram": [
-    "60.",
+    "60",
     "tofu",
     "praram",
-    "fried",
     "tofu",
     "spinach",
     "bed",
     "topped",
     "peanut",
     "curry",
-    "sauce",
-    "."
+    "sauce"
   ],
   "61. Praram Phak": [
-    "61.",
+    "61",
     "praram",
     "phak",
     "assorted",
-    "fresh",
     "vegetables",
     "mushrooms",
     "baby",
     "corn",
-    "fried",
     "tofu",
     "peanut",
     "curry",
     "sauce"
   ],
   "62. Prig Khing J": [
-    "62.",
+    "62",
     "prig",
     "khing",
     "j",
@@ -1642,20 +1543,20 @@ MenuApp.menus["marnee thai"] = {
     "sautéed",
     "hot",
     "chili",
-    "paste."
+    "paste"
   ],
   "63. Spinach": [
-    "63.",
+    "63",
     "spinach",
     "spinach",
     "sautéed",
     "garlic",
     "soy",
     "bean",
-    "sauce."
+    "sauce"
   ],
   "64. Pumpkin Curry": [
-    "64.",
+    "64",
     "pumpkin",
     "curry",
     "choice",
@@ -1664,16 +1565,15 @@ MenuApp.menus["marnee thai"] = {
     "sauce",
     "kabocha",
     "squash",
-    "veg.",
+    "veg",
     "soy",
-    "protein."
+    "protein"
   ],
   "Curry Delight": [
     "curry",
     "delight",
     "rice",
     "crackers",
-    "served",
     "traditional",
     "thai",
     "curry",
@@ -1691,14 +1591,11 @@ MenuApp.menus["marnee thai"] = {
   "Summer Rolls": [
     "summer",
     "rolls",
-    ".",
-    "fresh",
     "rolls",
     "rice",
     "noodles",
     "vegetables",
     "shrimp",
-    "served",
     "special",
     "house",
     "hoisin",
@@ -1718,7 +1615,6 @@ MenuApp.menus["marnee thai"] = {
     "soft",
     "shell",
     "crab",
-    "served",
     "over",
     "green",
     "mango",
@@ -1728,7 +1624,6 @@ MenuApp.menus["marnee thai"] = {
     "avocado",
     "salad",
     "chunks",
-    "fresh",
     "avocado",
     "tossed",
     "shredded",
@@ -1737,7 +1632,6 @@ MenuApp.menus["marnee thai"] = {
     "shallots",
     "prawns",
     "topped",
-    "toasted",
     "coconut"
   ],
   "available with soft shell crab": [
@@ -1749,11 +1643,9 @@ MenuApp.menus["marnee thai"] = {
   "Satay Wraps": [
     "satay",
     "wraps",
-    ".",
     "marinated",
     "chicken",
     "satay",
-    "served",
     "rice",
     "noodles",
     "thai",
@@ -1761,7 +1653,6 @@ MenuApp.menus["marnee thai"] = {
     "cilantro",
     "bean",
     "sprouts",
-    "toasted",
     "coconut",
     "cucumber",
     "salad",
@@ -1770,7 +1661,6 @@ MenuApp.menus["marnee thai"] = {
     "hoisin",
     "peanut",
     "sauce",
-    "fresh",
     "butter",
     "lettuce",
     "leaves"
@@ -1778,20 +1668,15 @@ MenuApp.menus["marnee thai"] = {
   "Homemade Hotcakes (Seasonal)": [
     "homemade",
     "hotcakes",
-    ".",
-    "grilled",
     "rice",
     "coconut",
     "cakes",
-    "served",
-    "fresh",
     "off",
     "the",
     "griddle",
     "topped",
     "coconut",
     "cream",
-    "fresh",
     "corn",
     "green",
     "onions",
@@ -1806,7 +1691,6 @@ MenuApp.menus["marnee thai"] = {
     "stuffed",
     "pot",
     "stickers",
-    "served",
     "spicy",
     "green",
     "curry",
@@ -1819,12 +1703,10 @@ MenuApp.menus["marnee thai"] = {
     "pan-seared",
     "sea",
     "bass",
-    "served",
     "choice",
-    "sauce.",
+    "sauce",
     "choice",
-    "sauces:",
-    "fresh",
+    "sauces",
     "garlic",
     "black",
     "pepper",
@@ -1844,13 +1726,10 @@ MenuApp.menus["marnee thai"] = {
   ],
   "Mango Fried Rice (Choice Of Meat)": [
     "mango",
-    "fried",
     "rice",
     "*",
-    "fresh",
     "cubes",
     "mango",
-    "fried",
     "rice",
     "your",
     "choice",
@@ -1862,14 +1741,12 @@ MenuApp.menus["marnee thai"] = {
   "Hor Mok (Weekends Only)": [
     "hor",
     "mok",
-    "steamed",
     "snapper",
     "curry",
     "mousse",
     "cabbage",
     "thai",
     "basil",
-    "served",
     "banana",
     "leaf",
     "bowl"
@@ -1895,10 +1772,8 @@ MenuApp.menus["marnee thai"] = {
   "Three Flavored Snapper (Seasonal)": [
     "flavored",
     "snapper",
-    "fresh",
     "whole",
     "snapper",
-    "served",
     "flavored",
     "sweet",
     "sour",
@@ -1906,7 +1781,6 @@ MenuApp.menus["marnee thai"] = {
     "sauce"
   ],
   "Stir-Fried Morning Glory (Seasonal)": [
-    "stir-fried",
     "morning",
     "glory",
     "similar",
@@ -1918,7 +1792,6 @@ MenuApp.menus["marnee thai"] = {
     "leafy",
     "more",
     "crisp",
-    "stir-fried",
     "garlic",
     "soybean",
     "sauce"
@@ -1930,7 +1803,6 @@ MenuApp.menus["marnee thai"] = {
     "prawns"
   ],
   "Steamed Jasmine Rice": [
-    "steamed",
     "jasmine",
     "rice"
   ],
@@ -1959,7 +1831,6 @@ MenuApp.menus["marnee thai"] = {
     "cream"
   ],
   "Fried Banana": [
-    "fried",
     "banana",
     "honey"
   ],
@@ -1991,7 +1862,6 @@ MenuApp.menus["marnee thai"] = {
     "tea"
   ],
   "Fresh Limeade": [
-    "fresh",
     "limeade"
   ],
   "Young Coconut Juice": [
@@ -2032,6 +1902,6 @@ MenuApp.menus["marnee thai"] = {
     "*",
     "hot",
     "spicy",
-    "vegetarian."
+    "vegetarian"
   ]
 }

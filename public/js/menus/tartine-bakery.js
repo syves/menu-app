@@ -1,4 +1,4 @@
-MenuApp.menus["tartine"] = {
+MenuApp.menus["tartine-bakery"] = {
   "Croissant": [
     "croissant"
   ],
@@ -53,21 +53,18 @@ MenuApp.menus["tartine"] = {
     "smoked",
     "ham",
     "organic",
-    "produce."
+    "produce"
   ],
   "Muesli": [
     "muesli",
-    "toasted",
     "whole",
     "grains",
     "whole-milk",
     "yoghurt",
-    "fresh",
     "dried",
     "organic",
     "fruits",
-    "toasted",
-    "nuts."
+    "nuts"
   ],
   "Croque Monsieur": [
     "croque",
@@ -78,7 +75,7 @@ MenuApp.menus["tartine"] = {
     "béchamel",
     "gruyere",
     "thyme",
-    "pepper.",
+    "pepper",
     "topped",
     "either",
     "smoked",
@@ -87,7 +84,7 @@ MenuApp.menus["tartine"] = {
     "ham",
     "or",
     "seasonal",
-    "vegetable."
+    "vegetable"
   ],
   "Humboldt Fog Goat Cheese": [
     "humboldt",
@@ -98,7 +95,7 @@ MenuApp.menus["tartine"] = {
     "goat",
     "cheese",
     "walnut",
-    "bread."
+    "bread"
   ],
   "Three Cheese Tasting": [
     "cheese",
@@ -109,7 +106,7 @@ MenuApp.menus["tartine"] = {
     "carmody",
     "straus",
     "cheddar",
-    "idiazabal."
+    "idiazabal"
   ],
   "Idiazabal & Membrillo": [
     "idiazabal",
@@ -119,7 +116,7 @@ MenuApp.menus["tartine"] = {
     "sheep",
     "cheese",
     "quince",
-    "jam."
+    "jam"
   ],
   "Pecorino & Almond": [
     "pecorino",
@@ -131,18 +128,17 @@ MenuApp.menus["tartine"] = {
     "olive",
     "oil",
     "lemon",
-    "sage."
+    "sage"
   ],
   "Mozzarella & Tapenade": [
     "mozzarella",
     "tapenade",
-    "fresh",
     "mozzarella",
     "house-made",
     "niçoise",
     "olive",
     "anchovy",
-    "puree."
+    "puree"
   ],
   "Jambon Royale & Gruyère": [
     "jambon",
@@ -155,7 +151,7 @@ MenuApp.menus["tartine"] = {
     "ham",
     "dijon",
     "country",
-    "bread."
+    "bread"
   ],
   "Sopressata, Fontina, Broccoli Rabe Pesto": [
     "sopressata",
@@ -169,7 +165,7 @@ MenuApp.menus["tartine"] = {
     "fontina",
     "pesto",
     "country",
-    "bread."
+    "bread"
   ],
   "Prosciutto & Provolone": [
     "prosciutto",
@@ -178,7 +174,7 @@ MenuApp.menus["tartine"] = {
     "daniele",
     "prosciutto",
     "dressed",
-    "arugula."
+    "arugula"
   ],
   "Pastrami": [
     "pastrami",
@@ -186,7 +182,7 @@ MenuApp.menus["tartine"] = {
     "meats",
     "pastrami",
     "horseradish",
-    "gruyere."
+    "gruyere"
   ],
   "Spicy Turkey": [
     "spicy",
@@ -197,7 +193,7 @@ MenuApp.menus["tartine"] = {
     "provolone",
     "broccoli",
     "rabe",
-    "pesto."
+    "pesto"
   ],
   "Little Side Salad": [
     "little",
@@ -209,7 +205,7 @@ MenuApp.menus["tartine"] = {
     "greens",
     "lemon",
     "shallot",
-    "dressing."
+    "dressing"
   ],
   "Eclairs": [
     "eclairs",
@@ -218,7 +214,7 @@ MenuApp.menus["tartine"] = {
     "custard",
     "dipped",
     "valrhona",
-    "glaze."
+    "glaze"
   ],
   "Banana Cream Tart": [
     "banana",
@@ -234,7 +230,7 @@ MenuApp.menus["tartine"] = {
     "cream",
     "lightly",
     "sweetened",
-    "cream."
+    "cream"
   ],
   "Coconut Cream Tart": [
     "coconut",
@@ -249,7 +245,7 @@ MenuApp.menus["tartine"] = {
     "cream",
     "lightly",
     "sweetened",
-    "cream."
+    "cream"
   ],
   "Lemon Cream Tart": [
     "lemon",
@@ -264,7 +260,7 @@ MenuApp.menus["tartine"] = {
     "cream",
     "topped",
     "unsweetened",
-    "cream."
+    "cream"
   ],
   "Frangipane Tart": [
     "frangipane",
@@ -272,12 +268,11 @@ MenuApp.menus["tartine"] = {
     "light",
     "almond-cream",
     "filling",
-    "baked",
     "flaky",
     "pastry",
     "shell",
     "seasonal",
-    "fruit."
+    "fruit"
   ],
   "Lemon Meringue Cake Rectangle": [
     "lemon",
@@ -289,11 +284,11 @@ MenuApp.menus["tartine"] = {
     "layered",
     "caramel",
     "lemon",
-    "cream.",
+    "cream",
     "topped",
     "torched",
     "peaks",
-    "meringue."
+    "meringue"
   ],
   "Passion Fruit Lime Bavarian Rectangle": [
     "passion",
@@ -305,11 +300,11 @@ MenuApp.menus["tartine"] = {
     "genoise",
     "passion",
     "fruit",
-    "bavarian.",
+    "bavarian",
     "topped",
     "sweetened",
     "cream",
-    "coconut."
+    "coconut"
   ],
   "Tres Leches Cake Round": [
     "tres",
@@ -323,7 +318,7 @@ MenuApp.menus["tartine"] = {
     "chiffon",
     "layered",
     "cajeta",
-    "crema."
+    "crema"
   ],
   "Chocolate Soufflé Cake Round": [
     "chocolate",
@@ -339,7 +334,7 @@ MenuApp.menus["tartine"] = {
     "layer",
     "chocolate",
     "cake",
-    "base."
+    "base"
   ],
   "Devil's Food Cake Round": [
     "devil's",
@@ -353,14 +348,13 @@ MenuApp.menus["tartine"] = {
     "layered",
     "caramel",
     "chocolate",
-    "ganache.",
+    "ganache",
     "serve",
     "at",
     "room",
-    "temperature."
+    "temperature"
   ],
   "Fresh Fruit Bavarian": [
-    "fresh",
     "fruit",
     "bavarian"
   ],
@@ -415,7 +409,6 @@ MenuApp.menus["tartine"] = {
     "nib"
   ],
   "Toasted Almond": [
-    "toasted",
     "almond"
   ],
   "Walnut Drop Cookie": [
@@ -452,6 +445,6 @@ MenuApp.menus["tartine"] = {
     "order",
     "is",
     "dozen",
-    "type."
+    "type"
   ]
 }

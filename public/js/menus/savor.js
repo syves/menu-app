@@ -18,7 +18,6 @@ MenuApp.menus["savor"] = {
     "monte",
     "carlo",
     "honey",
-    "baked",
     "ham",
     "bell",
     "peppers",
@@ -72,7 +71,6 @@ MenuApp.menus["savor"] = {
   "Rio Grande": [
     "rio",
     "grande",
-    "grilled",
     "chicken",
     "breast",
     "mushrooms",
@@ -93,7 +91,6 @@ MenuApp.menus["savor"] = {
     "onions",
     "chipotle",
     "peppers",
-    "roasted",
     "jalapeno",
     "cheddar",
     "cheese",
@@ -102,7 +99,6 @@ MenuApp.menus["savor"] = {
   ],
   "Provence": [
     "provence",
-    "fresh",
     "or",
     "smoked",
     "salmon",
@@ -113,7 +109,6 @@ MenuApp.menus["savor"] = {
   ],
   "Mayan": [
     "mayan",
-    "roasted",
     "poblano",
     "peppers",
     "corn",
@@ -141,7 +136,6 @@ MenuApp.menus["savor"] = {
     "french",
     "white",
     "bread",
-    "fresh",
     "fruit"
   ],
   "Parisienne": [
@@ -220,7 +214,6 @@ MenuApp.menus["savor"] = {
   "Santa Fe": [
     "santa",
     "fe",
-    "grilled",
     "chicken",
     "apple",
     "sausage",
@@ -238,7 +231,6 @@ MenuApp.menus["savor"] = {
     "onions",
     "kalamata",
     "olives",
-    "roasted",
     "almonds",
     "feta",
     "cheese",
@@ -248,13 +240,10 @@ MenuApp.menus["savor"] = {
   ],
   "Milano": [
     "milano",
-    "grilled",
     "eggplant",
-    "roasted",
     "peppers",
     "mushrooms",
     "spinach",
-    "roasted",
     "garlic",
     "mozzarella",
     "cottage",
@@ -271,7 +260,6 @@ MenuApp.menus["savor"] = {
     "mushrooms",
     "tomatoes",
     "garlic",
-    "roasted",
     "almonds",
     "feta",
     "provolone",
@@ -280,7 +268,6 @@ MenuApp.menus["savor"] = {
   "Kyoto": [
     "kyoto",
     "marinated",
-    "grilled",
     "tofu",
     "shiitake",
     "mushrooms",
@@ -309,7 +296,6 @@ MenuApp.menus["savor"] = {
   "San Francisco": [
     "san",
     "francisco",
-    "fresh",
     "or",
     "smoked",
     "salmon",
@@ -325,7 +311,6 @@ MenuApp.menus["savor"] = {
   "The Philly": [
     "the",
     "philly",
-    "grilled",
     "strip",
     "loin",
     "caramelized",
@@ -335,9 +320,8 @@ MenuApp.menus["savor"] = {
     "cheddar"
   ],
   "T.J. Fajitas": [
-    "t.j.",
+    "tj",
     "fajitas",
-    "grilled",
     "strip",
     "loin",
     "or",
@@ -378,7 +362,6 @@ MenuApp.menus["savor"] = {
     "benedict",
     "english",
     "muffin",
-    "poached",
     "eggs",
     "spinach",
     "diced",
@@ -394,7 +377,6 @@ MenuApp.menus["savor"] = {
     "cakes",
     "english",
     "muffin",
-    "poached",
     "eggs",
     "topped",
     "spicy",
@@ -403,13 +385,11 @@ MenuApp.menus["savor"] = {
   ],
   "Blackstone": [
     "blackstone",
-    "grilled",
     "tomatoes",
     "onions",
     "avocado",
     "english",
     "muffin",
-    "poached",
     "eggs",
     "topped",
     "hollandaise"
@@ -425,7 +405,6 @@ MenuApp.menus["savor"] = {
     "onions",
     "english",
     "muffin",
-    "poached",
     "eggs",
     "topped",
     "hollandaise"
@@ -448,7 +427,6 @@ MenuApp.menus["savor"] = {
     "eggs",
     "any",
     "style",
-    "served",
     "toast",
     "or",
     "bagel"
@@ -456,12 +434,10 @@ MenuApp.menus["savor"] = {
   "Del Rio": [
     "del",
     "rio",
-    "fried",
     "chicken",
     "tenderloin",
     "atop",
     "waffle",
-    "served",
     "country",
     "gravy",
     "pure",
@@ -470,12 +446,12 @@ MenuApp.menus["savor"] = {
   ],
   "Additions Each: Vegetables $1, Meats $ 1.75": [
     "additions",
-    "each:",
+    "each",
     "vegetables",
     "$1",
     "meats",
     "$",
-    "1.75"
+    "175"
   ],
   "Garden": [
     "garden",
@@ -538,7 +514,6 @@ MenuApp.menus["savor"] = {
     "mix",
     "arugula",
     "pears",
-    "roasted",
     "peppers",
     "white",
     "onions",
@@ -562,7 +537,6 @@ MenuApp.menus["savor"] = {
     "onions",
     "mint",
     "cilantro",
-    "roasted",
     "peanuts",
     "spicy",
     "lemongrass",
@@ -570,7 +544,6 @@ MenuApp.menus["savor"] = {
   ],
   "Shanghai": [
     "shanghai",
-    "grilled",
     "chicken",
     "rice",
     "noodles",
@@ -590,7 +563,6 @@ MenuApp.menus["savor"] = {
   ],
   "Nicoise": [
     "nicoise",
-    "seared",
     "peppered",
     "ahi",
     "tuna",
@@ -602,7 +574,6 @@ MenuApp.menus["savor"] = {
     "potatoes",
     "olives",
     "hard",
-    "boiled",
     "egg",
     "citrus",
     "vinaigrette"
@@ -646,9 +617,7 @@ MenuApp.menus["savor"] = {
   "North Beach": [
     "north",
     "beach",
-    "grilled",
     "eggplant",
-    "roasted",
     "peppers",
     "tomatoes",
     "pesto",
@@ -660,8 +629,6 @@ MenuApp.menus["savor"] = {
     "garden",
     "veggie",
     "burger",
-    "served",
-    "grilled",
     "onions",
     "mushrooms",
     "lettuce",
@@ -686,7 +653,6 @@ MenuApp.menus["savor"] = {
   ],
   "Sonoma": [
     "sonoma",
-    "grilled",
     "chicken",
     "breast",
     "red",
@@ -701,7 +667,7 @@ MenuApp.menus["savor"] = {
     "el",
     "dorado",
     "1/2",
-    "lb.",
+    "lb",
     "natural",
     "black",
     "angus",
@@ -735,10 +701,8 @@ MenuApp.menus["savor"] = {
   ],
   "Shawerma": [
     "shawerma",
-    "grilled",
     "marinated",
     "chicken",
-    "served",
     "garlic",
     "sauce",
     "pickled",
@@ -748,10 +712,8 @@ MenuApp.menus["savor"] = {
   ],
   "Pacific": [
     "pacific",
-    "grilled",
     "salmon",
     "filet",
-    "served",
     "bun",
     "arugula",
     "avocado",
@@ -773,13 +735,11 @@ MenuApp.menus["savor"] = {
   "Big Sur": [
     "big",
     "sur",
-    "grilled",
     "black",
     "angus",
     "new",
     "york",
     "strip",
-    "grilled",
     "onions",
     "mushrooms",
     "garlic",
@@ -792,10 +752,8 @@ MenuApp.menus["savor"] = {
     "palermo",
     "fettuccine",
     "alfredo",
-    "grilled",
     "chicken",
     "parmesan",
-    "served",
     "garlic",
     "bread"
   ],
@@ -804,10 +762,8 @@ MenuApp.menus["savor"] = {
     "fettuccine",
     "creamy",
     "pesto",
-    "grilled",
     "chicken",
     "mushrooms",
-    "served",
     "garlic",
     "bread"
   ],
@@ -817,7 +773,6 @@ MenuApp.menus["savor"] = {
     "marinara",
     "shrimp",
     "parmesan",
-    "served",
     "garlic",
     "bread"
   ],
@@ -828,14 +783,12 @@ MenuApp.menus["savor"] = {
     "salmon",
     "spinach",
     "parmesan",
-    "served",
     "garlic",
     "bread"
   ],
   "Jamaican": [
     "jamaican",
     "pan",
-    "fried",
     "bananas",
     "caramel",
     "rum",
@@ -897,7 +850,6 @@ MenuApp.menus["savor"] = {
   "Spicy Cornbread": [
     "spicy",
     "cornbread",
-    ".",
     "jalapeno",
     "jelly"
   ],
@@ -912,7 +864,6 @@ MenuApp.menus["savor"] = {
     "cheese"
   ],
   "Fresh Fruit": [
-    "fresh",
     "fruit"
   ],
   "add plain yogurt, granola or cottage cheese": [
@@ -971,7 +922,6 @@ MenuApp.menus["savor"] = {
     "black",
     "bean",
     "chili",
-    ".",
     "sour",
     "cream",
     "salsa"
@@ -1073,7 +1023,6 @@ MenuApp.menus["savor"] = {
   ],
   "Vietnamese Grilled Pork Loin Sandwich": [
     "vietnamese",
-    "grilled",
     "pork",
     "loin",
     "sandwich",
@@ -1085,8 +1034,7 @@ MenuApp.menus["savor"] = {
     "dijon",
     "aioli",
     "french",
-    "roll.",
-    "served",
+    "roll",
     "mixed",
     "greens",
     "home",
@@ -1104,8 +1052,6 @@ MenuApp.menus["savor"] = {
     "cod",
     "filet",
     "marinated",
-    "grilled",
-    "served",
     "corn",
     "tortillas",
     "avocado",
@@ -1116,7 +1062,6 @@ MenuApp.menus["savor"] = {
     "salad"
   ],
   "Grilled Chicken Sandwich": [
-    "grilled",
     "chicken",
     "sandwich",
     "brie",
@@ -1127,8 +1072,7 @@ MenuApp.menus["savor"] = {
     "aioli",
     "dutch",
     "crunch",
-    "roll.",
-    "served",
+    "roll",
     "athena",
     "salad",
     "home",
@@ -1155,7 +1099,6 @@ MenuApp.menus["savor"] = {
     "aioli",
     "ciabatta",
     "roll",
-    "served",
     "caesar"
   ],
   "Combination": [
@@ -1203,7 +1146,6 @@ MenuApp.menus["savor"] = {
   "Caprese Salad": [
     "caprese",
     "salad",
-    "fresh",
     "mozzarella",
     "tomato",
     "basil",
@@ -1229,7 +1171,6 @@ MenuApp.menus["savor"] = {
     "red",
     "snapper",
     "filet",
-    "served",
     "avocado",
     "salsa"
   ],
@@ -1253,14 +1194,12 @@ MenuApp.menus["savor"] = {
     "mushrooms",
     "lemon",
     "butter",
-    "served",
     "sides"
   ],
   "White Marble Farms Grilled Pork Loin": [
     "white",
     "marble",
     "farms",
-    "grilled",
     "pork",
     "loin",
     "topped",
@@ -1269,7 +1208,6 @@ MenuApp.menus["savor"] = {
     "pepper",
     "green",
     "olives",
-    "served",
     "sides"
   ],
   "Aged Creek Stone Farms NY Strip Steak": [
@@ -1280,7 +1218,6 @@ MenuApp.menus["savor"] = {
     "ny",
     "strip",
     "steak",
-    "grilled",
     "portabellas",
     "red",
     "wine",
@@ -1289,7 +1226,6 @@ MenuApp.menus["savor"] = {
     "crisp",
     "swiss",
     "chard",
-    "served",
     "sides"
   ],
   "Colorado Lamb Shank": [
@@ -1300,27 +1236,21 @@ MenuApp.menus["savor"] = {
     "root",
     "vegetables",
     "finished",
-    "fried",
     "onions",
-    "served",
     "sides"
   ],
   "Wild Alaskan Salmon": [
     "wild",
     "alaskan",
     "salmon",
-    "baked",
     "parchment",
     "lemon",
     "dill",
     "tomato",
-    "roasted",
     "garlic",
-    "served",
     "sides"
   ],
   "Fresh Boneless Rainbow Trout": [
-    "fresh",
     "boneless",
     "rainbow",
     "trout",
@@ -1329,7 +1259,6 @@ MenuApp.menus["savor"] = {
     "gremolata",
     "buerre",
     "blanc",
-    "served",
     "sides"
   ],
   "Kale Risotto": [
@@ -1341,7 +1270,6 @@ MenuApp.menus["savor"] = {
     "drizzled",
     "pesto",
     "parmesan",
-    "served",
     "mix",
     "spring",
     "or",
@@ -1349,13 +1277,11 @@ MenuApp.menus["savor"] = {
     "salad"
   ],
   "with grilled prawns or salmon": [
-    "grilled",
     "prawns",
     "or",
     "salmon"
   ],
   "Roasted Garlic Mashed Potatoes": [
-    "roasted",
     "garlic",
     "mashed",
     "potatoes"
@@ -1390,6 +1316,6 @@ MenuApp.menus["savor"] = {
   "* Spicy, (GF) Gluten Free, (V) Vegetarian.": [
     "*",
     "spicy",
-    "vegetarian."
+    "vegetarian"
   ]
 }

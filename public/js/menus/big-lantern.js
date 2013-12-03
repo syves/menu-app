@@ -116,7 +116,7 @@ MenuApp.menus["big-lantern"] = {
     "chicken",
     "beef",
     "pork",
-    "prawns."
+    "prawns"
   ],
   "Orange Lamb": [
     "orange",
@@ -125,7 +125,7 @@ MenuApp.menus["big-lantern"] = {
   "Egg FuYong B.B.Q. Pork Or Chicken Or Beef": [
     "egg",
     "fuyong",
-    "b.b.q.",
+    "bbq",
     "pork",
     "or",
     "chicken",
@@ -159,7 +159,7 @@ MenuApp.menus["big-lantern"] = {
     "sesame",
     "or",
     "orange",
-    "sauce."
+    "sauce"
   ],
   "Sweet & Sour Prawn": [
     "sweet",
@@ -174,7 +174,6 @@ MenuApp.menus["big-lantern"] = {
     "sauce"
   ],
   "Roasted Duck": [
-    "roasted",
     "duck"
   ],
   "Shredded Pork": [
@@ -254,7 +253,7 @@ MenuApp.menus["big-lantern"] = {
     "peas",
     "or",
     "string",
-    "bean."
+    "bean"
   ],
   "Spicy Cumino Sauce Beef Or Chicken": [
     "spicy",
@@ -271,7 +270,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Combo Fried Rice Or Chow Mein Or Chow Fun": [
     "combo",
-    "fried",
     "rice",
     "or",
     "chow",
@@ -281,7 +279,6 @@ MenuApp.menus["big-lantern"] = {
     "fun"
   ],
   "Fried Rice Or Chow Mein Or Chow Fun": [
-    "fried",
     "rice",
     "or",
     "chow",
@@ -294,7 +291,7 @@ MenuApp.menus["big-lantern"] = {
     "beef",
     "chicken",
     "or",
-    "pork."
+    "pork"
   ],
   "Meatless Chicken": [
     "meatless",
@@ -311,7 +308,6 @@ MenuApp.menus["big-lantern"] = {
     "pancake"
   ],
   "Fried Wonton": [
-    "fried",
     "wonton"
   ],
   "Crab Cheese Puff": [
@@ -321,7 +317,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Crispy Fried Soft Tofu": [
     "crispy",
-    "fried",
     "soft",
     "tofu"
   ],
@@ -333,7 +328,6 @@ MenuApp.menus["big-lantern"] = {
     "pork"
   ],
   "Steamed Wonton": [
-    "steamed",
     "wonton",
     "w/",
     "red",
@@ -348,26 +342,22 @@ MenuApp.menus["big-lantern"] = {
     "sauce"
   ],
   "Fried Chicken Wings": [
-    "fried",
     "chicken",
     "wings"
   ],
   "Fried Eggplant & Shrimp Roll": [
-    "fried",
     "eggplant",
     "shrimp",
     "roll"
   ],
   "Fried Prawns": [
-    "fried",
     "prawns"
   ],
   "Fried Calamari": [
-    "fried",
     "calamari"
   ],
   "B.B.Q. Pork Spareribs": [
-    "b.b.q.",
+    "bbq",
     "pork",
     "spareribs"
   ],
@@ -376,13 +366,11 @@ MenuApp.menus["big-lantern"] = {
     "plate",
     "egg",
     "roll",
-    "fried",
     "prawn",
     "crab",
     "puff",
-    "fried",
     "chicken",
-    "wing."
+    "wing"
   ],
   "Hot And Sour Soup": [
     "hot",
@@ -566,13 +554,12 @@ MenuApp.menus["big-lantern"] = {
     "temple",
     "combo",
     "pot",
-    ".",
     "meatless",
     "chicken",
     "meatless",
     "ham",
     "tofu",
-    "veg."
+    "veg"
   ],
   "Big Lantern Flaming Szechuan Chile Fish": [
     "big",
@@ -662,7 +649,7 @@ MenuApp.menus["big-lantern"] = {
     "prawn",
     "chicken",
     "beef",
-    "vegetable."
+    "vegetable"
   ],
   "Black Pepper Beef In Sizzling Hot Pot": [
     "black",
@@ -694,7 +681,7 @@ MenuApp.menus["big-lantern"] = {
     "prawn",
     "scallop",
     "fish",
-    "calamari."
+    "calamari"
   ],
   "Five Spice Sesame Scallops Or Prawn Or Fish": [
     "five",
@@ -731,7 +718,6 @@ MenuApp.menus["big-lantern"] = {
     "calamari"
   ],
   "Pan-Fried Whole Flounder": [
-    "pan-fried",
     "whole",
     "flounder"
   ],
@@ -739,8 +725,7 @@ MenuApp.menus["big-lantern"] = {
     "whole",
     "fish",
     "braised",
-    "or",
-    "steamed"
+    "or"
   ],
   "Dungeness Crab": [
     "dungeness",
@@ -815,7 +800,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Twice Cooked Chicken": [
     "twice",
-    "cooked",
     "chicken"
   ],
   "Braised Chicken Wing": [
@@ -898,7 +882,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Twice Cooked Lamb Or Beef": [
     "twice",
-    "cooked",
     "lamb",
     "or",
     "beef"
@@ -956,7 +939,7 @@ MenuApp.menus["big-lantern"] = {
     "pork"
   ],
   "B.B.Q. Beef Egg Foo Yong Or Pork": [
-    "b.b.q.",
+    "bbq",
     "beef",
     "egg",
     "foo",
@@ -1044,7 +1027,6 @@ MenuApp.menus["big-lantern"] = {
     "calamari"
   ],
   "Steamed Prawn": [
-    "steamed",
     "prawn",
     "w/",
     "tofu"
@@ -1162,7 +1144,7 @@ MenuApp.menus["big-lantern"] = {
     "beef"
   ],
   "B.B.Q. Pork Egg Fu Foung Or Beef": [
-    "b.b.q.",
+    "bbq",
     "pork",
     "egg",
     "fu",
@@ -1172,7 +1154,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Twice Cooked Pork": [
     "twice",
-    "cooked",
     "pork"
   ],
   "Pork": [
@@ -1257,7 +1238,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Crispy Fried Tofu": [
     "crispy",
-    "fried",
     "tofu",
     "spicy",
     "pepper"
@@ -1301,7 +1281,6 @@ MenuApp.menus["big-lantern"] = {
     "sauce"
   ],
   "Fried Tofu": [
-    "fried",
     "tofu",
     "w/",
     "curry",
@@ -1317,7 +1296,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Twice Cooked Meatless Chicken": [
     "twice",
-    "cooked",
     "meatless",
     "chicken"
   ],
@@ -1338,7 +1316,6 @@ MenuApp.menus["big-lantern"] = {
     "sauteed",
     "asparagus",
     "w/",
-    "fried",
     "tofu"
   ],
   "Asparagus": [
@@ -1483,7 +1460,6 @@ MenuApp.menus["big-lantern"] = {
     "chicken"
   ],
   "Fried Rice": [
-    "fried",
     "rice"
   ],
   "Chow Mein Noodle": [
@@ -1527,12 +1503,10 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Pineapple Fried Rice": [
     "pineapple",
-    "fried",
     "rice"
   ],
   "Pastrami Fried Rice": [
     "pastrami",
-    "fried",
     "rice"
   ],
   "Hong Kong Style Pan Fried Noodle": [
@@ -1540,10 +1514,9 @@ MenuApp.menus["big-lantern"] = {
     "kong",
     "style",
     "pan",
-    "fried",
     "noodle",
     "w/",
-    "b.b.q.",
+    "bbq",
     "pork",
     "or",
     "chicken",
@@ -1555,7 +1528,6 @@ MenuApp.menus["big-lantern"] = {
   "Salmon & Chicken Fried Rice": [
     "salmon",
     "chicken",
-    "fried",
     "rice"
   ],
   "Singapore Style Rice Noodle": [
@@ -1567,7 +1539,7 @@ MenuApp.menus["big-lantern"] = {
     "chicken",
     "bbq",
     "pork",
-    "prawn."
+    "prawn"
   ],
   "Numbing Spicy Mandarin Noodle": [
     "numbing",
@@ -1586,9 +1558,9 @@ MenuApp.menus["big-lantern"] = {
     "soup",
     "w/",
     "chicken",
-    "b.b.q.",
+    "bbq",
     "pork",
-    "prawn."
+    "prawn"
   ],
   "Beef Stew Noodle Soup Or Lo Mein": [
     "beef",
@@ -1624,11 +1596,9 @@ MenuApp.menus["big-lantern"] = {
     "ball"
   ],
   "Fried Banana": [
-    "fried",
     "banana"
   ],
   "Fresh Mango Pudding": [
-    "fresh",
     "mango",
     "pudding"
   ],
@@ -1656,7 +1626,7 @@ MenuApp.menus["big-lantern"] = {
     "vanilla",
     "lychee",
     "or",
-    "mango."
+    "mango"
   ],
   "Dim Sum Combination": [
     "dim",
@@ -1667,7 +1637,7 @@ MenuApp.menus["big-lantern"] = {
     "pork",
     "siu",
     "mai",
-    "b.b.q.",
+    "bbq",
     "pork",
     "bun"
   ],
@@ -1691,7 +1661,6 @@ MenuApp.menus["big-lantern"] = {
     "ball"
   ],
   "Steamed Spare-Ribs": [
-    "steamed",
     "spare-ribs"
   ],
   "Vegetable Dumpling": [
@@ -1738,8 +1707,7 @@ MenuApp.menus["big-lantern"] = {
     "bun"
   ],
   "Steamed B.B.Q. Pork Bun Or Meatless Chicken": [
-    "steamed",
-    "b.b.q.",
+    "bbq",
     "pork",
     "bun",
     "or",
@@ -1766,8 +1734,7 @@ MenuApp.menus["big-lantern"] = {
     "bun"
   ],
   "Baked B.B.Q. Pork Bun": [
-    "baked",
-    "b.b.q.",
+    "bbq",
     "pork",
     "bun"
   ],
@@ -1784,7 +1751,7 @@ MenuApp.menus["big-lantern"] = {
     "puff"
   ],
   "B.B.Q. Meatless Chicken Puff": [
-    "b.b.q.",
+    "bbq",
     "meatless",
     "chicken",
     "puff"
@@ -1809,7 +1776,7 @@ MenuApp.menus["big-lantern"] = {
     "roll"
   ],
   "b.b.q. pork, vegetable, pork, chicken, beef, or prawn add.": [
-    "b.b.q.",
+    "bbq",
     "pork",
     "vegetable",
     "pork",
@@ -1817,11 +1784,10 @@ MenuApp.menus["big-lantern"] = {
     "beef",
     "or",
     "prawn",
-    "add."
+    "add"
   ],
   "Pan Fried Pork Bun": [
     "pan",
-    "fried",
     "pork",
     "bun"
   ],
@@ -1865,14 +1831,13 @@ MenuApp.menus["big-lantern"] = {
     "mojito",
     "san",
     "francisco",
-    "favorite.",
+    "favorite",
     "stirrings",
     "mojito",
     "yokaichi",
     "soju",
-    "served",
     "the",
-    "rocks."
+    "rocks"
   ],
   "Cosmopolitan": [
     "cosmopolitan",
@@ -1881,29 +1846,27 @@ MenuApp.menus["big-lantern"] = {
     "sophisticated",
     "-",
     "organic",
-    "cranberries.",
+    "cranberries",
     "stirrings",
     "cosmopolitan",
     "yokaichi",
     "soju",
-    "served",
     "chilled",
-    "up."
+    "up"
   ],
   "Peach Bellini": [
     "peach",
     "bellini",
     "yes",
     "you",
-    "soju.",
+    "soju",
     "stirrings",
     "peach",
     "bellini",
     "chilled",
     "champagne",
-    "served",
     "chilled",
-    "up."
+    "up"
   ],
   "Green Apple Martini": [
     "green",
@@ -1914,14 +1877,13 @@ MenuApp.menus["big-lantern"] = {
     "the",
     "orchard",
     "to",
-    "you.",
+    "you",
     "stirrings",
     "apple",
     "yokaichi",
     "soju",
-    "served",
     "chilled",
-    "up."
+    "up"
   ],
   "Cherry Blossom Martini": [
     "cherry",
@@ -1931,12 +1893,10 @@ MenuApp.menus["big-lantern"] = {
     "ginger",
     "ale",
     "splash",
-    "grenadine.",
-    "served",
+    "grenadine",
     "up",
     "garnished",
-    "fresh",
-    "ginger."
+    "ginger"
   ],
   "Soju Ginger Cosmopolitan": [
     "soju",
@@ -1949,12 +1909,10 @@ MenuApp.menus["big-lantern"] = {
     "juice",
     "splash",
     "lime",
-    "juice.",
-    "served",
+    "juice",
     "up",
     "garnished",
-    "fresh",
-    "ginger."
+    "ginger"
   ],
   "Flirtini": [
     "flirtini",
@@ -1963,10 +1921,9 @@ MenuApp.menus["big-lantern"] = {
     "champagne",
     "pineapple",
     "orange",
-    "juices.",
-    "served",
+    "juices",
     "chilled",
-    "flute."
+    "flute"
   ],
   "Juicy Fruit": [
     "juicy",
@@ -1975,10 +1932,9 @@ MenuApp.menus["big-lantern"] = {
     "cranberry",
     "pineapple",
     "orange",
-    "juices.",
-    "served",
+    "juices",
     "the",
-    "rocks."
+    "rocks"
   ],
   "Ku Driver": [
     "ku",
@@ -1988,7 +1944,7 @@ MenuApp.menus["big-lantern"] = {
     "orange",
     "juice",
     "over",
-    "rice."
+    "rice"
   ],
   "American Idol": [
     "american",
@@ -1997,9 +1953,8 @@ MenuApp.menus["big-lantern"] = {
     "rockstar",
     "energy",
     "drink",
-    "served",
     "the",
-    "rocks."
+    "rocks"
   ],
   "Samuel Adams": [
     "samuel",
@@ -2042,14 +1997,14 @@ MenuApp.menus["big-lantern"] = {
     "de",
     "blanc",
     "sparkling",
-    "california.",
+    "california",
     "rich",
     "pear",
     "honeysuckle",
     "apple",
     "melon",
     "juicy",
-    "tangerine."
+    "tangerine"
   ],
   "LA Terre Chardoey": [
     "la",

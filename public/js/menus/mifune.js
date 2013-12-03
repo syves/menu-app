@@ -39,7 +39,6 @@ MenuApp.menus["mifune"] = {
   "Croquette": [
     "croquette",
     "deep",
-    "fried",
     "mashed",
     "potato"
   ],
@@ -67,7 +66,6 @@ MenuApp.menus["mifune"] = {
     "kushi",
     "katsu",
     "deep",
-    "fried",
     "chicken",
     "skewers"
   ],
@@ -75,14 +73,12 @@ MenuApp.menus["mifune"] = {
     "shrimp",
     "tempura",
     "battered",
-    "fried",
     "shrimp"
   ],
   "Tempura Moriawase": [
     "tempura",
     "moriawase",
     "battered",
-    "fried",
     "shrimps",
     "vegetables"
   ],
@@ -90,15 +86,12 @@ MenuApp.menus["mifune"] = {
     "vegetable",
     "tempura",
     "battered",
-    "fried",
     "vegetables"
   ],
   "Fried Oysters": [
-    "fried",
     "oysters"
   ],
   "Fried Scallops": [
-    "fried",
     "scallops"
   ],
   "Sashimi Yamakake": [
@@ -129,7 +122,6 @@ MenuApp.menus["mifune"] = {
   ],
   "Kizami": [
     "kizami",
-    "fried",
     "beancurd"
   ],
   "Tsukimi": [
@@ -151,7 +143,6 @@ MenuApp.menus["mifune"] = {
   "Kitsune": [
     "kitsune",
     "sweet",
-    "fried",
     "bean",
     "curd"
   ],
@@ -194,7 +185,6 @@ MenuApp.menus["mifune"] = {
   "Tempura": [
     "tempura",
     "battered",
-    "fried",
     "shrimps",
     "vegetables"
   ],
@@ -202,14 +192,12 @@ MenuApp.menus["mifune"] = {
     "yasai",
     "tempura",
     "battered",
-    "fried",
     "vegetables"
   ],
   "Jumbo Shrimp": [
     "jumbo",
     "shrimp",
     "battered",
-    "fried",
     "shrimps",
     "veggies"
   ],
@@ -250,7 +238,6 @@ MenuApp.menus["mifune"] = {
     "soba",
     "salad",
     "salad",
-    "served",
     "cold",
     "soba"
   ],
@@ -258,7 +245,6 @@ MenuApp.menus["mifune"] = {
     "sanshoku",
     "different",
     "garnishes",
-    "served",
     "soba"
   ],
   "Mifune Special": [
@@ -267,7 +253,6 @@ MenuApp.menus["mifune"] = {
     "cold",
     "soba",
     "udon",
-    "served",
     "shrimps",
     "vegetables",
     "tempura",
@@ -320,8 +305,7 @@ MenuApp.menus["mifune"] = {
     "curry",
     "curry",
     "over",
-    "rice.",
-    "served",
+    "rice",
     "salad",
     "no",
     "soup"
@@ -335,7 +319,6 @@ MenuApp.menus["mifune"] = {
     "breaded",
     "pork",
     "cutlet",
-    "served",
     "salad",
     "no",
     "soup"
@@ -344,13 +327,11 @@ MenuApp.menus["mifune"] = {
     "yasai",
     "ten",
     "battered",
-    "fried",
     "vegetables"
   ],
   "Katsu": [
     "katsu",
     "deep",
-    "fried",
     "breaded",
     "pork",
     "cutlet",
@@ -372,7 +353,6 @@ MenuApp.menus["mifune"] = {
     "jumbo",
     "tempura",
     "battered",
-    "fried",
     "shrimps",
     "vegetables"
   ],
@@ -386,7 +366,7 @@ MenuApp.menus["mifune"] = {
     "over",
     "sushi",
     "rice",
-    "salad."
+    "salad"
   ],
   "Bullet Train": [
     "bullet",
@@ -395,7 +375,7 @@ MenuApp.menus["mifune"] = {
     "kids",
     "under",
     "12",
-    "years.",
+    "years",
     "cold",
     "udon",
     "soba",
@@ -411,7 +391,7 @@ MenuApp.menus["mifune"] = {
     "beef",
     "curry",
     "over",
-    "noodles.",
+    "noodles",
     "no",
     "broth"
   ],
@@ -450,7 +430,6 @@ MenuApp.menus["mifune"] = {
     "dishes",
     "will",
     "be",
-    "served",
     "an",
     "iron",
     "pot"
@@ -520,43 +499,43 @@ MenuApp.menus["mifune"] = {
     "vegetables"
   ],
   "1. Tamago": [
-    "1.",
+    "1",
     "tamago"
   ],
   "2. Saba": [
-    "2.",
+    "2",
     "saba"
   ],
   "3. Ika": [
-    "3.",
+    "3",
     "ika"
   ],
   "4. Tako": [
-    "4.",
+    "4",
     "tako"
   ],
   "5. Ebi": [
-    "5.",
+    "5",
     "ebi"
   ],
   "6. Maguro": [
-    "6.",
+    "6",
     "maguro"
   ],
   "7. Hamachi": [
-    "7.",
+    "7",
     "hamachi"
   ],
   "8. Unagi": [
-    "8.",
+    "8",
     "unagi"
   ],
   "9. Salmon": [
-    "9.",
+    "9",
     "salmon"
   ],
   "10. Kazunoko": [
-    "10.",
+    "10",
     "kazunoko"
   ],
   "Spicy Tuna": [

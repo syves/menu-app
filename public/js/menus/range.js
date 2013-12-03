@@ -9,7 +9,6 @@ MenuApp.menus["range"] = {
     "cilantro"
   ],
   "Roasted Asparagus": [
-    "roasted",
     "asparagus",
     "cumin",
     "yogurt",
@@ -17,7 +16,6 @@ MenuApp.menus["range"] = {
     "lemon",
     "freekeh",
     "harissa",
-    "toasted",
     "almonds"
   ],
   "Mustard Greens": [
@@ -30,7 +28,6 @@ MenuApp.menus["range"] = {
     "vinaigrette"
   ],
   "Poached Farm Egg": [
-    "poached",
     "farm",
     "egg",
     "corned",
@@ -42,7 +39,6 @@ MenuApp.menus["range"] = {
     "potatoes"
   ],
   "Steamed Savory Clams": [
-    "steamed",
     "savory",
     "clams",
     "dry",
@@ -74,7 +70,6 @@ MenuApp.menus["range"] = {
     "ricotta"
   ],
   "Seared California Yellowtail": [
-    "seared",
     "california",
     "yellowtail",
     "tatsoi",
@@ -88,7 +83,6 @@ MenuApp.menus["range"] = {
   "Olive Oil Poached Local Halibut": [
     "olive",
     "oil",
-    "poached",
     "local",
     "halibut",
     "dungeness",
@@ -102,7 +96,6 @@ MenuApp.menus["range"] = {
   ],
   "Oven Roasted Chicken": [
     "oven",
-    "roasted",
     "chicken",
     "spiced",
     "vegetables",
@@ -124,7 +117,6 @@ MenuApp.menus["range"] = {
   ],
   "Slow Cooked Lamb": [
     "slow",
-    "cooked",
     "lamb",
     "butter",
     "beans",
@@ -203,7 +195,6 @@ MenuApp.menus["range"] = {
     "cow’s",
     "milk",
     "cheese",
-    "toasted",
     "hazelnuts"
   ],
   "Vermont Creamery ‘Coupole’": [
@@ -375,7 +366,7 @@ MenuApp.menus["range"] = {
   ],
   "Gibraltar": [
     "gibraltar",
-    "st.",
+    "st",
     "george",
     "botanivore",
     "gin",
@@ -390,7 +381,7 @@ MenuApp.menus["range"] = {
     "miller’s",
     "gin",
     "grapefruit",
-    "st.",
+    "st",
     "germain",
     "elderflower",
     "lime"
@@ -440,7 +431,7 @@ MenuApp.menus["range"] = {
     "north",
     "coast",
     "brewing",
-    "co.",
+    "co",
     "scrimshaw",
     "pilsner",
     "fort",
@@ -508,7 +499,7 @@ MenuApp.menus["range"] = {
     "portugal"
   ],
   "Rosé: Mourchon Côtes Du Rhone": [
-    "rosé:",
+    "rosé",
     "mourchon",
     "côtes",
     "du",
@@ -520,20 +511,20 @@ MenuApp.menus["range"] = {
   ],
   "Grüner Veltliner: Jurtschitsch": [
     "grüner",
-    "veltliner:",
+    "veltliner",
     "jurtschitsch",
     "‘loiserberg’",
     "2010",
     "austria"
   ],
   "Aligoté: Dubreuil-Fontaine 2010": [
-    "aligoté:",
+    "aligoté",
     "dubreuil-fontaine",
     "2010",
     "burgundy"
   ],
   "Vernaccia: Montenidoli San": [
-    "vernaccia:",
+    "vernaccia",
     "montenidoli",
     "san",
     "gimignano",
@@ -542,7 +533,7 @@ MenuApp.menus["range"] = {
     "tuscany"
   ],
   "Riesling: Tatomer ‘Sisquoc’ 2010": [
-    "riesling:",
+    "riesling",
     "tatomer",
     "‘sisquoc’",
     "2010",
@@ -552,7 +543,7 @@ MenuApp.menus["range"] = {
   ],
   "Sauvignon Blanc: Denis Jamain": [
     "sauvignon",
-    "blanc:",
+    "blanc",
     "denis",
     "jamain",
     "reuilly",
@@ -564,14 +555,14 @@ MenuApp.menus["range"] = {
     "valley"
   ],
   "Lugana: San Giovanni 2011": [
-    "lugana:",
+    "lugana",
     "san",
     "giovanni",
     "2011",
     "lombardy"
   ],
   "Chardonnay: Hendry 2010": [
-    "chardonnay:",
+    "chardonnay",
     "hendry",
     "2010",
     "napa",
@@ -579,7 +570,7 @@ MenuApp.menus["range"] = {
   ],
   "Pinot Noir: Michaud ‘Michaud": [
     "pinot",
-    "noir:",
+    "noir",
     "michaud",
     "‘michaud",
     "vineyard’",
@@ -587,7 +578,7 @@ MenuApp.menus["range"] = {
     "chalone"
   ],
   "Gamay: Julien Sunier ‘Régnié’": [
-    "gamay:",
+    "gamay",
     "julien",
     "sunier",
     "‘régnié’",
@@ -596,7 +587,7 @@ MenuApp.menus["range"] = {
   ],
   "Cab Franc: Cor Cellars ‘Alder Ridge": [
     "cab",
-    "franc:",
+    "franc",
     "cor",
     "cellars",
     "‘alder",
@@ -606,7 +597,7 @@ MenuApp.menus["range"] = {
     "washington"
   ],
   "Syrah: Fausse Piste ‘Garde Manger’ \t": [
-    "syrah:",
+    "syrah",
     "fausse",
     "piste",
     "‘garde",
@@ -617,7 +608,7 @@ MenuApp.menus["range"] = {
   ],
   "Listan Negro: Suertes Del Marqués": [
     "listan",
-    "negro:",
+    "negro",
     "suertes",
     "del",
     "marqués",
@@ -629,14 +620,14 @@ MenuApp.menus["range"] = {
   ],
   "Grenache Blend: Ampeleia ‘Kepos’": [
     "grenache",
-    "blend:",
+    "blend",
     "ampeleia",
     "‘kepos’",
     "2010",
     "tuscany"
   ],
   "Cab/Merlot: Château Recougne": [
-    "cab/merlot:",
+    "cab/merlot",
     "château",
     "recougne",
     "bordeaux",
@@ -652,7 +643,7 @@ MenuApp.menus["range"] = {
     "750ml",
     "2",
     "bottles",
-    "maximum.",
+    "maximum",
     "over",
     "2",
     "bottles",
@@ -661,6 +652,6 @@ MenuApp.menus["range"] = {
     "is",
     "$30",
     "per",
-    "bottle."
+    "bottle"
   ]
 }

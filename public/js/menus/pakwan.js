@@ -29,7 +29,6 @@ MenuApp.menus["pakwan"] = {
     "bengan",
     "bhartha",
     "eggplant",
-    "cooked",
     "onions",
     "tomatoes"
   ],
@@ -37,7 +36,6 @@ MenuApp.menus["pakwan"] = {
     "bengan",
     "bhartha",
     "eggplant",
-    "cooked",
     "onions",
     "tomatoes",
     "cream"
@@ -114,7 +112,6 @@ MenuApp.menus["pakwan"] = {
     "vegetable",
     "mix",
     "vegetables",
-    "cooked",
     "spicy",
     "rice"
   ],
@@ -124,8 +121,7 @@ MenuApp.menus["pakwan"] = {
     "ground",
     "beef",
     "kabab",
-    "seasoned",
-    "grilled"
+    "seasoned"
   ],
   "Chicken Seekh Kabab": [
     "chicken",
@@ -134,15 +130,13 @@ MenuApp.menus["pakwan"] = {
     "ground",
     "chicken",
     "kabab",
-    "seasoned",
-    "grilled"
+    "seasoned"
   ],
   "Chicken Breast": [
     "chicken",
     "breast",
     "marinated",
-    "spiced",
-    "grilled"
+    "spiced"
   ],
   "Chicken Leg": [
     "chicken",
@@ -171,7 +165,6 @@ MenuApp.menus["pakwan"] = {
     "special",
     "blend",
     "spices",
-    "grilled",
     "skewers"
   ],
   "Chicken Boti Kabab": [
@@ -182,8 +175,7 @@ MenuApp.menus["pakwan"] = {
     "marinated",
     "cubes",
     "chicken",
-    "skewers",
-    "grilled"
+    "skewers"
   ],
   "Tandoori Lamb Chops": [
     "tandoori",
@@ -193,7 +185,6 @@ MenuApp.menus["pakwan"] = {
     "special",
     "blend",
     "spices",
-    "baked",
     "tandoori",
     "oven"
   ],
@@ -203,7 +194,6 @@ MenuApp.menus["pakwan"] = {
     "lightly",
     "spiced",
     "marinated",
-    "cooked",
     "skewers",
     "our",
     "clay",
@@ -221,7 +211,6 @@ MenuApp.menus["pakwan"] = {
     "north",
     "pakistan",
     "delicately",
-    "cooked",
     "wok"
   ],
   "Chicken Cholay": [
@@ -243,9 +232,7 @@ MenuApp.menus["pakwan"] = {
     "recipe",
     "chicken",
     "curry",
-    "roasted",
     "pepper",
-    "cooked",
     "very",
     "special",
     "blend",
@@ -255,8 +242,6 @@ MenuApp.menus["pakwan"] = {
     "chicken",
     "saag",
     "chicken",
-    "cooked",
-    "fresh",
     "spinach",
     "herbs"
   ],
@@ -285,7 +270,6 @@ MenuApp.menus["pakwan"] = {
     "gosht",
     "lamb",
     "curry",
-    "roasted",
     "pepper;",
     "extra",
     "spicy"
@@ -294,7 +278,6 @@ MenuApp.menus["pakwan"] = {
     "bhuna",
     "lamb",
     "curry",
-    "cooked",
     "dominant",
     "taste",
     "tomatoes"
@@ -304,8 +287,6 @@ MenuApp.menus["pakwan"] = {
     "gosht",
     "tender",
     "lamb",
-    "cooked",
-    "fresh",
     "spinach"
   ],
   "Nihari": [
@@ -322,7 +303,6 @@ MenuApp.menus["pakwan"] = {
     "freshly",
     "tandoori",
     "oven",
-    "baked",
     "bread"
   ],
   "Garlic Nan": [

@@ -15,7 +15,6 @@ MenuApp.menus["tuba"] = {
   "Patlican Salatas": [
     "patlican",
     "salatas",
-    "grilled",
     "eggplant",
     "puree",
     "bell",
@@ -76,7 +75,6 @@ MenuApp.menus["tuba"] = {
   ],
   "Haydari": [
     "haydari",
-    "fresh",
     "dill",
     "mint",
     "thick",
@@ -122,7 +120,6 @@ MenuApp.menus["tuba"] = {
     "sigara",
     "boregi",
     "pan",
-    "fried",
     "feta",
     "cheese",
     "pastries"
@@ -137,10 +134,8 @@ MenuApp.menus["tuba"] = {
   "Mucver": [
     "mucver",
     "pan",
-    "fried",
     "zucchini",
     "patties",
-    "fresh",
     "dill"
   ],
   "Tuba Hot Platter": [
@@ -247,10 +242,8 @@ MenuApp.menus["tuba"] = {
   "Lamb Chops": [
     "lamb",
     "chops",
-    "grilled",
     "lamb",
     "chops",
-    "served",
     "rice",
     "sauteed",
     "vegetables"
@@ -261,7 +254,6 @@ MenuApp.menus["tuba"] = {
     "wrapped",
     "lavash",
     "bread",
-    "served",
     "tomato",
     "sauce",
     "yogurt"
@@ -310,7 +302,6 @@ MenuApp.menus["tuba"] = {
     "ground",
     "beef",
     "lamb",
-    "fresh",
     "herbs"
   ],
   "Adana Kebab": [
@@ -349,14 +340,12 @@ MenuApp.menus["tuba"] = {
     "filled",
     "sweet",
     "cheese",
-    "baked",
     "to",
     "perfection",
-    "served",
     "homemade",
     "syrup",
     "pistachio",
-    "nuts.",
+    "nuts",
     "our",
     "signature",
     "dessert"
@@ -371,7 +360,6 @@ MenuApp.menus["tuba"] = {
     "filled",
     "crushed",
     "walnuts",
-    "baked",
     "brushed",
     "homemade",
     "simple",
@@ -428,9 +416,8 @@ MenuApp.menus["tuba"] = {
     "real",
     "vanilla",
     "bean",
-    "served",
     "chocolate",
-    "shell."
+    "shell"
   ],
   "Tea": [
     "tea"

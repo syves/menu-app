@@ -1,7 +1,6 @@
-MenuApp.menus["pancho villa"] = {
+MenuApp.menus["pancho-villa-taqueria"] = {
   "Taco": [
     "taco",
-    "grilled",
     "salmon"
   ],
   "With cheese, beans, and meat": [
@@ -136,7 +135,6 @@ MenuApp.menus["pancho villa"] = {
   ],
   "Carnitas": [
     "carnitas",
-    "roasted",
     "pork"
   ],
   "Chicken Asada": [
@@ -205,7 +203,6 @@ MenuApp.menus["pancho villa"] = {
   ],
   "Fire Roasted Pastor": [
     "fire",
-    "roasted",
     "pastor"
   ],
   "Flour": [
@@ -317,7 +314,6 @@ MenuApp.menus["pancho villa"] = {
     "salsa"
   ],
   "Grilled Salmon": [
-    "grilled",
     "salmon",
     "rice",
     "beans",
@@ -334,14 +330,14 @@ MenuApp.menus["pancho villa"] = {
     "salsa"
   ],
   "B.": [
-    "b.",
+    "b",
     "rice",
     "beans",
     "cheese",
     "salsa"
   ],
   "C.": [
-    "c.",
+    "c",
     "rice",
     "beans",
     "lettuce",
@@ -349,7 +345,7 @@ MenuApp.menus["pancho villa"] = {
     "salsa"
   ],
   "D.": [
-    "d.",
+    "d",
     "rice",
     "beans",
     "avocado",
@@ -358,7 +354,7 @@ MenuApp.menus["pancho villa"] = {
     "salsa"
   ],
   "E. Super Vegetarian": [
-    "e.",
+    "e",
     "super",
     "vegetarian",
     "rice",
@@ -372,7 +368,7 @@ MenuApp.menus["pancho villa"] = {
     "salsa"
   ],
   "F. Chile Rellano": [
-    "f.",
+    "f",
     "chile",
     "rellano",
     "rice",
@@ -380,7 +376,7 @@ MenuApp.menus["pancho villa"] = {
     "salsa"
   ],
   "G.  Tofu Ranchero": [
-    "g.",
+    "g",
     "tofu",
     "ranchero",
     "rice",
@@ -388,8 +384,7 @@ MenuApp.menus["pancho villa"] = {
     "salsa"
   ],
   "H. Grilled Vegetables": [
-    "h.",
-    "grilled",
+    "h",
     "vegetables",
     "rice",
     "beans",
@@ -433,11 +428,9 @@ MenuApp.menus["pancho villa"] = {
     "meat"
   ],
   "Grilled Vegetables": [
-    "grilled",
     "vegetables"
   ],
   "Grilled Garlic Mushroom": [
-    "grilled",
     "garlic",
     "mushroom"
   ],
@@ -550,7 +543,6 @@ MenuApp.menus["pancho villa"] = {
     "9",
     "asada",
     "steak",
-    "grilled",
     "salmon",
     "garlic",
     "prawns"
@@ -651,7 +643,6 @@ MenuApp.menus["pancho villa"] = {
     "steak",
     "or",
     "chicken",
-    "grilled",
     "onions",
     "salsa"
   ],
@@ -718,7 +709,6 @@ MenuApp.menus["pancho villa"] = {
     "imported"
   ],
   "Fresh Squeezed Juices": [
-    "fresh",
     "squeezed",
     "juices"
   ],
@@ -787,7 +777,6 @@ MenuApp.menus["pancho villa"] = {
     "jugos",
     "de",
     "naranja",
-    "fresh",
     "squeezed",
     "orange",
     "juice"

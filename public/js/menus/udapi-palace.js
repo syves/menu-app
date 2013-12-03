@@ -1,62 +1,51 @@
-MenuApp.menus["udapi palace"] = {
+MenuApp.menus["udapi-palace"] = {
   "1. Idly (2 Pieces)": [
-    "1.",
+    "1",
     "idly",
-    "steamed",
     "rice",
     "lentil",
     "patties",
-    "served",
     "sambar",
     "chutney"
   ],
   "2. Ghee Sambar Idly (2 Pieces)*": [
-    "2.",
+    "2",
     "ghee",
     "sambar",
     "idly",
     "*",
-    "steamed",
     "rice",
     "lentil",
     "patties",
-    "served",
     "ghee",
     "immersed",
     "bowl",
     "sambar"
   ],
   "3. Fried Idly": [
-    "3.",
-    "fried",
+    "3",
     "idly",
-    "steamed",
     "rice",
     "lentil",
     "patties",
     "deep",
-    "fried",
-    "served",
     "special",
     "spice",
     "mixture"
   ],
   "4. Medhu Vada (2 Pieces)": [
-    "4.",
+    "4",
     "medhu",
     "vada",
-    "fried",
     "lentil",
     "donuts",
-    "served",
     "sambar",
     "chutney"
   ],
   "5. Sambar Vada (2 Pieces)": [
-    "5.",
+    "5",
     "sambar",
     "vada",
-    "fried",
     "lentil",
     "donuts",
     "immersed",
@@ -64,10 +53,9 @@ MenuApp.menus["udapi palace"] = {
     "sambar"
   ],
   "6. Rasa Vada (2 Pieces)": [
-    "6.",
+    "6",
     "rasa",
     "vada",
-    "fried",
     "lentil",
     "donuts",
     "immersed",
@@ -75,11 +63,10 @@ MenuApp.menus["udapi palace"] = {
     "rasam"
   ],
   "7. Dhai Vada (2 Pieces)*": [
-    "7.",
+    "7",
     "dhai",
     "vada",
     "*",
-    "fried",
     "lentil",
     "donuts",
     "chilled",
@@ -90,16 +77,15 @@ MenuApp.menus["udapi palace"] = {
     "yogurt"
   ],
   "8. Samosa (2 Pieces)": [
-    "8.",
+    "8",
     "samosa",
     "spiced",
     "potato",
     "crust",
-    "fried",
     "dough"
   ],
   "9. Samosa Chat**": [
-    "9.",
+    "9",
     "samosa",
     "chat**",
     "samosa",
@@ -114,16 +100,15 @@ MenuApp.menus["udapi palace"] = {
     "vegan"
   ],
   "10. Tomato Soup*": [
-    "10.",
+    "10",
     "tomato",
     "soup*",
     "cream",
     "tomato",
-    "cooked",
     "cream"
   ],
   "11. Rasam": [
-    "11.",
+    "11",
     "rasam",
     "tangy",
     "tamarind",
@@ -134,7 +119,7 @@ MenuApp.menus["udapi palace"] = {
     "soup"
   ],
   "12. Sada Dosa": [
-    "12.",
+    "12",
     "sada",
     "dosa",
     "thin",
@@ -144,7 +129,7 @@ MenuApp.menus["udapi palace"] = {
     "lentils"
   ],
   "13. Masala Dosa": [
-    "13.",
+    "13",
     "masala",
     "dosa",
     "thin",
@@ -156,7 +141,7 @@ MenuApp.menus["udapi palace"] = {
     "onions"
   ],
   "14. Onion Masala Dosa": [
-    "14.",
+    "14",
     "onion",
     "masala",
     "dosa",
@@ -170,7 +155,7 @@ MenuApp.menus["udapi palace"] = {
     "onions"
   ],
   "15. Mysore Sada Dosa": [
-    "15.",
+    "15",
     "mysore",
     "sada",
     "dosa",
@@ -182,7 +167,7 @@ MenuApp.menus["udapi palace"] = {
     "chutney"
   ],
   "16. Mysore Masala Dosa": [
-    "16.",
+    "16",
     "mysore",
     "masala",
     "dosa",
@@ -195,7 +180,7 @@ MenuApp.menus["udapi palace"] = {
     "chutney"
   ],
   "17. Spinach Masala Dosa": [
-    "17.",
+    "17",
     "spinach",
     "masala",
     "dosa",
@@ -209,7 +194,7 @@ MenuApp.menus["udapi palace"] = {
     "potatoes"
   ],
   "18. Gobi Chettinad Dosa": [
-    "18.",
+    "18",
     "gobi",
     "chettinad",
     "dosa",
@@ -221,19 +206,16 @@ MenuApp.menus["udapi palace"] = {
     "masala"
   ],
   "19. Paper Dosa (Approx. 2 Feet Long)": [
-    "19.",
-    "paper",
+    "19",
     "dosa",
     "large",
     "thin",
-    "paper",
     "crisp",
     "rice",
     "crepe"
   ],
   "20. Paper Masala Dosa (Approx. 2 Feet Long)": [
-    "20.",
-    "paper",
+    "20",
     "masala",
     "dosa",
     "jumbo",
@@ -246,7 +228,7 @@ MenuApp.menus["udapi palace"] = {
     "onions"
   ],
   "21. Sada Rava Dosa": [
-    "21.",
+    "21",
     "sada",
     "rava",
     "dosa",
@@ -256,7 +238,7 @@ MenuApp.menus["udapi palace"] = {
     "wheat"
   ],
   "22. Special Rava Dosa": [
-    "22.",
+    "22",
     "special",
     "rava",
     "dosa",
@@ -267,7 +249,7 @@ MenuApp.menus["udapi palace"] = {
     "onions"
   ],
   "23. Special Rava Masala Dosa": [
-    "23.",
+    "23",
     "special",
     "rava",
     "masala",
@@ -280,7 +262,7 @@ MenuApp.menus["udapi palace"] = {
     "onions"
   ],
   "24. Uduoi Special Spring Dosa": [
-    "24.",
+    "24",
     "uduoi",
     "special",
     "spring",
@@ -289,11 +271,10 @@ MenuApp.menus["udapi palace"] = {
     "masala",
     "dosa",
     "stuffed",
-    "fresh",
     "vegetables"
   ],
   "25. Paneer Burji Dosa*": [
-    "25.",
+    "25",
     "paneer",
     "burji",
     "dosa*",
@@ -305,7 +286,7 @@ MenuApp.menus["udapi palace"] = {
     "cheese"
   ],
   "25. Plain Uthappam": [
-    "25.",
+    "25",
     "plain",
     "uthappam",
     "rice",
@@ -313,7 +294,7 @@ MenuApp.menus["udapi palace"] = {
     "pancake"
   ],
   "26. Mix Vegetable Uthappam": [
-    "26.",
+    "26",
     "mix",
     "vegetable",
     "uthappam",
@@ -323,7 +304,7 @@ MenuApp.menus["udapi palace"] = {
     "vegetables"
   ],
   "27. Onion And Hot Chilli Uthappam": [
-    "27.",
+    "27",
     "onion",
     "hot",
     "chilli",
@@ -334,7 +315,7 @@ MenuApp.menus["udapi palace"] = {
     "pepper"
   ],
   "28. Onion And Peas Uthappam": [
-    "28.",
+    "28",
     "onion",
     "peas",
     "uthappam",
@@ -345,7 +326,7 @@ MenuApp.menus["udapi palace"] = {
     "onion"
   ],
   "29. Tomato And Peas Uthappam": [
-    "29.",
+    "29",
     "tomato",
     "peas",
     "uthappam",
@@ -355,7 +336,7 @@ MenuApp.menus["udapi palace"] = {
     "peas"
   ],
   "30. Tomato Omlet": [
-    "30.",
+    "30",
     "tomato",
     "omlet",
     "uthappam",
@@ -368,7 +349,7 @@ MenuApp.menus["udapi palace"] = {
     "spices"
   ],
   "31. Pineapple Uthappam": [
-    "31.",
+    "31",
     "pineapple",
     "uthappam",
     "uthappam",
@@ -377,7 +358,7 @@ MenuApp.menus["udapi palace"] = {
     "pineapple"
   ],
   "32. Paneer Peas Uthappam*": [
-    "32.",
+    "32",
     "paneer",
     "peas",
     "uthappam*",
@@ -388,7 +369,7 @@ MenuApp.menus["udapi palace"] = {
     "peas"
   ],
   "33. Spicy Gobi Chettinad Uthappam": [
-    "33.",
+    "33",
     "spicy",
     "gobi",
     "chettinad",
@@ -400,7 +381,7 @@ MenuApp.menus["udapi palace"] = {
     "masala"
   ],
   "34. Masala Uthappam": [
-    "34.",
+    "34",
     "masala",
     "uthappam",
     "spiced",
@@ -408,39 +389,34 @@ MenuApp.menus["udapi palace"] = {
     "topping"
   ],
   "35. Avial*": [
-    "35.",
+    "35",
     "avial*",
-    "fresh",
     "vegetables",
-    "cooked",
     "mild",
     "coconut",
     "sauce"
   ],
   "36. Chana Masala": [
-    "36.",
+    "36",
     "chana",
     "masala",
     "chick",
     "peas",
-    "cooked",
     "spicy",
     "sauce"
   ],
   "37. Vegetable Korma": [
-    "37.",
+    "37",
     "vegetable",
     "korma",
-    "fresh",
     "vegetables",
-    "cooked",
     "coconut",
     "milk",
     "mild",
     "spices"
   ],
   "38. Saag Paneer*": [
-    "38.",
+    "38",
     "saag",
     "paneer*",
     "cottage",
@@ -451,7 +427,7 @@ MenuApp.menus["udapi palace"] = {
     "gravy"
   ],
   "39. Paneer Makhani*": [
-    "39.",
+    "39",
     "paneer",
     "makhani*",
     "cottage",
@@ -462,7 +438,7 @@ MenuApp.menus["udapi palace"] = {
     "gravy"
   ],
   "40. Aloo Mutter**": [
-    "40.",
+    "40",
     "aloo",
     "mutter**",
     "potato",
@@ -471,28 +447,25 @@ MenuApp.menus["udapi palace"] = {
     "spices"
   ],
   "41. Special Vegetable Curry": [
-    "41.",
+    "41",
     "special",
     "vegetable",
     "curry",
-    "fresh",
     "vegetables",
-    "cooked",
     "spicy",
     "curry",
     "sauce"
   ],
   "42. Kadai Bhindi": [
-    "42.",
+    "42",
     "kadai",
     "bhindi",
     "okra",
-    "cooked",
     "herbs",
     "spices"
   ],
   "43. Matar Paneer*": [
-    "43.",
+    "43",
     "matar",
     "paneer*",
     "cottage",
@@ -502,43 +475,40 @@ MenuApp.menus["udapi palace"] = {
     "spices"
   ],
   "44. Malabar Paratha**": [
-    "44.",
+    "44",
     "malabar",
     "paratha**",
     "multi-layered",
     "bread",
-    "served",
     "vegetable",
     "korma",
     "channa",
     "masala"
   ],
   "45. Udupi Combo": [
-    "45.",
+    "45",
     "udupi",
     "combo",
     "choice",
     "dosa",
     "or",
     "uthappam",
-    "served",
     "idly",
     "medhu",
     "vada"
   ],
   "46. Chana Bathura": [
-    "46.",
+    "46",
     "chana",
     "bathura",
     "batura",
-    "served",
     "spicy",
     "chick",
     "pea",
     "curry"
   ],
   "47. South-Indian Thali**": [
-    "47.",
+    "47",
     "south-indian",
     "thali**",
     "assorted",
@@ -550,37 +520,34 @@ MenuApp.menus["udapi palace"] = {
     "soup"
   ],
   "1. Badam Halwa": [
-    "1.",
+    "1",
     "badam",
     "halwa",
     "ground",
     "almond",
-    "cooked",
     "sugar",
     "ghee"
   ],
   "2. Carrot Halwa": [
-    "2.",
+    "2",
     "carrot",
     "halwa",
     "grated",
     "carrots",
-    "cooked",
     "sugar",
     "ghee"
   ],
   "3. Gulab Jamun": [
-    "3.",
+    "3",
     "gulab",
     "jamun",
-    "fried",
     "sweet",
     "ball",
     "sugar",
     "syrup"
   ],
   "1. Soda": [
-    "1.",
+    "1",
     "soda",
     "coke",
     "diet",
@@ -588,7 +555,7 @@ MenuApp.menus["udapi palace"] = {
     "sprite"
   ],
   "2. Madras Coffee": [
-    "2.",
+    "2",
     "madras",
     "coffee",
     "house",
@@ -597,7 +564,7 @@ MenuApp.menus["udapi palace"] = {
     "coffee"
   ],
   "3. Masala Tea": [
-    "3.",
+    "3",
     "masala",
     "tea",
     "spiced",
@@ -605,7 +572,7 @@ MenuApp.menus["udapi palace"] = {
     "tea"
   ],
   "4. Lassi": [
-    "4.",
+    "4",
     "lassi",
     "yogurt",
     "drink",
@@ -614,7 +581,7 @@ MenuApp.menus["udapi palace"] = {
     "salty"
   ],
   "5. Mango Lassi": [
-    "5.",
+    "5",
     "mango",
     "lassi",
     "sweet",
@@ -623,16 +590,15 @@ MenuApp.menus["udapi palace"] = {
     "drink"
   ],
   "6. Mango Juice": [
-    "6.",
+    "6",
     "mango",
     "juice",
     "vegan",
-    "fresh",
     "mango",
     "juice"
   ],
   "7. Butter Milk": [
-    "7.",
+    "7",
     "butter",
     "milk",
     "spiced",
@@ -641,17 +607,17 @@ MenuApp.menus["udapi palace"] = {
     "drink"
   ],
   "8. Sparkling Water": [
-    "8.",
+    "8",
     "sparkling",
     "water"
   ],
   "9. Bottled Water": [
-    "9.",
+    "9",
     "bottled",
     "water"
   ],
   "1. Hieneken, Corona, Kingfisher": [
-    "1.",
+    "1",
     "hieneken",
     "corona",
     "kingfisher"

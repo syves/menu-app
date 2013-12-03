@@ -156,7 +156,7 @@ MenuApp.menus["rosamunde"] = {
     "red"
   ],
   "St. Bernardus Tripel": [
-    "st.",
+    "st",
     "bernardus",
     "tripel"
   ],
@@ -493,14 +493,14 @@ MenuApp.menus["rosamunde"] = {
     "sausage",
     "from",
     "list",
-    "1.",
+    "1",
     "to",
     "choose",
     "from",
     "sausage",
     "list",
     "2",
-    "$6.99."
+    "$699"
   ],
   "3 Toppings": [
     "3",
@@ -520,13 +520,13 @@ MenuApp.menus["rosamunde"] = {
     "sausage",
     "from",
     "list",
-    "1.",
+    "1",
     "to",
     "choose",
     "from",
     "list",
     "2",
-    "$11.99"
+    "$1199"
   ],
   "4 Toppings": [
     "4",
@@ -561,7 +561,6 @@ MenuApp.menus["rosamunde"] = {
     "bacon"
   ],
   "Fresh Lamb": [
-    "fresh",
     "lamb",
     "all",
     "lamb",
@@ -620,7 +619,6 @@ MenuApp.menus["rosamunde"] = {
   ],
   "German Baked Beans (Vegan)": [
     "german",
-    "baked",
     "beans"
   ],
   "Miss Vickie’s Potato Chips": [
@@ -675,14 +673,11 @@ MenuApp.menus["rosamunde"] = {
   "Sides": [
     "sides",
     "german",
-    "baked",
     "beans",
     "french",
-    "baked",
     "beans",
     "mashed",
     "potatoes",
-    "grilled",
     "new",
     "potatoes"
   ],
@@ -704,10 +699,9 @@ MenuApp.menus["rosamunde"] = {
   ],
   "Mission St. Sausage": [
     "mission",
-    "st.",
+    "st",
     "sausage",
     "knockwurst",
-    "fresh",
     "jalapeno",
     "wrapped",
     "bacon"
@@ -732,8 +726,7 @@ MenuApp.menus["rosamunde"] = {
     "cherry",
     "sausage",
     "cherries",
-    "skewered",
-    "grilled"
+    "skewered"
   ],
   "Vegan Rumaki": [
     "vegan",
@@ -756,7 +749,6 @@ MenuApp.menus["rosamunde"] = {
     "tomato",
     "calamata",
     "olive",
-    "fresh",
     "basil"
   ],
   "Cheese And Meat Board": [
@@ -785,7 +777,6 @@ MenuApp.menus["rosamunde"] = {
     "dried",
     "tomato",
     "garlic",
-    "served",
     "sliced",
     "baguette",
     "or",
@@ -795,7 +786,6 @@ MenuApp.menus["rosamunde"] = {
     "goat",
     "cheese",
     "crostini",
-    "served",
     "pickled",
     "peppers"
   ],

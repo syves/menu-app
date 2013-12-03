@@ -2,7 +2,7 @@ MenuApp.menus["basil"] = {
   "* Medium Spicy.": [
     "*",
     "medium",
-    "spicy."
+    "spicy"
   ],
   "Paupia": [
     "paupia",
@@ -13,7 +13,6 @@ MenuApp.menus["basil"] = {
   "Paupia Sod": [
     "paupia",
     "sod",
-    "fresh",
     "rolls",
     "vegetables",
     "tofu",
@@ -30,7 +29,6 @@ MenuApp.menus["basil"] = {
     "spiced",
     "corn",
     "fritters",
-    "served",
     "cool",
     "cucumber",
     "crushed",
@@ -41,7 +39,6 @@ MenuApp.menus["basil"] = {
     "keow",
     "wan",
     "roti",
-    "grilled",
     "indian",
     "bread",
     "eggplant",
@@ -55,11 +52,9 @@ MenuApp.menus["basil"] = {
   "Basil Panstickers": [
     "basil",
     "panstickers",
-    "pan-fried",
     "dumplings",
     "shrimp",
     "pork",
-    "served",
     "thai",
     "ginger",
     "soy"
@@ -69,7 +64,6 @@ MenuApp.menus["basil"] = {
     "puffs",
     "puff",
     "pastry",
-    "curried",
     "diced",
     "duck",
     "sweet",
@@ -85,7 +79,6 @@ MenuApp.menus["basil"] = {
     "yard",
     "long",
     "beans",
-    "served",
     "nuts",
     "cucumber",
     "vinaigrette"
@@ -110,7 +103,6 @@ MenuApp.menus["basil"] = {
     "pouches",
     "crab",
     "pork",
-    "served",
     "salad",
     "cucumber",
     "pineapple"
@@ -118,9 +110,7 @@ MenuApp.menus["basil"] = {
   "Plamuk Tod": [
     "plamuk",
     "tod",
-    "fried",
     "calamari",
-    "served",
     "‘sriracha’",
     "chili",
     "vinaigrette"
@@ -131,11 +121,8 @@ MenuApp.menus["basil"] = {
     "gard",
     "turnip",
     "cakes",
-    "stir-fried",
     "beansprouts",
     "chives",
-    "served",
-    "roasted",
     "‘sriracha’",
     "chili"
   ],
@@ -242,7 +229,6 @@ MenuApp.menus["basil"] = {
     "yum",
     "makuer",
     "yao",
-    "grilled",
     "eggplant",
     "salad",
     "minced",
@@ -266,7 +252,6 @@ MenuApp.menus["basil"] = {
     "dried",
     "chili",
     "flakes",
-    "roasted",
     "rice",
     "powder"
   ],
@@ -289,7 +274,6 @@ MenuApp.menus["basil"] = {
     "salad",
     "talay",
     "charcoal",
-    "grilled",
     "prawns",
     "japanese",
     "scallops",
@@ -304,12 +288,10 @@ MenuApp.menus["basil"] = {
     "pad",
     "pu",
     "crab",
-    "fried",
     "rice"
   ],
   "add fried egg": [
     "add",
-    "fried",
     "egg"
   ],
   "Kao Pad Sapparot": [
@@ -318,7 +300,6 @@ MenuApp.menus["basil"] = {
     "sapparot",
     "thai",
     "pineapple",
-    "fried",
     "rice",
     "prawns",
     "cashew",
@@ -343,7 +324,6 @@ MenuApp.menus["basil"] = {
     "golden",
     "diced",
     "tofu",
-    "grilled",
     "skirt",
     "steak",
     "egg",
@@ -357,7 +337,6 @@ MenuApp.menus["basil"] = {
     "nham",
     "bpet",
     "honey",
-    "roasted",
     "duck",
     "pork",
     "shrimp",
@@ -376,7 +355,6 @@ MenuApp.menus["basil"] = {
     "skirt",
     "steak",
     "egg",
-    "stir-fried",
     "basil",
     "garlic",
     "chili"
@@ -384,7 +362,6 @@ MenuApp.menus["basil"] = {
   "Pad Se-Ew": [
     "pad",
     "se-ew",
-    "pan-fried",
     "wide",
     "rice",
     "noodles",
@@ -400,11 +377,9 @@ MenuApp.menus["basil"] = {
   "Pad Thai": [
     "pad",
     "thai",
-    "fresh",
     "rice",
     "stick",
     "noodles",
-    "stir-fried",
     "shrimp",
     "tofu",
     "egg",
@@ -416,19 +391,16 @@ MenuApp.menus["basil"] = {
   "Seafood Bamee": [
     "seafood",
     "bamee",
-    "stir-fried",
     "garlic",
     "noodle",
     "prawns",
     "mussels",
     "squid",
-    "fresh",
     "basil"
   ],
   "Thai Sukiyaki": [
     "thai",
     "sukiyaki",
-    "stir-fried",
     "mung",
     "bean",
     "vermicelli",
@@ -456,7 +428,6 @@ MenuApp.menus["basil"] = {
     "rice"
   ],
   "Fried Egg": [
-    "fried",
     "egg"
   ],
   "Thai Style Omelette": [
@@ -495,7 +466,6 @@ MenuApp.menus["basil"] = {
     "natural’",
     "1/4",
     "chicken",
-    "served",
     "‘somtum’",
     "green",
     "papaya",
@@ -505,19 +475,15 @@ MenuApp.menus["basil"] = {
     "mu",
     "yang",
     "flame",
-    "grilled",
     "pork",
     "shoulder",
     "filet",
-    "served",
-    "grilled",
     "pineapple",
     "tomato"
   ],
   "Neur Namtok": [
     "neur",
     "namtok",
-    "grilled",
     "skirt",
     "steak",
     "salad",
@@ -527,7 +493,6 @@ MenuApp.menus["basil"] = {
     "juice",
     "dried",
     "chili",
-    "roasted",
     "rice",
     "powder"
   ],
@@ -535,25 +500,21 @@ MenuApp.menus["basil"] = {
     "praram",
     "rong",
     "song",
-    "grilled",
     "marinated",
     "skirt",
     "steak",
     "house",
     "curried-peanut",
     "sauce",
-    "steamed",
     "vegetables"
   ],
   "Neur Yang": [
     "neur",
     "yang",
-    "grilled",
     "‘all",
     "natural’",
     "angus",
     "sirloin",
-    "served",
     "thai",
     "smoked",
     "mushroom",
@@ -563,11 +524,9 @@ MenuApp.menus["basil"] = {
   "Basil’s Lamb": [
     "basil’s",
     "lamb",
-    "grilled",
     "marinated",
     "lamb",
     "filet",
-    "served",
     "carrot",
     "salad",
     "nuts",
@@ -577,14 +536,12 @@ MenuApp.menus["basil"] = {
   "Pla Pao": [
     "pla",
     "pao",
-    "grilled",
     "banana",
     "leaf",
     "wrapped",
     "wild",
     "caught",
     "fish",
-    "steamed",
     "vegetables",
     "chili-lime",
     "sauce"
@@ -598,14 +555,12 @@ MenuApp.menus["basil"] = {
     "mushroom",
     "tofu",
     "scallions",
-    "stir-fried",
     "basil-chili",
     "jam"
   ],
   "Monk’s Delight": [
     "monk’s",
     "delight",
-    "stir-fried",
     "tofu",
     "green",
     "beans",
@@ -622,12 +577,10 @@ MenuApp.menus["basil"] = {
     "golden",
     "bean",
     "cakes",
-    "stir-fried",
     "cashew",
     "nuts",
     "mushroom",
     "onions",
-    "roasted",
     "chili",
     "jam"
   ],
@@ -655,7 +608,6 @@ MenuApp.menus["basil"] = {
     "\"classic\"",
     "minced",
     "chicken",
-    "stir-fried",
     "eggplant",
     "basil",
     "thai",
@@ -664,7 +616,7 @@ MenuApp.menus["basil"] = {
     "chili"
   ],
   "sub. prawns add": [
-    "sub.",
+    "sub",
     "prawns",
     "add"
   ],
@@ -672,7 +624,6 @@ MenuApp.menus["basil"] = {
     "gai",
     "ma-muang",
     "hinmapan",
-    "stir-fried",
     "sliced",
     "chicken",
     "breast",
@@ -692,7 +643,6 @@ MenuApp.menus["basil"] = {
     "chicken",
     "string",
     "beans",
-    "stir-fried",
     "sweet",
     "‘pik-khing’",
     "curry"
@@ -704,7 +654,6 @@ MenuApp.menus["basil"] = {
     "spicy",
     "southern",
     "thai",
-    "stir-fried",
     "pork",
     "shoulder",
     "asparagus",
@@ -724,7 +673,6 @@ MenuApp.menus["basil"] = {
     "duck",
     "snap",
     "peas",
-    "stir-fried",
     "red",
     "curry",
     "paste",
@@ -739,11 +687,9 @@ MenuApp.menus["basil"] = {
     "angus",
     "steak",
     "cubes",
-    "stir-fried",
     "lemongrass",
     "bell",
     "peppers",
-    "roasted",
     "chili",
     "jam"
   ],
@@ -751,7 +697,6 @@ MenuApp.menus["basil"] = {
     "jungle",
     "beef*",
     "sizzling",
-    "stir-fried",
     "skirt",
     "steak",
     "wild",
@@ -766,12 +711,10 @@ MenuApp.menus["basil"] = {
   "Fire Calamari*": [
     "fire",
     "calamari*",
-    "fresh",
     "calamari",
     "bamboo",
     "shoots",
     "scallions",
-    "stir-fried",
     "lemongrass-chili",
     "sauce"
   ],
@@ -796,11 +739,9 @@ MenuApp.menus["basil"] = {
     "prawns",
     "calamari",
     "mussels",
-    "stir-fried",
     "zucchini",
     "onions",
     "basil",
-    "fresh",
     "chili"
   ],
   "Pla-Duk Pad Ped*": [
@@ -824,7 +765,6 @@ MenuApp.menus["basil"] = {
     "pak",
     "rad",
     "kang",
-    "grilled",
     "squash",
     "eggplant",
     "zucchini",
@@ -838,7 +778,6 @@ MenuApp.menus["basil"] = {
   "Stuffed Eggplant": [
     "stuffed",
     "eggplant",
-    "grilled",
     "eggplant",
     "stuffed",
     "chicken",
@@ -884,7 +823,6 @@ MenuApp.menus["basil"] = {
     "chicken",
     "onions",
     "potatoes",
-    "served",
     "cucumber",
     "salad"
   ],
@@ -919,7 +857,6 @@ MenuApp.menus["basil"] = {
     "basil’s",
     "lamb",
     "curry",
-    "grilled",
     "australian",
     "rack",
     "lamb",
@@ -935,7 +872,6 @@ MenuApp.menus["basil"] = {
     "prawns",
     "scallops",
     "mussels",
-    "served",
     "bamboo",
     "shoots",
     "okra",
@@ -965,7 +901,6 @@ MenuApp.menus["basil"] = {
     "tao",
     "hu",
     "tod",
-    "fried",
     "tofu"
   ],
   "Hoi Yang": [
@@ -976,16 +911,12 @@ MenuApp.menus["basil"] = {
   "Neur Namtok*": [
     "neur",
     "namtok*",
-    "grilled",
     "skirt",
     "steak",
     "salad",
-    "fresh",
     "herbs",
-    "roasted",
     "rice",
     "chili",
-    "fresh",
     "lime",
     "juice"
   ],
@@ -1000,7 +931,6 @@ MenuApp.menus["basil"] = {
   ],
   "Thai Fried Rice": [
     "thai",
-    "fried",
     "rice"
   ],
   "Gai Yang": [
@@ -1012,7 +942,6 @@ MenuApp.menus["basil"] = {
     "natural’",
     "1/2",
     "chicken",
-    "served",
     "string",
     "beans",
     "slaw"
@@ -1021,7 +950,6 @@ MenuApp.menus["basil"] = {
     "choo",
     "chee",
     "talay",
-    "grilled",
     "jumbo",
     "prawns",
     "japanese",
@@ -1042,12 +970,10 @@ MenuApp.menus["basil"] = {
     "golden",
     "bean",
     "cakes",
-    "stir-fried",
     "cashew",
     "nuts",
     "mushroom",
     "onions",
-    "roasted",
     "chili",
     "jam"
   ],
@@ -1067,13 +993,11 @@ MenuApp.menus["basil"] = {
     "kata",
     "japanese",
     "scallops",
-    "stir-fried",
     "thai",
     "black",
     "bean",
     "chili",
     "sauce",
-    "served",
     "tempura",
     "long",
     "be"
@@ -1100,7 +1024,6 @@ MenuApp.menus["basil"] = {
     "sour",
     "orange",
     "curry",
-    "fried",
     "sea",
     "bass",
     "japanese",
@@ -1111,9 +1034,7 @@ MenuApp.menus["basil"] = {
   ],
   "Lightly Fried Banana": [
     "lightly",
-    "fried",
     "banana",
-    "served",
     "coconut",
     "ice",
     "cream"
@@ -1122,7 +1043,6 @@ MenuApp.menus["basil"] = {
     "sweet",
     "sticky",
     "rice",
-    "fresh",
     "mango"
   ],
   "Young Coconut Pana Cotta": [
@@ -1183,7 +1103,6 @@ MenuApp.menus["basil"] = {
     "mojito",
     "bacardi",
     "rum",
-    "fresh",
     "mint",
     "lime",
     "sugar"
@@ -1199,7 +1118,6 @@ MenuApp.menus["basil"] = {
     "tuk",
     "tuk",
     "brandy",
-    "fresh",
     "lime",
     "sugar",
     "grenadine"
@@ -1229,7 +1147,6 @@ MenuApp.menus["basil"] = {
     "vodka",
     "mango",
     "puree",
-    "fresh",
     "lime"
   ]
 }

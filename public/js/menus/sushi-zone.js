@@ -1,4 +1,4 @@
-MenuApp.menus["sushi zone"] = {
+MenuApp.menus["sushi-zone"] = {
   "Miso Soup": [
     "miso",
     "soup"
@@ -7,7 +7,6 @@ MenuApp.menus["sushi zone"] = {
     "edamame"
   ],
   "Steamed Soybeans": [
-    "steamed",
     "soybeans"
   ],
   "Mussel On Half Shell": [
