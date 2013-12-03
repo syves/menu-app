@@ -7,4 +7,12 @@
 
 ### Adding a menu
 
-    bin/getMenu savor > public/js/menus/savor.js
+Add target to Makefile (copy an existing target). Then run:
+
+    make
+
+### Updating existing menus
+
+    rm public/js/menus/*
+    git checkout -- public/js/menus/thai.js
+    make
