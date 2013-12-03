@@ -23,6 +23,26 @@ var ignoredWords = [
   'three',
   'two',
   'with',
+  "stewed", 
+  "fried", 
+  "fry",
+  "saute",
+  "grilled", 
+  "baked", 
+  "seared",
+  "boiled", 
+  "pan-fried",
+  "roasted", 
+  "steamed", 
+  "poached", 
+  "fresh", 
+  "curried", 
+  "barecue", 
+  "toasted",
+  "stir-fried", 
+  "cooked",
+  "served",
+  "paper"
 ];
 
 var getMenu = function(html) {
@@ -32,6 +52,7 @@ var getMenu = function(html) {
     menu[this.text()] = _.without.apply(null, [
       this.parent().text()
       .toLowerCase()
+      .replace(/[.:]/g, '')
       .replace(/\(.*\)/g, '')
       .trim()
       .split(/[, \u00A0]+/)
