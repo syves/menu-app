@@ -1,5 +1,6 @@
-
-
+var channel=new airwaves.Channel();
+MenuApp.channel = channel;
+var ol = document.getElementById("stars");
 
 var scoreMenuItem = function(itemAttrs, defaultRating){
   return itemAttrs.map(function(attr) {
@@ -28,12 +29,6 @@ var showTop5 = function(menu){
     var name = pair[1];
     console.log(name + ' (' + score.toFixed(1) + ') Ingredients: ' + menu[name].join(', '))
   });
-
-  //show results on index.html: setting floats to stars?
-// 2.option for trying new things rating/slider, 
-  //good job!!!
-
-
 
   var suggestions = document.getElementById('suggestions');
   // delete old stuff
@@ -79,10 +74,6 @@ var starScore = function(rating) {
   }
 };
 
-var channel=new airwaves.Channel();
-MenuApp.channel = channel;
-var ol = document.getElementById("stars");
-
 var preparation = ["stewed", "fried", "fry","saute", "grilled", "baked", 
                   "seared","boiled", "pan-fried","roasted", "steamed", "poached", 
                   "fresh", "curried", "barecue", "toasted","stir-fried",]
@@ -96,6 +87,10 @@ var getIngredients = function(menu){
   }
   return Object.keys(ingredients)
 }
+
+channel.subscribe("starSelect", function() {
+  showTop5(MenuApp.menus[selectedMenu]);
+});
 
 channel.subscribe('starSelect', MenuApp.store.set);
 
