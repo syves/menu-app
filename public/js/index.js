@@ -10,7 +10,6 @@ var scoreMenuItem = function(itemAttrs, defaultRating){
   },0) / itemAttrs.length;
 }
 
-
 var showTop5 = function(menu){
   var pairs =[]
 
@@ -45,6 +44,7 @@ var showTop5 = function(menu){
   });
 }
 
+//make an event
 var selectedMenu = null;
 var ingredients = null;
 var index = null;
@@ -73,10 +73,6 @@ var starScore = function(rating) {
     return fullStar + starScore(rating - 1);
   }
 };
-
-var preparation = ["stewed", "fried", "fry","saute", "grilled", "baked", 
-                  "seared","boiled", "pan-fried","roasted", "steamed", "poached", 
-                  "fresh", "curried", "barecue", "toasted","stir-fried",]
 
 var getIngredients = function(menu){
   var ingredients = {};              
