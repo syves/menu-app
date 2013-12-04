@@ -1,166 +1,154 @@
 MenuApp.menus["big-lantern"] = {
-  "Mixed Vegetable": [
-    "mixed",
-    "vegetable"
+  "Sweet & Sour Pork": [
+    "sweet and sour sauce",
+    "pork"
   ],
-  "Ma-Po Tofu": [
-    "ma-po",
-    "tofu"
-  ],
-  "Sweet & Sour Pork Or Chicken": [
+  "Sweet & Sour Chicken": [
     "sweet",
     "sour",
-    "pork",
-    "or",
     "chicken"
   ],
   "Garlic Chicken": [
     "garlic",
     "chicken"
   ],
-  "Kung Pao Chicken Or Tofu Or Beef": [
-    "kung",
-    "pao",
-    "chicken",
-    "or",
-    "tofu",
-    "or",
+  "Kung Pao Chicken": [
+    "kung pao sauce",
+    "chicken"
+  ],
+  "Kung Pao Tofu": [
+    "kung pao sauce",
+    "tofu"
+  ],
+  "Kung Pao Beef": [
+    "kung pao sauce",
     "beef"
   ],
   "Garlic Eggplant": [
     "garlic",
     "eggplant"
   ],
-  "Cashew Chicken Or Beef": [
+  "Cashew Chicken": [
     "cashew",
     "chicken",
-    "or",
+  ],
+  "Cashew Beef": [
+    "cashew",
     "beef"
   ],
-  "Orange Beef Or Chicken": [
+  "Orange Beef": [
     "orange",
     "beef",
-    "or",
+  ],
+  "Orange Chicken": [
+    "orange",
     "chicken"
   ],
   "Spare Rib": [
     "spare",
     "rib",
-    "w/",
-    "black",
-    "bean",
-    "sauce"
+    "black bean sauce"
   ],
-  "Basil Tofu Or Chicken Or Beef": [
+  "Basil Tofu": [
     "basil",
     "tofu",
-    "or",
+  ],
+  "Basil Chicken": [
+    "basil",
     "chicken",
-    "or",
+  ],
+  "Basil Beef": [
+    "basil",
     "beef"
   ],
   "General Meatless Chicken": [
-    "general",
-    "meatless",
-    "chicken"
+    "meatles chicken"
   ],
   "Sesame Meatless Chicken": [
     "sesame",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Kung Pao Meatless Chicken": [
-    "kung",
-    "pao",
-    "meatless",
-    "chicken"
+    "kung pao sauce",
+    "meatless chicken"
   ],
-  "Sweet & Sour Meatless Chicken Or Beef": [
-    "sweet",
-    "sour",
-    "meatless",
-    "chicken",
-    "or",
-    "beef"
+  "Sweet & Sour Meatless Chicken": [
+    "sweet and sour sauce",
+    "meatless chicken",
+  ],
+  "Sweet & Sour Meatless Beef": [
+    "sweet and sour sauce",
+    "meatless beef"
   ],
   "Lemon Chicken": [
-    "lemon",
-    "chicken"
+    "lemon chicken"
   ],
-  "Kung Pao Calamari Or Prawn": [
-    "kung",
-    "pao",
+  "Kung Pao Calamari": [
+    "kung pao sauce",
     "calamari",
-    "or",
+  ],
+  "Kung Pao Prawn": [
+    "kung pao sauce",
     "prawn"
   ],
-  "Mongolian Chicken Or Beef Or Lamb": [
-    "mongolian",
-    "chicken",
-    "or",
-    "beef",
-    "or",
-    "lamb"
+  "Mongolian Chicken": [
+    "mongolian chicken",
+  ],
+  "Mongolian Beef": [
+    "mongolian beef",
+  ],
+  "Mongolian Lamb": [
+    "mongolian lamb"
   ],
   "Mandarin Eggplant": [
-    "mandarin",
     "eggplant",
-    "w/",
-    "meatless",
-    "fish"
+    "meatless fish"
   ],
   "King Of Kung Pao": [
-    "king",
-    "kung",
-    "pao",
     "chicken",
     "beef",
     "pork",
     "prawns"
   ],
   "Orange Lamb": [
-    "orange",
-    "lamb"
+    "orange lamb"
   ],
-  "Egg FuYong B.B.Q. Pork Or Chicken Or Beef": [
+  "Egg FuYong B.B.Q. Pork": [
     "egg",
-    "fuyong",
-    "bbq",
-    "pork",
-    "or",
-    "chicken",
-    "or",
-    "beef"
+    "bbq pork"
+  ],
+  "Egg FuYong B.B.Q. Chicken": [
+    "egg",
+    "bbq chicken"
+  ],
+"Egg FuYong B.B.Q. Beef": [
+    "egg",
+    "bbq pork",
   ],
   "Beef Stew": [
-    "beef",
-    "stew",
-    "w/",
+    "beef stew",
     "spinach"
   ],
   "Royal Pork": [
-    "royal",
     "pork"
   ],
   "Peking Pork Chop": [
-    "peking",
-    "pork",
-    "chop"
+    "pork chop"
   ],
   "Ginger Onion Lamb": [
     "ginger",
     "onion",
     "lamb"
   ],
-  "Prawn": [
+  "Sesame Prawn": [
     "prawn",
-    "general",
-    "or",
-    "sesame",
-    "or",
-    "orange",
-    "sauce"
+    "sesame sauce",
   ],
+  "Orange Prawn": [
+    "prawn",
+    "orange sauce"
+  ],
+
   "Sweet & Sour Prawn": [
     "sweet",
     "sour",
@@ -169,7 +157,6 @@ MenuApp.menus["big-lantern"] = {
   "Crispy Chicken": [
     "crispy",
     "chicken",
-    "w/",
     "garlic",
     "sauce"
   ],
@@ -179,129 +166,142 @@ MenuApp.menus["big-lantern"] = {
   "Shredded Pork": [
     "shredded",
     "pork",
-    "w/",
-    "szechuan",
+    "szechuan sauce",
     "pickle",
-    "rice",
-    "noodle",
-    "soup"
+    "rice noodle soup"
   ],
-  "Fish": [
-    "fish",
-    "general",
-    "or",
-    "sesame",
-    "or",
-    "orange",
-    "sauce"
+  "Orange Fish": [
+    "orange sauce",
+    "fish"
   ],
+  "Sesame Fish": [
+    "sesame sauce",
+    "fish"
+  ],
+
   "Hunan Fish": [
-    "hunan",
+    "hunan sauce",
     "fish"
   ],
-  "Meatless Beef": [
-    "meatless",
-    "beef",
-    "sesame",
-    "or",
-    "orange",
-    "sauce"
+  "Meatless sesame Beef": [
+    "meatless beef",
+    "sesame sauce",
   ],
-  "Lemon Meatless Fish Or Beef": [
+  "Meatless orange Beef": [
+    "meatless beef",
+    "orange sauce"
+  ],
+  "Lemon Meatless Fish": [
     "lemon",
-    "meatless",
-    "fish",
-    "or",
-    "beef"
+    "meatless fish",
   ],
-  "Garlic Sauce": [
-    "garlic",
-    "sauce",
-    "crispy",
-    "meatless",
-    "chicken",
+  "Lemon Meatless Beef": [
+    "lemon",
+    "meatless beef"
+  ],
+  "Crispy meatless chicken Garlic Sauce": [
+    "garlic sauce",
+    "crispy meatless chicken",
     "or",
     "crispy",
     "fish"
+  ],
+  "Crispy meatless fish Garlic Sauce": [
+    "garlic sauce",
+    "crispy meatless fish",
+  ],
+  "Meatless sesame Fish": [
+    "meatless fish",
+    "sesame sauce",
+  ],
+  "Meatless orange Fish": [
+    "meatless fish",
+    "orange sauce"
   ],
   "Meatless Fish": [
-    "meatless",
-    "fish",
-    "general",
-    "or",
-    "sesame",
-    "or",
-    "orange",
-    "sauce"
+    "meatless fish",
+    "sesame sauce",
+    "orange sauce"
   ],
   "Hunan Smoked Pork": [
-    "hunan",
-    "smoked",
-    "pork"
+    "hunan sauce",
+    "smoked pork"
   ],
   "Seafood Combo Plate": [
     "seafood",
-    "combo",
-    "plate"
   ],
-  "Salmon": [
+  "Salmon and snow peas": [
     "salmon",
-    "w/",
-    "asparagus",
-    "or",
-    "snow",
-    "peas",
-    "or",
-    "string",
-    "bean"
+    "snow peas",
   ],
-  "Spicy Cumino Sauce Beef Or Chicken": [
-    "spicy",
-    "cumino",
-    "sauce",
+    "Salmon string bean": [
+    "salmon",
+    "string bean"
+  ],
+   "Salmon asparagus": [
+    "salmon",
+    "asparagus",
+  ],
+  "Spicy Cumino Sauce Beef": [
+    "spicy cumino sauce",
     "beef",
-    "or",
+    ],
+  "Spicy Cumino Sauce Chicken": [
+    "spicy cumino sauce",
     "chicken"
   ],
+
   "Kung Pao Pastrami": [
-    "kung",
-    "pao",
+    "kung pao sauce",
     "pastrami"
   ],
-  "Combo Fried Rice Or Chow Mein Or Chow Fun": [
-    "combo",
-    "rice",
-    "or",
-    "chow",
-    "mein",
-    "or",
-    "chow",
-    "fun"
-  ],
-  "Fried Rice Or Chow Mein Or Chow Fun": [
-    "rice",
-    "or",
-    "chow",
-    "mein",
-    "or",
-    "chow",
-    "fun",
-    "choice",
+  "Fried Rice vegetable": [
+    "fried rice",
     "vegetable",
+  ],
+  "Fried Rice beef": [
+    "fried rice",
     "beef",
+  ],
+  "Fried Rice chicken": [
+    "fried rice",
     "chicken",
-    "or",
+  ],
+  "Fried Rice pork": [
+    "fried rice",
+    "pork",
+  ],
+  "Chow Mein": [
+    "Chow Mein"
+    "vegetable",
+  ],
+  "Chow Mein": [
+    "Chow Mein"
+    "beef",
+  ],
+  "Chow Mein": [
+    "Chow Mein"
+    "chicken",
+  ],
+  "Chow Mein": [
+    "Chow Mein"
     "pork"
   ],
-  "Meatless Chicken": [
-    "meatless",
+  "Chow Fun": [
+    "chow fun"
+    "vegetable",
+  ],
+    "Chow Fun": [
+    "chow fun"
+    "beef",
+  ],
+  "Chow Fun": [
+    "chow fun"
     "chicken",
-    "general",
-    "or",
-    "sesame",
-    "or",
-    "orange",
-    "sauce"
+  ],
+  "Chow Fun": [
+    "chow fun"
+    "pork"
   ],
   "Onion Pancake": [
     "onion",
@@ -313,37 +313,29 @@ MenuApp.menus["big-lantern"] = {
   "Crab Cheese Puff": [
     "crab",
     "cheese",
-    "puff"
+    "puff pastry"
   ],
   "Crispy Fried Soft Tofu": [
-    "crispy",
-    "soft",
-    "tofu"
+    "crispy soft tofu"
   ],
-  "Pot Sticker": [
-    "pot",
-    "sticker",
-    "veg",
-    "or",
+  "Pot Sticker veg": [
+    "pot sticker",
+    "vegetable",
+  ],
+  "Pot Sticker pork": [
+    "pot sticker",
     "pork"
   ],
   "Steamed Wonton": [
     "wonton",
-    "w/",
-    "red",
-    "chili",
-    "oil"
+    "red chili oil"
   ],
   "Cucumber": [
     "cucumber",
-    "w/",
-    "garlic",
-    "chili",
-    "sauce"
+    "garlic chili sauce"
   ],
   "Fried Chicken Wings": [
-    "chicken",
-    "wings"
+    "chicken wings"
   ],
   "Fried Eggplant & Shrimp Roll": [
     "eggplant",
@@ -357,37 +349,24 @@ MenuApp.menus["big-lantern"] = {
     "calamari"
   ],
   "B.B.Q. Pork Spareribs": [
-    "bbq",
-    "pork",
-    "spareribs"
+    "bbq pork spareribs"
   ],
   "Combination Plate": [
-    "combination",
-    "plate",
-    "egg",
-    "roll",
+    "egg roll",
     "prawn",
-    "crab",
-    "puff",
-    "chicken",
-    "wing"
+    "crab puff",
+    "chicken wing"
   ],
   "Hot And Sour Soup": [
-    "hot",
-    "sour",
-    "soup",
-    "w/",
+    "hot sour soup",
     "wonton"
   ],
   "Mixed Vegetable Soup": [
-    "mixed",
-    "vegetable",
-    "soup"
+    "mixed vegetable soup"
   ],
   "Vegetarian Wonton Soup": [
     "vegetarian",
-    "wonton",
-    "soup"
+    "wonton soup"
   ],
   "Spinach Tofu Soup": [
     "spinach",
@@ -410,13 +389,11 @@ MenuApp.menus["big-lantern"] = {
     "soup"
   ],
   "Combination Wonton Soup": [
-    "combination",
     "wonton",
     "soup"
   ],
   "Shredded Duck Vegetable Tofu Soup": [
-    "shredded",
-    "duck",
+    "shredded duck",
     "vegetable",
     "tofu",
     "soup"
@@ -427,8 +404,7 @@ MenuApp.menus["big-lantern"] = {
     "soup"
   ],
   "Fish Ball Seaweed Soup": [
-    "fish",
-    "ball",
+    "fish ball",
     "seaweed",
     "soup"
   ],
@@ -436,35 +412,28 @@ MenuApp.menus["big-lantern"] = {
     "chicken"
   ],
   "Sizzling Rice Soup": [
-    "sizzling",
-    "rice",
+    "sizzling rice",
     "soup"
   ],
   "Seafood Hot & Sour Soup": [
     "seafood",
-    "hot",
-    "sour",
+    "hot and sour",
     "soup"
   ],
   "Vegetable Wonton Soup": [
     "vegetable",
     "wonton",
     "soup",
-    "w/",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Mixed Vegetable Meatless Chicken Soup": [
-    "mixed",
-    "vegetable",
-    "meatless",
-    "chicken",
+    "mixed vegetable",
+    "meatless chicken",
     "soup"
   ],
   "Sesame Cold Noodle Salad": [
     "sesame",
-    "cold",
-    "noodle",
+    "cold noodle",
     "salad"
   ],
   "Papaya Salad": [
@@ -497,8 +466,7 @@ MenuApp.menus["big-lantern"] = {
     "salad"
   ],
   "Meatless Chicken Salad": [
-    "meatless",
-    "chicken",
+    "meatless chicken",
     "salad"
   ],
   "Big Lantern Tea Flavored": [
@@ -520,78 +488,52 @@ MenuApp.menus["big-lantern"] = {
     "salmon"
   ],
   "Big Lantern Tea Flavored Meatless Chicken": [
-    "big",
-    "lantern",
-    "tea",
-    "flavored",
-    "meatless",
-    "chicken"
+    "tea flavored",
+    "meatless chicken"
   ],
   "Black Pepper Meatless Chicken In Sizzling Hot Pot": [
-    "black",
-    "pepper",
-    "meatless",
-    "chicken",
-    "sizzling",
-    "hot",
-    "pot"
+    "black pepper",
+    "meatless chicken",
   ],
   "Szechuan String Bean Meatless Chicken": [
-    "szechuan",
-    "string",
-    "bean",
-    "meatless",
-    "chicken"
+    "szechuan sauce",
+    "string bean",
+    "meatless chicken"
   ],
   "Satay Sauce Meatless Chicken": [
-    "satay",
-    "sauce",
-    "meatless",
-    "chicken"
+    "satay sauce",
+    "meatless chicken"
   ],
   "Shaolin Temple Combo Pot": [
-    "shaolin",
-    "temple",
-    "combo",
-    "pot",
-    "meatless",
-    "chicken",
-    "meatless",
-    "ham",
+    "meatless chicken",
+    "meatless ham",
     "tofu",
     "veg"
   ],
   "Big Lantern Flaming Szechuan Chile Fish": [
-    "big",
-    "lantern",
-    "flaming",
-    "szechuan",
+    "szechuan sauce",
     "chile",
     "fish"
   ],
   "Big Lantern Smoked Pork": [
-    "big",
-    "lantern",
-    "smoked",
-    "pork"
+    "smoked pork"
   ],
   "Portabella Mushroom": [
-    "portabella",
-    "mushroom",
+    "portabella mushroom",
     "prawn"
   ],
-  "Hunan Meatless Ham Or Meatless Chicken": [
-    "hunan",
-    "meatless",
-    "ham",
-    "or",
-    "meatless",
-    "chicken"
+  "Hunan Meatless Ham": [
+    "hunan sauce",
+    "meatless ham",
   ],
+  "Hunan Meatless Meatless Chicken": [
+    "hunan sauce",
+    "meatless chicken"
+  ],
+
   "Mandarin Meatless Chicken": [
     "mandarin",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Szechuan Spicy Cumin Sauce Lamb": [
     "szechuan",
@@ -601,21 +543,21 @@ MenuApp.menus["big-lantern"] = {
     "lamb"
   ],
   "Peking Mandarin Shredded Pork": [
-    "peking",
-    "mandarin",
-    "shredded",
-    "pork"
+    "shredded pork",
+    "mandarin sauce"
   ],
   "Mandarin Lamb Or Beef": [
     "mandarin",
     "lamb",
-    "or",
+    "beef"
+  ],
+  "Mandarin Lamb Or Beef": [
+    "mandarin",
+    "lamb",
     "beef"
   ],
   "Nourishing Beef Stew": [
-    "nourishing",
-    "beef",
-    "stew"
+    "beef stew"
   ],
   "Jalapeno Chicken Or Beef": [
     "jalapeno",
@@ -624,8 +566,7 @@ MenuApp.menus["big-lantern"] = {
     "beef"
   ],
   "Minced Chicken Lettuce Cup": [
-    "minced",
-    "chicken",
+    "minced chicken",
     "lettuce",
     "cup"
   ],

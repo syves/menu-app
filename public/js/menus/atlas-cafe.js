@@ -8,15 +8,17 @@ MenuApp.menus["atlas"] = {
     "ham",
     "cheese"
   ],
-  "with cream cheese": [
+  "Bagel with cream cheese": [
     "cream",
+    "bagel",
     "cheese"
   ],
-  "with spread": [
-    "spread"
+  "Bagel with spread": [
+    "spread",
+    "bagel"
   ],
-  "add veggie": [
-    "add",
+  "Bagel add veggie": [
+    "bagel",
     "veggie"
   ],
   "Egg On Bagel, Croissant": [
@@ -24,21 +26,21 @@ MenuApp.menus["atlas"] = {
     "bagel",
     "croissant"
   ],
-  "Egg": [
+  "Egg Croissant": [
     "egg",
-    "cheese"
+    "cheese",
+    "Croissant"
   ],
-  "with egg, ham and cheese": [
+  "Croissant with egg, ham and cheese": [
     "egg",
     "ham",
-    "cheese"
+    "cheese",
+    "Croissant"
   ],
   "Bowl Fruit Only": [
-    "bowl",
-    "fruit",
-    "only"
+    "fruit"
   ],
-  "Fruit": [
+  "Fruit and yogurt": [
     "fruit",
     "yogurt"
   ],
@@ -48,62 +50,48 @@ MenuApp.menus["atlas"] = {
     "yogurt"
   ],
   "Side Salad": [
-    "side",
     "salad"
   ],
   "Simple Salad": [
-    "simple",
     "salad"
   ],
   "Atlas Salad": [
-    "atlas",
     "salad"
   ],
-  "Tuna Salad & Smoked Trout Salad": [
+  "Tuna Salad": [
     "tuna",
-    "salad",
-    "smoked",
-    "trout",
     "salad"
   ],
-  "add cheese, tofu or porto": [
-    "add",
-    "cheese",
-    "tofu",
-    "or",
-    "porto"
-  ],
-  "add meat, trout": [
-    "add",
-    "meat",
-    "trout"
+  "Smoked Trout Salad": [
+    "salad",
+    "smoked trout"
   ],
   "Hummus Plate": [
-    "hummus",
-    "plate"
+    "hummus"
   ],
   "Basic Pizza": [
-    "basic",
     "pizza"
   ],
   "Apple And Goat Cheese Pizza": [
     "apple",
-    "goat",
-    "cheese",
+    "goat cheese",
     "pizza"
   ],
   "No Cheese Pizza": [
-    "no",
-    "cheese",
-    "pizza"
-  ],
-  "Add-Ons": [
-    "add-ons",
+    "bread",
+    "sauce",
     "vegi"
   ],
-  "tofu or porto": [
-    "tofu",
-    "or",
+  "No Cheese Pizza": [
+    "bread",
+    "sauce",
+    "vegi",
+    "tofu"
+  ],
+  "No Cheese Pizza": [
+    "bread",
+    "sauce",
+    "vegi",
     "porto"
   ],
   "Cookies": [
@@ -113,60 +101,53 @@ MenuApp.menus["atlas"] = {
     "vegan",
     "cookies"
   ],
-  "Pastry Bread & Scone": [
-    "pastry",
-    "bread",
+  "Pastry: [
+    "pastry"
+  ],
+  "Bread": [
+    "bread"
+  ],
+  "Scone": [
     "scone"
   ],
-  "Brownies & Blondies": [
-    "brownies",
+  "Brownies": [
+    "brownies"
+  ],
+  "Blondies": [
     "blondies"
   ],
   "Almond Biscotti": [
-    "almond",
-    "biscotti"
+    "almond biscotti"
   ],
   "Chocolate Biscotti": [
-    "chocolate",
-    "biscotti"
+    "chocolate biscotti"
   ],
   "Russian Tea Cookies": [
-    "russian",
-    "tea",
-    "cookies"
+    "russian tea cookies"
   ],
-  "Beet Loaf": [
-    "beet",
-    "loaf"
+  "Beet Loaf Sandwich": [
+    "beet loaf"
   ],
-  "Cuban Beef": [
-    "cuban",
-    "beef"
+  "Cuban Beef Sandwich": [
+    "cuban beef"
   ],
-  "Smoked Turkey": [
-    "smoked",
-    "turkey"
+  "Smoked Turkey Sandwich": [
+    "smoked turkey"
   ],
-  "Chicken Breast": [
-    "chicken",
-    "breast"
+  "Chicken Breast Sandwich": [
+    "chicken breast"
   ],
-  "Black Forest Ham": [
-    "black",
-    "forest",
-    "ham"
+  "Black Forest Ham Sandwich": [
+    "black forest ham"
   ],
-  "Trout Sandwich": [
-    "trout",
-    "sandwich"
+  "Trout Sandwich Sandwich": [
+    "trout"
   ],
-  "Tuna Sandwich": [
-    "tuna",
-    "sandwich"
+  "Tuna Sandwich Sandwich": [
+    "tuna"
   ],
-  "Portobello Mushroom": [
-    "portobello",
-    "mushroom"
+  "Portobello Mushroom Sandwich": [
+    "portobello mushroom"
   ],
   "Beets": [
     "beets"
@@ -185,37 +166,25 @@ MenuApp.menus["atlas"] = {
     "tofu"
   ],
   "Potato Salad": [
-    "potato",
-    "salad"
+    "potato"
   ],
   "Rice Noodle Salad": [
-    "rice",
-    "noodle",
-    "salad"
+    "rice noodle"
   ],
   "Cup Soup": [
-    "cup",
     "soup"
   ],
   "Bowl Of Soup": [
-    "bowl",
     "soup"
   ],
   "House Coffee": [
-    "house",
-    "coffee"
-  ],
-  "House Coffee Refills": [
-    "house",
-    "coffee",
-    "refills"
+    "house coffee"
   ],
   "Teas": [
     "teas"
   ],
   "Hot Chocolate": [
-    "hot",
-    "chocolate"
+    "hot chocolate"
   ],
   "Steamed Milk": [
     "milk"
@@ -223,12 +192,15 @@ MenuApp.menus["atlas"] = {
   "Espresso": [
     "espresso"
   ],
-  "Cappuccino, Depth Charge, Au Lait": [
-    "cappuccino",
-    "depth",
-    "charge",
-    "au",
-    "lait"
+  "Cappuccino": [
+    "cappuccino"
+  ],
+  "Depth Charge": [
+    "depth charge"
+  ],
+  "Cafe Au Lait": [
+    "expresso",
+    "milk"
   ],
   "Latte": [
     "latte"
@@ -243,43 +215,36 @@ MenuApp.menus["atlas"] = {
     "soy",
     "chai"
   ],
-  "Iced Tea, Coffee": [
-    "iced",
-    "tea",
-    "coffee"
+  "Iced Tea": [
+    "iced tea" 
   ],
   "Fountain Soda, Sparkling": [
     "fountain",
     "soda",
     "sparkling"
   ],
-  "Lemonade, Orangina, Reeds": [
-    "lemonade",
-    "orangina",
-    "reeds"
-  ],
   "Italian Soda": [
-    "italian",
-    "soda"
+    "italian soda"
   ],
   "Orange Juice": [
-    "orange",
-    "juice"
+    "orange juice"
   ],
   "Juice Squeeze": [
-    "juice",
-    "squeeze"
+    "juice squeeze"
   ],
   "Draft Beer": [
-    "draft",
-    "beer"
+    "draft beer"
   ],
   "Wine": [
     "wine"
   ],
-  "Anchor, Stella, Bohemia": [
+  "Beer Anchor": [
     "anchor",
-    "stella",
+  ],
+  "Beer Stella": [
+    "stella"
+  ],
+  "Beer Bohemia": [
     "bohemia"
   ],
   "Guinness": [
@@ -287,19 +252,5 @@ MenuApp.menus["atlas"] = {
   ],
   "Newcastle": [
     "newcastle"
-  ],
-  "Extra Shot": [
-    "extra",
-    "shot"
-  ],
-  "Add Soy Milk": [
-    "add",
-    "soy",
-    "milk"
-  ],
-  "Add Torani Flavor": [
-    "add",
-    "torani",
-    "flavor"
   ]
 }

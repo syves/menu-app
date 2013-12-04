@@ -1,18 +1,8 @@
 MenuApp.menus["basil"] = {
-  "* Medium Spicy.": [
-    "*",
-    "medium",
-    "spicy"
-  ],
   "Paupia": [
-    "paupia",
-    "crispy",
-    "vegetable",
-    "rolls"
+    "crispy vegetable roll"
   ],
   "Paupia Sod": [
-    "paupia",
-    "sod",
     "rolls",
     "vegetables",
     "tofu",
@@ -22,32 +12,19 @@ MenuApp.menus["basil"] = {
     "vinaigrette"
   ],
   "Kao Pode Tod": [
-    "kao",
-    "pode",
-    "tod",
-    "thai",
-    "spiced",
-    "corn",
-    "fritters",
-    "cool",
+    "spiced corn fritters",
     "cucumber",
-    "crushed",
-    "peanuts",
+    "crushed peanuts",
     "salad"
   ],
   "Keow Wan Roti": [
-    "keow",
-    "wan",
-    "roti",
-    "indian",
-    "bread",
+    "indian bread",
     "eggplant",
     "bell",
     "peppers",
     "basil",
     "green",
-    "curry",
-    "dipping"
+    "curry"
   ],
   "Basil Panstickers": [
     "basil",
@@ -60,47 +37,23 @@ MenuApp.menus["basil"] = {
     "soy"
   ],
   "Curry Puffs": [
-    "curry",
-    "puffs",
-    "puff",
-    "pastry",
-    "diced",
+    "puff pastry",
     "duck",
-    "sweet",
-    "potato"
+    "sweet potato"
   ],
   "Tod Mun": [
-    "tod",
-    "mun",
-    "thai",
-    "spiced",
-    "fish",
-    "cakes",
-    "yard",
-    "long",
-    "beans",
+    "spiced fish cakes",
+    "yard long beans",
     "nuts",
     "cucumber",
     "vinaigrette"
   ],
   "Goong Gra Bog": [
-    "goong",
-    "gra",
-    "bog",
-    "crispy",
-    "wrapped",
-    "whole",
-    "tiger",
-    "prawns",
-    "sweet",
-    "chili",
-    "vinaigrette"
+    "crispy tiger prawns",
+    "sweet chili vinaigrette"
   ],
   "Toong Tong": [
-    "toong",
-    "tong",
-    "golden",
-    "pouches",
+    "golden pouches",
     "crab",
     "pork",
     "salad",
@@ -108,43 +61,25 @@ MenuApp.menus["basil"] = {
     "pineapple"
   ],
   "Plamuk Tod": [
-    "plamuk",
-    "tod",
     "calamari",
-    "‘sriracha’",
-    "chili",
-    "vinaigrette"
+    "sriracha chili vinaigrette"
   ],
   "Kanom Pak Gard": [
-    "kanom",
-    "pak",
-    "gard",
-    "turnip",
-    "cakes",
+    "turnip cakes",
     "beansprouts",
     "chives",
-    "‘sriracha’",
-    "chili"
+    "‘sriracha’ chili"
   ],
   "Gai Satay": [
-    "gai",
-    "satay",
     "chicken"
   ],
   "Ghae Satay": [
-    "ghae",
-    "satay",
     "lamb"
   ],
-  "Hed Ping": [
-    "hed",
-    "ping",
+  "Hed Ping satay": [
     "portabella"
   ],
-  "Ma Keur Yang": [
-    "ma",
-    "keur",
-    "yang",
+  "Ma Keur Yang satay": [
     "eggplant"
   ],
   "Goong Satay": [
@@ -153,17 +88,11 @@ MenuApp.menus["basil"] = {
     "prawns"
   ],
   "Plamuk Yang": [
-    "plamuk",
-    "yang",
     "calamari"
   ],
   "Dtom Ka Gai": [
-    "dtom",
-    "ka",
-    "gai",
     "chicken",
-    "oyster",
-    "mushrooms",
+    "oyster mushrooms",
     "lemongrass",
     "galanga",
     "coconut",
@@ -171,11 +100,7 @@ MenuApp.menus["basil"] = {
     "soup"
   ],
   "Dtom Yum Goong*": [
-    "dtom",
-    "yum",
-    "goong*",
-    "tiger",
-    "prawns",
+    "tiger prawns",
     "mushrooms",
     "cilantro",
     "spicy",
@@ -184,9 +109,6 @@ MenuApp.menus["basil"] = {
     "soup"
   ],
   "Poh Taak*": [
-    "poh",
-    "taak*",
-    "mixed",
     "seafood",
     "basil",
     "lime",
@@ -194,77 +116,56 @@ MenuApp.menus["basil"] = {
     "soup"
   ],
   "Basil’s Salad": [
-    "basil’s",
-    "salad",
-    "house",
     "salad",
     "tomatoes",
     "sprouts",
     "cucumber",
     "romaine",
     "lettuce",
-    "curried-peanut",
-    "dressing"
+    "curried-peanut dressing"
   ],
   "Somtum*": [
-    "somtum*",
-    "green",
-    "papaya",
-    "string",
-    "beans",
-    "cherry",
-    "tomatoes",
+    "green papaya",
+    "string beans",
+    "cherry tomatoes",
     "nuts",
-    "tossed",
     "sweet",
     "garlic",
     "lime",
     "dressing"
   ],
-  "add prawns": [
-    "add",
+  "Somtum*": [
+    "green papaya",
+    "string beans",
+    "cherry tomatoes",
+    "nuts",
+    "sweet",
+    "garlic",
+    "lime",
+    "dressing",
     "prawns"
   ],
   "Yum Makuer Yao": [
-    "yum",
-    "makuer",
-    "yao",
     "eggplant",
     "salad",
-    "minced",
-    "chicken",
+    "minced chicken",
     "prawns",
-    "topped",
     "lime",
-    "coconut",
-    "dressing"
+    "coconut dressing"
   ],
   "Larb Gai*": [
-    "larb",
-    "gai*",
-    "minced",
-    "chicken",
+    "minced chicken",
     "salad",
     "shallots",
     "mint",
-    "leaves",
     "lime",
-    "dried",
-    "chili",
-    "flakes",
-    "rice",
-    "powder"
+    "dried chili flakes",
+    "rice powder"
   ],
   "Yum Goong Tod*": [
-    "yum",
-    "goong",
-    "tod*",
     "salad",
-    "light-fry",
     "prawns",
-    "sour",
-    "green",
-    "mango",
+    "sour green mango",
     "shallots",
     "chili",
     "cashew",
@@ -272,70 +173,41 @@ MenuApp.menus["basil"] = {
   ],
   "Salad Talay": [
     "salad",
-    "talay",
-    "charcoal",
-    "prawns",
-    "japanese",
-    "scallops",
-    "curly",
-    "endive",
-    "lemongrass",
-    "cream",
-    "dressing"
+    "charcoal prawns",
+    "japanese scallops",
+    "curly endive",
+    "lemongrass cream dressing"
   ],
   "Kao Pad Pu": [
-    "kao",
-    "pad",
-    "pu",
     "crab",
     "rice"
   ],
-  "add fried egg": [
-    "add",
-    "egg"
+  "Kao Pad Pu": [
+    "crab",
+    "rice",
+    "fried egg"
   ],
   "Kao Pad Sapparot": [
-    "kao",
-    "pad",
-    "sapparot",
-    "thai",
     "pineapple",
     "rice",
     "prawns",
-    "cashew",
-    "nuts"
+    "cashew nuts"
   ],
   "Guay Tiow Reur": [
-    "guay",
-    "tiow",
-    "reur",
-    "thai",
     "beef",
-    "‘boat",
-    "noodle’",
+    "noodles",
     "soup",
     "beansprouts",
-    "chinese",
-    "broccoli"
+    "chinese broccoli"
   ],
   "Kao Soi": [
-    "kao",
-    "soi",
-    "golden",
-    "diced",
     "tofu",
-    "skirt",
-    "steak",
-    "egg",
-    "noodles",
+    "skirt steak",
+    "egg noodles",
     "coconut",
-    "red",
-    "curry"
+    "red curry"
   ],
   "Kiow Nham Bpet": [
-    "kiow",
-    "nham",
-    "bpet",
     "honey",
     "duck",
     "pork",
@@ -346,51 +218,31 @@ MenuApp.menus["basil"] = {
     "soup"
   ],
   "Pad Ke-Mao*": [
-    "pad",
-    "ke-mao*",
     "spicy",
-    "wide",
-    "rice",
-    "noodles",
-    "skirt",
-    "steak",
+    "wide rice noodles",
+    "skirt steak",
     "egg",
     "basil",
     "garlic",
     "chili"
   ],
   "Pad Se-Ew": [
-    "pad",
-    "se-ew",
-    "wide",
-    "rice",
-    "noodles",
+    "wide rice noodles",
     "pork",
-    "chinese",
-    "broccoli",
+    "chinese broccoli",
     "egg",
-    "thai",
-    "black",
-    "bean",
-    "sauce"
+    "black bean sauce"
   ],
   "Pad Thai": [
-    "pad",
-    "thai",
-    "rice",
-    "stick",
-    "noodles",
+    "rice stick noodles",
     "shrimp",
     "tofu",
     "egg",
     "nuts",
-    "bean",
-    "sprouts",
+    "bean sprouts",
     "chives"
   ],
   "Seafood Bamee": [
-    "seafood",
-    "bamee",
     "garlic",
     "noodle",
     "prawns",
@@ -399,134 +251,69 @@ MenuApp.menus["basil"] = {
     "basil"
   ],
   "Thai Sukiyaki": [
-    "thai",
-    "sukiyaki",
-    "mung",
-    "bean",
+    "mung bean",
     "vermicelli",
     "squid",
     "prawns",
-    "napa",
-    "cabbage",
-    "spring",
-    "onions"
+    "napa cabbage",
+    "spring onions"
   ],
   "Brown Rice": [
-    "brown",
-    "rice"
+    "brown rice"
   ],
   "Peanut Sauce": [
-    "peanut",
-    "sauce"
+    "peanut sauce"
   ],
   "Sticky Rice": [
-    "sticky",
-    "rice"
+    "sticky rice"
   ],
   "Jasmine Rice": [
-    "jasmine",
-    "rice"
+    "jasmine rice"
   ],
   "Fried Egg": [
     "egg"
   ],
   "Thai Style Omelette": [
-    "thai",
-    "style",
     "omelette"
   ],
   "Wok": [
-    "wok",
-    "gai",
-    "pik",
-    "khing",
-    "crunchy",
-    "beancakes",
-    "tamarind",
-    "prawns"
+    "crunchy beancakes",
+    "tamarind prawns"
   ],
   "Curry": [
     "curry",
-    "stuffed",
-    "eggplant",
-    "pak",
-    "rad",
-    "kang",
-    "kang",
-    "kua",
-    "mu"
+    "stuffed eggplant",
   ],
-  "Gai Yang Somtum": [
-    "gai",
-    "yang",
-    "somtum",
-    "thai",
-    "barbecued",
-    "‘all",
-    "natural’",
-    "1/4",
-    "chicken",
-    "‘somtum’",
-    "green",
-    "papaya",
-    "salad"
+  "Gai Yang Somtum": 
+    "barbecued chicken",
+    "green papaya salad"
   ],
   "Mu Yang": [
-    "mu",
-    "yang",
-    "flame",
-    "pork",
-    "shoulder",
-    "filet",
+    "pork shoulder",
     "pineapple",
     "tomato"
   ],
   "Neur Namtok": [
-    "neur",
-    "namtok",
-    "skirt",
-    "steak",
+    "skirt steak",
     "salad",
     "mint",
     "shallots",
-    "lime",
-    "juice",
-    "dried",
-    "chili",
-    "rice",
-    "powder"
+    "lime juice",
+    "dried chili",
+    "rice powder"
   ],
   "Praram Rong Song": [
-    "praram",
-    "rong",
-    "song",
-    "marinated",
-    "skirt",
-    "steak",
-    "house",
-    "curried-peanut",
-    "sauce",
+    "marinated skirt steak",
+    "curried-peanut sauce",
     "vegetables"
   ],
   "Neur Yang": [
-    "neur",
-    "yang",
-    "‘all",
-    "natural’",
-    "angus",
-    "sirloin",
-    "thai",
-    "smoked",
+    "angus sirloin",
     "mushroom",
-    "tomato",
-    "relish"
+    "tomato relish"
   ],
   "Basil’s Lamb": [
-    "basil’s",
     "lamb",
-    "marinated",
-    "lamb",
-    "filet",
     "carrot",
     "salad",
     "nuts",
@@ -534,208 +321,104 @@ MenuApp.menus["basil"] = {
     "soy"
   ],
   "Pla Pao": [
-    "pla",
-    "pao",
-    "banana",
-    "leaf",
-    "wrapped",
-    "wild",
-    "caught",
-    "fish",
+    "banana leaf",
+    "wild caught fish",
     "vegetables",
-    "chili-lime",
-    "sauce"
+    "chili-lime sauce"
   ],
   "Basil’s Eggplant": [
-    "basil’s",
-    "eggplant",
-    "japanese",
-    "eggplant",
-    "shitake",
-    "mushroom",
+    "japanese eggplant",
+    "shitake mushroom",
     "tofu",
     "scallions",
-    "basil-chili",
-    "jam"
+    "basil-chili jam"
   ],
   "Monk’s Delight": [
-    "monk’s",
-    "delight",
     "tofu",
-    "green",
-    "beans",
-    "water",
-    "chestnuts",
-    "oyster",
-    "mushrooms",
-    "spring",
-    "onions"
+    "green beans",
+    "water chestnuts",
+    "oyster mushrooms",
+    "spring onions"
   ],
   "Crunchy Beancakes": [
-    "crunchy",
-    "beancakes",
-    "golden",
-    "bean",
-    "cakes",
-    "cashew",
-    "nuts",
+    "crunchy beancakes",
+    "golden bean cakes",
+    "cashew nuts",
     "mushroom",
     "onions",
-    "chili",
-    "jam"
+    "chili jam"
   ],
   "Kana Mu Grob": [
-    "kana",
-    "mu",
-    "grob",
-    "chinese",
-    "‘gai",
-    "lan’",
-    "broccoli",
-    "house",
-    "cured",
-    "crispy",
-    "pork",
-    "belly",
-    "wok-fried",
+    "chinese broccoli",
+    "crispy pork belly",
     "garlic",
     "chili"
   ],
   "Gai Gra Prao*": [
-    "gai",
-    "gra",
-    "prao*",
-    "\"classic\"",
-    "minced",
-    "chicken",
+    "minced chicken",
     "eggplant",
     "basil",
-    "thai",
-    "bird’s",
-    "eye",
     "chili"
   ],
-  "sub. prawns add": [
-    "sub",
+  "Gai Gra Prao*": [
+    "minced chicken",
+    "eggplant",
+    "basil",
+    "chili"
     "prawns",
-    "add"
   ],
   "Gai Ma-Muang Hinmapan": [
-    "gai",
-    "ma-muang",
-    "hinmapan",
-    "sliced",
-    "chicken",
-    "breast",
-    "cashew",
-    "nuts",
-    "bell",
-    "peppers",
-    "spring",
-    "onions"
+    "chicken breast",
+    "cashew nuts",
+    "bell peppers",
+    "spring onions"
   ],
   "Gai Pik Khing": [
-    "gai",
-    "pik",
-    "khing",
-    "crispy",
-    "sliced",
-    "chicken",
-    "string",
-    "beans",
-    "sweet",
-    "‘pik-khing’",
-    "curry"
+    "crispy chicken",
+    "string beans",
+    "sweet curry"
   ],
   "Kua Kling Mu": [
-    "kua",
-    "kling",
-    "mu",
     "spicy",
-    "southern",
-    "thai",
-    "pork",
-    "shoulder",
+    "pork shoulder",
     "asparagus",
-    "bell",
-    "peppers",
-    "*mild",
-    "option",
-    "not",
-    "available"
+    "bell peppers",
   ],
   "Curry Peppercorn Duck": [
     "curry",
     "peppercorn",
     "duck",
-    "sliced",
-    "roast",
-    "duck",
-    "snap",
-    "peas",
-    "red",
-    "curry",
-    "paste",
-    "young",
-    "peppercorn"
+    "snap peas",
+    "red curry",
   ],
   "Neur Takai": [
-    "neur",
-    "takai",
-    "‘all",
-    "natural’",
-    "angus",
-    "steak",
-    "cubes",
+    "angus steak",
     "lemongrass",
-    "bell",
-    "peppers",
-    "chili",
-    "jam"
+    "bell peppers",
+    "chili jam"
   ],
   "Jungle Beef*": [
-    "jungle",
-    "beef*",
-    "sizzling",
-    "skirt",
-    "steak",
-    "wild",
+    "sizzling skirt steak",
     "ginger",
     "apple",
     "eggplant",
-    "yellow",
-    "squash",
-    "green",
-    "curry"
+    "yellow squash",
+    "green curry"
   ],
   "Fire Calamari*": [
-    "fire",
-    "calamari*",
     "calamari",
-    "bamboo",
-    "shoots",
+    "bamboo shoots",
     "scallions",
-    "lemongrass-chili",
-    "sauce"
+    "lemongrass-chili sauce"
   ],
   "Tamarind Prawns": [
-    "tamarind",
-    "prawns",
-    "light-fry",
-    "tiger",
-    "prawns",
-    "wok-tossed",
+    "tiger prawns",
     "spicy",
     "tamarind",
-    "crisped",
     "shallots",
     "garlic"
   ],
   "Pad Talay Ruam Mit*": [
-    "pad",
-    "talay",
-    "ruam",
-    "mit*",
     "prawns",
     "calamari",
     "mussels",
@@ -745,81 +428,42 @@ MenuApp.menus["basil"] = {
     "chili"
   ],
   "Pla-Duk Pad Ped*": [
-    "pla-duk",
-    "pad",
-    "ped*",
     "‘spicy’",
-    "crispy",
-    "catfish",
+    "crispy catfish",
     "kaffir",
-    "wild",
     "ginger",
-    "young",
-    "peppercorn",
-    "dry",
-    "red",
-    "curry",
-    "sauce"
+    "young peppercorn",
+    "dry red curry sauce"
   ],
   "Pak Rad Kang": [
-    "pak",
-    "rad",
-    "kang",
     "squash",
     "eggplant",
     "zucchini",
     "mushroom",
     "tomatoes",
-    "chili",
-    "peppers",
-    "green",
-    "curry"
+    "chili peppers",
+    "green curry"
   ],
   "Stuffed Eggplant": [
-    "stuffed",
-    "eggplant",
-    "eggplant",
-    "stuffed",
+    "stuffed eggplant",
     "chicken",
     "cabbage",
-    "green",
-    "curry"
+    "green curry"
   ],
   "Kang Bpet": [
-    "kang",
-    "bpet",
-    "roast",
     "duck",
-    "red",
-    "curry",
-    "cherry",
-    "tomatoes",
+    "red curry",
+    "cherry tomatoes",
     "pineapples"
   ],
   "Kang Kua Mu": [
-    "kang",
-    "kua",
-    "mu",
     "coconut",
-    "braised",
-    "pork",
-    "shoulder",
-    "‘kabocha’",
-    "pumpkin",
-    "tangy",
-    "red",
-    "curry"
+    "pork shoulder",
+    "kabocha pumpkin",
+    "tangy red curry"
   ],
   "Kang Gari Gai": [
-    "kang",
-    "gari",
-    "gai",
-    "mild",
-    "yellow",
-    "curry",
-    "‘all",
-    "natural’",
-    "1/2",
+    "mild yellow curry",
     "chicken",
     "onions",
     "potatoes",
@@ -827,238 +471,128 @@ MenuApp.menus["basil"] = {
     "salad"
   ],
   "Keow Wan Neur*": [
-    "keow",
-    "wan",
-    "neur*",
-    "angus",
-    "steak",
-    "cubes",
-    "snake",
-    "beans",
+    "angus steak",
+    "snake beans",
     "apple",
     "eggplant",
-    "green",
-    "curry"
+    "green curry"
   ],
   "Panang Short Ribs": [
-    "panang",
-    "short",
-    "ribs",
-    "braised",
-    "bone-less",
-    "beef",
-    "short",
-    "ribs",
+    "bone-less beef short ribs",
     "basil-kaffir",
-    "‘panang’",
-    "curry"
+    "‘panang’ curry"
   ],
   "Basil’s Lamb Curry": [
-    "basil’s",
-    "lamb",
-    "curry",
-    "australian",
-    "rack",
-    "lamb",
-    "green",
-    "beans",
+    "australian rack lamb",
+    "green beans",
     "carrots",
-    "red",
-    "curry"
+    "red curry"
   ],
   "Kang Talay*": [
-    "kang",
-    "talay*",
     "prawns",
     "scallops",
     "mussels",
     "bamboo",
     "shoots",
     "okra",
-    "green",
-    "curry"
+    "green curry"
   ],
   "Pla Rad Kang": [
-    "pla",
-    "rad",
-    "kang",
-    "charbroiled",
-    "atlantic",
-    "salmon",
+    "charbroiled atlantic salmon",
     "asparagus",
-    "winter",
-    "melon",
-    "red",
-    "curry"
+    "winter melon",
+    "red curry"
   ],
   "Seur Rong Hai": [
-    "seur",
-    "rong",
-    "hai",
     "steak"
   ],
   "Tao Hu Tod": [
-    "tao",
-    "hu",
-    "tod",
     "tofu"
   ],
   "Hoi Yang": [
-    "hoi",
-    "yang",
     "scallops"
   ],
   "Neur Namtok*": [
-    "neur",
-    "namtok*",
-    "skirt",
-    "steak",
+    "skirt steak",
     "salad",
     "herbs",
     "rice",
     "chili",
-    "lime",
-    "juice"
+    "lime juice"
   ],
   "Cool Cucumber Salad": [
-    "cool",
     "cucumber",
     "salad"
   ],
   "‘Roti’ Bread": [
-    "‘roti’",
-    "bread"
+    "‘roti' bread"
   ],
   "Thai Fried Rice": [
-    "thai",
     "rice"
   ],
   "Gai Yang": [
-    "gai",
-    "yang",
-    "thai",
-    "barbecued",
-    "‘all",
-    "natural’",
-    "1/2",
-    "chicken",
-    "string",
-    "beans",
+    "barbecued chicken",
+    "string beans",
     "slaw"
   ],
   "Choo Chee Talay": [
-    "choo",
-    "chee",
-    "talay",
-    "jumbo",
-    "prawns",
-    "japanese",
-    "scallops",
+    "jumbo prawns",
+    "japanese scallops",
     "lychee",
     "nuts",
-    "dry",
-    "red",
-    "curry",
+    "dry red curry",
     "kaffir",
-    "lime",
-    "zest"
+    "lime zest"
   ],
   "Crunchy Bean Cakes": [
-    "crunchy",
-    "bean",
-    "cakes",
-    "golden",
-    "bean",
-    "cakes",
-    "cashew",
-    "nuts",
+    "golden bean cakes",
+    "cashew nuts",
     "mushroom",
     "onions",
-    "chili",
-    "jam"
+    "chili jam"
   ],
   "Pad Pak Ruam": [
-    "pad",
-    "pak",
-    "ruam",
-    "wok-fried",
-    "baby",
-    "bok",
-    "choy",
-    "seasonal",
-    "greens"
+    "baby bok choy",
+    "seasonal greens"
   ],
   "Hoi Kata": [
-    "hoi",
-    "kata",
-    "japanese",
-    "scallops",
-    "thai",
-    "black",
-    "bean",
-    "chili",
-    "sauce",
+    "japanese scallops",
+    "black bean chili sauce",
     "tempura",
-    "long",
-    "be"
+    "long beans"
   ],
   "Kieow Wan Neur*": [
-    "kieow",
-    "wan",
-    "neur*",
-    "angus",
-    "steak",
-    "cubes",
-    "snake",
-    "beans",
+    "angus steak"
+    "snake beans",
     "apple",
     "eggplant",
-    "green",
-    "curry"
+    "green curry"
   ],
   "Kang Som Pla": [
-    "kang",
-    "som",
-    "pla",
-    "spicy",
-    "sour",
-    "orange",
-    "curry",
-    "sea",
-    "bass",
-    "japanese",
-    "pumpkin",
-    "snake",
-    "beans",
+    "spicy sour orange curry",
+    "sea bass",
+    "japanese pumpkin",
+    "snake beans",
     "vegetables"
   ],
   "Lightly Fried Banana": [
-    "lightly",
     "banana",
     "coconut",
-    "ice",
-    "cream"
+    "ice cream"
   ],
   "Sweet Sticky Rice": [
-    "sweet",
-    "sticky",
-    "rice",
+    "sweet sticky rice",
     "mango"
   ],
   "Young Coconut Pana Cotta": [
-    "young",
-    "coconut",
-    "pana",
-    "cotta"
+    "young coconut",
+    "pana cotta"
   ],
   "Thai Coffee Granita Top": [
-    "thai",
-    "coffee",
+    "thai coffee",
     "granita",
-    "top",
     "kahlua",
-    "whipped",
-    "cream"
+    "whipped cream"
   ],
   "Tapioca": [
     "tapioca",
@@ -1067,12 +601,12 @@ MenuApp.menus["basil"] = {
     "taro"
   ],
   "Singha, Thailand": [
-    "singha",
-    "thailand",
-    "original"
+    "beer",
+    "thai"
+    
   ],
   "Clausthaler, Germany": [
-    "clausthaler",
+    "beer"
     "germany",
     "non-alcoholic"
   ],
@@ -1081,72 +615,52 @@ MenuApp.menus["basil"] = {
     "hefeweizen"
   ],
   "Fat Tire, Amber Ale": [
-    "fat",
-    "tire",
-    "amber",
-    "ale"
+    "beer",
+    "amber ale",
+    "fat tire"
   ],
   "Spaten, Premium Lager": [
-    "spaten",
-    "premium",
-    "lager"
+    "beer",
+    "premium lager",
+    "spaten"
   ],
   "Sublime": [
-    "sublime",
-    "bombay",
-    "sapphire",
+    "bombay sapphire",
     "grapefruit",
-    "lime",
-    "wedges"
+    "lime wedges"
   ],
   "Mojito": [
     "mojito",
-    "bacardi",
-    "rum",
+    "bacardi rum",
     "mint",
     "lime",
     "sugar"
   ],
   "Saketini": [
-    "saketini",
     "nigori",
     "sake",
-    "lychee",
-    "puree"
+    "lychee puree"
   ],
   "Tuk Tuk": [
-    "tuk",
-    "tuk",
     "brandy",
     "lime",
     "sugar",
     "grenadine"
   ],
   "Caipirinha": [
-    "caipirinha",
     "cachaça",
-    "lime",
-    "wedges",
+    "lime wedges",
     "sugar"
   ],
   "Zentini": [
-    "zentini",
-    "zen",
-    "green",
-    "tea",
-    "liqueur",
+    "green tea liqueur",
     "sake",
     "vodka",
     "lime"
   ],
   "Mango Cosmo": [
-    "mango",
-    "cosmo",
-    "absolute",
-    "mango",
-    "vodka",
-    "mango",
-    "puree",
+    "absolute vodka",
+    "mango puree",
     "lime"
   ]
 }
