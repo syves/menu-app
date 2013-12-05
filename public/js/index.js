@@ -95,6 +95,11 @@ channel.subscribe("starSelect", function() {
 
 channel.subscribe('starSelect', MenuApp.store.set);
 
+//channel.subscribe('dietSelect',function(ingredient, starNumber){
+//  channel.broadcast('renderStars', starNumber);
+//});
+
+
 var showNextIngredient = function() {
   if (index >= ingredients.length) {
     document.body.classList.add('all-done');
