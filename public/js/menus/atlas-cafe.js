@@ -1,6 +1,5 @@
 MenuApp.menus["atlas"] = {
   "Plain Bagel": [
-    "plain",
     "bagel"
   ],
   "Bagel": [
@@ -29,13 +28,13 @@ MenuApp.menus["atlas"] = {
   "Egg Croissant": [
     "egg",
     "cheese",
-    "Croissant"
+    "croissant"
   ],
   "Croissant with egg, ham and cheese": [
     "egg",
     "ham",
     "cheese",
-    "Croissant"
+    "croissant"
   ],
   "Bowl Fruit Only": [
     "fruit"
@@ -79,19 +78,19 @@ MenuApp.menus["atlas"] = {
   ],
   "No Cheese Pizza": [
     "bread",
-    "sauce",
-    "vegi"
+    "tomato sauce",
+    "vegetables"
   ],
   "No Cheese Pizza": [
     "bread",
     "sauce",
-    "vegi",
+    "vegetables",
     "tofu"
   ],
   "No Cheese Pizza": [
     "bread",
     "sauce",
-    "vegi",
+    "vegetables",
     "porto"
   ],
   "Cookies": [
@@ -101,7 +100,7 @@ MenuApp.menus["atlas"] = {
     "vegan",
     "cookies"
   ],
-  "Pastry: [
+  "Pastry": [
     "pastry"
   ],
   "Bread": [
@@ -153,7 +152,7 @@ MenuApp.menus["atlas"] = {
     "beets"
   ],
   "Apples And Cheese": [
-    "apples",
+    "apple",
     "cheese"
   ],
   "Grilled Cheddar": [
@@ -181,7 +180,7 @@ MenuApp.menus["atlas"] = {
     "house coffee"
   ],
   "Teas": [
-    "teas"
+    "tea"
   ],
   "Hot Chocolate": [
     "hot chocolate"
@@ -218,10 +217,11 @@ MenuApp.menus["atlas"] = {
   "Iced Tea": [
     "iced tea" 
   ],
-  "Fountain Soda, Sparkling": [
-    "fountain",
-    "soda",
-    "sparkling"
+  "Fountain Soda, Sparkling ": [
+    "fountain soda",
+  ],
+  "Sparkling soda": [
+    "sparkling soda"
   ],
   "Italian Soda": [
     "italian soda"

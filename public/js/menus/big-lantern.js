@@ -4,8 +4,7 @@ MenuApp.menus["big-lantern"] = {
     "pork"
   ],
   "Sweet & Sour Chicken": [
-    "sweet",
-    "sour",
+    "sweet and sour sauce",
     "chicken"
   ],
   "Garlic Chicken": [
@@ -37,7 +36,7 @@ MenuApp.menus["big-lantern"] = {
     "beef"
   ],
   "Orange Beef": [
-    "orange",
+    "orange sauce",
     "beef",
   ],
   "Orange Chicken": [
@@ -45,8 +44,7 @@ MenuApp.menus["big-lantern"] = {
     "chicken"
   ],
   "Spare Rib": [
-    "spare",
-    "rib",
+    "spare rib",
     "black bean sauce"
   ],
   "Basil Tofu": [
@@ -65,7 +63,7 @@ MenuApp.menus["big-lantern"] = {
     "meatles chicken"
   ],
   "Sesame Meatless Chicken": [
-    "sesame",
+    "sesame sauce",
     "meatless chicken"
   ],
   "Kung Pao Meatless Chicken": [
@@ -164,8 +162,7 @@ MenuApp.menus["big-lantern"] = {
     "duck"
   ],
   "Shredded Pork": [
-    "shredded",
-    "pork",
+    "shredde pork",
     "szechuan sauce",
     "pickle",
     "rice noodle soup"
@@ -178,7 +175,6 @@ MenuApp.menus["big-lantern"] = {
     "sesame sauce",
     "fish"
   ],
-
   "Hunan Fish": [
     "hunan sauce",
     "fish"
@@ -272,35 +268,35 @@ MenuApp.menus["big-lantern"] = {
     "pork",
   ],
   "Chow Mein": [
-    "Chow Mein"
-    "vegetable",
+    "chow Mein",
+    "vegetable"
   ],
   "Chow Mein": [
-    "Chow Mein"
-    "beef",
+    "chow Mein",
+    "beef"
   ],
   "Chow Mein": [
-    "Chow Mein"
-    "chicken",
+    "chow Mein",
+    "chicken"
   ],
   "Chow Mein": [
-    "Chow Mein"
+    "chow Mein",
     "pork"
   ],
   "Chow Fun": [
-    "chow fun"
-    "vegetable",
+    "chow fun",
+    "vegetable"
   ],
     "Chow Fun": [
-    "chow fun"
-    "beef",
+    "chow fun",
+    "beef"
   ],
   "Chow Fun": [
-    "chow fun"
-    "chicken",
+    "chow fun",
+    "chicken"
   ],
   "Chow Fun": [
-    "chow fun"
+    "chow fun",
     "pork"
   ],
   "Onion Pancake": [
@@ -375,12 +371,9 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Egg Flower Soup": [
     "egg",
-    "flower",
     "soup"
   ],
   "West Lake Beef Soup": [
-    "west",
-    "lake",
     "beef",
     "soup"
   ],
@@ -470,21 +463,15 @@ MenuApp.menus["big-lantern"] = {
     "salad"
   ],
   "Big Lantern Tea Flavored": [
-    "big",
-    "lantern",
-    "tea",
-    "flavored",
+    "tea flavored",
     "prawn",
-    "or",
     "scallop",
-    "or",
     "fish",
     "calamari"
   ],
   "Szechuan String Bean Salmon": [
-    "szechuan",
-    "string",
-    "bean",
+    "szechuan sauce",
+    "string bean",
     "salmon"
   ],
   "Big Lantern Tea Flavored Meatless Chicken": [
@@ -508,7 +495,7 @@ MenuApp.menus["big-lantern"] = {
     "meatless chicken",
     "meatless ham",
     "tofu",
-    "veg"
+    "vegetable"
   ],
   "Big Lantern Flaming Szechuan Chile Fish": [
     "szechuan sauce",
@@ -530,16 +517,14 @@ MenuApp.menus["big-lantern"] = {
     "hunan sauce",
     "meatless chicken"
   ],
-
   "Mandarin Meatless Chicken": [
-    "mandarin",
+    "mandarin sauce",
     "meatless chicken"
   ],
   "Szechuan Spicy Cumin Sauce Lamb": [
-    "szechuan",
+    "szechuan sauce",
     "spicy",
-    "cumin",
-    "sauce",
+    "cumin sauce",
     "lamb"
   ],
   "Peking Mandarin Shredded Pork": [
@@ -547,12 +532,12 @@ MenuApp.menus["big-lantern"] = {
     "mandarin sauce"
   ],
   "Mandarin Lamb Or Beef": [
-    "mandarin",
+    "mandarin sauce",
     "lamb",
     "beef"
   ],
   "Mandarin Lamb Or Beef": [
-    "mandarin",
+    "mandarin sauce",
     "lamb",
     "beef"
   ],
@@ -562,7 +547,6 @@ MenuApp.menus["big-lantern"] = {
   "Jalapeno Chicken Or Beef": [
     "jalapeno",
     "chicken",
-    "or",
     "beef"
   ],
   "Minced Chicken Lettuce Cup": [
@@ -578,7 +562,6 @@ MenuApp.menus["big-lantern"] = {
   "Portobello Mushroom": [
     "portobello",
     "mushroom",
-    "w/",
     "chicken"
   ],
   "Mandarin Combo Clay Pot": [
@@ -686,12 +669,11 @@ MenuApp.menus["big-lantern"] = {
     "chicken"
   ],
   "Orange Chicken": [
-    "orange",
+    "orange sauce",
     "chicken"
   ],
   "Kung Pao Chicken": [
-    "kung",
-    "pao",
+    "kung pao sauce",
     "chicken"
   ],
   "Curry Chicken": [

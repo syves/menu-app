@@ -20,11 +20,9 @@ MenuApp.menus["basil"] = {
   "Keow Wan Roti": [
     "indian bread",
     "eggplant",
-    "bell",
-    "peppers",
+    "bell peppers",
     "basil",
-    "green",
-    "curry"
+    "green curry"
   ],
   "Basil Panstickers": [
     "basil",
@@ -32,7 +30,6 @@ MenuApp.menus["basil"] = {
     "dumplings",
     "shrimp",
     "pork",
-    "thai",
     "ginger",
     "soy"
   ],
@@ -83,8 +80,6 @@ MenuApp.menus["basil"] = {
     "eggplant"
   ],
   "Goong Satay": [
-    "goong",
-    "satay",
     "prawns"
   ],
   "Plamuk Yang": [
@@ -284,7 +279,7 @@ MenuApp.menus["basil"] = {
     "curry",
     "stuffed eggplant",
   ],
-  "Gai Yang Somtum": 
+  "Gai Yang Somtum": [
     "barbecued chicken",
     "green papaya salad"
   ],
@@ -364,7 +359,7 @@ MenuApp.menus["basil"] = {
     "minced chicken",
     "eggplant",
     "basil",
-    "chili"
+    "chili",
     "prawns",
   ],
   "Gai Ma-Muang Hinmapan": [
@@ -559,10 +554,10 @@ MenuApp.menus["basil"] = {
     "japanese scallops",
     "black bean chili sauce",
     "tempura",
-    "long beans"
+    "yard long beans"
   ],
   "Kieow Wan Neur*": [
-    "angus steak"
+    "angus steak",
     "snake beans",
     "apple",
     "eggplant",
@@ -595,19 +590,15 @@ MenuApp.menus["basil"] = {
     "whipped cream"
   ],
   "Tapioca": [
-    "tapioca",
-    "pudding",
+    "tapioca pudding",
     "corn",
     "taro"
   ],
   "Singha, Thailand": [
     "beer",
-    "thai"
-    
   ],
   "Clausthaler, Germany": [
-    "beer"
-    "germany",
+    "beer",
     "non-alcoholic"
   ],
   "Widmer, Hefeweizen": [
@@ -637,8 +628,7 @@ MenuApp.menus["basil"] = {
     "sugar"
   ],
   "Saketini": [
-    "nigori",
-    "sake",
+    "nigori sake",
     "lychee puree"
   ],
   "Tuk Tuk": [
