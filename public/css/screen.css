@@ -57,6 +57,11 @@ img.full-star, img.half-star {
   top: 2px;
 }
 
+body.default-state #rateIngredients {
+  display: none;
+}
+
+
 #suggestions {
   font-size: 75%;
 }
