@@ -30,6 +30,7 @@ MenuApp.menus["la-boulange"] = {
     "beans",
     "tomato",
     "olives",
+    "roasted",
     "red",
     "pepper",
     "egg",
@@ -50,6 +51,7 @@ MenuApp.menus["la-boulange"] = {
     "la",
     "boulange",
     "cobb",
+    "poached",
     "chicken",
     "breast",
     "bacon",
@@ -74,6 +76,7 @@ MenuApp.menus["la-boulange"] = {
   "Quinoa & Arugula": [
     "quinoa",
     "arugula",
+    "grilled",
     "chicken",
     "breast",
     "tomato",
@@ -87,12 +90,13 @@ MenuApp.menus["la-boulange"] = {
     "salad",
     "chicken",
     "breast",
-    "$2",
+    "$",
+    "grilled",
     "steak",
-    "$3",
+    "$",
     "smoked",
     "salmon",
-    "$4"
+    "$"
   ],
   "Boulange Club": [
     "boulange",
@@ -136,6 +140,7 @@ MenuApp.menus["la-boulange"] = {
     "swiss"
   ],
   "Grilled Cheese Sandwich": [
+    "grilled",
     "cheese",
     "sandwich",
     "fruit"
@@ -145,6 +150,7 @@ MenuApp.menus["la-boulange"] = {
     "veggie",
     "burger",
     "oven",
+    "roasted",
     "portobello",
     "arugula",
     "tomato",
@@ -172,6 +178,7 @@ MenuApp.menus["la-boulange"] = {
     "aioli"
   ],
   "Roasted Chicken": [
+    "roasted",
     "chicken",
     "bacon",
     "swiss",
@@ -191,6 +198,7 @@ MenuApp.menus["la-boulange"] = {
     "portobello",
     "mushroom",
     "pesto",
+    "roasted",
     "red",
     "pepper"
   ],
@@ -207,6 +215,7 @@ MenuApp.menus["la-boulange"] = {
   "Creamy Mushroom": [
     "creamy",
     "mushroom",
+    "roasted",
     "chicken",
     "chives",
     "caramelized",
@@ -276,6 +285,7 @@ MenuApp.menus["la-boulange"] = {
     "cheddar",
     "swiss",
     "bacon",
+    "fried",
     "egg",
     "avocado",
     "portobello",
@@ -346,6 +356,7 @@ MenuApp.menus["la-boulange"] = {
     "cream"
   ],
   "Fresh Juices": [
+    "fresh",
     "juices"
   ],
   "Tea & Soda": [
@@ -358,12 +369,14 @@ MenuApp.menus["la-boulange"] = {
     "w/yogurt",
     "or",
     "milk",
+    "fresh",
     "fruit"
   ],
   "Fantastic French Toast": [
     "fantastic",
     "french",
     "toast",
+    "baked",
     "brioche",
     "w/fresh",
     "fruit",
@@ -381,6 +394,7 @@ MenuApp.menus["la-boulange"] = {
     "milk",
     "flax",
     "seed",
+    "fresh",
     "fruit",
     "w/",
     "pure",
@@ -421,7 +435,6 @@ MenuApp.menus["la-boulange"] = {
   ],
   "Scramble": [
     "scramble",
-    "3",
     "eggs",
     "w/",
     "boulange",
@@ -429,7 +442,6 @@ MenuApp.menus["la-boulange"] = {
     "organic",
     "toast",
     "choose",
-    "4",
     "ingredients",
     "swiss",
     "cheddar",
@@ -440,6 +452,7 @@ MenuApp.menus["la-boulange"] = {
     "tomato",
     "mushrooms",
     "bacon",
+    "roasted",
     "red",
     "peppers",
     "bacon&",
@@ -459,7 +472,6 @@ MenuApp.menus["la-boulange"] = {
     "omelette",
     "de",
     "paris",
-    "2",
     "eggs",
     "w/ham",
     "swiss",
@@ -488,6 +500,7 @@ MenuApp.menus["la-boulange"] = {
     "bacon"
   ],
   "Fresh Fruit Salad": [
+    "fresh",
     "fruit",
     "salad"
   ],
@@ -620,7 +633,6 @@ MenuApp.menus["la-boulange"] = {
   "Organic- Sliced 8 Grain Bread": [
     "organic-",
     "sliced",
-    "8",
     "grain",
     "bread"
   ],
@@ -663,7 +675,7 @@ MenuApp.menus["la-boulange"] = {
     "brioche",
     "hamburger",
     "buns",
-    "6-pack"
+    "-pack"
   ],
   "Croissant": [
     "croissant"
@@ -779,7 +791,6 @@ MenuApp.menus["la-boulange"] = {
     "macarons",
     "de",
     "paris",
-    "10",
     "seasonal",
     "flavors"
   ],
@@ -792,22 +803,18 @@ MenuApp.menus["la-boulange"] = {
   ],
   "Box 2 Macarons": [
     "box",
-    "2",
     "macarons"
   ],
   "Box 7 Macarons": [
     "box",
-    "7",
     "macarons"
   ],
   "Box 14 Macarons": [
     "box",
-    "14",
     "macarons"
   ],
   "Box 21 Macarons": [
     "box",
-    "21",
     "macarons"
   ],
   "Almond & Apricot Tart": [
@@ -863,8 +870,7 @@ MenuApp.menus["la-boulange"] = {
     "croissant",
     "bread",
     "pudding",
-    "serves",
-    "12"
+    "serves"
   ],
   "Lorraine Quiche": [
     "lorraine",
@@ -892,6 +898,7 @@ MenuApp.menus["la-boulange"] = {
     "pastry"
   ],
   "Roasted Veggie Tart": [
+    "roasted",
     "veggie",
     "tart"
   ],
@@ -901,6 +908,7 @@ MenuApp.menus["la-boulange"] = {
     "tart"
   ],
   "Roasted Cauliflower Gratin": [
+    "roasted",
     "cauliflower",
     "gratin"
   ],
@@ -933,7 +941,7 @@ MenuApp.menus["la-boulange"] = {
   "Hummus And Veggie On 8-Grain": [
     "hummus",
     "veggie",
-    "8-grain"
+    "-grain"
   ],
   "BLT On Whole Wheat": [
     "blt",

@@ -5,15 +5,17 @@ MenuApp.menus["little-star-pizza"] = {
     "warm",
     "housemade",
     "bread",
-    "topped",
     "butter",
+    "fresh",
     "garlic",
     "mozzarella",
+    "fresh",
     "basil"
   ],
   "Caprese Salad": [
     "caprese",
     "salad",
+    "fresh",
     "mozzarella",
     "sliced",
     "tomatoes",
@@ -54,7 +56,6 @@ MenuApp.menus["little-star-pizza"] = {
     "cheese",
     "chopped",
     "walnuts",
-    "tossed",
     "housemade",
     "vinaigrette",
     "dressing"
@@ -90,6 +91,7 @@ MenuApp.menus["little-star-pizza"] = {
     "red",
     "bells",
     "garlic",
+    "roasted",
     "zucchini"
   ],
   "Little Star": [
@@ -117,7 +119,9 @@ MenuApp.menus["little-star-pizza"] = {
     "chicken",
     "pesto",
     "base",
+    "roasted",
     "chicken",
+    "roasted",
     "red",
     "peppers",
     "mushrooms",
@@ -140,6 +144,7 @@ MenuApp.menus["little-star-pizza"] = {
     "spinach",
     "black",
     "olives",
+    "roasted",
     "garlic",
     "feta",
     "sun-dried",
@@ -153,7 +158,9 @@ MenuApp.menus["little-star-pizza"] = {
     "oil",
     "base",
     "mozzarella",
+    "roasted",
     "zucchini",
+    "fresh",
     "tomatoes",
     "feta"
   ],
@@ -175,9 +182,11 @@ MenuApp.menus["little-star-pizza"] = {
     "feta"
   ],
   "Fresh Basil": [
+    "fresh",
     "basil"
   ],
   "Fresh Mozzarella": [
+    "fresh",
     "mozzarella"
   ],
   "Garlic": [
@@ -208,9 +217,11 @@ MenuApp.menus["little-star-pizza"] = {
     "ricotta"
   ],
   "Roasted Garlic": [
+    "roasted",
     "garlic"
   ],
   "Roasted Zucchini": [
+    "roasted",
     "zucchini"
   ],
   "Salami": [
@@ -227,6 +238,7 @@ MenuApp.menus["little-star-pizza"] = {
     "tomatoes"
   ],
   "Fresh Tomatoes": [
+    "fresh",
     "tomatoes"
   ],
   "Housemade Cheesecake": [

@@ -1,6 +1,5 @@
 MenuApp.menus["loving-hut"] = {
   "1. Combination Delicacy": [
-    "1",
     "combination",
     "delicacy",
     "layered",
@@ -14,47 +13,42 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "2. Fried Spring Roll": [
-    "2",
+    "fried",
     "spring",
     "roll"
   ],
   "3. Au Lac (Vietnamese) Fresh Spring Roll": [
-    "3",
     "au",
     "lac",
+    "fresh",
     "spring",
     "roll"
   ],
   "4. Golden Nuggets": [
-    "4",
     "golden",
     "nuggets"
   ],
   "5. Pot Stickers": [
-    "5",
     "pot",
     "stickers"
   ],
   "6. Grilled Soy Jerky In Skewer": [
-    "6",
+    "grilled",
     "soy",
     "jerky",
     "skewer"
   ],
   "7. Golden Mushroom Sticks": [
-    "7",
     "golden",
     "mushroom",
     "sticks"
   ],
   "8. Seasoned French Fries": [
-    "8",
     "seasoned",
     "french",
     "fries"
   ],
   "9. Ocean Basket": [
-    "9",
     "ocean",
     "basket",
     "golden",
@@ -70,22 +64,19 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "10. Golden Tofu": [
-    "10",
     "golden",
     "tofu"
   ],
   "11. Fried Wonton": [
-    "11",
+    "fried",
     "wonton"
   ],
   "12. Round Curry Samosa": [
-    "12",
     "round",
     "curry",
     "samosa"
   ],
   "13. Steam Soy Char Siew Bun": [
-    "13",
     "steam",
     "soy",
     "char",
@@ -93,16 +84,16 @@ MenuApp.menus["loving-hut"] = {
     "bun"
   ],
   "14. Fried Seaweed Balls": [
-    "14",
+    "fried",
     "seaweed",
     "balls"
   ],
   "15. Heavenly Salad": [
-    "15",
     "heavenly",
     "salad",
     "shredded",
     "cabbage",
+    "fresh",
     "herbs",
     "carrot",
     "tofu",
@@ -112,11 +103,9 @@ MenuApp.menus["loving-hut"] = {
     "nuts"
   ],
   "16. Potato Salad": [
-    "16",
     "potato",
     "salad",
     "potato",
-    "tossed",
     "italian",
     "herbs",
     "relish",
@@ -124,7 +113,6 @@ MenuApp.menus["loving-hut"] = {
     "mayonnaise"
   ],
   "17. Mango Salad": [
-    "17",
     "mango",
     "salad",
     "shredded",
@@ -134,19 +122,17 @@ MenuApp.menus["loving-hut"] = {
     "cilantro",
     "mango",
     "strips",
-    "tossed",
     "light",
     "vinaigrette",
     "nuts"
   ],
   "18. Organic Salad": [
-    "18",
     "organic",
     "salad",
+    "fresh",
     "organic",
     "reds",
     "greens",
-    "topped",
     "soy",
     "protein",
     "strips",
@@ -154,7 +140,6 @@ MenuApp.menus["loving-hut"] = {
     "dressing"
   ],
   "19. Creamy Corn Soup": [
-    "19",
     "creamy",
     "corn",
     "soup",
@@ -167,7 +152,6 @@ MenuApp.menus["loving-hut"] = {
     "herbs"
   ],
   "20. Hot ‘N’ Sour Soup": [
-    "20",
     "hot",
     "‘n’",
     "sour",
@@ -183,7 +167,6 @@ MenuApp.menus["loving-hut"] = {
     "tofu"
   ],
   "21. Seaweed Tofu Soup": [
-    "21",
     "seaweed",
     "tofu",
     "soup",
@@ -197,7 +180,6 @@ MenuApp.menus["loving-hut"] = {
     "broth"
   ],
   "22. Ginseng Soup": [
-    "22",
     "ginseng",
     "soup",
     "revitalizing",
@@ -214,7 +196,6 @@ MenuApp.menus["loving-hut"] = {
     "protein"
   ],
   "23. Minestrone Soup": [
-    "23",
     "minestrone",
     "soup",
     "classic",
@@ -228,7 +209,6 @@ MenuApp.menus["loving-hut"] = {
     "herbs"
   ],
   "24. Organic Red Chard W Vermicelli Soup": [
-    "24",
     "organic",
     "red",
     "chard",
@@ -249,7 +229,6 @@ MenuApp.menus["loving-hut"] = {
     "broth"
   ],
   "25. Thai Spicy Tom Yum Soup": [
-    "25",
     "thai",
     "spicy",
     "tom",
@@ -269,7 +248,6 @@ MenuApp.menus["loving-hut"] = {
     "soup"
   ],
   "26. Spinach Tofu Soup": [
-    "26",
     "spinach",
     "tofu",
     "soup",
@@ -282,7 +260,6 @@ MenuApp.menus["loving-hut"] = {
     "carrot"
   ],
   "27. Won Ton Soup": [
-    "27",
     "won",
     "ton",
     "soup",
@@ -294,7 +271,6 @@ MenuApp.menus["loving-hut"] = {
     "broth"
   ],
   "28. Organic Kale Miso Soup": [
-    "28",
     "organic",
     "kale",
     "miso",
@@ -313,7 +289,6 @@ MenuApp.menus["loving-hut"] = {
     "broth"
   ],
   "29. Wonton Noodle Soup": [
-    "29",
     "wonton",
     "noodle",
     "soup",
@@ -328,7 +303,6 @@ MenuApp.menus["loving-hut"] = {
     "broth"
   ],
   "30. Wonton Noodle Dry": [
-    "30",
     "wonton",
     "noodle",
     "dry",
@@ -344,7 +318,6 @@ MenuApp.menus["loving-hut"] = {
     "vegetables"
   ],
   "31. Bun Hue Spicy Noodle Soup": [
-    "31",
     "bun",
     "hue",
     "spicy",
@@ -363,7 +336,6 @@ MenuApp.menus["loving-hut"] = {
     "herbs"
   ],
   "32. Pho Noodle Soup": [
-    "32",
     "pho",
     "noodle",
     "soup",
@@ -379,12 +351,10 @@ MenuApp.menus["loving-hut"] = {
     "herbs"
   ],
   "33. Crispy Noodle": [
-    "33",
     "crispy",
     "noodle",
     "crispy",
     "noodles",
-    "topped",
     "mixed",
     "vegetables",
     "tofu",
@@ -393,12 +363,12 @@ MenuApp.menus["loving-hut"] = {
     "crescents"
   ],
   "34. Chow Mein & Spring Roll": [
-    "34",
     "chow",
     "mein",
     "spring",
     "roll",
     "stir",
+    "fried",
     "noodles",
     "mixed",
     "vegetables",
@@ -406,7 +376,6 @@ MenuApp.menus["loving-hut"] = {
     "protein"
   ],
   "35. Chow Fun With Soy Jerky": [
-    "35",
     "chow",
     "fun",
     "soy",
@@ -424,7 +393,6 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "36. Pad Thai": [
-    "36",
     "pad",
     "thai",
     "rice",
@@ -438,7 +406,6 @@ MenuApp.menus["loving-hut"] = {
     "lime"
   ],
   "37. Crispy Chow Fun": [
-    "37",
     "crispy",
     "chow",
     "fun",
@@ -446,7 +413,6 @@ MenuApp.menus["loving-hut"] = {
     "flat",
     "rice",
     "noodle",
-    "topped",
     "mixed",
     "vegetables",
     "tofu",
@@ -454,7 +420,6 @@ MenuApp.menus["loving-hut"] = {
     "‘shrimp’"
   ],
   "38. Au Lac (Vietnamese) Vermicelli & Spring Roll": [
-    "38",
     "au",
     "lac",
     "vermicelli",
@@ -471,10 +436,10 @@ MenuApp.menus["loving-hut"] = {
     "carrot",
     "salad",
     "peanuts",
+    "fresh",
     "herbs"
   ],
   "39. Singapore Thin Rice Noodle": [
-    "39",
     "singapore",
     "thin",
     "rice",
@@ -491,7 +456,6 @@ MenuApp.menus["loving-hut"] = {
     "tofu"
   ],
   "40. Sizzling Teriyaki ‘Chickenless’ Meat": [
-    "40",
     "sizzling",
     "teriyaki",
     "‘chickenless’",
@@ -509,7 +473,6 @@ MenuApp.menus["loving-hut"] = {
     "plate"
   ],
   "41. Sizzling Teriyaki Tofu": [
-    "41",
     "sizzling",
     "teriyaki",
     "tofu",
@@ -524,7 +487,6 @@ MenuApp.menus["loving-hut"] = {
     "plate"
   ],
   "42. Hot Pot Soup": [
-    "42",
     "hot",
     "pot",
     "soup",
@@ -551,7 +513,6 @@ MenuApp.menus["loving-hut"] = {
     "soup"
   ],
   "43. Hot Pot Soup - Dual": [
-    "43",
     "hot",
     "pot",
     "soup",
@@ -574,14 +535,12 @@ MenuApp.menus["loving-hut"] = {
     "fire"
   ],
   "44. Au Lac (Vietnamese) Ocean Wrap W Fresh Herbs": [
-    "44",
     "au",
     "lac",
     "peanut",
     "sauce"
   ],
   "45. Cashew ‘Chickenless’ Bites": [
-    "45",
     "cashew",
     "‘chickenless’",
     "bites",
@@ -597,7 +556,6 @@ MenuApp.menus["loving-hut"] = {
     "nut"
   ],
   "46. Three Cup Wonder": [
-    "46",
     "cup",
     "wonder",
     "stew",
@@ -615,10 +573,10 @@ MenuApp.menus["loving-hut"] = {
     "pot"
   ],
   "47. Eggplant Tofu": [
-    "47",
     "eggplant",
     "tofu",
     "eggplant",
+    "fresh",
     "tofu",
     "sautéed",
     "basil",
@@ -627,7 +585,6 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "48. Organic Kale W Goji Berry": [
-    "48",
     "organic",
     "kale",
     "w",
@@ -638,6 +595,7 @@ MenuApp.menus["loving-hut"] = {
     "kale",
     "goji",
     "berry",
+    "fresh",
     "ginger",
     "flavored",
     "sweet",
@@ -645,7 +603,6 @@ MenuApp.menus["loving-hut"] = {
     "wine"
   ],
   "49. Ginger Organic Red Chard": [
-    "49",
     "ginger",
     "organic",
     "red",
@@ -662,7 +619,6 @@ MenuApp.menus["loving-hut"] = {
     "strips"
   ],
   "50. Garlic Spinach": [
-    "50",
     "garlic",
     "spinach",
     "spinach",
@@ -672,7 +628,6 @@ MenuApp.menus["loving-hut"] = {
     "carrot"
   ],
   "51. Szechuan Green Bean": [
-    "51",
     "szechuan",
     "green",
     "bean",
@@ -686,7 +641,6 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "52. Deluxe Vegetables": [
-    "52",
     "deluxe",
     "vegetables",
     "seasonal",
@@ -700,7 +654,6 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "53. Chinese Broccoli Delight": [
-    "53",
     "chinese",
     "broccoli",
     "delight",
@@ -712,7 +665,6 @@ MenuApp.menus["loving-hut"] = {
     "protein"
   ],
   "54. Claypot Vegetables": [
-    "54",
     "claypot",
     "vegetables",
     "seasonal",
@@ -724,12 +676,11 @@ MenuApp.menus["loving-hut"] = {
     "claypot"
   ],
   "55. Broccoli Enoki Mushroom": [
-    "55",
     "broccoli",
     "enoki",
     "mushroom",
+    "steamed",
     "broccoli",
-    "topped",
     "enoki",
     "mushroom",
     "soy",
@@ -741,7 +692,6 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "56. Three Mushrooms ‘N’ Green Bean": [
-    "56",
     "mushrooms",
     "‘n’",
     "green",
@@ -755,16 +705,15 @@ MenuApp.menus["loving-hut"] = {
     "tofu"
   ],
   "57. Basil Mushroom": [
-    "57",
     "basil",
     "mushroom",
+    "fresh",
     "mushroom",
     "sautéed",
     "basil",
     "onion"
   ],
   "58. Spicy Mapo Tofu": [
-    "58",
     "spicy",
     "mapo",
     "tofu",
@@ -781,10 +730,10 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "59. Tomato Tofu": [
-    "59",
     "tomato",
     "tofu",
     "lightly",
+    "fried",
     "tofu",
     "braised",
     "tomato",
@@ -792,7 +741,6 @@ MenuApp.menus["loving-hut"] = {
     "onions"
   ],
   "60. Snow Pea ‘N’ Water Chestnut": [
-    "60",
     "snow",
     "pea",
     "‘n’",
@@ -810,7 +758,6 @@ MenuApp.menus["loving-hut"] = {
     "together"
   ],
   "61. BBQ Basil Konnyaku": [
-    "61",
     "bbq",
     "basil",
     "konnyaku",
@@ -824,11 +771,11 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "62. Broccoli W ‘Chickenless’ Bites": [
-    "62",
     "broccoli",
     "w",
     "‘chickenless’",
     "bites",
+    "steamed",
     "broccoli",
     "wok-tossed",
     "chickenless",
@@ -837,7 +784,6 @@ MenuApp.menus["loving-hut"] = {
     "carrots"
   ],
   "63. Spicy Cha Cha": [
-    "63",
     "spicy",
     "cha",
     "cha",
@@ -852,7 +798,6 @@ MenuApp.menus["loving-hut"] = {
     "chili"
   ],
   "64. Spicy Tofu": [
-    "64",
     "spicy",
     "tofu",
     "tofu",
@@ -864,7 +809,6 @@ MenuApp.menus["loving-hut"] = {
     "chili"
   ],
   "65. Kong Pow Wow": [
-    "65",
     "kong",
     "pow",
     "wow",
@@ -882,7 +826,6 @@ MenuApp.menus["loving-hut"] = {
     "chili"
   ],
   "66. Spicy Mambo": [
-    "66",
     "spicy",
     "mambo",
     "exotic",
@@ -896,7 +839,6 @@ MenuApp.menus["loving-hut"] = {
     "chili"
   ],
   "67. Thai Fishless’ Curry": [
-    "67",
     "thai",
     "fishless’",
     "curry",
@@ -912,7 +854,6 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "68. Guru’s Curry": [
-    "68",
     "guru’s",
     "curry",
     "blend",
@@ -925,7 +866,6 @@ MenuApp.menus["loving-hut"] = {
     "broccoli"
   ],
   "69. Tomato Seaweed Fillet": [
-    "69",
     "tomato",
     "seaweed",
     "fillet",
@@ -939,7 +879,6 @@ MenuApp.menus["loving-hut"] = {
     "onions"
   ],
   "70. Triple Joy": [
-    "70",
     "triple",
     "joy",
     "mix",
@@ -952,16 +891,16 @@ MenuApp.menus["loving-hut"] = {
     "to",
     "create",
     "this",
-    "3-tier",
+    "-tier",
     "cuisine"
   ],
   "71. BBQ Soy Char Siew": [
-    "71",
     "bbq",
     "soy",
     "char",
     "siew",
     "bbq",
+    "roasted",
     "soy",
     "protein",
     "lettuce",
@@ -969,7 +908,6 @@ MenuApp.menus["loving-hut"] = {
     "tomatoes"
   ],
   "72. Sweet & Sour Soy Protein": [
-    "72",
     "sweet",
     "sour",
     "soy",
@@ -987,19 +925,18 @@ MenuApp.menus["loving-hut"] = {
     "sauce"
   ],
   "73. Lemongrass Deluxe": [
-    "73",
     "lemongrass",
     "deluxe",
     "textured",
     "soy",
     "protein",
     "stir",
+    "fried",
     "lemongrass",
     "sweet",
     "sauce"
   ],
   "74. Mongolian Delight": [
-    "74",
     "mongolian",
     "delight",
     "marinated",
@@ -1013,7 +950,6 @@ MenuApp.menus["loving-hut"] = {
     "chilli"
   ],
   "75. Orange Sesame Bites": [
-    "75",
     "orange",
     "sesame",
     "bites",
@@ -1072,7 +1008,6 @@ MenuApp.menus["loving-hut"] = {
     "quinoa"
   ],
   "76. Spaghetti Marinara": [
-    "76",
     "spaghetti",
     "marinara",
     "pasta",
@@ -1088,7 +1023,6 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "77. Spaghetti Pesto": [
-    "77",
     "spaghetti",
     "pesto",
     "pasta",
@@ -1103,7 +1037,6 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "78. Feast ‘N’ Chips": [
-    "78",
     "feast",
     "‘n’",
     "chips",
@@ -1117,11 +1050,11 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "79. Tofu Club Sandwich": [
-    "79",
     "tofu",
     "club",
     "sandwich",
     "sandwich",
+    "grilled",
     "tofu",
     "tomato",
     "lettuce",
@@ -1132,7 +1065,6 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "80. Tuna-Less Sandwich": [
-    "80",
     "tuna-less",
     "sandwich",
     "vegan",
@@ -1146,7 +1078,6 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "81. Scramble Tofu": [
-    "81",
     "scramble",
     "tofu",
     "saffron",
@@ -1161,13 +1092,12 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "82. Veggie Dog On Bun": [
-    "82",
     "veggie",
     "dog",
     "bun",
+    "grilled",
     "veggie",
     "frank",
-    "topped",
     "mushroom",
     "bun",
     "french",
@@ -1176,7 +1106,6 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "83. Champion Burger": [
-    "83",
     "champion",
     "burger",
     "house",
@@ -1191,7 +1120,6 @@ MenuApp.menus["loving-hut"] = {
     "salad"
   ],
   "84. Savory Braise W Rice": [
-    "84",
     "savory",
     "braise",
     "w",
@@ -1207,12 +1135,12 @@ MenuApp.menus["loving-hut"] = {
     "rice"
   ],
   "85. Queen’s Meal": [
-    "85",
     "queen’s",
     "meal",
     "soy",
     "fillet",
     "pan",
+    "fried",
     "house",
     "special",
     "sauce",
@@ -1223,7 +1151,6 @@ MenuApp.menus["loving-hut"] = {
     "rice"
   ],
   "86. BBQ Soy Char Siew W Rice": [
-    "86",
     "bbq",
     "soy",
     "char",
@@ -1231,6 +1158,7 @@ MenuApp.menus["loving-hut"] = {
     "w",
     "rice",
     "bbq",
+    "roasted",
     "soy",
     "protein",
     "seasonal",
@@ -1238,7 +1166,6 @@ MenuApp.menus["loving-hut"] = {
     "rice"
   ],
   "87. Crispy Fillet Rice": [
-    "87",
     "crispy",
     "fillet",
     "rice",
@@ -1251,7 +1178,6 @@ MenuApp.menus["loving-hut"] = {
     "rice"
   ],
   "88. Four Seasons Rice Jook": [
-    "88",
     "four",
     "seasons",
     "rice",
@@ -1267,8 +1193,8 @@ MenuApp.menus["loving-hut"] = {
     "cilantro"
   ],
   "89. Chef’s Fried Rice & Spring Roll": [
-    "89",
     "chef’s",
+    "fried",
     "rice",
     "spring",
     "roll",
@@ -1283,7 +1209,6 @@ MenuApp.menus["loving-hut"] = {
     "roll"
   ],
   "90. Au Lac Fragrant Claypot Rice": [
-    "90",
     "au",
     "lac",
     "fragrant",
@@ -1303,7 +1228,6 @@ MenuApp.menus["loving-hut"] = {
     "vermicelli"
   ],
   "91. Thai Pineapple Rice & Spring Roll": [
-    "91",
     "thai",
     "pineapple",
     "rice",
@@ -1320,10 +1244,9 @@ MenuApp.menus["loving-hut"] = {
     "roll"
   ],
   "92. Triple Joy": [
-    "92",
     "triple",
     "joy",
-    "3-tier",
+    "-tier",
     "cuisine",
     "made",
     "from",
@@ -1334,7 +1257,7 @@ MenuApp.menus["loving-hut"] = {
     "rice"
   ],
   "D1. Vegan Ice Cream": [
-    "d1",
+    "d",
     "vegan",
     "ice",
     "cream",
@@ -1346,48 +1269,48 @@ MenuApp.menus["loving-hut"] = {
     "chocolate"
   ],
   "D2. Banana Split": [
-    "d2",
+    "d",
     "banana",
     "split"
   ],
   "D3. Vegan Cheese Cake": [
-    "d3",
+    "d",
     "vegan",
     "cheese",
     "cake"
   ],
   "D4. Raspberry Cake": [
-    "d4",
+    "d",
     "raspberry",
     "cake"
   ],
   "D5. Custard Pie": [
-    "d5",
+    "d",
     "custard",
     "pie"
   ],
   "D6. Chocolate Cake": [
-    "d6",
+    "d",
     "chocolate",
     "cake"
   ],
   "D7. Mocha Cake": [
-    "d7",
+    "d",
     "mocha",
     "cake"
   ],
   "D8. Carrot Cake": [
-    "d8",
+    "d",
     "carrot",
     "cake"
   ],
   "D9. Coconut Cake": [
-    "d9",
+    "d",
     "coconut",
     "cake"
   ],
   "D10. Banana Fritters": [
-    "d10",
+    "d",
     "banana",
     "fritters",
     "choice",
@@ -1398,24 +1321,25 @@ MenuApp.menus["loving-hut"] = {
     "chocolate"
   ],
   "D11. Fruit Plate": [
-    "d11",
+    "d",
     "fruit",
     "plate"
   ],
   "B1. Tropical Pineapple Drink": [
-    "b1",
+    "b",
     "tropical",
     "pineapple",
     "drink"
   ],
   "B2. Thai Iced Tea": [
-    "b2",
+    "b",
     "thai",
     "iced",
     "tea"
   ],
   "B3. Fresh Fruit Smoothie": [
-    "b3",
+    "b",
+    "fresh",
     "fruit",
     "smoothie",
     "strawberry",
@@ -1427,26 +1351,29 @@ MenuApp.menus["loving-hut"] = {
     "honeydew"
   ],
   "B4. Fresh Fruit Juice": [
-    "b4",
+    "b",
+    "fresh",
     "fruit",
     "juice",
+    "fresh",
     "orange",
     "juice",
     "or",
+    "fresh",
     "lime",
     "juice"
   ],
   "B5. Non-Alcoholic Beer": [
-    "b5",
+    "b",
     "non-alcoholic",
     "beer"
   ],
   "B6. Lemonade": [
-    "b6",
+    "b",
     "lemonade"
   ],
   "B7. Soda": [
-    "b7",
+    "b",
     "soda",
     "coke",
     "diet",
@@ -1459,42 +1386,42 @@ MenuApp.menus["loving-hut"] = {
     "sprite"
   ],
   "B8. Hot Chocolate": [
-    "b8",
+    "b",
     "hot",
     "chocolate"
   ],
   "B9. Americano Coffee": [
-    "b9",
+    "b",
     "americano",
     "coffee"
   ],
   "B10. Cappuccino": [
-    "b10",
+    "b",
     "cappuccino",
     "hot",
     "cold"
   ],
   "B11. Latte": [
-    "b11",
+    "b",
     "latte",
     "hot",
     "cold"
   ],
   "B12. Organic Soy Milk": [
-    "b12",
+    "b",
     "organic",
     "soy",
     "milk"
   ],
   "B13. Ginseng Goji Berry Tea": [
-    "b13",
+    "b",
     "ginseng",
     "goji",
     "berry",
     "tea"
   ],
   "B14. Ginger Goji Berry Tea": [
-    "b14",
+    "b",
     "ginger",
     "goji",
     "berry",

@@ -7,6 +7,7 @@ MenuApp.menus["dosa"] = {
     "mint",
     "sweet",
     "onion",
+    "roasted",
     "chile-garlic",
     "great",
     "papadum"
@@ -16,6 +17,7 @@ MenuApp.menus["dosa"] = {
     "beet",
     "cumin",
     "soup",
+    "roasted",
     "puréed",
     "red",
     "beets",
@@ -66,6 +68,7 @@ MenuApp.menus["dosa"] = {
     "lemon",
     "peppercorn",
     "dressing",
+    "fresh",
     "coconut",
     "pomegranate",
     "seeds"
@@ -82,6 +85,7 @@ MenuApp.menus["dosa"] = {
     "fennel",
     "lentils",
     "pan",
+    "fried",
     "mint",
     "raita"
   ],
@@ -96,6 +100,7 @@ MenuApp.menus["dosa"] = {
     "chiles",
     "mint-cilantro",
     "sauce",
+    "fried",
     "stems"
   ],
   "Crispy Fish Pakora": [
@@ -109,6 +114,7 @@ MenuApp.menus["dosa"] = {
     "cumin",
     "ginger",
     "garlic",
+    "fried",
     "w/",
     "spicy",
     "chutney"
@@ -141,11 +147,14 @@ MenuApp.menus["dosa"] = {
     "yogurt",
     "w/",
     "coriander",
-    "cumin"
+    "cumin",
+    "fried"
   ],
   "Prawn Chile Fry": [
     "prawn",
     "chile",
+    "fry",
+    "fried",
     "prawns",
     "rubbed",
     "ground",
@@ -158,7 +167,7 @@ MenuApp.menus["dosa"] = {
     "greens"
   ],
   "3-Cheese Dosa Roll": [
-    "3-cheese",
+    "-cheese",
     "dosa",
     "roll",
     "dosa",
@@ -167,6 +176,7 @@ MenuApp.menus["dosa"] = {
     "mozzarella",
     "cheddar",
     "cheese",
+    "roasted",
     "chile",
     "garlic",
     "tomato",
@@ -181,6 +191,7 @@ MenuApp.menus["dosa"] = {
     "squash",
     "ginger",
     "garlic",
+    "fresh",
     "coconut",
     "mustard",
     "seeds",
@@ -199,6 +210,7 @@ MenuApp.menus["dosa"] = {
     "w/",
     "sweet",
     "onion",
+    "roasted",
     "chile",
     "garlic",
     "chutney"
@@ -221,7 +233,6 @@ MenuApp.menus["dosa"] = {
     "vada",
     "lentil",
     "dumplings",
-    "topped",
     "cool",
     "straus",
     "organic",
@@ -236,6 +247,7 @@ MenuApp.menus["dosa"] = {
     "or",
     "vada",
     "sambar",
+    "steamed",
     "rice",
     "patties",
     "or",
@@ -264,6 +276,7 @@ MenuApp.menus["dosa"] = {
     "spices"
   ],
   "Fresh Fish Of The Day": [
+    "fresh",
     "fish",
     "the",
     "day",
@@ -282,6 +295,7 @@ MenuApp.menus["dosa"] = {
   "Lamb Pepper Fry": [
     "lamb",
     "pepper",
+    "fry",
     "free-range",
     "natural",
     "lamb",
@@ -299,6 +313,7 @@ MenuApp.menus["dosa"] = {
     "korma",
     "free-range",
     "organic",
+    "fresh",
     "coconut",
     "coconut",
     "milk",
@@ -398,6 +413,7 @@ MenuApp.menus["dosa"] = {
     "w/",
     "blended",
     "chutney",
+    "fresh",
     "pumpkin",
     "ginger",
     "cinnamon",
@@ -422,12 +438,12 @@ MenuApp.menus["dosa"] = {
   "Paneer & Peas": [
     "paneer",
     "peas",
-    "topped",
     "spiced",
     "shredded",
     "farmer’s",
     "cheese",
     "lightly",
+    "grilled",
     "peas",
     "cilantro"
   ],
@@ -647,6 +663,7 @@ MenuApp.menus["dosa"] = {
     "puffy",
     "round",
     "pieces",
+    "fried",
     "bread",
     "made",
     "from",
@@ -883,7 +900,6 @@ MenuApp.menus["dosa"] = {
     "onion",
     "chile",
     "uttapam",
-    "topped",
     "eggs",
     "sunny",
     "side",
@@ -955,6 +971,7 @@ MenuApp.menus["dosa"] = {
     "dosa",
     "blended",
     "chutney",
+    "fresh",
     "pumpkin",
     "ginger",
     "cinnamon",
@@ -1004,7 +1021,8 @@ MenuApp.menus["dosa"] = {
     "flat",
     "wheat",
     "bread",
-    "pan"
+    "pan",
+    "fried"
   ],
   "Coconut Or Lemon Basmati Rice": [
     "coconut",
@@ -1043,13 +1061,13 @@ MenuApp.menus["dosa"] = {
   "Idli Fries": [
     "idli",
     "fries",
+    "steamed",
     "rice",
     "rubbed",
     "powdered",
     "lentils",
     "spices",
     "w/",
-    "2",
     "chutneys",
     "eggplant",
     "coconut-habanero"
@@ -1192,6 +1210,7 @@ MenuApp.menus["dosa"] = {
     "cookie"
   ],
   "Fresh Coconut Custard Cake": [
+    "fresh",
     "coconut",
     "custard",
     "cake",
@@ -1242,7 +1261,7 @@ MenuApp.menus["dosa"] = {
     "sonoma",
     "county",
     "ca",
-    "’09"
+    "’"
   ],
   "Sherry": [
     "sherry",
@@ -1274,7 +1293,7 @@ MenuApp.menus["dosa"] = {
     "montes",
     "colchagua",
     "chile",
-    "‘11"
+    "‘"
   ],
   "Moksha Coffee": [
     "moksha",
@@ -1375,7 +1394,6 @@ MenuApp.menus["dosa"] = {
     "scotch",
     "pimm’s",
     "no",
-    "1",
     "peach",
     "lemon",
     "black",
@@ -1523,7 +1541,7 @@ MenuApp.menus["dosa"] = {
     "st",
     "bernardus",
     "\"pater",
-    "6\"",
+    "\"",
     "dubbel",
     "watou",
     "belgium",
@@ -1672,7 +1690,7 @@ MenuApp.menus["dosa"] = {
     "w/fresh",
     "pear",
     "finish",
-    "’11"
+    "’"
   ],
   "Grenache (Red)": [
     "grenache",
@@ -1690,7 +1708,7 @@ MenuApp.menus["dosa"] = {
     "notes",
     "lighter",
     "style",
-    "’11"
+    "’"
   ],
   "Chard & Pinot Noir": [
     "chard",
@@ -1752,7 +1770,7 @@ MenuApp.menus["dosa"] = {
     "wine",
     "zesty",
     "finish",
-    "‘12"
+    "‘"
   ],
   "Albariño": [
     "albariño",
@@ -1769,7 +1787,7 @@ MenuApp.menus["dosa"] = {
     "orange",
     "bright",
     "tart",
-    "‘11"
+    "‘"
   ],
   "Chardonnay": [
     "chardonnay",
@@ -1784,7 +1802,7 @@ MenuApp.menus["dosa"] = {
     "nose",
     "pear",
     "butterscotch",
-    "‘11"
+    "‘"
   ],
   "Chenin Blanc": [
     "chenin",
@@ -1801,7 +1819,7 @@ MenuApp.menus["dosa"] = {
     "pineapple",
     "stone",
     "fruits",
-    "‘12"
+    "‘"
   ],
   "Malagousia": [
     "malagousia",
@@ -1817,7 +1835,7 @@ MenuApp.menus["dosa"] = {
     "lychee",
     "melon",
     "rich",
-    "‘12"
+    "‘"
   ],
   "Pinot Bianco": [
     "pinot",
@@ -1836,7 +1854,7 @@ MenuApp.menus["dosa"] = {
     "crisp",
     "apples",
     "tart",
-    "‘11"
+    "‘"
   ],
   "Rosé Of Cinsault": [
     "rosé",
@@ -1853,7 +1871,7 @@ MenuApp.menus["dosa"] = {
     "raspberry",
     "w/herbal",
     "notes",
-    "‘11"
+    "‘"
   ],
   "Sauvignon Blanc": [
     "sauvignon",
@@ -1871,7 +1889,7 @@ MenuApp.menus["dosa"] = {
     "fruit",
     "palate",
     "crisp",
-    "‘12"
+    "‘"
   ],
   "Sujata Red": [
     "sujata",
@@ -1894,7 +1912,7 @@ MenuApp.menus["dosa"] = {
     "emerging",
     "chocolate",
     "notes",
-    "‘10"
+    "‘"
   ],
   "Malbec": [
     "malbec",
@@ -1912,7 +1930,7 @@ MenuApp.menus["dosa"] = {
     "dark",
     "minerals",
     "elegant",
-    "‘10"
+    "‘"
   ],
   "Pinot Noir": [
     "pinot",
@@ -1932,7 +1950,7 @@ MenuApp.menus["dosa"] = {
     "cola",
     "licorice",
     "soft",
-    "‘11"
+    "‘"
   ],
   "Plavac Mali": [
     "plavac",
@@ -1950,7 +1968,7 @@ MenuApp.menus["dosa"] = {
     "rosehips",
     "silky",
     "light",
-    "‘10"
+    "‘"
   ],
   "Sangiovese": [
     "sangiovese",
@@ -1967,7 +1985,7 @@ MenuApp.menus["dosa"] = {
     "mulberries",
     "sea",
     "spray",
-    "‘10"
+    "‘"
   ],
   "St. Laurent": [
     "st",
@@ -1984,7 +2002,7 @@ MenuApp.menus["dosa"] = {
     "cherries",
     "black",
     "pepper",
-    "‘10"
+    "‘"
   ],
   "Syrah": [
     "syrah",
@@ -2003,7 +2021,7 @@ MenuApp.menus["dosa"] = {
     "blueberry",
     "plump",
     "texture",
-    "‘11"
+    "‘"
   ],
   "Tempranillo": [
     "tempranillo",
@@ -2020,7 +2038,7 @@ MenuApp.menus["dosa"] = {
     "licorice",
     "thyme",
     "finish",
-    "‘06"
+    "‘"
   ],
   "* Spicy. ** Indicates Dishes For Which We Request You Select A Side Of Rice, Dosa Or Uttapam For An Extra Charge, With Prices Listed Below. Curries Are Always Meant To Be Eaten With A Side, Recommendations In Parenthesis.": [
     "*",

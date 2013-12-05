@@ -1,6 +1,7 @@
 MenuApp.menus["pancho-villa-taqueria"] = {
   "Taco": [
     "taco",
+    "grilled",
     "salmon"
   ],
   "With cheese, beans, and meat": [
@@ -135,6 +136,7 @@ MenuApp.menus["pancho-villa-taqueria"] = {
   ],
   "Carnitas": [
     "carnitas",
+    "roasted",
     "pork"
   ],
   "Chicken Asada": [
@@ -203,6 +205,7 @@ MenuApp.menus["pancho-villa-taqueria"] = {
   ],
   "Fire Roasted Pastor": [
     "fire",
+    "roasted",
     "pastor"
   ],
   "Flour": [
@@ -314,6 +317,7 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "salsa"
   ],
   "Grilled Salmon": [
+    "grilled",
     "salmon",
     "rice",
     "beans",
@@ -385,6 +389,7 @@ MenuApp.menus["pancho-villa-taqueria"] = {
   ],
   "H. Grilled Vegetables": [
     "h",
+    "grilled",
     "vegetables",
     "rice",
     "beans",
@@ -428,9 +433,11 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "meat"
   ],
   "Grilled Vegetables": [
+    "grilled",
     "vegetables"
   ],
   "Grilled Garlic Mushroom": [
+    "grilled",
     "garlic",
     "mushroom"
   ],
@@ -475,21 +482,18 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "beans"
   ],
   "1 Enchilada, Flauta, and Chile Relleno": [
-    "1",
     "enchilada",
     "flauta",
     "chile",
     "relleno"
   ],
   "2 Tamal, Flauta, and Garlic Prawn": [
-    "2",
     "tamal",
     "flauta",
     "garlic",
     "prawn"
   ],
   "3 Corn Quesadilla, Garlic Prawns, and Taco": [
-    "3",
     "corn",
     "quesadilla",
     "garlic",
@@ -497,7 +501,6 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "taco"
   ],
   "4 Asada Steak or Chicken and Prawns": [
-    "4",
     "asada",
     "steak",
     "or",
@@ -505,7 +508,6 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "prawns"
   ],
   "5 Carne Asada, Chicken Asada, and Prawns": [
-    "5",
     "carne",
     "asada",
     "chicken",
@@ -513,7 +515,6 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "prawns"
   ],
   "6 Spicy Chicken, Garlic Prawns, and Enchilada": [
-    "6",
     "spicy",
     "chicken",
     "garlic",
@@ -521,7 +522,6 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "enchilada"
   ],
   "7 Quesadilla Suiza, Prawns, and Parrilla Mushrooms": [
-    "7",
     "quesadilla",
     "suiza",
     "prawns",
@@ -529,7 +529,6 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "mushrooms"
   ],
   "8 Garlic Prawns, Prawn Cocktail, Steak Taco, and Cebollitas Asadas": [
-    "8",
     "garlic",
     "prawns",
     "prawn",
@@ -540,9 +539,9 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "asadas"
   ],
   "9 Asada Steak, Grilled Salmon, and Garlic Prawns": [
-    "9",
     "asada",
     "steak",
+    "grilled",
     "salmon",
     "garlic",
     "prawns"
@@ -643,6 +642,7 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "steak",
     "or",
     "chicken",
+    "grilled",
     "onions",
     "salsa"
   ],
@@ -709,6 +709,7 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "imported"
   ],
   "Fresh Squeezed Juices": [
+    "fresh",
     "squeezed",
     "juices"
   ],
@@ -777,6 +778,7 @@ MenuApp.menus["pancho-villa-taqueria"] = {
     "jugos",
     "de",
     "naranja",
+    "fresh",
     "squeezed",
     "orange",
     "juice"
