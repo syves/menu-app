@@ -1,6 +1,6 @@
 .PHONY: all
 all: \
-	public/js/menus/atlas-cafe.js \
+
 	public/js/menus/atlas-cafe.js \
 	public/js/menus/basil.js \
 	public/js/menus/big-lantern.js \
