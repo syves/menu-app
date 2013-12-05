@@ -49,13 +49,18 @@ var selectedMenu = null;
 var ingredients = null;
 var index = null;
 var selectMenu = function(menuId) {
-  selectedMenu = menuId;
-  var menu = MenuApp.menus[selectedMenu];
-  ingredients = getIngredients(menu);
-  index = 0;
-  showNextIngredient();
-  showTop5(menu);
-  document.getElementById('menus').value = menuId;
+  if (menuId) {
+    selectedMenu = menuId;
+    var menu = MenuApp.menus[selectedMenu];
+    ingredients = getIngredients(menu);
+    index = 0,
+    showNextIngredient();
+    showTop5(menu);
+    document.getElementById('menus').value = menuId;
+    document.body.classList.remove("default-state");
+  } else {
+    document.body.classList.add("default-state");
+  }
 };
 
 document.getElementById("menus").addEventListener('change', function() {
@@ -94,13 +99,14 @@ var showNextIngredient = function() {
   if (index >= ingredients.length) {
     document.body.classList.add('all-done');
   } else {
+    document.body.classList.remove('all-done');
     var ingredient = ingredients[index++];
     var rating = MenuApp.store.get(ingredient);
     if (rating === undefined) {
       // Display ingredient so it can be rated.
       document.getElementById('ingredient').innerHTML = ingredient;
       channel.broadcast('renderStars', 0);
-    } else if (index < ingredients.length) {
+    } else {
       // Ingredient has already been rated. Try the next ingredient.
       showNextIngredient();
     }
@@ -272,5 +278,3 @@ var halfStar = [
   'NDCbenQpR/dpx01fa3vk+97ScAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABip/tSn/1Z/wB1',
   'AAZUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/9k="/>'
 ].join('');
-
-selectMenu('Thai-menu');
