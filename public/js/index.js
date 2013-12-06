@@ -2,9 +2,14 @@ var channel=new airwaves.Channel();
 MenuApp.channel = channel;
 var ol = document.getElementById("stars");
 
-var scoreMenuItem = function(itemAttrs, defaultRating){
+var scoreMenuItem = function(itemAttrs, defaultRating, ratings){
+  console.log('ratings:', ratings);
   return itemAttrs.map(function(attr) {
-    return MenuApp.store.get(attr, defaultRating);
+    if (ratings.hasOwnProperty(attr)) {
+      return ratings[attr];
+    } else {
+      return MenuApp.store.get(attr, defaultRating);
+    }
   }).reduce(function(a,b){
     return a + b;
   },0) / itemAttrs.length;
@@ -14,7 +19,9 @@ var showTop5 = function(menu){
   var pairs =[]
 
   for (var name in menu) {
-    var score = scoreMenuItem(menu[name], 3);
+    console.log('selectedDiet:', selectedDiet);
+    var score = scoreMenuItem(menu[name], 3, MenuApp.diets[selectedDiet] || {});
+    console.log(name + ' (' + score + ')');
     pairs.push([score, name]);
   }
   pairs.sort(function(a,b){
@@ -49,6 +56,7 @@ var selectedMenu = null;
 var ingredients = null;
 var index = null;
 var selectMenu = function(menuId) {
+  console.log('selectMenu', 'menuId:', menuId);
   if (menuId) {
     selectedMenu = menuId;
     var menu = MenuApp.menus[selectedMenu];
@@ -65,6 +73,18 @@ var selectMenu = function(menuId) {
 
 document.getElementById("menus").addEventListener('change', function() {
   selectMenu(this.value);
+}, false);
+
+var selectedDiet = null;
+var selectDiet = function(dietId) {
+  if (dietId) {
+    selectedDiet = dietId;
+    showTop5(MenuApp.menus[selectedMenu]);
+  }
+};
+
+document.getElementById("diets").addEventListener('change', function() {
+  selectDiet(this.value);
 }, false);
 
 // Takes a number representing a star rating and returns a string
