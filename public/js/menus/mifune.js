@@ -1,1 +1,0 @@
-MenuApp.menus["mifune"] = 
