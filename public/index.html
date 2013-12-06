@@ -7,7 +7,7 @@
 <body class="default-state">
   <div id="heading">menuSTAR</div>
   <br>
-  <div>Step 1. Select a menu</div> 
+  <div>Select a menu</div> 
   
   <select id="menus">
     <option value="">Select a menu&hellip;</option>
@@ -19,7 +19,6 @@
     <option value="little-star-pizza">Little Star Pizza</option>
     <option value="loving-hut">Loving Hut</option>
     <option value="marnee-thai">Marnee Thai</option>
-    <option value="mifune">Mifune</option>
     <option value="pakwan">Pakwan</option>
     <option value="pancho-villa-taqueria">Pancho villa</option>
     <option value="range">Range</option>
@@ -31,26 +30,46 @@
     <option value="tuba">Tuba</option>
     <option value="roku">Roku Izakaya</option>
       </select>
+      
+  <div>Select a Cuisine</div> 
+  
+  <select id="cuisine">
+    <option value="">Select a cuisine&hellip;</option>
+    <option value="california">California</option>
+    <option value="california-french">California-french</option>
+    <option value="chinease">Chinease</option>
+    <option value="french-bakery">French</option>
+    <option value="german">german</option>
+    <option value="indian">Indian</option>
+    <option value="mexican">Mexican</option>
+    <option value="pakistani-indian">pakistani-indian</option>
+    <option value="pizza">pizza</option>
+    <option value="japanease">Japanese</option>
+    <option value="thai">Thai</option>
+    <option value="turkish">Turkish</option>
+    <option value="vegan">vegan</option>
+    <option value="vietnamease">Vietnamease</option>
+      </select>
+
+  <div>Select Special Diet</div> 
  
- <div>Step 2. Select special diet</div> 
- <select id="special-diet">
-    <option value="">Select one or more&hellip;</option>
-    <option value="vegetarian">Vegetarian</option>
-    <option value="vegan">Vegan</option>
-    <option value="diary-free">Diary Free</option>
-    <option value="no-meat">No red meat</option>
-    <option value="no-poultry">No poultry</option>
-    <option value="no-seafood">No seafood</option>
-    <option value="no-shellfish">No shellfish</option>
-    <option value="no-nuts">No nuts</option>
+  <select id="diets">
+    <option value="">Select one&hellip;</option>
+    <option value="dairy-free">Dairy Free</option>
+    <option value="no-alcohol">No alcohol</option>
     <option value="no-gluten">No gluten</option>
     <option value="no-nightshade">No nightshade</option>
-    <option value="no-alcohol">No alcohol</option>
+    <option value="no-nuts">No nuts</option>
+    <option value="no-poultry">No poultry</option>
+    <option value="no-seafood">No seafood</option>
+    <option value="no-shellfish">No shellfish</option>    
     <option value="no-soy">No soy</option>
     <option value="no-spicey">No spicey</option>
+    <option value="vegan">Vegan</option>
+    <option value="vegetarian">Vegetarian</option>
           </select>
 
-  <div id="rateIngredients">Step 3.Rate ingredients</h2>
+  <div id="rateIngredients">Rate ingredients</h2>
   <div id='ingredient'></div>
   <ol id="stars">
   <li data-star-number="1"></li>
@@ -77,7 +96,6 @@
   <script src="/js/menus/little-star-pizza.js"></script>
   <script src="/js/menus/loving-hut.js"></script>
   <script src="/js/menus/marnee-thai.js"></script>
-  <script src="/js/menus/mifune.js"></script>
   <script src="/js/menus/pakwan.js"></script>
   <script src="/js/menus/pancho-villa-taqueria.js"></script>
   <script src="/js/menus/range.js"></script>
@@ -89,7 +107,35 @@
   <script src="/js/menus/tartine-bakery.js"></script>
   <script src="/js/menus/tuba.js"></script>
   <script src="/js/menus/udapi-palace.js"></script>
-
+  
+  <script src="/js/diets/dairy-free.js"></script>
+  <script src="/js/diets/no-alcohol.js"></script>
+  <script src="/js/diets/no-gluten.js"></script>
+  <script src="/js/diets/no-nightshade.js"></script>
+  <script src="/js/diets/no-nuts.js"></script>
+  <script src="/js/diets/no-poultry.js"></script>
+  <script src="/js/diets/no-seafood.js"></script>
+  <script src="/js/diets/no-shellfish.js"></script>
+  <script src="/js/diets/no-soy.js"></script>
+  <script src="/js/diets/no-spicey.js"></script>
+  <script src="/js/diets/vegan.js"></script>
+  <script src="/js/diets/vegetarian.js"></script>
+  
+  <script src="/js/cuisines/california.js"></script>
+  <script src="/js/cuisines/california-french.js"></script>
+  <script src="/js/cuisines/chinease.js"></script>
+  <script src="/js/cuisines/french-bakery.js"></script>
+  <script src="/js/cuisines/german.js"></script>
+  <script src="/js/cuisines/indian.js"></script>
+  <script src="/js/cuisines/japanese.js"></script>
+  <script src="/js/cuisines/mexican.js"></script>
+  <script src="/js/cuisines/pakistani-indian.js"></script>
+  <script src="/js/cuisines/pizza.js"></script>
+  <script src="/js/cuisines/thai.js"></script>
+  <script src="/js/cuisines/turkish.js"></script>
+  <script src="/js/cuisines/vegan.js"></script>
+  <script src="/js/cuisines/vietnamease.js"></script>
+  
   <script src="/js/index.js"></script>
 </body>
 </html>
