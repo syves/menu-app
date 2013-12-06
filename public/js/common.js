@@ -13,3 +13,5 @@ MenuApp.store = {
   }
 };
 MenuApp.menus = {}
+MenuApp.diets = {}
+MenuApp.cuisines = {}
