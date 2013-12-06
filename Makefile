@@ -9,7 +9,6 @@ all: \
   public/js/menus/little-star-pizza.js \
   public/js/menus/loving-hut.js \
   public/js/menus/marnee-thai.js \
-  public/js/menus/mifune.js \
   public/js/menus/pakwan.js \
   public/js/menus/pancho-villa-taqueria.js \
   public/js/menus/range.js \
@@ -61,11 +60,6 @@ public/js/menus/loving-hut.js:
 public/js/menus/marnee-thai.js:
 	@printf '%s' 'MenuApp.menus["marnee-thai"] = ' > $@
 	@bin/getMenu marnee-thai >> $@
-
-
-public/js/menus/mifune.js:
-	@printf '%s' 'MenuApp.menus["mifune"] = ' > $@
-	@bin/getMenu mifune >> @
 
 
 public/js/menus/pakwan.js:
