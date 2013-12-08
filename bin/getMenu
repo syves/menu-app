@@ -51,8 +51,11 @@ var getMenu = function(html) {
   var $ = cheerio.load(html);
   var menu = {};
   $("cite").each(function(){
-    menu[this.text()] = _.without.apply(null, [
+    var name = this.text()
+      .replace(/^\d+[.:)]? */, '');
+    menu[name] = _.without.apply(null, [
       this.parent().text()
+      .replace(/^\s*\d+[.:)]? */, '')
       .toLowerCase()
       .replace(/[.:\d]/g, '')
       .replace(/\(.*\)/g, '')
