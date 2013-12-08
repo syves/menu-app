@@ -1,4 +1,4 @@
-MenuApp.menus["dosa"] = {
+MenuApp.cuisines["indian"] = {
   "Chutney Sampler": [
     "chutney",
     "sampler",

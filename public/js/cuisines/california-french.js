@@ -1,6 +1,4 @@
-MenuApp.menus["savor"] = {
-  "Coronado": [
-    "coronado",
+MenuApp.cuisines["california-french"] = [
     "avocado",
     "mild",
     "cheddar",
@@ -12,9 +10,7 @@ MenuApp.menus["savor"] = {
     "salsa",
     "fresca",
     "sour",
-    "cream"
-  ],
-  "Monte Carlo": [
+    "cream",
     "monte",
     "carlo",
     "honey",
@@ -23,21 +19,14 @@ MenuApp.menus["savor"] = {
     "peppers",
     "onions",
     "mild",
-    "cheddar"
-  ],
-  "La Mancha": [
-    "la",
-    "mancha",
+    "cheddar",
     "chicken",
     "apple",
     "sausage",
     "mushrooms",
     "scallions",
     "provolone",
-    "cheese"
-  ],
-  "Arizona": [
-    "arizona",
+    "cheese",
     "chorizo",
     "avocado",
     "black",
@@ -47,30 +36,16 @@ MenuApp.menus["savor"] = {
     "cheddar",
     "cheese",
     "salsa",
-    "fresca"
-  ],
-  "Greek": [
-    "greek",
+    "fresca",
     "spinach",
     "onions",
     "olives",
     "tomatoes",
-    "feta"
-  ],
-  "Trio Fromage": [
-    "trio",
-    "fromage",
-    "any",
+    "feta",
     "cheeses",
     "your",
-    "choice"
-  ],
-  "Americano": [
-    "americano"
-  ],
-  "Rio Grande": [
-    "rio",
-    "grande",
+    "choice",
+    "americano",
     "chicken",
     "breast",
     "mushrooms",
@@ -78,11 +53,7 @@ MenuApp.menus["savor"] = {
     "tomatoes",
     "spinach",
     "goat",
-    "cheese"
-  ],
-  "Baja": [
-    "baja",
-    "*",
+    "cheese",
     "chicken",
     "apple",
     "sausage",
@@ -95,29 +66,19 @@ MenuApp.menus["savor"] = {
     "cheddar",
     "cheese",
     "salsa",
-    "fresca"
-  ],
-  "Provence": [
-    "provence",
-    "or",
-    "smoked",
-    "salmon",
+    "fresca",
+    "smoked salmon",
     "spinach",
     "onions",
     "goat",
-    "cheese"
-  ],
-  "Mayan": [
-    "mayan",
+    "cheese",
     "poblano",
     "peppers",
     "corn",
     "spinach",
     "canadian",
     "bacon",
-    "gorgonzola"
-  ],
-  "Tofu": [
+    "gorgonzola",
     "tofu",
     "eggs",
     "optional",
@@ -127,37 +88,22 @@ MenuApp.menus["savor"] = {
     "peppers",
     "sauteed",
     "peanut",
-    "sauce"
-  ],
-  "La Suisse": [
-    "la",
-    "suisse",
-    "old-fashioned",
+    "sauce",
     "french",
     "white",
     "bread",
-    "fruit"
-  ],
-  "Parisienne": [
-    "parisienne",
+    "fruit",
     "raisin",
     "walnut",
     "cinnamon",
-    "bread"
-  ],
-  "Belgian": [
+    "bread",
     "belgian",
     "topped",
     "seasonal",
     "berries",
     "bananas",
     "whipped",
-    "cream"
-  ],
-  "Original": [
-    "original"
-  ],
-  "buttermilk add blueberries, strawberries, banana-coconut, or chocolate chips": [
+    "cream",
     "buttermilk",
     "add",
     "blueberries",
@@ -165,40 +111,30 @@ MenuApp.menus["savor"] = {
     "banana-coconut",
     "or",
     "chocolate",
-    "chips"
-  ],
-  "Swedish": [
+    "chips",
     "swedish",
     "raisin",
     "walnut",
     "cinnamon",
-    "bread"
-  ],
-  "Pumpkin Spice": [
+    "bread",
     "pumpkin",
     "spice",
     "topped",
-    "chantilly"
-  ],
-  "Short Stack": [
+    "chantilly",
     "short",
     "stack",
     "pancakes",
     "any",
     "the",
     "above",
-    "flavors"
-  ],
-  "Barcelona": [
+    "flavors",
     "barcelona",
     "spinach",
     "mushrooms",
     "fontina",
     "cheese",
     "glazed",
-    "onions"
-  ],
-  "Mazatlan": [
+    "onions",
     "mazatlan",
     "avocado",
     "tomatoes",
@@ -209,9 +145,7 @@ MenuApp.menus["savor"] = {
     "salsa",
     "fresca",
     "sour",
-    "cream"
-  ],
-  "Santa Fe": [
+    "cream",
     "santa",
     "fe",
     "chicken",
@@ -223,9 +157,7 @@ MenuApp.menus["savor"] = {
     "onions",
     "provolone",
     "salsa",
-    "fresca"
-  ],
-  "Cyprus": [
+    "fresca",
     "cyprus",
     "spinach",
     "onions",
@@ -236,10 +168,7 @@ MenuApp.menus["savor"] = {
     "cheese",
     "yogurt",
     "cucumber",
-    "sauce"
-  ],
-  "Milano": [
-    "milano",
+    "sauce",
     "eggplant",
     "peppers",
     "mushrooms",
@@ -250,11 +179,7 @@ MenuApp.menus["savor"] = {
     "cheese",
     "topped",
     "marinara",
-    "parmesan"
-  ],
-  "Tuscany": [
-    "tuscany",
-    "sautéed",
+    "parmesan",
     "chicken",
     "breast",
     "mushrooms",
@@ -263,12 +188,8 @@ MenuApp.menus["savor"] = {
     "almonds",
     "feta",
     "provolone",
-    "pesto"
-  ],
-  "Kyoto": [
-    "kyoto",
-    "marinated",
-    "tofu",
+    "pesto",
+    "marinated tofu",
     "shiitake",
     "mushrooms",
     "green",
@@ -278,9 +199,7 @@ MenuApp.menus["savor"] = {
     "peppers",
     "peanut",
     "ginger",
-    "sauce"
-  ],
-  "Bombay": [
+    "sauce",
     "bombay",
     "chicken",
     "breast",
@@ -291,9 +210,7 @@ MenuApp.menus["savor"] = {
     "bell",
     "peppers",
     "onions",
-    "curry"
-  ],
-  "San Francisco": [
+    "curry",
     "san",
     "francisco",
     "or",
@@ -306,9 +223,7 @@ MenuApp.menus["savor"] = {
     "dijon",
     "dill",
     "havarti",
-    "cheese"
-  ],
-  "The Philly": [
+    "cheese",
     "the",
     "philly",
     "strip",
@@ -317,9 +232,7 @@ MenuApp.menus["savor"] = {
     "onions",
     "mushrooms",
     "white",
-    "cheddar"
-  ],
-  "T.J. Fajitas": [
+    "cheddar",
     "tj",
     "fajitas",
     "strip",
@@ -335,9 +248,7 @@ MenuApp.menus["savor"] = {
     "topped",
     "salsa",
     "fresca",
-    "avocado"
-  ],
-  "Siam": [
+    "avocado",
     "siam",
     "sauteed",
     "shrimp",
@@ -352,11 +263,7 @@ MenuApp.menus["savor"] = {
     "snowpeas",
     "water",
     "chestnut",
-    "zucchini"
-  ],
-  "Cote D'Azur": [
-    "cote",
-    "d'azur",
+    "zucchini",
     "smoked",
     "salmon",
     "benedict",
@@ -368,9 +275,7 @@ MenuApp.menus["savor"] = {
     "red",
     "onions",
     "topped",
-    "hollandaise"
-  ],
-  "New Orleans": [
+    "hollandaise",
     "new",
     "orleans",
     "crab",
@@ -381,9 +286,7 @@ MenuApp.menus["savor"] = {
     "topped",
     "spicy",
     "cajun",
-    "hollandaise"
-  ],
-  "Blackstone": [
+    "hollandaise",
     "blackstone",
     "tomatoes",
     "onions",
@@ -392,9 +295,7 @@ MenuApp.menus["savor"] = {
     "muffin",
     "eggs",
     "topped",
-    "hollandaise"
-  ],
-  "Costa Del Sol": [
+    "hollandaise",
     "costa",
     "del",
     "sol",
@@ -407,12 +308,7 @@ MenuApp.menus["savor"] = {
     "muffin",
     "eggs",
     "topped",
-    "hollandaise"
-  ],
-  "El Paso": [
-    "el",
-    "paso",
-    "homemade",
+    "hollandaise",
     "corn",
     "beef",
     "hash",
@@ -429,9 +325,7 @@ MenuApp.menus["savor"] = {
     "style",
     "toast",
     "or",
-    "bagel"
-  ],
-  "Del Rio": [
+    "bagel",
     "del",
     "rio",
     "chicken",
@@ -442,19 +336,7 @@ MenuApp.menus["savor"] = {
     "gravy",
     "pure",
     "maple",
-    "syrup"
-  ],
-  "Additions Each: Vegetables $1, Meats $ 1.75": [
-    "additions",
-    "each",
-    "vegetables",
-    "$1",
-    "meats",
-    "$",
-    "175"
-  ],
-  "Garden": [
-    "garden",
+    "syrup",
     "spring",
     "mix",
     "tomatoes",
@@ -464,10 +346,7 @@ MenuApp.menus["savor"] = {
     "caramelized",
     "walnuts",
     "ranch",
-    "dressing"
-  ],
-  "Caesar": [
-    "caesar",
+    "dressing",
     "romaine",
     "lettuce",
     "tossed",
@@ -476,10 +355,7 @@ MenuApp.menus["savor"] = {
     "cheese",
     "our",
     "caesar",
-    "dressing"
-  ],
-  "Athena": [
-    "athena",
+    "dressing",
     "romaine",
     "lettuce",
     "tomatoes",
@@ -492,10 +368,7 @@ MenuApp.menus["savor"] = {
     "cheese",
     "tossed",
     "oregano",
-    "vinaigrette"
-  ],
-  "Golden Gate": [
-    "golden",
+    "vinaigrette",
     "gate",
     "spring",
     "mix",
@@ -506,10 +379,7 @@ MenuApp.menus["savor"] = {
     "walnuts",
     "tossed",
     "orange",
-    "vinaigrette"
-  ],
-  "Granada": [
-    "granada",
+    "vinaigrette",
     "spring",
     "mix",
     "arugula",
@@ -522,10 +392,7 @@ MenuApp.menus["savor"] = {
     "walnuts",
     "gorgonzola",
     "pomegranate",
-    "vinaigrette"
-  ],
-  "Bangkok": [
-    "bangkok",
+    "vinaigrette",
     "ginger",
     "curry",
     "marinated",
@@ -540,10 +407,7 @@ MenuApp.menus["savor"] = {
     "peanuts",
     "spicy",
     "lemongrass",
-    "vinaigrette"
-  ],
-  "Shanghai": [
-    "shanghai",
+    "vinaigrette",
     "chicken",
     "rice",
     "noodles",
@@ -559,9 +423,7 @@ MenuApp.menus["savor"] = {
     "tossed",
     "sesame",
     "ginger",
-    "vinaigrette"
-  ],
-  "Nicoise": [
+    "vinaigrette",
     "nicoise",
     "peppered",
     "ahi",
@@ -576,9 +438,7 @@ MenuApp.menus["savor"] = {
     "hard",
     "egg",
     "citrus",
-    "vinaigrette"
-  ],
-  "Petaluma": [
+    "vinaigrette",
     "petaluma",
     "smoked",
     "turkey",
@@ -590,9 +450,7 @@ MenuApp.menus["savor"] = {
     "red",
     "onions",
     "sliced",
-    "sourdough"
-  ],
-  "Monterey": [
+    "sourdough",
     "monterey",
     "tuna",
     "salad",
@@ -600,10 +458,7 @@ MenuApp.menus["savor"] = {
     "lettuce",
     "tomatoes",
     "whole",
-    "wheat"
-  ],
-  "Bodega Bay": [
-    "bodega",
+    "wheat",
     "bay",
     "tuna",
     "melt",
@@ -612,20 +467,14 @@ MenuApp.menus["savor"] = {
     "bread",
     "cheddar",
     "hint",
-    "dijon"
-  ],
-  "North Beach": [
-    "north",
-    "beach",
+    "dijon",
     "eggplant",
     "peppers",
     "tomatoes",
     "pesto",
     "provolone",
     "cheese",
-    "focaccia"
-  ],
-  "Garden Veggie Burger": [
+    "focaccia",
     "garden",
     "veggie",
     "burger",
@@ -639,9 +488,7 @@ MenuApp.menus["savor"] = {
     "aioli",
     "herb",
     "focaccia",
-    "bun"
-  ],
-  "Napa": [
+    "bun",
     "napa",
     "chicken",
     "salad",
@@ -649,9 +496,7 @@ MenuApp.menus["savor"] = {
     "lettuce",
     "multigrain",
     "whole",
-    "wheat"
-  ],
-  "Sonoma": [
+    "wheat",
     "sonoma",
     "chicken",
     "breast",
@@ -661,14 +506,7 @@ MenuApp.menus["savor"] = {
     "tomatoes",
     "pesto",
     "provolone",
-    "bun"
-  ],
-  "El Dorado": [
-    "el",
-    "dorado",
-    "1/2",
-    "lb",
-    "natural",
+    "bun",
     "black",
     "angus",
     "ground",
@@ -681,14 +519,6 @@ MenuApp.menus["savor"] = {
     "bun",
     "cheese",
     "avocado",
-    "bacon"
-  ],
-  "sautéed mushrooms": [
-    "sautéed",
-    "mushrooms"
-  ],
-  "Carolina": [
-    "carolina",
     "southern",
     "style",
     "pulled",
@@ -697,9 +527,7 @@ MenuApp.menus["savor"] = {
     "coleslaw",
     "chipotle",
     "aioli",
-    "bun"
-  ],
-  "Shawerma": [
+    "bun",
     "shawerma",
     "marinated",
     "chicken",
@@ -708,9 +536,7 @@ MenuApp.menus["savor"] = {
     "pickled",
     "cucumbers",
     "lavash",
-    "wrap"
-  ],
-  "Pacific": [
+    "wrap",
     "pacific",
     "salmon",
     "filet",
@@ -718,10 +544,7 @@ MenuApp.menus["savor"] = {
     "arugula",
     "avocado",
     "caper",
-    "aioli"
-  ],
-  "Club": [
-    "club",
+    "aioli",
     "chicken",
     "breast",
     "sourdough",
@@ -730,11 +553,7 @@ MenuApp.menus["savor"] = {
     "avocado",
     "lettuce",
     "tomatoes",
-    "mayonnaise"
-  ],
-  "Big Sur": [
-    "big",
-    "sur",
+    "mayonnaise",
     "black",
     "angus",
     "new",
@@ -746,162 +565,96 @@ MenuApp.menus["savor"] = {
     "aioli",
     "white",
     "cheddar",
-    "baguette"
-  ],
-  "Palermo": [
-    "palermo",
+    "baguette",
     "fettuccine",
     "alfredo",
     "chicken",
     "parmesan",
     "garlic",
-    "bread"
-  ],
-  "Abruzzo": [
-    "abruzzo",
+    "bread",
     "fettuccine",
     "creamy",
     "pesto",
     "chicken",
     "mushrooms",
     "garlic",
-    "bread"
-  ],
-  "Capri": [
-    "capri",
+    "bread",
     "linguini",
     "marinara",
     "shrimp",
     "parmesan",
     "garlic",
-    "bread"
-  ],
-  "Bari": [
-    "bari",
+    "bread",
     "fettuccine",
     "alfredo",
     "salmon",
     "spinach",
     "parmesan",
     "garlic",
-    "bread"
-  ],
-  "Jamaican": [
-    "jamaican",
+    "bread",
     "pan",
     "bananas",
     "caramel",
     "rum",
-    "sauce"
-  ],
-  "Riviera": [
-    "riviera",
+    "sauce",
     "nutella",
     "bananas",
-    "strawberries"
-  ],
-  "Kilauea": [
-    "kilauea",
+    "strawberries",
     "peanut",
     "butter",
-    "chocolate"
-  ],
-  "Havana": [
-    "havana",
+    "chocolate",
     "pineapple",
     "coconut",
     "caramel",
     "rum",
-    "sauce"
-  ],
-  "Santorini": [
-    "santorini",
+    "sauce",
     "walnuts",
     "pistachios",
     "brown",
     "sugar",
     "coconut",
     "cinnamon",
-    "mascarpone"
-  ],
-  "Siena": [
-    "siena",
+    "mascarpone",
     "nutella",
     "strawberries",
-    "nuts"
-  ],
-  "Al Sham": [
-    "al",
-    "sham",
+    "nuts",
     "apples",
     "cheddar",
     "cheese",
     "brown",
     "sugar",
-    "cinnamon"
-  ],
-  "La Bella": [
-    "la",
-    "bella",
+    "cinnamon",
     "seasonal",
     "berries",
-    "nutella"
-  ],
-  "Spicy Cornbread": [
+    "nutella",
     "spicy",
     "cornbread",
     "jalapeno",
-    "jelly"
-  ],
-  "Toast Or Bagel": [
+    "jelly",
     "toast",
-    "or",
-    "bagel"
-  ],
-  "add cream cheese": [
-    "add",
+    "bagel",
     "cream",
-    "cheese"
-  ],
-  "Fresh Fruit": [
-    "fruit"
-  ],
-  "add plain yogurt, granola or cottage cheese": [
-    "add",
+    "cheese",
+    "fruit",
     "plain",
     "yogurt",
     "granola",
-    "or",
     "cottage",
-    "cheese"
-  ],
-  "Bowl Of Oatmeal": [
+    "cheese",
     "bowl",
     "oatmeal",
     "blueberries",
     "bananas",
     "strawberries",
     "brown",
-    "sugar"
-  ],
-  "Two Eggs Any Style": [
+    "sugar",
     "eggs",
-    "any",
-    "style"
-  ],
-  "Home Potatoes Or Beer-Battered Fries": [
-    "home",
     "potatoes",
-    "or",
     "beer-battered",
-    "fries"
-  ],
-  "Sweet Potato Fries": [
+    "fries",
     "sweet",
     "potato",
-    "fries"
-  ],
-  "Chicken Apple Sausage": [
+    "fries",
     "chicken",
     "apple",
     "sausage",
@@ -910,63 +663,36 @@ MenuApp.menus["savor"] = {
     "or",
     "smoked",
     "maple",
-    "bacon"
-  ],
-  "Soup Du Jour": [
+    "bacon",
     "soup",
     "du",
-    "jour"
-  ],
-  "Bowl Of Black Bean Chili": [
-    "bowl",
+    "jour",
     "black",
     "bean",
     "chili",
     "sour",
     "cream",
-    "salsa"
-  ],
-  "Muffin": [
-    "muffin"
-  ],
-  "Coffee": [
-    "coffee"
-  ],
-  "Espresso": [
-    "espresso"
-  ],
-  "Cappuccino": [
-    "cappuccino"
-  ],
-  "Café Au Lait": [
+    "salsa",
+    "muffin",
+    "coffee",
+    "espresso",
+    "cappuccino",
     "café",
     "au",
-    "lait"
-  ],
-  "Latte Or Mocha": [
+    "lait",
     "latte",
     "or",
-    "mocha"
-  ],
-  "Pot Of Mighty Leaf Tea": [
+    "mocha",
     "pot",
     "mighty",
     "leaf",
-    "tea"
-  ],
-  "Mango Ice Tea": [
+    "tea",
     "mango",
     "ice",
-    "tea"
-  ],
-  "Kombucha": [
-    "kombucha"
-  ],
-  "San Pellegrino": [
+    "tea",
+    "kombucha",
     "san",
-    "pellegrino"
-  ],
-  "Juices": [
+    "pellegrino",
     "juices",
     "apple",
     "cranberry",
@@ -974,42 +700,27 @@ MenuApp.menus["savor"] = {
     "oj",
     "tomato",
     "or",
-    "lemonade"
-  ],
-  "Sodas": [
+    "lemonade",
     "sodas",
     "ginger",
     "ale",
     "black",
     "cherry",
     "root",
-    "beer"
-  ],
-  "Coke, Diet Coke Or Sprite": [
+    "beer",
     "coke",
     "diet",
     "coke",
     "or",
-    "sprite"
-  ],
-  "Italian Or French Soda": [
+    "sprite",
     "italian",
-    "or",
     "french",
-    "soda"
-  ],
-  "Bloody Mary": [
+    "soda",
     "bloody",
-    "mary"
-  ],
-  "Mimosa": [
-    "mimosa"
-  ],
-  "Draft Beer": [
+    "mary",
+    "mimosa",
     "draft",
-    "beer"
-  ],
-  "Mediterranean Combination": [
+    "beer",
     "mediterranean",
     "combination",
     "spanakopita",
@@ -1019,9 +730,7 @@ MenuApp.menus["savor"] = {
     "feta",
     "pita",
     "mix",
-    "greens"
-  ],
-  "Vietnamese Grilled Pork Loin Sandwich": [
+    "greens",
     "vietnamese",
     "pork",
     "loin",
@@ -1043,9 +752,7 @@ MenuApp.menus["savor"] = {
     "or",
     "sweet",
     "potato",
-    "fries"
-  ],
-  "Fish Tacos": [
+    "fries",
     "fish",
     "tacos",
     "alaskan",
@@ -1059,9 +766,7 @@ MenuApp.menus["savor"] = {
     "fresca",
     "cabbage",
     "caesar",
-    "salad"
-  ],
-  "Grilled Chicken Sandwich": [
+    "salad",
     "chicken",
     "sandwich",
     "brie",
@@ -1081,9 +786,7 @@ MenuApp.menus["savor"] = {
     "or",
     "sweet",
     "potato",
-    "fries"
-  ],
-  "Crispy Soft Shell Crab": [
+    "fries",
     "crispy",
     "soft",
     "shell",
@@ -1099,10 +802,7 @@ MenuApp.menus["savor"] = {
     "aioli",
     "ciabatta",
     "roll",
-    "caesar"
-  ],
-  "Combination": [
-    "combination",
+    "caesar",
     "soup",
     "du",
     "jour",
@@ -1122,17 +822,13 @@ MenuApp.menus["savor"] = {
     "north",
     "beach",
     "or",
-    "petaluma"
-  ],
-  "Crispy Polenta Cakes": [
+    "petaluma",
     "crispy",
     "polenta",
     "cakes",
     "marinara",
     "crumbled",
-    "gorgonzola"
-  ],
-  "Spanakopita And Dolmas": [
+    "gorgonzola",
     "spanakopita",
     "dolmas",
     "hummus",
@@ -1141,9 +837,7 @@ MenuApp.menus["savor"] = {
     "kalamata",
     "olives",
     "feta",
-    "pita"
-  ],
-  "Caprese Salad": [
+    "pita",
     "caprese",
     "salad",
     "mozzarella",
@@ -1151,9 +845,7 @@ MenuApp.menus["savor"] = {
     "basil",
     "pesto",
     "balsamic",
-    "reduction"
-  ],
-  "Crispy Calamari And Pepperoncini": [
+    "reduction",
     "crispy",
     "calamari",
     "pepperoncini",
@@ -1162,9 +854,7 @@ MenuApp.menus["savor"] = {
     "rice",
     "flour",
     "tartar",
-    "sauce"
-  ],
-  "Ceviche": [
+    "sauce",
     "ceviche",
     "rock",
     "shrimp",
@@ -1172,9 +862,7 @@ MenuApp.menus["savor"] = {
     "snapper",
     "filet",
     "avocado",
-    "salsa"
-  ],
-  "Yellow Fin Ahi Tuna Tartar": [
+    "salsa",
     "yellow",
     "fin",
     "ahi",
@@ -1183,9 +871,7 @@ MenuApp.menus["savor"] = {
     "avocado",
     "cilantro",
     "lime",
-    "sauce"
-  ],
-  "Chicken Piccata": [
+    "sauce",
     "chicken",
     "piccata",
     "white",
@@ -1194,9 +880,6 @@ MenuApp.menus["savor"] = {
     "mushrooms",
     "lemon",
     "butter",
-    "sides"
-  ],
-  "White Marble Farms Grilled Pork Loin": [
     "white",
     "marble",
     "farms",
@@ -1208,9 +891,6 @@ MenuApp.menus["savor"] = {
     "pepper",
     "green",
     "olives",
-    "sides"
-  ],
-  "Aged Creek Stone Farms NY Strip Steak": [
     "aged",
     "creek",
     "stone",
@@ -1226,9 +906,6 @@ MenuApp.menus["savor"] = {
     "crisp",
     "swiss",
     "chard",
-    "sides"
-  ],
-  "Colorado Lamb Shank": [
     "colorado",
     "lamb",
     "shank",
@@ -1237,9 +914,7 @@ MenuApp.menus["savor"] = {
     "vegetables",
     "finished",
     "onions",
-    "sides"
-  ],
-  "Wild Alaskan Salmon": [
+    "sides",
     "wild",
     "alaskan",
     "salmon",
@@ -1248,9 +923,7 @@ MenuApp.menus["savor"] = {
     "dill",
     "tomato",
     "garlic",
-    "sides"
-  ],
-  "Fresh Boneless Rainbow Trout": [
+    "sides",
     "boneless",
     "rainbow",
     "trout",
@@ -1259,9 +932,6 @@ MenuApp.menus["savor"] = {
     "gremolata",
     "buerre",
     "blanc",
-    "sides"
-  ],
-  "Kale Risotto": [
     "kale",
     "risotto",
     "portabellas",
@@ -1274,48 +944,26 @@ MenuApp.menus["savor"] = {
     "spring",
     "or",
     "caesar",
-    "salad"
-  ],
-  "with grilled prawns or salmon": [
+    "salad",
     "prawns",
-    "or",
-    "salmon"
-  ],
-  "Roasted Garlic Mashed Potatoes": [
     "garlic",
     "mashed",
-    "potatoes"
-  ],
-  "Couscous": [
+    "potatoes",
     "couscous",
     "tomatoes",
-    "cucumber"
-  ],
-  "Cilantro Rice": [
+    "cucumber",
     "cilantro",
-    "rice"
-  ],
-  "Mix Spring Salad": [
+    "rice",
     "mix",
     "spring",
-    "salad"
-  ],
-  "Sautéed Seasonal Vegetables": [
+    "salad",
     "sautéed",
     "seasonal",
-    "vegetables"
-  ],
-  "Cream Of Corn": [
+    "vegetables",
     "cream",
-    "corn"
-  ],
-  "Caesar Salad": [
+    "corn",
     "caesar",
-    "salad"
-  ],
-  "* Spicy, (GF) Gluten Free, (V) Vegetarian.": [
-    "*",
+    "salad",
     "spicy",
-    "vegetarian"
-  ]
-}
+    "vegetarian",
+];

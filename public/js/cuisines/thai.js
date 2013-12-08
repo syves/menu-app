@@ -1,4 +1,4 @@
-MenuApp.menus["basil"] = {
+MenuApp.cuisines["pizza"] = {
   "Paupia": [
     "crispy vegetable roll"
   ],

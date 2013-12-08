@@ -1,4 +1,4 @@
-MenuApp.menus["tuba"] = {
+MenuApp.cuisines["turkish"] = {
   "Dolma": [
     "dolma",
     "stuffed",

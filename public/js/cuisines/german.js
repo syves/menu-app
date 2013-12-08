@@ -1,4 +1,4 @@
-MenuApp.menus["rosamunde"] = {
+MenuApp.cuisines["german"] = {
   "Beer Sausage": [
     "beer",
     "sausage",

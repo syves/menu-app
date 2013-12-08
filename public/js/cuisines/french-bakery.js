@@ -1,4 +1,4 @@
-MenuApp.menus["la-boulange"] = {
+MenuApp.cuisines["french-bakery"] = {
   "Warm Goat Cheese": [
     "warm",
     "goat",

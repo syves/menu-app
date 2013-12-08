@@ -1,4 +1,4 @@
-MenuApp.menus["pakwan"] = {
+MenuApp.cuisines["pakistani-indian"] = {
   "Papadum": [
     "papadum"
   ],

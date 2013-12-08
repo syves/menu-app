@@ -1,4 +1,4 @@
-MenuApp.menus["big-lantern"] = {
+MenuApp.cuisines["chinease"] = {
   "Sweet & Sour Pork": [
     "sweet and sour sauce",
     "pork"

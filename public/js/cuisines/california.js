@@ -1,4 +1,4 @@
-MenuApp.menus["range"] = {
+MenuApp.cuisines["california"] = {
   "Purée Of Carrot Soup": [
     "purée",
     "carrot",

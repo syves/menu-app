@@ -1,4 +1,4 @@
-MenuApp.menus["sunflower"] = {
+MenuApp.cuisines["vietnamease"] = {
   "01. Imperial Rolls": [
     "01",
     "imperial",

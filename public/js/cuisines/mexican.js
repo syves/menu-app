@@ -1,4 +1,4 @@
-MenuApp.menus["pancho-villa-taqueria"] = {
+MenuApp.cuisines["mexican"] = {
   "Taco": [
     "taco",
     "grilled",
