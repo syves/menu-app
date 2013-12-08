@@ -75,6 +75,7 @@ document.getElementById("menus").addEventListener('change', function() {
   selectMenu(this.value);
 }, false);
 
+//special diet
 var selectedDiet = null;
 var selectDiet = function(dietId) {
   if (dietId) {
@@ -86,6 +87,22 @@ var selectDiet = function(dietId) {
 document.getElementById("diets").addEventListener('change', function() {
   selectDiet(this.value);
 }, false);
+
+//cuisine
+var selectedCuisine = null;
+var selectCuisine = function(cuisineId) {
+  if (cuisineId) {
+    selectedcuisine = cuisineId;
+    showTop5(MenuApp.menus[selectedMenu]);
+  }
+};
+
+document.getElementById("cuisines").addEventListener('change', function() {
+  selectCuisine(this.value);
+}, false);
+
+
+
 
 // Takes a number representing a star rating and returns a string
 // of HTML containing the stars, as images.
