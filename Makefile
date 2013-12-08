@@ -1,7 +1,6 @@
 .PHONY: all
 all: \
   public/js/menus/atlas-cafe.js \
-  public/js/menus/atlas-cafe.js \
   public/js/menus/basil.js \
   public/js/menus/big-lantern.js \
   public/js/menus/dosa.js \
@@ -70,16 +69,6 @@ public/js/menus/pakwan.js:
 public/js/menus/pancho-villa-taqueria.js:
 	@printf '%s' 'MenuApp.menus["pancho-villa-taqueria"] = ' > $@
 	@bin/getMenu pancho-villa-taqueria >> $@
-
-
-public/js/menus/atlas-cafe.js:
-	@printf '%s' 'MenuApp.menus["atlas"] = ' > $@
-	@bin/getMenu atlas-cafe >> $@
-
-
-public/js/menus/atlas-cafe.js:
-	@printf '%s' 'MenuApp.menus["atlas"] = ' > $@
-	@bin/getMenu atlas-cafe >> $@
 
 
 .PHONY: setup
