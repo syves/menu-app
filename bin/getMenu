@@ -52,8 +52,8 @@ var getMenu = function(html) {
   var menu = {};
   $("cite").each(function(){
     var name = this.text()
-      .replace(/^\d+[.:)]? */, '');
-    menu[name] = _.without.apply(null, [
+      .replace(/^\d+[.:)]? */, ''); //name
+    menu[name] = _.without.apply(null, [ //ingredients
       this.parent().text()
       .replace(/^\s*\d+[.:)]? */, '')
       .toLowerCase()
@@ -63,7 +63,7 @@ var getMenu = function(html) {
       .split(/[, \u00A0]+/)
     ].concat(ignoredWords));
   }) 
-  return menu;
+  return menu; 
 };
 
 http.get(url, function(res) {
