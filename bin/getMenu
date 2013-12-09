@@ -23,7 +23,7 @@ var ignoredWords = [
   'three',
   'two',
   'with',
-    //"stewed", 
+  //"stewed", 
   //"fried", 
   //"fry",
   //"saute",
@@ -36,10 +36,10 @@ var ignoredWords = [
   //"steamed", 
   //"poached", 
   //"fresh", 
-  "curried", 
+  //"curried", 
   //"barecue", 
   "toasted",
-  "stir-fried", 
+  //"stir-fried", 
   "cooked",
   "served",
   "paper",
@@ -53,15 +53,19 @@ var getMenu = function(html) {
   $("cite").each(function(){
     var name = this.text()
       .replace(/^\d+[.:)]? */, ''); //name
-    menu[name] = _.without.apply(null, [ //ingredients
-      this.parent().text()
+    var allWords = this.parent().text() //ingredients
       .replace(/^\s*\d+[.:)]? */, '')
       .toLowerCase()
       .replace(/[.:\d]/g, '')
       .replace(/\(.*\)/g, '')
       .trim()
       .split(/[, \u00A0]+/)
-    ].concat(ignoredWords));
+      .map(function(word) {
+        return word.replace(/^[^a-z]+|[^a-z]+$/g, '');
+      })
+    menu[name] = _.reject(allWords, function(word) {
+      return _.contains(ignoredWords, word) || /\d/.test(word) || /^[^a-z]*$/i.test(word);
+    });
   }) 
   return menu; 
 };
