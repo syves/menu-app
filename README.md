@@ -19,10 +19,6 @@ Add target to Makefile (copy an existing target). Then run:
     
 ### Make cuisine files from menus*
 
-    in console:
-
-    MenuApp._printCuisine(['pakwan', 'udapi-palace'])
-    
-    copy generated text from console to new cuisine file
-    
+    make public/js/menus/udupi-palace.js
     *only do this after menus are fully formated! 
+    -in  make model after indian menu--
