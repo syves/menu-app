@@ -1,6 +1,7 @@
-MenuApp.menus["roku"] = {
+var menu = {
   "Edamame": [
     "edamame",
+    "boiled",
     "salted",
     "soy",
     "beans"
@@ -19,7 +20,6 @@ MenuApp.menus["roku"] = {
     "beans",
     "green",
     "beans",
-    "tossed",
     "sesame",
     "seeds",
     "dressing"
@@ -27,6 +27,7 @@ MenuApp.menus["roku"] = {
   "Shio-Kara": [
     "shio-kara",
     "salted",
+    "fresh",
     "squid",
     "slightly",
     "fermented"
@@ -56,7 +57,6 @@ MenuApp.menus["roku"] = {
     "kurobuta",
     "spicy",
     "sausage",
-    "5",
     "pcs",
     "sausages",
     "dijon",
@@ -65,6 +65,7 @@ MenuApp.menus["roku"] = {
   "Burdock Chips": [
     "burdock",
     "chips",
+    "fried",
     "sliced",
     "burdock"
   ],
@@ -72,6 +73,7 @@ MenuApp.menus["roku"] = {
     "cucumber",
     "japanese",
     "plum",
+    "fresh",
     "cucumber",
     "plum",
     "dip"
@@ -85,12 +87,14 @@ MenuApp.menus["roku"] = {
   ],
   "Takoyaki": [
     "takoyaki",
+    "fried",
     "octopus",
     "balls",
     "wasabi",
     "sauce"
   ],
   "Fresh Salmon Carpaccio": [
+    "fresh",
     "salmon",
     "carpaccio",
     "onion",
@@ -105,7 +109,7 @@ MenuApp.menus["roku"] = {
     "assortment",
     "vegetables",
     "miso-avocado",
-    "wasabi-",
+    "wasabi",
     "mayo",
     "dip"
   ],
@@ -213,6 +217,7 @@ MenuApp.menus["roku"] = {
   "Chikuwa Isobeage": [
     "chikuwa",
     "isobeage",
+    "fried",
     "seafood",
     "cake",
     "seaweed"
@@ -221,6 +226,7 @@ MenuApp.menus["roku"] = {
     "roku'n",
     "octopus",
     "deep",
+    "fried",
     "baby",
     "octopus"
   ],
@@ -228,6 +234,7 @@ MenuApp.menus["roku"] = {
     "agedashi",
     "tofu",
     "deep",
+    "fried",
     "tofu",
     "green",
     "onion",
@@ -242,6 +249,7 @@ MenuApp.menus["roku"] = {
     "bite",
     "bite",
     "sized",
+    "fried",
     "pork",
     "belly",
     "spoon"
@@ -249,6 +257,7 @@ MenuApp.menus["roku"] = {
   "Nasu Dengaku": [
     "nasu",
     "dengaku",
+    "fried",
     "eggplant",
     "county",
     "miso",
@@ -270,6 +279,7 @@ MenuApp.menus["roku"] = {
   "Chicken Nanban": [
     "chicken",
     "nanban",
+    "fried",
     "chicken",
     "dipped",
     "sweet",
@@ -283,6 +293,7 @@ MenuApp.menus["roku"] = {
     "japanese",
     "style",
     "deep",
+    "fried",
     "chicken"
   ],
   "Nikumaki Onigiri": [
@@ -312,8 +323,8 @@ MenuApp.menus["roku"] = {
   ],
   "Ebi-Mayo": [
     "ebi-mayo",
+    "fried",
     "shrimps",
-    "tossed",
     "avocado",
     "mustard",
     "mayonnaise"
@@ -330,18 +341,20 @@ MenuApp.menus["roku"] = {
   "Tonpei Yaki": [
     "tonpei",
     "yaki",
+    "stir-fried",
     "cabbage",
     "pork",
     "wrapped",
     "an",
     "egg",
     "crape",
-    "topped",
     "mayonnaise",
     "mustard"
   ],
   "Steamed Clams": [
+    "steamed",
     "clams",
+    "steamed",
     "clams",
     "white",
     "wine"
@@ -369,6 +382,7 @@ MenuApp.menus["roku"] = {
   "Shake Foil": [
     "shake",
     "foil",
+    "steamed",
     "salmon",
     "foil",
     "miso-butter",
@@ -415,6 +429,7 @@ MenuApp.menus["roku"] = {
   "Yaki Onigiri": [
     "yaki",
     "onigiri",
+    "grilled",
     "rice",
     "ball",
     "flavored",
@@ -437,11 +452,11 @@ MenuApp.menus["roku"] = {
     "beef",
     "stew",
     "bowl",
+    "stewed",
     "beef",
     "tendon",
     "over",
     "rice",
-    "topped",
     "green",
     "onions",
     "ginger"
@@ -449,10 +464,12 @@ MenuApp.menus["roku"] = {
   "Pork Belly Fried Rice": [
     "pork",
     "belly",
+    "fried",
     "rice"
   ],
   "Garlic Fried Rice": [
     "garlic",
+    "fried",
     "rice"
   ],
   "Ocha-Zuke (Rice With Tea)": [
@@ -463,7 +480,6 @@ MenuApp.menus["roku"] = {
     "poured",
     "over",
     "rice",
-    "topped",
     "nori",
     "wasabi"
   ],
@@ -499,7 +515,6 @@ MenuApp.menus["roku"] = {
     "each",
     "ramen",
     "is",
-    "topped",
     "green",
     "onion",
     "chashu",
@@ -507,6 +522,7 @@ MenuApp.menus["roku"] = {
     "ear",
     "mushroom",
     "soft",
+    "boiled",
     "egg"
   ],
   "Your Choice Of Colors: White: Regular Tonkatsu. Red: Spicy Tonkatsu. Black: Garlic Tonkatsu": [
@@ -560,13 +576,11 @@ MenuApp.menus["roku"] = {
     "green",
     "tea",
     "parfait",
-    "2",
     "scoops",
     "green",
     "tea",
     "red",
     "beans",
-    "topped",
     "mochi",
     "whipped",
     "cream",
@@ -589,4 +603,10 @@ MenuApp.menus["roku"] = {
     "ice",
     "cream"
   ]
+}
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["roku-izakaya"] = menu;
 }

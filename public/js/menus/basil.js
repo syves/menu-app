@@ -1,4 +1,4 @@
-MenuApp.menus["basil"] = {
+var menu = {
   "Paupia": [
     "crispy vegetable roll"
   ],
@@ -653,4 +653,11 @@ MenuApp.menus["basil"] = {
     "mango puree",
     "lime"
   ]
+}
+
+
+if (typeof module !== 'undefined') { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["basil"] = menu;
 }

@@ -1,4 +1,4 @@
-MenuApp.menus["sushi-zone"] = {
+var menu = {
   "Miso Soup": [
     "miso",
     "soup"
@@ -7,6 +7,7 @@ MenuApp.menus["sushi-zone"] = {
     "edamame"
   ],
   "Steamed Soybeans": [
+    "steamed",
     "soybeans"
   ],
   "Mussel On Half Shell": [
@@ -64,7 +65,7 @@ MenuApp.menus["sushi-zone"] = {
   ],
   "Rock ‘N Roll": [
     "rock",
-    "‘n",
+    "n",
     "roll"
   ],
   "Papaya Unagi": [
@@ -79,7 +80,6 @@ MenuApp.menus["sushi-zone"] = {
     "sushi",
     "combination",
     "plate",
-    "6",
     "pieces",
     "nigiri",
     "sushi",
@@ -157,4 +157,10 @@ MenuApp.menus["sushi-zone"] = {
     "mango",
     "avocado"
   ]
+}
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["sushi-zone"] = menu;
 }

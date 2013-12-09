@@ -1,29 +1,17 @@
-MenuApp.menus["sunflower"] = {
-  "01. Imperial Rolls": [
-    "01",
+var menu = {
+  "Imperial Rolls": [
     "imperial",
-    "rolls",
-    "house",
-    "favorite",
-    "deep",
-    "rice",
-    "rolls",
-    "pork",
-    "taro"
+    "rolls"
   ],
-  "02. Vegetarian Imperial Rolls": [
-    "02",
+  "Vegetarian Imperial Rolls": [
     "vegetarian",
     "imperial",
     "rolls",
-    "deep",
-    "rolls",
-    "tofu",
-    "mushrooms",
-    "cabbage"
+    "vegetarian",
+    "sauce"
   ],
-  "03. Fresh Spring Rolls": [
-    "03",
+  "Fresh Spring Rolls": [
+    "fresh",
     "spring",
     "rolls",
     "shrimp",
@@ -34,8 +22,8 @@ MenuApp.menus["sunflower"] = {
     "peanut",
     "sauce"
   ],
-  "04. Fresh Chicken Rolls": [
-    "04",
+  "Fresh Chicken Rolls": [
+    "fresh",
     "chicken",
     "rolls",
     "sauteed",
@@ -45,8 +33,8 @@ MenuApp.menus["sunflower"] = {
     "mint",
     "vermicelli"
   ],
-  "05. Fresh Vegetarian Spring Rolls": [
-    "05",
+  "Fresh Vegetarian Spring Rolls": [
+    "fresh",
     "vegetarian",
     "spring",
     "rolls",
@@ -56,12 +44,12 @@ MenuApp.menus["sunflower"] = {
     "cabbage",
     "greens"
   ],
-  "06. Vietnamese Pot Stickers": [
-    "06",
+  "Vietnamese Pot Stickers": [
     "vietnamese",
     "pot",
     "stickers",
     "deep",
+    "fried",
     "rice",
     "balls",
     "pork",
@@ -71,12 +59,13 @@ MenuApp.menus["sunflower"] = {
     "hoisin",
     "sauce"
   ],
-  "07. Vegetarian Pot Stickers": [
-    "07",
+  "Vegetarian Pot Stickers": [
     "vegetarian",
     "pot",
     "stickers",
+    "steamed",
     "or",
+    "fried",
     "dumplings",
     "tofu",
     "mushrooms",
@@ -84,8 +73,7 @@ MenuApp.menus["sunflower"] = {
     "peanut",
     "sauce"
   ],
-  "08. Sunflower Crepe": [
-    "08",
+  "Sunflower Crepe": [
     "sunflower",
     "crepe",
     "rice",
@@ -97,8 +85,7 @@ MenuApp.menus["sunflower"] = {
     "mint",
     "greens"
   ],
-  "09. Vegetarian Crepe": [
-    "09",
+  "Vegetarian Crepe": [
     "vegetarian",
     "crepe",
     "tofu",
@@ -108,17 +95,16 @@ MenuApp.menus["sunflower"] = {
     "mint",
     "greens"
   ],
-  "10. Vietnamese Deep Fried Tofu": [
-    "10",
+  "Vietnamese Deep Fried Tofu": [
     "vietnamese",
     "deep",
+    "fried",
     "tofu",
     "tofu",
     "infused",
     "lemongrass"
   ],
   "** Some Dishes Served With Fish Or Vegetarian Sauce": [
-    "**",
     "some",
     "dishes",
     "fish",
@@ -126,69 +112,35 @@ MenuApp.menus["sunflower"] = {
     "vegetarian",
     "sauce"
   ],
-  "11. Chicken": [
-    "11",
+  "Chicken": [
     "chicken"
   ],
-  "12. Beef": [
-    "12",
+  "Beef": [
     "beef"
   ],
-  "13. Shrimp": [
-    "13",
+  "Shrimp": [
     "shrimp"
   ],
-  "14. Calamari": [
-    "14",
+  "Calamari": [
     "calamari"
   ],
-  "15. Shrimp & Pork": [
-    "15",
+  "Shrimp & Pork": [
     "shrimp",
     "pork"
   ],
-  "16. Vegetarian": [
-    "16",
-    "vegetarian",
-    "mushrooms",
-    "tofu",
-    "carrots",
-    "cabbage",
-    "vegetarian",
-    "sauce"
+  "Vegetarian": [
+    "vegetarian"
   ],
-  "17. Beef": [
-    "17",
-    "beef"
-  ],
-  "18. Chicken": [
-    "18",
-    "chicken"
-  ],
-  "19. Seafood": [
-    "19",
+  "Seafood": [
     "seafood",
-    "prawns",
+    "shrimp",
     "calamari",
-    "fish",
-    "cake",
     "imitation",
     "crab",
-    "rice",
-    "noodles"
+    "fish",
+    "cake"
   ],
-  "20. Vegetarian": [
-    "20",
-    "vegetarian",
-    "house",
-    "fav",
-    "mixed",
-    "vegetables",
-    "vegetarian",
-    "broth"
-  ],
-  "21. Vegetarian Hot & Sour": [
-    "21",
+  "Vegetarian Hot & Sour": [
     "vegetarian",
     "hot",
     "sour",
@@ -197,85 +149,55 @@ MenuApp.menus["sunflower"] = {
     "bean",
     "sprouts",
     "tomatoes",
-    "pineapples",
-    "no",
-    "noodles"
+    "pineapples"
   ],
-  "22. Imperial Rolls": [
-    "22",
-    "imperial",
-    "rolls"
-  ],
-  "23. Vegetarian Imperial Rolls": [
-    "23",
-    "vegetarian",
-    "imperial",
-    "rolls",
-    "vegetarian",
-    "sauce"
-  ],
-  "24. Five Spice Roasted Chicken & Imperial Rolls": [
-    "24",
+  "Five Spice Roasted Chicken & Imperial Rolls": [
     "five",
     "spice",
+    "roasted",
     "chicken",
     "imperial",
     "rolls"
   ],
-  "25. B.B.Q Pork (Lemongrass Marinade) & Imperial Rolls": [
-    "25",
+  "B.B.Q Pork (Lemongrass Marinade) & Imperial Rolls": [
     "bbq",
     "pork",
     "imperial",
     "rolls"
   ],
-  "26. B.B.Q Beef (Lemongrass Marinade) & Imperial Rolls": [
-    "26",
+  "B.B.Q Beef (Lemongrass Marinade) & Imperial Rolls": [
     "bbq",
     "beef",
     "imperial",
     "rolls"
   ],
-  "27. Grilled Shrimp & Imperial Rolls": [
-    "27",
+  "Grilled Shrimp & Imperial Rolls": [
+    "grilled",
     "shrimp",
     "imperial",
     "rolls"
   ],
-  "28. Vegetarian": [
-    "28",
-    "vegetarian",
-    "sauteed",
-    "tofu",
-    "cabbage",
-    "mushrooms",
-    "vegetarian",
-    "sauce"
-  ],
-  "29. Curry Prawns": [
-    "29",
+  "Curry Prawns": [
     "curry",
     "prawns",
     "sauteed",
     "prawns",
+    "mixed",
     "vegetables",
     "coconut",
     "curry",
     "sauce"
   ],
-  "30. Curry Chicken": [
-    "30",
+  "Curry Chicken": [
     "curry",
     "chicken",
-    "sauteed",
-    "chicken",
+    "mixed",
     "vegetables",
     "coconut",
     "curry",
     "sauce"
   ],
-  "31. Curry Seafood": [
-    "31",
+  "Curry Seafood": [
     "curry",
     "seafood",
     "sauteed",
@@ -290,19 +212,18 @@ MenuApp.menus["sunflower"] = {
     "curry",
     "sauce"
   ],
-  "32. Curry Vegetables": [
-    "32",
+  "Curry Vegetables": [
     "curry",
     "vegetables",
     "sauteed",
+    "mixed",
     "vegetables",
     "tofu",
     "coconut",
     "curry",
     "sauce"
   ],
-  "33. Lemongrass Chicken Or Beef": [
-    "33",
+  "Lemongrass Chicken Or Beef": [
     "lemongrass",
     "chicken",
     "or",
@@ -312,18 +233,17 @@ MenuApp.menus["sunflower"] = {
     "onions",
     "chilies"
   ],
-  "34. Lemongrass Prawns": [
-    "34",
+  "Lemongrass Prawns": [
     "lemongrass",
+    "prawns",
+    "sauteed",
     "prawns",
     "lemongrass",
     "green",
     "beans",
-    "onions",
     "chilies"
   ],
-  "35. Prawns With String Beans": [
-    "35",
+  "Prawns With String Beans": [
     "prawns",
     "string",
     "beans",
@@ -333,36 +253,35 @@ MenuApp.menus["sunflower"] = {
     "garlic",
     "onions"
   ],
-  "36. Five Spices Roasted Chicken": [
-    "36",
+  "Five Spices Roasted Chicken": [
     "five",
     "spices",
+    "roasted",
     "chicken",
     "tender",
+    "roasted",
     "chicken",
     "five",
     "spices"
   ],
-  "37. Garlic Eggplant": [
-    "37",
+  "Garlic Eggplant": [
     "garlic",
     "eggplant",
     "eggplant",
-    "sauteed",
+    "sautéed",
     "garlic",
     "sauce"
   ],
-  "38. Curry Eggplant": [
-    "38",
+  "Curry Eggplant": [
     "curry",
     "eggplant",
+    "sauteed",
     "eggplant",
     "coconut",
     "curry",
     "sauce"
   ],
-  "39. Garlic Vegetables": [
-    "39",
+  "Garlic Vegetables": [
     "garlic",
     "vegetables",
     "sauteed",
@@ -372,35 +291,32 @@ MenuApp.menus["sunflower"] = {
     "garlic",
     "sauce"
   ],
-  "40. Lemongrass Tofu": [
-    "40",
+  "Lemongrass Tofu": [
     "lemongrass",
     "tofu",
+    "stir-fried",
     "tofu",
-    "green",
-    "beans",
     "lemongrass",
-    "onions",
+    "onion",
     "chilies"
   ],
-  "41. Garlic Chicken": [
-    "41",
+  "Garlic Chicken": [
     "garlic",
     "chicken",
-    "chicken",
-    "sauteed",
+    "mixed",
     "vegetables",
-    "garlic"
+    "garlic",
+    "sauce"
   ],
-  "42. Garlic Noodles": [
-    "42",
+  "Garlic Noodles": [
     "garlic",
     "noodles",
+    "our",
     "house",
     "favorite",
     "pan",
+    "fried",
     "noodles",
-    "egg",
     "garlic"
   ],
   "add mixed vegetables or tofu": [
@@ -417,97 +333,56 @@ MenuApp.menus["sunflower"] = {
     "or",
     "shrimp"
   ],
-  "43. Sunflower Prawns": [
-    "43",
+  "Sunflower Prawns": [
     "sunflower",
     "prawns",
     "tiger",
     "prawns",
-    "our",
-    "special",
-    "sauce",
-    "over",
     "garlic",
     "noodles"
   ],
-  "44. Chicken": [
-    "44",
-    "chicken"
-  ],
-  "45. Beef": [
-    "45",
-    "beef"
-  ],
-  "46. Prawns": [
-    "46",
+  "Prawns": [
     "prawns"
   ],
-  "47. Seafood": [
-    "47",
-    "seafood",
-    "shrimp",
-    "calamari",
-    "imit",
-    "crab",
-    "fish",
-    "cake"
-  ],
-  "48. Vegetarian": [
-    "48",
-    "vegetarian"
-  ],
-  "49. Combination": [
-    "49",
-    "combination",
-    "chicken",
-    "shrimp",
-    "vegetables"
-  ],
-  "50. Vegetarian": [
-    "50",
-    "vegetarian"
-  ],
-  "51. Combination": [
-    "51",
+  "Combination": [
     "combination",
     "chicken",
     "shrimp",
     "mixed",
     "vegetables"
   ],
-  "52. Chicken Or Beef Fried Rice": [
-    "52",
+  "Chicken Or Beef Fried Rice": [
     "chicken",
     "or",
     "beef",
+    "fried",
     "rice"
   ],
-  "53. House Fried Rice": [
-    "53",
+  "House Fried Rice": [
     "house",
+    "fried",
     "rice",
     "chicken",
     "prawns",
     "pineapple"
   ],
-  "54. Prawn Or Crab Meat Fried Rice": [
-    "54",
+  "Prawn Or Crab Meat Fried Rice": [
     "prawn",
     "or",
     "crab",
     "meat",
+    "fried",
     "rice"
   ],
-  "55. Vegetarian Fried Rice": [
-    "55",
+  "Vegetarian Fried Rice": [
     "vegetarian",
+    "fried",
     "rice",
     "vegetables",
     "mushrooms",
     "tofu"
   ],
-  "56. Clay Pot Special": [
-    "56",
+  "Clay Pot Special": [
     "clay",
     "pot",
     "special",
@@ -518,18 +393,16 @@ MenuApp.menus["sunflower"] = {
     "clay",
     "pot"
   ],
-  "57. Steamed Jasmine Rice": [
-    "57",
+  "Steamed Jasmine Rice": [
+    "steamed",
     "jasmine",
     "rice"
   ],
-  "58. Brown Rice": [
-    "58",
+  "Brown Rice": [
     "brown",
     "rice"
   ],
   "#1. Soup, Imperial Roll, Salad, Five Spice Chicken": [
-    "#1",
     "soup",
     "imperial",
     "roll",
@@ -539,7 +412,6 @@ MenuApp.menus["sunflower"] = {
     "chicken"
   ],
   "#2. Soup, Imperial Roll, Salad, Bbq Pork": [
-    "#2",
     "soup",
     "imperial",
     "roll",
@@ -548,7 +420,6 @@ MenuApp.menus["sunflower"] = {
     "pork"
   ],
   "#3. Soup, Imperial Roll, Salad, Lemongrass Chicken (Spicy)": [
-    "#3",
     "soup",
     "imperial",
     "roll",
@@ -557,7 +428,6 @@ MenuApp.menus["sunflower"] = {
     "chicken"
   ],
   "#4. Soup, Imperial Roll, Salad, Lemongrass Beef (Spicy)": [
-    "#4",
     "soup",
     "imperial",
     "roll",
@@ -566,7 +436,6 @@ MenuApp.menus["sunflower"] = {
     "beef"
   ],
   "#5. Soup, Imperial Roll, Salad, Lemongrass Prawns (Spicy)": [
-    "#5",
     "soup",
     "imperial",
     "roll",
@@ -575,18 +444,15 @@ MenuApp.menus["sunflower"] = {
     "prawns"
   ],
   "** Brown Rice Or Vegetarian Roll Substitution Add $0.50": [
-    "**",
     "brown",
     "rice",
     "or",
     "vegetarian",
     "roll",
     "substitution",
-    "add",
-    "$050"
+    "add"
   ],
   "#6. Veg Soup, Veg Imperial Roll, Salad, Lemongrass Tofu (Spicy)": [
-    "#6",
     "veg",
     "soup",
     "veg",
@@ -597,7 +463,6 @@ MenuApp.menus["sunflower"] = {
     "tofu"
   ],
   "#7. Veg Soup, Veg Imperial Roll, Salad, Spicy Green Beans": [
-    "#7",
     "veg",
     "soup",
     "veg",
@@ -608,12 +473,12 @@ MenuApp.menus["sunflower"] = {
     "green",
     "beans"
   ],
-  "11. Combo Appetizer": [
-    "11",
+  "Combo Appetizer": [
     "combo",
     "appetizer",
     "imperial",
     "rolls",
+    "grilled",
     "shrimp",
     "bbq",
     "lemongrass",
@@ -623,40 +488,7 @@ MenuApp.menus["sunflower"] = {
     "greens",
     "rice"
   ],
-  "12. Chicken": [
-    "12",
-    "chicken"
-  ],
-  "13. Beef": [
-    "13",
-    "beef"
-  ],
-  "14. Shrimp": [
-    "14",
-    "shrimp"
-  ],
-  "15. Calamari": [
-    "15",
-    "calamari"
-  ],
-  "16. Shrimp & Pork": [
-    "16",
-    "shrimp",
-    "pork"
-  ],
-  "17. Vegetarian": [
-    "17",
-    "vegetarian",
-    "mushrooms",
-    "tofu",
-    "carrots",
-    "shredded",
-    "cabbage",
-    "veg",
-    "sauce"
-  ],
-  "18. Hot & Sour Fish Or Shrimp": [
-    "18",
+  "Hot & Sour Fish Or Shrimp": [
     "hot",
     "sour",
     "fish",
@@ -666,170 +498,37 @@ MenuApp.menus["sunflower"] = {
     "tomatoes",
     "pineapples"
   ],
-  "19. Vegetarian Hot & Sour": [
-    "19",
-    "vegetarian",
-    "hot",
-    "sour",
-    "tofu",
-    "mushrooms",
-    "bean",
-    "sprouts",
-    "tomatoes",
-    "pineapples"
-  ],
-  "20. Crab Meat & Sweet Corn": [
-    "20",
+  "Crab Meat & Sweet Corn": [
     "crab",
     "meat",
     "sweet",
     "corn"
   ],
-  "21. Crab Meat & Asparagus": [
-    "21",
+  "Crab Meat & Asparagus": [
     "crab",
     "meat",
     "asparagus"
   ],
-  "22. Beef": [
-    "22",
-    "beef"
-  ],
-  "23. Chicken": [
-    "23",
-    "chicken"
-  ],
-  "24. Seafood": [
-    "24",
-    "seafood",
-    "prawns",
-    "calamari",
-    "fish",
-    "cake",
-    "imitation",
-    "crab",
-    "rice",
-    "noodles"
-  ],
-  "25. Vegetarian": [
-    "25",
-    "vegetarian",
-    "house",
-    "favorite",
-    "mixed",
-    "vegetables",
-    "vegetarian",
-    "broth"
-  ],
-  "26. Imperial Rolls": [
-    "26",
-    "imperial",
-    "rolls"
-  ],
-  "27. Vegetarian Imperial Rolls": [
-    "27",
-    "vegetarian",
-    "imperial",
-    "rolls",
-    "vegetarian",
-    "sauce"
-  ],
-  "28. Five Spice Roasted Chicken & Imperial Rolls": [
-    "28",
-    "five",
-    "spice",
-    "chicken",
-    "imperial",
-    "rolls"
-  ],
-  "29. B.B.Q. Pork (Lemongrass Marinade) & Imperial Rolls": [
-    "29",
+  "B.B.Q. Pork (Lemongrass Marinade) & Imperial Rolls": [
     "bbq",
     "pork",
     "imperial",
     "rolls"
   ],
-  "30. B.B.Q. Beef (Lemongrass Marinade) & Imperial Rolls": [
-    "30",
+  "B.B.Q. Beef (Lemongrass Marinade) & Imperial Rolls": [
     "bbq",
     "beef",
     "imperial",
     "rolls"
   ],
-  "31. Grilled Shrimp & Imperial Rolls": [
-    "31",
-    "shrimp",
-    "imperial",
-    "rolls"
-  ],
-  "32. Vegetarian": [
-    "32",
-    "vegetarian",
-    "sauteed",
-    "tofu",
-    "cabbage",
-    "mushrooms",
-    "vegetarian",
-    "sauce"
-  ],
-  "33. Garlic Noodles": [
-    "33",
-    "garlic",
-    "noodles",
-    "our",
-    "house",
-    "favorite",
-    "pan",
-    "noodles",
-    "garlic"
-  ],
-  "34. Chicken": [
-    "34",
-    "chicken"
-  ],
-  "35. Beef": [
-    "35",
-    "beef"
-  ],
-  "36. Prawns": [
-    "36",
-    "prawns"
-  ],
-  "37. Seafood": [
-    "37",
-    "seafood",
-    "shrimp",
-    "calamari",
-    "imitation",
-    "crab",
-    "fish",
-    "cake"
-  ],
-  "38. Vegetarian": [
-    "38",
-    "vegetarian"
-  ],
-  "39. Combo": [
-    "39",
-    "combo",
-    "chicken",
-    "shrimp",
-    "vegetables"
-  ],
-  "40. Vegetarian": [
-    "40",
-    "vegetarian"
-  ],
-  "41. Combo": [
-    "41",
+  "Combo": [
     "combo",
     "chicken",
     "shrimp",
     "mixed",
     "vegetables"
   ],
-  "42. Shaken Beef": [
-    "42",
+  "Shaken Beef": [
     "shaken",
     "beef",
     "favorite",
@@ -841,8 +540,7 @@ MenuApp.menus["sunflower"] = {
     "chili",
     "sauce"
   ],
-  "43. Lemongrass Beef": [
-    "43",
+  "Lemongrass Beef": [
     "lemongrass",
     "beef",
     "lemongrass",
@@ -852,8 +550,7 @@ MenuApp.menus["sunflower"] = {
     "onions",
     "chilies"
   ],
-  "44. Curry Beef": [
-    "44",
+  "Curry Beef": [
     "curry",
     "beef",
     "mixed",
@@ -862,8 +559,7 @@ MenuApp.menus["sunflower"] = {
     "curry",
     "sauce"
   ],
-  "45. Garlic Beef": [
-    "45",
+  "Garlic Beef": [
     "garlic",
     "beef",
     "mixed",
@@ -871,18 +567,17 @@ MenuApp.menus["sunflower"] = {
     "garlic",
     "sauce"
   ],
-  "46. B.B.Q Lemongrass Beef": [
-    "46",
+  "B.B.Q Lemongrass Beef": [
     "bbq",
     "lemongrass",
     "beef",
     "marinated",
     "lemongrass",
+    "grilled",
     "to",
     "delicious"
   ],
-  "47. Flaming Beef And Prawns": [
-    "47",
+  "Flaming Beef And Prawns": [
     "flaming",
     "beef",
     "prawns",
@@ -895,27 +590,17 @@ MenuApp.menus["sunflower"] = {
     "greens",
     "mint"
   ],
-  "48. Grilled Beef": [
-    "48",
+  "Grilled Beef": [
+    "grilled",
     "beef",
     "tender",
+    "grilled",
     "beef",
     "rice",
     "greens",
     "mint"
   ],
-  "49. Five Spices Roasted Chicken": [
-    "49",
-    "five",
-    "spices",
-    "chicken",
-    "tender",
-    "chicken",
-    "five",
-    "spices"
-  ],
-  "50. Lemongrass Chicken": [
-    "50",
+  "Lemongrass Chicken": [
     "lemongrass",
     "chicken",
     "lemongrass",
@@ -925,27 +610,8 @@ MenuApp.menus["sunflower"] = {
     "onions",
     "chilies"
   ],
-  "51. Curry Chicken": [
-    "51",
-    "curry",
-    "chicken",
-    "mixed",
-    "vegetables",
-    "coconut",
-    "curry",
-    "sauce"
-  ],
-  "52. Garlic Chicken": [
-    "52",
-    "garlic",
-    "chicken",
-    "mixed",
-    "vegetables",
-    "garlic",
-    "sauce"
-  ],
-  "53. Grilled Lemongrass Chicken": [
-    "53",
+  "Grilled Lemongrass Chicken": [
+    "grilled",
     "lemongrass",
     "chicken",
     "chicken",
@@ -953,8 +619,7 @@ MenuApp.menus["sunflower"] = {
     "mint",
     "greens"
   ],
-  "54. B.B.Q Pork": [
-    "54",
+  "B.B.Q Pork": [
     "bbq",
     "pork",
     "tender",
@@ -964,54 +629,46 @@ MenuApp.menus["sunflower"] = {
     "marinated",
     "lemongrass"
   ],
-  "55. Steamed Sea Bass": [
-    "55",
+  "Steamed Sea Bass": [
+    "steamed",
     "sea",
     "bass",
     "ginger",
     "green",
     "onions"
   ],
-  "56. Crispy Sea Bass": [
-    "56",
+  "Crispy Sea Bass": [
     "crispy",
     "sea",
     "bass",
     "deep",
+    "fried",
     "sizzling",
     "plate"
   ],
-  "57. Pan Fried Fish Filet": [
-    "57",
+  "Pan Fried Fish Filet": [
     "pan",
+    "fried",
     "fish",
     "filet",
+    "pan-fried",
     "fish",
     "filet",
     "special",
     "ginger",
     "sauce"
   ],
-  "58. Sunflower Prawns": [
-    "58",
-    "sunflower",
+  "Grilled Prawns": [
+    "grilled",
     "prawns",
-    "tiger",
-    "prawns",
-    "garlic",
-    "noodles"
-  ],
-  "59. Grilled Prawns": [
-    "59",
-    "prawns",
+    "grilled",
     "marinated",
     "prawns",
     "rice",
     "greens",
     "mint"
   ],
-  "60. Pepper Prawns": [
-    "60",
+  "Pepper Prawns": [
     "pepper",
     "prawns",
     "sauteed",
@@ -1021,20 +678,7 @@ MenuApp.menus["sunflower"] = {
     "black",
     "pepper"
   ],
-  "61. Curry Prawns": [
-    "61",
-    "curry",
-    "prawns",
-    "sauteed",
-    "prawns",
-    "mixed",
-    "vegetables",
-    "coconut",
-    "curry",
-    "sauce"
-  ],
-  "62. Spicy Calamari": [
-    "62",
+  "Spicy Calamari": [
     "spicy",
     "calamari",
     "sauteed",
@@ -1043,8 +687,7 @@ MenuApp.menus["sunflower"] = {
     "garlic",
     "chilies"
   ],
-  "63. Spicy Seafood Combo": [
-    "63",
+  "Spicy Seafood Combo": [
     "spicy",
     "seafood",
     "combo",
@@ -1054,8 +697,7 @@ MenuApp.menus["sunflower"] = {
     "garlic",
     "chilies"
   ],
-  "64. Fish Clay Pot": [
-    "64",
+  "Fish Clay Pot": [
     "fish",
     "clay",
     "pot",
@@ -1065,8 +707,7 @@ MenuApp.menus["sunflower"] = {
     "clay",
     "pot"
   ],
-  "65. Sizzling Seafood": [
-    "65",
+  "Sizzling Seafood": [
     "sizzling",
     "seafood",
     "sauteed",
@@ -1078,131 +719,22 @@ MenuApp.menus["sunflower"] = {
     "chili",
     "sauce"
   ],
-  "66. Lemongrass Prawns": [
-    "66",
-    "lemongrass",
-    "prawns",
-    "sauteed",
-    "prawns",
-    "lemongrass",
-    "green",
-    "beans",
-    "chilies"
-  ],
-  "67. Garlic Vegetables": [
-    "67",
-    "garlic",
-    "vegetables",
-    "sauteed",
-    "mixed",
-    "vegetables",
-    "tofu",
-    "garlic",
-    "sauce"
-  ],
-  "68. Curry Vegetables": [
-    "68",
-    "curry",
-    "vegetables",
-    "sauteed",
-    "mixed",
-    "vegetables",
-    "tofu",
-    "coconut",
-    "curry",
-    "sauce"
-  ],
-  "69. Garlic Eggplant": [
-    "69",
-    "garlic",
-    "eggplant",
-    "eggplant",
-    "sautéed",
-    "garlic",
-    "sauce"
-  ],
-  "70. Curry Eggplant": [
-    "70",
-    "curry",
-    "eggplant",
-    "sauteed",
-    "eggplant",
-    "coconut",
-    "curry",
-    "sauce"
-  ],
-  "71. Spicy Green Beans": [
-    "71",
+  "Spicy Green Beans": [
     "spicy",
     "green",
     "beans",
+    "stir-fried",
     "tender",
     "green",
     "bean",
     "mushroom",
     "garlic",
     "chilies"
-  ],
-  "72. Lemongrass Tofu": [
-    "72",
-    "lemongrass",
-    "tofu",
-    "tofu",
-    "lemongrass",
-    "onion",
-    "chilies"
-  ],
-  "73. Prawn Or Crab Meat Fried Rice": [
-    "73",
-    "prawn",
-    "or",
-    "crab",
-    "meat",
-    "rice"
-  ],
-  "74. Chicken Or Beef Fried Rice": [
-    "74",
-    "chicken",
-    "or",
-    "beef",
-    "rice"
-  ],
-  "75. House Fried Rice": [
-    "75",
-    "house",
-    "rice",
-    "chicken",
-    "prawns",
-    "pineapple"
-  ],
-  "76. Vegetarian Fried Rice": [
-    "76",
-    "vegetarian",
-    "rice",
-    "vegetables",
-    "mushrooms",
-    "tofu"
-  ],
-  "77. Clay Pot Special": [
-    "77",
-    "clay",
-    "pot",
-    "special",
-    "chicken",
-    "prawns",
-    "sausage",
-    "mushrooms",
-    "clay",
-    "pot"
-  ],
-  "78. Steamed Jasmine Rice": [
-    "78",
-    "jasmine",
-    "rice"
-  ],
-  "79. Brown Rice": [
-    "79",
-    "brown",
-    "rice"
   ]
+}
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["sunflower"] = menu;
 }

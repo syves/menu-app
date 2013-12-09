@@ -1,4 +1,4 @@
-MenuApp.cuisines["french-bakery"] = {
+MenuApp.cuisines["french-bakery"] = 
   [
   "almond",
   "almond-cream",
