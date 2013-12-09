@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var paths = process.argv.slice(2)
+var ingredients = {};
+
+paths.forEach(function(path){
+  var menu = require(path);
+  for (var name in menu) {
+    menu[name].forEach(function(ingredient) {
+      ingredients[ingredient] = 1;
+    });
+  }
+});
+
+console.log(JSON.stringify(Object.keys(ingredients), null, 2));
