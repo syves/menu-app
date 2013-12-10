@@ -342,7 +342,7 @@ var menu = {
     "cheese"
   ],
   "Walnut Baguette": [
-    "walnut baguette".
+    "walnut baguette",
     "walnut"
   ],
   "Organic Epi Baguette": [
@@ -420,7 +420,7 @@ var menu = {
     "brioche loaf"
   ],
   "Organic- Sliced 8 Grain Bread": [
-    "sliced 8 grain bread"
+    "sliced 8 grain bread",
     "bread"
   ],
   "Sliced Whole Wheat Bread": [

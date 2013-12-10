@@ -1324,7 +1324,7 @@ var menu = {
   "Fresh Mango Pudding": [
     "mango pudding"
   ],
-  "Mochi" or: [
+  "Mochi": [
     "mochi",
     "green tea",
     "vanilla",

@@ -25,7 +25,7 @@ var menu = {
     "noodles",
     "egg noodles",
     "sliced boneless roasted duck",
-    "duck"
+    "duck",
     "bean sprouts"
   ],
   "Combo Noodle Soup": [
@@ -163,7 +163,7 @@ var menu = {
     "egg",
     "bean sprouts",
     "ground",
-    "peanuts"
+    "peanuts",
     "roasted duck"
   ],
       "Guay Tiew Ko": [
@@ -439,7 +439,7 @@ var menu = {
     "hot chili paste",
     "bamboo shoot",
     "onion",
-    "basil"
+    "basil",
     "calamari"
   ],
   "Pad Phed": [
@@ -447,7 +447,7 @@ var menu = {
     "hot chili paste",
     "bamboo shoot",
     "onion",
-    "basil"
+    "basil",
     "calamari"
   ],
   "Pad Phed": [
@@ -455,7 +455,7 @@ var menu = {
     "hot chili paste",
     "bamboo shoot",
     "onion",
-    "basil"
+    "basil",
     "calamari"
   ],
   "Thai Style Fried Rice": [
@@ -470,28 +470,28 @@ var menu = {
     "fried Rice"
   ],
   "Thai Style Fried Rice": [
-    "fried Rice"
-    "beef",
+    "fried Rice",
+    "beef"
   ],
   "Thai Style Fried Rice": [
-    "fried Rice"
-    "pork",
+    "fried Rice",
+    "pork"
   ],
   "Thai Style Fried Rice": [
-    "fried Rice"
+    "fried Rice",
     "chicken sausage"
   ],
   "Thai Style Fried Rice": [
-    "fried Rice"
+    "fried Rice",
     "prawn"
   ],
   "Thai Style Fried Rice": [
-    "fried Rice"
-    "crabmeat ball",
+    "fried Rice",
+    "crabmeat ball"
   ],
   "Thai Style Fried Rice": [
-    "fried Rice"
-    "duck",
+    "fried Rice",
+    "duck"
   ],   
     "imperial Rolls": [
     "imperial rolls",
@@ -503,7 +503,7 @@ var menu = {
     "bean thread noodles"
   ],
   "Golden Triangles Samosas ": [
-    "crispy samosas"
+    "crispy samosas",
     "pumporkin",
     "potato",
     "curry"
@@ -652,7 +652,7 @@ var menu = {
     "green papaya"
   ],
   "Green Papaya Salad (Som Tum)": [
-    "green papaya"
+    "green papaya",
     "soft shell crab"
   ],
   "Green Mango Salad": [
@@ -660,7 +660,7 @@ var menu = {
     "prawns",
     "onions",
     "cilantro",
-    "spicy lime dressing"
+    "spicy lime dressing",
     "coconut",
     "cashew nut"
   ],
@@ -693,7 +693,7 @@ var menu = {
     "turmeric",
     "herbs",
     "spices",
-    "yukon potatoes"
+    "yukon potatoes",
     "lamb"
   ],
   "Kang Dang": [
@@ -889,11 +889,11 @@ var menu = {
     "bamboo shoot",
     "chili",
     "garlic",
-    "basil"
+    "basil",
     "calamari",
-    "fish"
+    "fish",
     "scallop",
-    "prawn"
+    "prawn",
     "pork",
     "beef",
     "chicken",
@@ -1496,15 +1496,13 @@ var menu = {
     "mango",
     "fried",
     "rice",
-    "*",
     "fresh",
     "cubes",
     "mango",
     "fried",
     "rice",
     "your",
-    "",
-    "meat ball"
+    "meat ball",
     "shrimp"
   ],
   "Simmered Panang pork Curry": [

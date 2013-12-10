@@ -116,7 +116,7 @@ var menu = {
     "ground chiles",
     "lentils"
   ],
-  "Dahi Vada": 
+  "Dahi Vada": [
     "dumplings",
     "straus organic yogurt",
     "tamarind",
@@ -203,7 +203,7 @@ var menu = {
     "masala sauce",
     "potato",
     "dosa",
-    "chutney"
+    "chutney",
     "pumpkin",
     "ginger",
     "cinnamon",
@@ -525,7 +525,7 @@ var menu = {
   "Kingfisher Lager": [
     "kingfisher lager",
     "bangalore",
-    "india beer"
+    "india beer",
     "bodied",
     "pale lager",
     "beer"
@@ -559,7 +559,7 @@ var menu = {
     "butter",
     "cinnamon",
     "red wine sauce",
-    "wine"
+    "wine",
     "pâte sucrée",
     "whipped cream"
   ],
