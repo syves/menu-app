@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var fs = require("fs");
+var wordPairs = {};
+fs.readdirSync(__dirname + '/../public/js/menus').forEach(function(filename){
+  var menu = require('../public/js/menus/' + filename);
+  for (var name in menu){
+    var ingredients = menu[name];
+    ingredients.forEach(function(ingredient){
+      if (/[ ]/.test(ingredient)) {
+        wordPairs[ingredient] = 1;
+      }
+    })
+  }
+});
+console.log(Object.keys(wordPairs).sort());
