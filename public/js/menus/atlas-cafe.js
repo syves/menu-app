@@ -1,4 +1,4 @@
-MenuApp.menus["atlas"] = {
+var menu = {
   "Plain Bagel": [
     "bagel"
   ],
@@ -253,4 +253,10 @@ MenuApp.menus["atlas"] = {
   "Newcastle": [
     "newcastle"
   ]
+};
+
+if (typeof module !== 'undefined') { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["atlas-cafe"] = menu;
 }

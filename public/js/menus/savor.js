@@ -1,6 +1,5 @@
 MenuApp.menus["savor"] = {
   "Coronado": [
-    "coronado",
     "avocado",
     "mild",
     "cheddar",
@@ -15,8 +14,6 @@ MenuApp.menus["savor"] = {
     "cream"
   ],
   "Monte Carlo": [
-    "monte",
-    "carlo",
     "honey",
     "ham",
     "bell",
@@ -26,8 +23,6 @@ MenuApp.menus["savor"] = {
     "cheddar"
   ],
   "La Mancha": [
-    "la",
-    "mancha",
     "chicken",
     "apple",
     "sausage",
@@ -37,8 +32,6 @@ MenuApp.menus["savor"] = {
     "cheese"
   ],
   "Arizona": [
-    "arizona",
-    "chorizo",
     "avocado",
     "black",
     "bean",
@@ -50,7 +43,6 @@ MenuApp.menus["savor"] = {
     "fresca"
   ],
   "Greek": [
-    "greek",
     "spinach",
     "onions",
     "olives",
@@ -69,8 +61,6 @@ MenuApp.menus["savor"] = {
     "americano"
   ],
   "Rio Grande": [
-    "rio",
-    "grande",
     "chicken",
     "breast",
     "mushrooms",

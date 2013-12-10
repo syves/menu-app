@@ -1,4 +1,4 @@
-MenuApp.menus["big-lantern"] = {
+var menu = {
   "Sweet & Sour Pork": [
     "sweet and sour sauce",
     "pork"
@@ -188,19 +188,16 @@ MenuApp.menus["big-lantern"] = {
     "orange sauce"
   ],
   "Lemon Meatless Fish": [
-    "lemon",
+    "lemon sauce",
     "meatless fish",
   ],
   "Lemon Meatless Beef": [
-    "lemon",
+    "lemon sauce",
     "meatless beef"
   ],
   "Crispy meatless chicken Garlic Sauce": [
     "garlic sauce",
     "crispy meatless chicken",
-    "or",
-    "crispy",
-    "fish"
   ],
   "Crispy meatless fish Garlic Sauce": [
     "garlic sauce",
@@ -551,24 +548,18 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Minced Chicken Lettuce Cup": [
     "minced chicken",
-    "lettuce",
-    "cup"
+    "lettuce cup"
   ],
   "Garlic Mushroom Family": [
     "garlic",
     "mushroom",
-    "family"
   ],
   "Portobello Mushroom": [
-    "portobello",
-    "mushroom",
+    "portobello mushroom",
     "chicken"
   ],
   "Mandarin Combo Clay Pot": [
-    "mandarin",
-    "combo",
-    "clay",
-    "pot",
+    "clay pot",
     "scallops",
     "prawn",
     "chicken",
@@ -576,22 +567,15 @@ MenuApp.menus["big-lantern"] = {
     "vegetable"
   ],
   "Black Pepper Beef In Sizzling Hot Pot": [
-    "black",
-    "pepper",
+    "black pepper",
     "beef",
-    "sizzling",
-    "hot",
-    "pot"
+    "sizzling hot pot"
   ],
   "Drunken Beef": [
-    "drunken",
     "beef"
   ],
   "Big Lantern Tea Flavored Chicken Or Beef Or Lamb": [
-    "big",
-    "lantern",
-    "tea",
-    "flavored",
+    "tea flavored",
     "chicken",
     "or",
     "beef",
@@ -599,36 +583,26 @@ MenuApp.menus["big-lantern"] = {
     "lamb"
   ],
   "Half-Moon Bay's Harvest": [
-    "half-moon",
-    "bay's",
-    "harvest",
     "prawn",
     "scallop",
     "fish",
     "calamari"
   ],
   "Five Spice Sesame Scallops Or Prawn Or Fish": [
-    "five",
-    "spice",
-    "sesame",
+    "five spice",
+    "sesame sauce",
     "scallops",
-    "or",
     "prawn",
-    "or",
     "fish"
   ],
   "Sauteed Scallop & Beef": [
-    "sauteed",
-    "scallop",
+    "sauteed scallop",
     "beef"
   ],
   "Crispy Duck Leg": [
-    "crispy",
-    "duck",
-    "leg"
+    "crispy duck"
   ],
   "Peking Duck": [
-    "peking",
     "duck"
   ],
   "Lover's Prawn": [
@@ -646,17 +620,12 @@ MenuApp.menus["big-lantern"] = {
     "flounder"
   ],
   "Whole Fish": [
-    "whole",
-    "fish",
-    "braised",
-    "or"
+    "braised fish",
   ],
   "Dungeness Crab": [
-    "dungeness",
-    "crab",
+    "dungeness crab",
     "ginger",
     "onion",
-    "or",
     "salt",
     "pepper"
   ],
@@ -665,7 +634,7 @@ MenuApp.menus["big-lantern"] = {
     "chicken"
   ],
   "Mongolian Chicken": [
-    "mongolian",
+    "mongolian sauce",
     "chicken"
   ],
   "Orange Chicken": [
@@ -729,55 +698,40 @@ MenuApp.menus["big-lantern"] = {
     "braised",
     "chicken",
     "wing",
-    "w/",
     "mandarin",
     "sauce"
   ],
-  "w/ hunan sauce": [
-    "w/",
-    "hunan",
-    "sauce"
-  ],
   "Szechuan Chicken": [
-    "szechuan",
+    "szechuan sauce",
     "chicken"
   ],
   "Wood Ear Mushroom Chicken": [
-    "wood",
-    "ear",
-    "mushroom",
+    "wood ear mushroom",
     "chicken"
   ],
   "Garlic Chicken Tofu Pot": [
     "garlic",
     "chicken",
     "tofu",
-    "pot"
   ],
   "Sun Flower Chicken": [
-    "sun",
-    "flower",
     "chicken"
   ],
   "Hunan Crispy Chicken": [
-    "hunan",
-    "crispy",
-    "chicken"
+    "hunan sauce",
+    "crispy chicken"
   ],
   "Mixed Vegetable Chicken": [
-    "mixed",
-    "vegetable",
+    "mixed vegetable",
     "chicken"
   ],
   "Bok Choy Chicken": [
-    "bok",
-    "choy",
+    "bok choy",
     "chicken"
   ],
   "Spicy Cumin Sauce Chicken": [
     "spicy",
-    "cumin",
-    "sauce",
+    "cumin sauce",
     "chicken"
   ],
   "Ginger & Onion Lamb": [
@@ -786,8 +740,7 @@ MenuApp.menus["big-lantern"] = {
     "lamb"
   ],
   "Mu Shu Lamb": [
-    "mu",
-    "shu",
+    "mu shu",
     "lamb"
   ],
   "Sesame Lamb": [
@@ -823,11 +776,11 @@ MenuApp.menus["big-lantern"] = {
     "beef"
   ],
   "Sesame Beef": [
-    "sesame",
+    "sesame sauce",
     "beef"
   ],
   "Mongolian Beef": [
-    "mongolian",
+    "mongolian sauce",
     "beef"
   ],
   "Mango Beef": [
@@ -835,12 +788,11 @@ MenuApp.menus["big-lantern"] = {
     "beef"
   ],
   "Kung Pao Beef": [
-    "kung",
-    "pao",
+    "kung pao sauce",
     "beef"
   ],
   "Orange Beef": [
-    "orange",
+    "orange sauce",
     "beef"
   ],
   "Curry Beef": [
@@ -858,7 +810,6 @@ MenuApp.menus["big-lantern"] = {
     "mu",
     "shu",
     "beef",
-    "or",
     "pork"
   ],
   "B.B.Q. Beef Egg Foo Yong Or Pork": [
@@ -867,31 +818,26 @@ MenuApp.menus["big-lantern"] = {
     "egg",
     "foo",
     "yong",
-    "or",
     "pork"
   ],
   "Lamb": [
     "lamb"
   ],
   "Mixed Vegetable Prawn": [
-    "mixed",
-    "vegetable",
+    "mixed vegetable",
     "prawn"
   ],
   "Broccoli Prawn Or String Bean": [
     "broccoli",
     "prawn",
-    "or",
-    "string",
-    "bean"
+    "string bean"
   ],
   "Cashew Prawn": [
     "cashew",
     "prawn"
   ],
   "Mu Shu Seafood": [
-    "mu",
-    "shu",
+    "mu shu",
     "seafood"
   ],
   "Kung Pao Prawn": [
@@ -918,48 +864,36 @@ MenuApp.menus["big-lantern"] = {
     "fish"
   ],
   "West Lake Fish": [
-    "west",
-    "lake",
     "fish"
   ],
   "Mandarin Calamari Or Prawn Or Scallop Or Fish": [
-    "mandarin",
+    "mandarin sauce",
     "calamari",
-    "or",
     "prawn",
-    "or",
     "scallop",
-    "or",
     "fish"
   ],
   "Hunan Prawn Or Calamari Or Fish": [
-    "hunan",
+    "hunan sauce",
     "prawn",
-    "or",
     "calamari",
-    "or",
     "fish"
   ],
   "Salt & Pepper Prawn Or Fish Or Calamari": [
     "salt",
     "pepper",
     "prawn",
-    "or",
     "fish",
-    "or",
     "calamari"
   ],
   "Steamed Prawn": [
     "prawn",
-    "w/",
     "tofu"
   ],
   "Peking Prawn Or Calamari Or Fish": [
     "peking",
     "prawn",
-    "or",
     "calamari",
-    "or",
     "fish"
   ],
   "Honey Walnut Prawn": [
@@ -970,39 +904,26 @@ MenuApp.menus["big-lantern"] = {
   "Lemon Prawn Or Calamari": [
     "lemon",
     "prawn",
-    "or",
     "calamari"
   ],
   "Mu Shu Prawns": [
-    "mu",
-    "shu",
+    "mu shu",
     "prawns"
   ],
   "Szechuan Prawn Or Calamari Or Fish": [
     "szechuan",
     "prawn",
-    "or",
     "calamari",
-    "or",
     "fish"
   ],
   "Calamari": [
     "calamari",
-    "general",
-    "or",
     "sesame",
-    "or",
-    "orange",
-    "sauce"
+    "orange sauce"
   ],
   "Wood Ear Mushroom": [
-    "wood",
-    "ear",
-    "mushroom",
-    "w/",
-    "meatless",
-    "chicken",
-    "or",
+    "wood ear mushroom",
+    "meatless chicken",
     "fish"
   ],
   "Lemon Scallops": [
@@ -1011,7 +932,6 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Scallops": [
     "scallops",
-    "w/",
     "garlic",
     "sauce"
   ],
@@ -1036,11 +956,11 @@ MenuApp.menus["big-lantern"] = {
     "scallop"
   ],
   "Mandarin Scallop": [
-    "mandarin",
+    "mandarin sauce",
     "scallop"
   ],
   "Hunan Scallop": [
-    "hunan",
+    "hunan sauce",
     "scallop"
   ],
   "Salt And Pepper Scallop": [
@@ -1050,20 +970,16 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Spicy Cumin Sauce Fish": [
     "spicy",
-    "cumin",
-    "sauce",
+    "cumin auce",
     "fish"
   ],
   "Sweet & Sour Pork": [
-    "sweet",
-    "sour",
+    "sweet and sour sauce",
     "pork"
   ],
   "Mu Shu Pork Or Beef": [
-    "mu",
-    "shu",
+    "mu shu",
     "pork",
-    "or",
     "beef"
   ],
   "B.B.Q. Pork Egg Fu Foung Or Beef": [
@@ -1072,7 +988,6 @@ MenuApp.menus["big-lantern"] = {
     "egg",
     "fu",
     "foung",
-    "or",
     "beef"
   ],
   "Twice Cooked Pork": [
@@ -1096,37 +1011,26 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Szechuan String Bean": [
     "szechuan",
-    "string",
-    "bean",
-    "smoked",
-    "pork"
+    "string bean",
+    "smoked pork"
   ],
   "Lemon Pork": [
     "lemon",
     "pork"
   ],
   "Hunan Crispy Pork": [
-    "hunan",
-    "crispy",
-    "pork"
+    "hunan sauce",
+    "crispy pork"
   ],
   "Honey Walnut Crispy Pork": [
     "honey",
     "walnut",
-    "crispy",
-    "pork"
+    "crispy pork"
   ],
   "BBQ Pork": [
     "bbq",
     "pork",
-    "w/",
     "asparagus"
-  ],
-  "Vegetable": [
-    "vegetable"
-  ],
-  "Seafood": [
-    "seafood"
   ],
   "Garlic Spinach": [
     "garlic",
@@ -1134,22 +1038,18 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Garlic Pea Sprout": [
     "garlic",
-    "pea",
-    "sprout"
+    "pea sprout"
   ],
   "Ginger Onion Broccoli": [
     "ginger",
     "onion",
     "broccoli",
-    "w/",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Ginger Onion Bok Choy": [
     "ginger",
     "onion",
-    "bok",
-    "choy"
+    "bok choy"
   ],
   "Sauteed String Bean": [
     "sauteed",
@@ -1183,29 +1083,14 @@ MenuApp.menus["big-lantern"] = {
   "Braised Tofu": [
     "braised",
     "tofu",
-    "w/",
-    "bok",
-    "choy"
+    "bok choy"
   ],
   "Black Mushroom": [
-    "black",
-    "mushroom",
-    "w/",
-    "bok",
-    "choy"
-  ],
-  "Tofu": [
-    "tofu",
-    "general",
-    "or",
-    "sesame",
-    "or",
-    "orange",
-    "sauce"
+    "black mushroom",
+    "bok choy"
   ],
   "Fried Tofu": [
     "tofu",
-    "w/",
     "curry",
     "sauce"
   ],
@@ -1213,88 +1098,58 @@ MenuApp.menus["big-lantern"] = {
     "chinese",
     "broccoli",
     "ginger",
-    "or",
     "oyster",
     "sauce"
   ],
   "Twice Cooked Meatless Chicken": [
-    "twice",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Mu Shu Vegetable Or Meatless Chicken": [
-    "mu",
-    "shu",
+    "mu shu",
     "vegetable",
-    "or",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Yum Yum Eggplant": [
-    "yum",
-    "yum",
     "eggplant"
   ],
   "Sauteed Asparagus": [
-    "sauteed",
     "asparagus",
-    "w/",
     "tofu"
   ],
   "Asparagus": [
     "asparagus",
-    "black",
-    "bean",
-    "sauce"
+    "black bean sauce"
   ],
   "Basil Meatless Chicken": [
     "basil",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Manog Meatless Chicken": [
-    "manog",
-    "meatless",
-    "chicken"
-  ],
-  "w/ curry sauce": [
-    "w/",
-    "curry",
-    "sauce"
+    "meatless chicken"
   ],
   "Cashew Meatless Chicken": [
     "cashew",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Egg Fu Young": [
     "egg",
     "fu",
     "young",
-    "meatless",
-    "fish"
+    "meatless fish"
   ],
   "Sauteed Spring Bean": [
-    "sauteed",
-    "spring",
-    "bean",
-    "w/",
-    "meatless",
-    "chicken"
+    "sauteed string bean",
+    "meatless chicken"
   ],
   "Ginger Onion Asparagus": [
     "ginger",
     "onion",
     "asparagus",
-    "w/",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Lemon Meatless Chicken Or Fish": [
     "lemon",
-    "meatless",
-    "chicken",
-    "or",
+    "meatless chicken",
     "fish"
   ],
   "Five Spice Sesame Meatless Chicken Or Meatless Fish": [
@@ -1303,31 +1158,25 @@ MenuApp.menus["big-lantern"] = {
     "sesame",
     "meatless",
     "chicken",
-    "or",
     "meatless",
     "fish"
   ],
   "Kung Pao Meatless Fish": [
     "kung",
     "pao",
-    "meatless",
-    "fish"
+    "meatless fish"
   ],
   "Sweet And Sour Meatless Fish": [
-    "sweet",
-    "sour",
-    "meatless",
-    "fish"
+    "sweet and sour sauce",
+    "meatless fish"
   ],
   "Basil Meatless Fish": [
     "basil",
-    "meatless",
-    "fish"
+    "meatless fish"
   ],
   "Cashew Meatless Fish": [
     "cashew",
-    "meatless",
-    "fish"
+    "meatless fish"
   ],
   "Black Bean Meatless Fish": [
     "black",
@@ -1346,13 +1195,10 @@ MenuApp.menus["big-lantern"] = {
     "shredded",
     "meatless",
     "chicken",
-    "w/",
     "tofu"
   ],
   "Wood Ear Mushroom Meatless Chicken": [
-    "wood",
-    "ear",
-    "mushroom",
+    "wood ear mushroom",
     "meatless",
     "chicken"
   ],
@@ -1361,53 +1207,36 @@ MenuApp.menus["big-lantern"] = {
     "onion",
     "chinese",
     "broccoli",
-    "w/",
     "meatless",
     "chicken"
-  ],
-  "w/ meatless fish": [
-    "w/",
-    "meatless",
-    "fish"
   ],
   "Mango Meatless Fish": [
     "mango",
-    "meatless",
-    "fish"
+    "meatless fish"
   ],
   "Spicy Cumin Sauce Meatless Chicken": [
-    "spicy",
-    "cumin",
-    "sauce",
-    "meatless",
-    "chicken"
+    "spicy cumin sauce",
+    "meatless chicken"
   ],
   "Fried Rice": [
     "rice"
   ],
   "Chow Mein Noodle": [
-    "chow",
-    "mein",
-    "noodle"
+    "chow mein noodle"
   ],
   "Noodle Soup": [
     "noodle",
     "soup"
   ],
   "Chow Fun Noodle": [
-    "chow",
-    "fun",
-    "noodle"
+    "chow fun noodle"
   ],
   "Curry Chow Mein": [
     "curry",
-    "chow",
-    "mein"
+    "chow mein"
   ],
   "Lo Mein Noodle": [
-    "lo",
-    "mein",
-    "noodle"
+    "lo mein noodle"
   ],
   "Garlic Noodle": [
     "garlic",
@@ -1421,8 +1250,7 @@ MenuApp.menus["big-lantern"] = {
     "rice"
   ],
   "Brown Rice": [
-    "brown",
-    "rice"
+    "brown rice"
   ],
   "Pineapple Fried Rice": [
     "pineapple",
@@ -1432,20 +1260,11 @@ MenuApp.menus["big-lantern"] = {
     "pastrami",
     "rice"
   ],
-  "Hong Kong Style Pan Fried Noodle": [
-    "hong",
-    "kong",
-    "style",
-    "pan",
+  "Hong Kong Style Pan Fried Noodle or": [
     "noodle",
-    "w/",
-    "bbq",
-    "pork",
-    "or",
+    "bbq pork",
     "chicken",
-    "or",
     "beef",
-    "or",
     "vegetable"
   ],
   "Salmon & Chicken Fried Rice": [
@@ -1454,107 +1273,77 @@ MenuApp.menus["big-lantern"] = {
     "rice"
   ],
   "Singapore Style Rice Noodle": [
-    "singapore",
-    "style",
-    "rice",
-    "noodle",
-    "w/",
+    "rice noodle",
     "chicken",
     "bbq",
     "pork",
     "prawn"
   ],
   "Numbing Spicy Mandarin Noodle": [
-    "numbing",
     "spicy",
-    "mandarin",
+    "mandarin sauce",
     "noodle",
-    "w/",
-    "minced",
-    "pork",
+    "minced pork",
     "vegetable"
   ],
   "House Spicy Noodle Soup": [
-    "house",
     "spicy",
     "noodle",
     "soup",
-    "w/",
     "chicken",
-    "bbq",
-    "pork",
+    "bbq pork",
     "prawn"
   ],
   "Beef Stew Noodle Soup Or Lo Mein": [
-    "beef",
-    "stew",
+    "beef stew",
     "noodle",
     "soup",
-    "or",
     "lo",
     "mein"
   ],
   "Satay Beef": [
-    "satay",
-    "beef",
-    "chow",
-    "fun"
+    "satay beef",
+    "chow fun"
   ],
   "Big Spicy Chow Fun": [
     "big",
     "spicy",
-    "chow",
-    "fun",
-    "meatless",
-    "chicken",
-    "or",
+    "chow fun",
+    "meatless chicken",
     "pork"
   ],
   "Moon Cake": [
-    "moon",
-    "cake"
+    "moon cake"
   ],
   "Sesame Ball": [
-    "sesame",
-    "ball"
+    "sesame ball"
   ],
   "Fried Banana": [
     "banana"
   ],
   "Fresh Mango Pudding": [
-    "mango",
-    "pudding"
+    "mango pudding"
   ],
-  "Mochi": [
+  "Mochi" or: [
     "mochi",
-    "green",
-    "tea",
+    "green tea",
     "vanilla",
-    "or",
     "mango"
   ],
   "Egg Custard": [
-    "egg",
-    "custard"
+    "egg custard"
   ],
   "Peach Bun": [
-    "peach",
-    "bun"
+    "peach bun"
   ],
   "Ice Cream": [
-    "ice",
-    "cream",
-    "green",
-    "tea",
+    "ice cream",
+    "green tea",
     "vanilla",
     "lychee",
-    "or",
     "mango"
   ],
   "Dim Sum Combination": [
-    "dim",
-    "sum",
-    "combination",
     "shrimp",
     "dumpling",
     "pork",
@@ -1566,22 +1355,16 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Vegetarian Dim Sum Combination": [
     "vegetarian",
-    "dim",
-    "sum",
-    "combination"
   ],
   "Chicken Siu Mai": [
     "chicken",
-    "siu",
-    "mai"
-  ],
+      ],
   "Chicken Dumpling": [
     "chicken",
     "dumpling"
   ],
   "Beef Ball": [
-    "beef",
-    "ball"
+    "beef ball"
   ],
   "Steamed Spare-Ribs": [
     "spare-ribs"
@@ -1592,14 +1375,11 @@ MenuApp.menus["big-lantern"] = {
   ],
   "Pork Siu Mai": [
     "pork",
-    "siu",
-    "mai"
+    "siu mai"
   ],
   "Meatless Chicken Siu Mai": [
-    "meatless",
-    "chicken",
-    "siu",
-    "mai"
+    "meatless chicken",
+    "siu mai"
   ],
   "Shrimp Dumpling": [
     "shrimp",
@@ -1611,18 +1391,13 @@ MenuApp.menus["big-lantern"] = {
     "roll"
   ],
   "Shanghai Baby Bun": [
-    "shanghai",
-    "baby",
     "bun",
-    "w/",
     "pork"
   ],
   "Chive Dumpling": [
     "chive",
     "dumpling",
-    "w/",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Pork & Vegetable Bun": [
     "pork",
@@ -1633,22 +1408,17 @@ MenuApp.menus["big-lantern"] = {
     "bbq",
     "pork",
     "bun",
-    "or",
     "meatless",
     "chicken"
   ],
   "Spinach Dumpling": [
     "spinach",
     "dumpling",
-    "w/",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Sweet Rice": [
-    "sweet",
-    "rice",
-    "meatless",
-    "chicken",
+    "sweet rice",
+    "meatless chicken",
     "bun"
   ],
   "Vegetable Turnip Bun": [
@@ -1662,11 +1432,8 @@ MenuApp.menus["big-lantern"] = {
     "bun"
   ],
   "Turnip Cake": [
-    "turnip",
-    "cake",
-    "w/",
-    "meatless",
-    "chicken"
+    "turnip cake",
+    "meatless chicken"
   ],
   "Taro Vegetarian Puff": [
     "taro",
@@ -1674,67 +1441,50 @@ MenuApp.menus["big-lantern"] = {
     "puff"
   ],
   "B.B.Q. Meatless Chicken Puff": [
-    "bbq",
-    "meatless",
-    "chicken",
+    "bbq meatless chicken",
     "puff"
   ],
   "Sweet Rice Tamale": [
-    "sweet",
-    "rice",
+    "sweet rice",
     "tamale",
-    "w/",
-    "meatless",
-    "chicken"
+    "meatless chicken"
   ],
   "Curry Puff": [
-    "curry",
-    "puff",
-    "w/",
+    "curry puff",
     "chicken"
   ],
   "Rice Noodle Roll": [
-    "rice",
-    "noodle",
+    "rice noodle",
     "roll"
   ],
   "b.b.q. pork, vegetable, pork, chicken, beef, or prawn add.": [
-    "bbq",
-    "pork",
+    "bbq pork",
     "vegetable",
     "pork",
     "chicken",
     "beef",
-    "or",
     "prawn",
-    "add"
   ],
   "Pan Fried Pork Bun": [
-    "pan",
+    "pan-fried",
     "pork",
     "bun"
   ],
   "Foil Wrapped Chicken": [
-    "foil",
-    "wrapped",
     "chicken"
   ],
   "Stuffed Mushroom": [
-    "stuffed",
-    "mushroom"
+    "stuffed mushroom"
   ],
   "Shrimp Toast": [
     "shrimp",
     "toast"
   ],
   "Stuffed Crab Claw": [
-    "stuffed",
-    "crab",
-    "claw"
+    "stuffed crab",
   ],
   "Stuffed Eggplant": [
-    "stuffed",
-    "eggplant"
+    "stuffed eggplant"
   ],
   "Bacon Shrimp Roll": [
     "bacon",
@@ -1742,154 +1492,70 @@ MenuApp.menus["big-lantern"] = {
     "roll"
   ],
   "Crab Cake": [
-    "crab",
-    "cake"
+    "crab cake"
   ],
   "Mini Moon Cake": [
-    "mini",
-    "moon",
-    "cake"
+    "moon cake"
   ],
   "Mojito": [
-    "mojito",
-    "san",
-    "francisco",
-    "favorite",
-    "stirrings",
-    "mojito",
-    "yokaichi",
-    "soju",
-    "the",
-    "rocks"
+    "mint",
+    "yokaichi soju",
+    "on the rocks"
   ],
   "Cosmopolitan": [
-    "cosmopolitan",
-    "for",
-    "the",
-    "sophisticated",
-    "-",
-    "organic",
     "cranberries",
-    "stirrings",
-    "cosmopolitan",
-    "yokaichi",
-    "soju",
-    "chilled",
-    "up"
+    "yokaichi soju",
   ],
   "Peach Bellini": [
-    "peach",
-    "bellini",
-    "yes",
-    "you",
-    "soju",
-    "stirrings",
-    "peach",
-    "bellini",
-    "chilled",
     "champagne",
-    "chilled",
-    "up"
+    "peach"
   ],
   "Green Apple Martini": [
-    "green",
     "apple",
-    "martini",
-    "we",
-    "brought",
-    "the",
-    "orchard",
-    "to",
-    "you",
-    "stirrings",
-    "apple",
-    "yokaichi",
-    "soju",
-    "chilled",
-    "up"
+    "yokaichi soju",
   ],
   "Cherry Blossom Martini": [
-    "cherry",
-    "blossom",
-    "martini",
     "soju",
-    "ginger",
-    "ale",
-    "splash",
+    "ginger ale",
     "grenadine",
-    "up",
-    "garnished",
     "ginger"
   ],
   "Soju Ginger Cosmopolitan": [
     "soju",
-    "ginger",
-    "cosmopolitan",
-    "soju",
-    "triple",
-    "sec",
-    "cranberry",
-    "juice",
-    "splash",
-    "lime",
-    "juice",
-    "up",
-    "garnished",
+    "triple sec",
+    "cranberry juice",
+    "lime juice",
     "ginger"
   ],
   "Flirtini": [
-    "flirtini",
-    "ku",
     "soju",
     "champagne",
     "pineapple",
     "orange",
-    "juices",
-    "chilled",
-    "flute"
   ],
   "Juicy Fruit": [
-    "juicy",
-    "fruit",
     "soju",
     "cranberry",
     "pineapple",
     "orange",
-    "juices",
-    "the",
-    "rocks"
   ],
   "Ku Driver": [
-    "ku",
-    "driver",
-    "ku",
     "soju",
-    "orange",
-    "juice",
-    "over",
-    "rice"
+    "orange juice",
   ],
   "American Idol": [
-    "american",
-    "idol",
     "shochu",
-    "rockstar",
-    "energy",
-    "drink",
-    "the",
-    "rocks"
+    "rockstar energyd drink",
+    "on the rocks"
   ],
   "Samuel Adams": [
-    "samuel",
-    "adams"
+    "samuel adams"
   ],
   "Sierra Nevada": [
-    "sierra",
-    "nevada"
+    "sierra nevada"
   ],
   "Fat Tire": [
-    "fat",
-    "tire"
+    "fat tire"
   ],
   "Budweiser": [
     "budweiser"
@@ -1901,8 +1567,7 @@ MenuApp.menus["big-lantern"] = {
     "corona"
   ],
   "Anchor Steam": [
-    "anchor",
-    "steam"
+    "anchor steam"
   ],
   "Sapporo": [
     "sapporo"
@@ -1911,97 +1576,52 @@ MenuApp.menus["big-lantern"] = {
     "guinness"
   ],
   "Tsing Tao": [
-    "tsing",
-    "tao"
+    "tsing tao"
   ],
   "Sofia Blanc De Blanc Sparkling": [
-    "sofia",
-    "blanc",
-    "de",
-    "blanc",
-    "sparkling",
-    "california",
-    "rich",
-    "pear",
-    "honeysuckle",
-    "apple",
-    "melon",
-    "juicy",
-    "tangerine"
+    "sparkling wine"
   ],
   "LA Terre Chardoey": [
-    "la",
-    "terre",
-    "chardoey"
+    "la terre chardoey"
   ],
   "Tamas Pinot Grigio": [
-    "tamas",
-    "pinot",
-    "grigio",
-    "monterey"
+    "tamas pinot grigio, monterey"
   ],
   "Coppola Diamond Sauvignon Blanc": [
-    "coppola",
-    "diamond",
-    "sauvignon",
-    "blanc",
-    "napa"
+    "coppola diamond sauvignon blanc napa"
   ],
   "Beringer Gewurztraminer": [
-    "beringer",
-    "gewurztraminer",
-    "california"
+    "beringer gewurztraminer, california"
   ],
   "Saint M Riesling": [
-    "saint",
-    "m",
-    "riesling",
-    "dr",
-    "loosen"
+    "saint m riesling",
   ],
   "Cht St Jean Fume Blanc": [
-    "cht",
-    "st",
-    "jean",
-    "fume",
-    "blanc",
-    "sonoma"
+    "cht st jean fume blanc, sonoma"
   ],
   "Clos Du Bois Chardonnay": [
-    "clos",
-    "du",
-    "bois",
-    "chardonnay",
-    "sonoma"
+    "clos du bois chardonnay, sonoma"
   ],
   "Kikkoman": [
-    "kikkoman",
-    "plum"
+    "kikkoman plum"
   ],
   "La Terre Merlot": [
-    "la",
-    "terre",
-    "merlot",
-    "california"
+    "la terre merlot, california"
   ],
   "Wood Bridge Cabernet Sauvignon": [
-    "wood",
-    "bridge",
-    "cabernet",
-    "sauvignon"
+    "wood bridge cabernet sauvignon"
   ],
   "Beringer Third Century Pinot Noir": [
-    "beringer",
-    "third",
-    "century",
-    "pinot",
-    "noir",
-    "central",
-    "coast"
+    "beringer third century pinot noir, central coast"
   ],
   "Lockwood Syrah": [
-    "lockwood",
-    "syrah",
-    "monterey"
+    "lockwood syrah, monterey"
   ]
+};
+
+
+if (typeof module !== 'undefined') { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["big-lantern"] = menu;
 }
