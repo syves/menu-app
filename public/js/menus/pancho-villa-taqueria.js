@@ -1,4 +1,4 @@
-MenuApp.menus["pancho-villa-taqueria"] = {
+var menu = {
   "Taco": [
     "taco",
     "grilled",

@@ -1,763 +1,637 @@
-MenuApp.menus["marnee-thai"] = {
-  "Meat Ball Noodle Soup Or Without Soup": [
-    "meat",
-    "ball",
+var menu = {
+  "meat Ball Noodle Soup  Without Soup": [
+    "meat ball",
     "noodle",
     "soup",
-    "or",
-    "without",
-    "soup",
-    "pork",
-    "ball",
-    "or",
-    "beef",
-    "ball",
-    "sliced",
-    "beef",
+    "pork ball", 
+    "beef ball",
+    "sliced beef",
     "bean",
-    "sprouts"
+    "bean sprouts"
   ],
   "Yen Ta Four": [
-    "yen",
-    "ta",
-    "four",
-    "choice",
     "noodle",
     "soup",
-    "fish",
-    "ball",
-    "fried",
-    "tofu",
+    "fish ball",
+    "fried tofu",
     "prawn",
     "calamari",
-    "white",
-    "fungus",
+    "white fungus",
     "spinach",
-    "special",
     "sauce"
   ],
-  "Roasted Duck Noodles (Soup Or Without Soup)": [
-    "roasted",
-    "duck",
+  "Roasted Duck Noodles (Soup  Without Soup)": [
+    "roasted duck",
     "noodles",
-    "egg",
-    "noodles",
-    "sliced",
-    "boneless",
-    "roasted",
-    "duck",
-    "bean",
-    "sprouts"
+    "egg noodles",
+    "sliced boneless roasted duck",
+    "duck"
+    "bean sprouts"
   ],
   "Combo Noodle Soup": [
-    "combo",
     "noodle",
     "soup",
-    "choice",
-    "noodle",
-    "soup",
-    "ground",
-    "pork",
-    "fish",
-    "ball",
+    "ground pork",
+    "fish ball",
     "prawn",
     "calamari",
-    "fresh",
     "tofu",
-    "bean",
-    "sprouts"
+    "bean sprouts"
   ],
-  "Roasted Pork And Fish Ball Noodles": [
-    "roasted",
-    "pork",
-    "fish",
-    "ball",
+  "Roasted pork And Fish Ball Noodles": [
+    "roasted pork",
+    "fish ball",
     "noodles",
-    "choice",
-    "noodles",
-    "soup",
-    "or",
-    "without",
-    "soup",
-    "sliced",
-    "roasted",
-    "pork",
-    "fish",
-    "ball",
-    "fish",
-    "cake",
+    "sliced roasted pork",
+    "fish ball",
+    "fish cake",
     "spinach"
   ],
   "Noodle Tom Yum Soup": [
-    "noodle",
-    "tom",
-    "yum",
-    "soup",
-    "*",
-    "choice",
+
     "noodles",
     "ground",
     "pork",
-    "fish",
-    "ball",
-    "fried",
-    "tofu",
+    "fish ball",
+    "fried tofu",
     "chili",
-    "ground",
-    "peanut",
-    "bean",
-    "sprouts"
+    "ground peanut",
+    "bean sprouts"
   ],
   "Pad Se - Ew": [
-    "pad",
-    "se",
-    "-",
-    "ew",
-    "sauté",
-    "rice",
-    "noodles",
-    "soy",
-    "bean",
+    "rice noodles",
+    "soy bean",
     "broccoli",
     "egg",
-    "choice",
-    "chicken",
-    "beef",
-    "or",
     "pork"
   ],
-  "with prawn": [
+  "Pad Se - Ew": [
+    "rice noodles",
+    "soy bean",
+    "broccoli",
+    "egg",
+    "chicken",
+  ],
+  "Pad Se - Ew": [
+    "rice noodles",
+    "soy bean",
+    "broccoli",
+    "egg",
+    "beef",
+  ],
+    "Pad Se - Ew": [
+    "rice noodles",
+    "soy bean",
+    "broccoli",
+    "egg",
     "prawn"
   ],
   "Pad Kee Mao": [
-    "pad",
-    "kee",
-    "mao",
-    "rice",
-    "noodles",
-    "pan",
-    "fried",
+    "rice noodles",
+    "pan fried",
     "chili",
     "garlic",
     "tomato",
-    "thai",
     "basil",
-    "bed",
     "lettuce",
-    "choice",
     "chicken",
+  ],
+  "Pad Kee Mao": [
+    "rice noodles",
+    "pan fried",
+    "chili",
+    "garlic",
+    "tomato",
+    "basil",
+    "lettuce",
     "beef",
-    "or",
+  ],
+  "Pad Kee Mao": [
+    "rice noodles",
+    "pan fried",
+    "chili",
+    "garlic",
+    "tomato",
+    "basil",
+    "lettuce",
     "pork"
   ],
-  "roasted duck": [
-    "roasted",
-    "duck"
+  "Pad Kee Mao": [
+    "rice noodles",
+    "pan fried",
+    "chili",
+    "garlic",
+    "tomato",
+    "basil",
+    "lettuce",
+    "roasted duck"
   ],
   "Rad Na": [
-    "rad",
-    "na",
-    "sauté",
-    "rice",
-    "noodles",
+    "rice noodles",
     "broccoli",
     "gravy",
-    "choice",
+    "",
     "chicken",
     "beef",
-    "or",
+    "",
     "pork"
   ],
-  "Guay Tiew Koor": [
-    "guay",
-    "tiew",
-    "koor",
-    "sauté",
-    "rice",
-    "noodles",
+  "Rad Na": [
+    "rice noodles",
+    "broccoli",
+    "gravy",
+    "chicken",
+    "pork"
+  ],
+  "Rad Na": [
+    "rice noodles",
+    "broccoli",
+    "gravy",
+    "chicken",
+  ],
+  "Guay Tiew Ko": [
+  "rice noodles",
     "chicken",
     "egg",
-    "bean",
-    "sprouts",
+    "bean sprouts",
     "ground",
     "peanuts"
   ],
-  "with prawn or roasted duck": [
-    "prawn",
-    "or",
-    "roasted",
-    "duck"
+    "Guay Tiew Ko": [
+  "rice noodles",
+    "chicken",
+    "egg",
+    "bean sprouts",
+    "ground",
+    "peanuts"
+    "roasted duck"
+  ],
+      "Guay Tiew Ko": [
+  "rice noodles",
+    "chicken",
+    "egg",
+    "bean sprouts",
+    "ground",
+    "peanuts",
+    "prawn"
   ],
   "Chan Pad Poo": [
-    "chan",
-    "pad",
-    "poo",
-    "*",
     "spicy",
-    "fried",
-    "rice",
-    "stick",
-    "noodles",
-    "sautéed",
+    "fried rice stick noodles",
     "crab",
-    "meat",
+    "meat ball",
     "egg",
     "green",
     "onions"
   ],
-  "Pad Thai": [
-    "pad",
-    "thai",
-    "fried",
-    "rice",
-    "stick",
-    "noodles",
-    "sautéed",
+  "Pad ": [
+    "fried rice stick noodles",
     "prawn",
-    "bean",
-    "curd",
+    "bean curd",
     "egg",
     "bean",
-    "sprout",
-    "ground",
-    "peanut"
+    "bean sprout",
+    "ground peanut"
   ],
   "Noodles And Curry": [
-    "noodles",
-    "curry",
-    "*",
-    "red",
-    "or",
-    "green",
-    "curry",
-    "coconut",
-    "milk",
-    "bamboo",
-    "shoots",
-    "thai",
+    "red curry",
+    "green curry",
+    "coconut milk",
+    "bamboo shoots",
     "basil",
-    "choice",
     "chicken",
     "beef",
-    "or",
     "pork",
-    "special",
-    "thai",
-    "style",
-    "steamed",
-    "rice",
-    "vermicelli",
-    "noodle"
+    "steamed rice vermicelli noodle"
+  ],
+  "Noodles And Curry": [
+    "red curry",
+    "coconut milk",
+    "bamboo shoots",
+    "basil",
+    "chicken",
+    "steamed rice vermicelli noodle"
+  ],
+"Noodles And Curry": [
+    "red curry",
+    "coconut milk",
+    "bamboo shoots",
+    "basil",
+    "chicken",
+    "beef",
+    "steamed rice vermicelli noodle"
+  ],
+  "Noodles And Curry": [
+    "green curry",
+    "coconut milk",
+    "bamboo shoots",
+    "basil",
+    "chicken",
+    "beef",
+    "pork",
+    "steamed rice vermicelli noodle"
+  ],
+  "Noodles And Curry": [
+    "green curry",
+    "coconut milk",
+    "bamboo shoots",
+    "basil",
+    "chicken",
+    "steamed rice vermicelli noodle"
+  ],
+  "Noodles And Curry": [
+    "green curry",
+    "coconut milk",
+    "bamboo shoots",
+    "basil",
+    "chicken",
+    "beef",
+    "steamed rice vermicelli noodle"
   ],
   "Khao Soy Chicken": [
-    "khao",
-    "soy",
+    "egg noodles",
     "chicken",
-    "delicious",
-    "northern",
-    "thai",
-    "style",
-    "egg",
-    "noodles",
-    "chicken",
-    "yellow",
-    "curry",
-    "sauce",
-    "side",
-    "dish",
-    "pickled",
-    "mustard",
-    "red",
-    "onion",
-    "homemade",
-    "roasted",
-    "chili",
-    "paste"
+    "yellow curry sauce",
+    "pickled mustard",
+    "red onion",
+    "roasted chili paste"
   ],
-  "Spicy Chicken Or Pork": [
+  "Spicy Chicken": [
     "spicy",
     "chicken",
-    "or",
-    "pork",
-    "*",
-    "sauteed",
-    "chopped",
-    "chicken",
-    "or",
+    "chili",
+    "garlic",
+    "basil"
+  ],
+  "Spicy pork": [
+    "spicy",
     "pork",
     "chili",
     "garlic",
-    "thai",
     "basil"
   ],
   "Pad Prik Sod": [
-    "pad",
-    "prik",
-    "sod",
-    "choice",
-    "sliced",
     "chicken",
-    "beef",
-    "or",
-    "pork",
-    "hot",
-    "peppers",
+    "hot peppers",
     "onions",
-    "oyster",
-    "sauce"
+    "oyster sauce"
   ],
-  "Pad Nor Mai": [
-    "pad",
-    "nor",
-    "mai",
-    "choice",
-    "ground",
+  "Pad Prik Sod": [
     "pork",
-    "or",
-    "sliced",
-    "chicken",
-    "sautéed",
+    "hot peppers",
+    "onions",
+    "oyster sauce"
+  ],
+  "Pad Prik Sod": [
+    "beef",
+    "hot peppers",
+    "onions",
+    "oyster sauce"
+  ],
+  "Pad N Mai": [
+    "ground pork",
     "chili",
     "garlic",
-    "bamboo",
-    "shoots",
+    "bamboo shoots",
     "egg",
-    "thai",
+    "basil"
+  ],
+  "Pad N Mai": [
+    "sliced chicken",
+    "chili",
+    "garlic",
+    "bamboo shoots",
+    "egg",
     "basil"
   ],
   "Pad Ginger": [
-    "pad",
-    "ginger",
-    "choice",
     "chicken",
-    "pork",
-    "or",
-    "beef",
-    "sautéed",
     "ginger",
-    "dried",
-    "fungus",
+    "dried fungus",
+    "mushrooms",
+    "onions"
+  ],
+  "Pad Ginger": [
+    "beef",
+    "ginger",
+    "dried fungus",
+    "mushrooms",
+    "onions"
+  ],
+  "Pad Ginger": [
+    "pork",
+    "ginger",
+    "dried fungus",
     "mushrooms",
     "onions"
   ],
   "Pad Prik Pao": [
-    "pad",
-    "prik",
-    "pao",
-    "*",
-    "choice",
     "chicken",
-    "beef",
-    "or",
-    "pork",
-    "sautéed",
-    "baby",
-    "corns",
+    "baby cns",
     "mushrooms",
-    "bamboo",
-    "shoots",
+    "bamboo shoots",
     "onions",
-    "roasted",
-    "chili",
-    "paste"
+    "roasted chili paste"
+  ],
+  "Pad Prik Pao": [
+    "pork",
+    "baby cns",
+    "mushrooms",
+    "bamboo shoots",
+    "onions",
+    "roasted chili paste"
+  ],  
+  "Pad Prik Pao": [
+    "beef",
+    "baby cns",
+    "mushrooms",
+    "bamboo shoots",
+    "onions",
+    "roasted chili paste"
   ],
   "Beef With Broccoli & Mushrooms": [
     "beef",
     "broccoli",
     "mushrooms",
-    "sliced",
     "beef",
-    "sautéed",
     "broccoli",
     "mushroom",
-    "light",
-    "oyster",
-    "sauce"
+    "oyster sauce"
   ],
   "Roasted Duck Over Rice": [
-    "roasted",
-    "duck",
-    "over",
+    "roasted duck",
     "rice",
     "sliced",
-    "boneless",
-    "roasted",
-    "duck",
-    "bed",
     "spinach",
-    "special",
     "sauce"
   ],
-  "Thai Style Roasted Pork Over Rice": [
-    "thai",
-    "style",
-    "roasted",
-    "pork",
-    "over",
+  " Style Roasted pork Over Rice": [
+    "roasted pork",
     "rice",
-    "roasted",
-    "pork",
     "chicken",
     "sausage",
-    "hard-boiled",
-    "egg",
-    "special",
-    "homemade",
-    "gravy",
-    "sauce"
+    "hard-boiled egg",
+    "gravy sauce"
   ],
   "Kao Rad Kang": [
-    "kao",
-    "rad",
-    "kang",
-    "*",
-    "red",
-    "or",
-    "green",
-    "curry",
-    "coconut",
-    "milk",
-    "bamboo",
-    "shoot",
-    "thai",
+    "red curry",
+    "coconut milk",
+    "bamboo shoot",
     "basil",
-    "choice",
     "chicken",
-    "beef",
-    "or",
+  ],
+  "Kao Rad Kang": [
+    "red curry",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
     "pork"
   ],
+"Kao Rad Kang": [
+    "red curry",
+    "green curry",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
+    "beef",
+  ],
+ "Kao Rad Kang": [
+    "green curry",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
+    "chicken",
+  ],
+ "Kao Rad Kang": [
+    "green curry",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
+    "pork"
+  ],
+  "Kao Rad Kang": [
+    "red curry",
+    "green curry",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
+    "beef"
+  ],
   "Sweet & Sour Prawn": [
-    "sweet",
-    "sour",
-    "prawn",
-    "country",
-    "style",
-    "sweet",
-    "sour",
+    "sweet and sour",
     "prawn",
     "pineapple",
     "tomato",
     "cucumber",
-    "bell",
-    "pepper",
+    "bell pepper",
     "onion"
   ],
   "Goong Kee Mao": [
-    "goong",
-    "kee",
-    "mao",
-    "*",
     "prawns",
-    "sautéed",
     "chili",
     "garlic",
-    "yellow",
-    "onion",
-    "bell",
-    "pepper",
-    "thai",
+    "yellow onion",
+    "bell pepper",
     "basil"
   ],
   "Pad Phed": [
-    "pad",
-    "phed",
-    "*",
-    "choice",
     "chicken",
-    "beef",
-    "or",
-    "pork",
-    "sautéed",
-    "hot",
-    "chili",
-    "paste",
-    "bamboo",
-    "shoot",
+    "hot chili paste",
+    "bamboo shoot",
     "onion",
-    "thai",
     "basil"
+    "calamari"
   ],
-  "with prawn or calamari": [
-    "prawn",
-    "or",
+  "Pad Phed": [
+   "pork",
+    "hot chili paste",
+    "bamboo shoot",
+    "onion",
+    "basil"
+    "calamari"
+  ],
+  "Pad Phed": [
+    "beef",
+    "hot chili paste",
+    "bamboo shoot",
+    "onion",
+    "basil"
     "calamari"
   ],
   "Thai Style Fried Rice": [
-    "thai",
-    "style",
-    "fried",
-    "rice",
-    "choice",
     "chicken",
     "beef",
     "roasted",
     "pork",
-    "or",
-    "chicken",
-    "sausage"
+    "chicken sausage"
   ],
-  "with prawn, crabmeat or roasted duck": [
-    "prawn",
-    "crabmeat",
-    "or",
-    "roasted",
-    "duck"
-  ],
-  "1. Imperial Rolls": [
-    "imperial",
-    "rolls",
-    "deep",
-    "fried",
-    "rolls",
-    "wrapped",
-    "ground",
+  "Thai Style Fried Rice": [
     "chicken",
+    "fried Rice"
+  ],
+  "Thai Style Fried Rice": [
+    "fried Rice"
+    "beef",
+  ],
+  "Thai Style Fried Rice": [
+    "fried Rice"
+    "pork",
+  ],
+  "Thai Style Fried Rice": [
+    "fried Rice"
+    "chicken sausage"
+  ],
+  "Thai Style Fried Rice": [
+    "fried Rice"
+    "prawn"
+  ],
+  "Thai Style Fried Rice": [
+    "fried Rice"
+    "crabmeat ball",
+  ],
+  "Thai Style Fried Rice": [
+    "fried Rice"
+    "duck",
+  ],   
+    "imperial Rolls": [
+    "imperial rolls",
+    "deep fried rolls",
+    "ground chicken",
     "prawns",
     "cabbage",
     "mushroom",
-    "bean",
-    "thread",
-    "noodles"
+    "bean thread noodles"
   ],
-  "2. Golden Triangles (Thai Samosas)": [
-    "golden",
-    "triangles",
-    "crispy",
-    "the",
-    "outside",
-    "pumpkin",
+  "Golden Triangles Samosas ": [
+    "crispy samosas"
+    "pumporkin",
     "potato",
-    "curry",
-    "filling"
+    "curry"
   ],
-  "3. Chicken Or Beef Satay": [
-    "chicken",
-    "or",
-    "beef",
-    "satay",
-    "marinated",
-    "meat",
-    "skewers",
+  "Beef Satay": [
+    "beef satay",
+    "meat ball",
     "peanut",
-    "curry",
-    "sauce",
-    "cucumber",
-    "salad"
+    "curry auce",
+    "cucumber salad"
   ],
-  "4. Miang Kum": [
-    "miang",
-    "kum",
+  "Chicken Satay": [
+    "chicken satay",
+    "meat ball",
+    "peanut",
+    "curry auce",
+    "cucumber salad"
+  ],
+  "Miang Kum": [
     "spinach",
-    "wrapped",
-    "dried",
-    "shrimps",
+    "dried shrimps",
     "onions",
-    "lime",
-    "wedges",
-    "ginger",
+    "lime wedges",
     "fresh",
     "coconut",
     "peanuts",
-    "special",
-    "herb",
-    "sauce"
+    "herb sauce"
   ],
-  "5. Goong Sarong (Prawns In A Blanket)": [
-    "goong",
-    "sarong",
-    "deep",
-    "fried",
-    "marinated",
-    "prawns",
+  "Goong Sarong": [
+    "deep fried prawns",
     "bacon",
-    "sweet",
-    "chili",
-    "sauce"
+    "sweet chili sauce"
   ],
-  "6. Spicy Angel Wings": [
+  "Spicy Angel Wings": [
     "spicy",
-    "angel",
-    "wings",
-    "*",
-    "deep",
-    "fried",
-    "chicken",
-    "wings",
-    "sautéed",
-    "chili-garlic",
-    "sauce",
-    "top",
-    "crispy",
+    "chicken wings",
+    "chili-garlic sauce",
     "basil"
   ],
-  "7. Corn Cake": [
-    "corn",
-    "cake",
-    "fried",
-    "fresh",
-    "corn",
-    "fritters",
-    "cucumber",
-    "salad"
-  ],
-  "8. Fresh Egg Rolls": [
-    "fresh",
-    "egg",
-    "rolls",
-    "thai-style",
-    "fresh",
-    "egg",
-    "rolls",
-    "stuffed",
+  "Fresh Egg Rolls": [
+    "egg rolls",
     "tofu",
     "chicken",
     "sausage",
     "egg",
     "cucumber",
-    "bean",
-    "sprouts",
+    "bean sprouts",
     "crab",
-    "meat",
-    "tamarind",
-    "sauce"
+    "meat ball",
+    "tamarind sauce"
   ],
-  "18. Tom Yum": [
-    "tom",
-    "yum",
-    "*",
-    "spicy",
-    "sour",
-    "soup",
+  "Tom Yum": [
+    "spicy and sour soup",
     "mushroom",
     "tomato",
     "lemongrass",
-    "touch",
-    "lime",
-    "juice"
-  ],
-  "chicken": [
+    "lime juice",
     "chicken"
   ],
-  "prawn": [
+  "Tom Yum": [
+    "spicy and sour soup",
+    "mushroom",
+    "tomato",
+    "lemongrass",
+    "lime juice",
     "prawn"
   ],
-  "19. Tom Ka": [
-    "tom",
-    "ka",
-    "*",
-    "spicy",
-    "sour",
-    "soup",
-    "coconut",
-    "milk",
+  "Tom Ka": [
+    "spicy and sour soup",
+    "coconut milk",
     "mushroom",
     "galanga",
     "lemongrass"
   ],
-  "20. Po Tak": [
-    "po",
-    "tak",
-    "*",
-    "spicy",
-    "sour",
-    "soup",
-    "combination",
+  "Po Tak": [
+    "spicy and sour soup",
     "seafood"
   ],
-  "21. Gang Jued Soup": [
-    "gang",
-    "jued",
-    "soup",
-    "choice",
-    "soft",
-    "tofu",
-    "or",
-    "silver",
-    "noodles",
-    "minced",
-    "pork",
-    "or",
-    "sliced",
+  "Gang Jued Soup": [
+    "soft tofu",
+    "silver noodles",
+    "minced pork",
     "chicken",
     "mushroom",
     "cabbage",
     "onion"
   ],
   "9. Chicken (Larb) Salad": [
-    "chicken",
-    "salad",
-    "minced",
-    "chicken",
-    "breast",
+    "minced chicken breast",
     "onions",
-    "mint",
-    "leaves",
+    "mint leaves",
     "cilantro",
-    "roasted",
-    "rice",
-    "powder",
-    "spicy",
-    "lime",
-    "dressing"
+    "roasted rice powder",
+    "spicy lime dressing"
   ],
-  "10. Calamari Salad": [
-    "calamari",
-    "salad",
+  "Calamari Salad": [
     "calamari",
     "ginger",
-    "mint",
-    "leaves",
+    "mint leaves",
     "cilantro",
     "onions",
-    "spicy",
-    "lime",
-    "dressing"
+    "spicy lime dressing"
   ],
-  "11. Prawn Salad": [
-    "prawn",
-    "salad",
-    "broiled",
+  "Prawn Salad": [
     "prawns",
     "lemongrass",
     "mint",
-    "leaves",
+    "mint leaves",
     "cilantro",
     "onions",
-    "homemade",
-    "roasted",
-    "chili",
-    "dressing"
+    "roasted chili dressing"
   ],
-  "12. Minced Pork Salad (Nam Sod)": [
-    "minced",
-    "pork",
-    "salad",
-    "minced",
-    "pork",
+  "Minced pork Salad (Nam Sod)": [
+    "minced pork",
     "ginger",
-    "mint",
-    "leaves",
+    "mint leaves",
     "onions",
     "cilantro",
     "peanuts",
-    "spicy",
-    "lime",
-    "dressing"
+    "spicy lime dressing"
   ],
   "13. Beef Salad (Nam Tok)": [
     "beef",
-    "salad",
-    "beef",
-    "mint",
-    "leaves",
+    "mint leaves",
     "cilantro",
     "onions",
-    "rice",
-    "powder",
-    "spicy",
-    "lime",
-    "dressing"
+    "roasted rice powder",
+    "spicy lime dressing"
   ],
   "14. Roasted Duck Salad": [
     "roasted",
@@ -767,329 +641,236 @@ MenuApp.menus["marnee-thai"] = {
     "roasted",
     "duck",
     "mint",
-    "leaves",
+    "mint leaves",
     "cilantro",
     "onions",
     "rice",
     "powder",
-    "spicy",
-    "lime",
-    "dressing"
+    "spicy lime dressing"
   ],
-  "15. Green Papaya Salad (Som Tum)": [
-    "green",
-    "papaya",
-    "salad"
+  "Green Papaya Salad (Som Tum)": [
+    "green papaya"
   ],
-  "with soft shell crab": [
-    "soft",
-    "shell",
-    "crab"
+  "Green Papaya Salad (Som Tum)": [
+    "green papaya"
+    "soft shell crab"
   ],
-  "16. Green Mango Salad (Seasonal)": [
-    "green",
-    "mango",
-    "salad",
-    "shredded",
-    "mango",
+  "Green Mango Salad": [
+    "shredded mango",
     "prawns",
     "onions",
     "cilantro",
-    "spicy",
-    "lime",
-    "dressing",
+    "spicy lime dressing"
     "coconut",
-    "cashew",
-    "nuts"
+    "cashew nut"
   ],
-  "17. Silver Noodle Salad": [
-    "silver",
-    "noodle",
-    "salad",
-    "silver",
-    "noodles",
+  "Silver Noodle Salad": [
+    "silver noodles",
     "prawn",
-    "minced",
-    "pork",
+    "minced pork",
     "mushrooms",
     "onions",
-    "spicy",
-    "lime",
-    "dressing"
+    "spicy lime dressing"
   ],
-  "22. Panang Beef": [
-    "panang",
+  "Panang Beef": [
     "beef",
-    "*",
-    "chunks",
-    "tender",
-    "beef",
-    "panang",
-    "curry",
-    "paste",
-    "coconut",
-    "milk",
-    "thai",
+    "curry paste",
+    "coconut milk",
     "basil",
     "broccoli"
   ],
-  "23. Kang Ka Ree": [
-    "kang",
-    "ka",
-    "ree",
-    "yellow",
-    "curry",
-    "mild",
-    "curry",
-    "coconut",
-    "milk",
+  "Kang Ka Ree": [
+    "yellow curry",
+    "coconut milk",
     "turmeric",
-    "fresh",
     "herbs",
     "spices",
-    "yukon",
-    "potatoes"
+    "yukon potatoes"
   ],
-  "lamb": [
+  "Kang Ka Ree": [
+    "yellow curry",
+    "coconut milk",
+    "turmeric",
+    "herbs",
+    "spices",
+    "yukon potatoes"
     "lamb"
   ],
-  "24. Kang Dang": [
-    "kang",
-    "dang",
-    "*",
-    "red",
-    "curry",
-    "medium",
+  "Kang Dang": [
+    "red curry",
     "spicy",
-    "curry",
-    "coconut",
-    "milk",
-    "bamboo",
-    "shoot",
-    "thai",
-    "basil"
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
+    "beef"
   ],
-  "beef, chicken or pork": [
-    "beef",
-    "chicken",
-    "or",
+  "Kang Dang": [
+    "red curry",
+    "spicy",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
+    "chicken"
+  ],
+  "Kang Dang": [
+    "red curry",
+    "spicy",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
     "pork"
   ],
-  "roasted duck (comes with pineapple, tomato and bell pepper)": [
-    "roasted",
+  "Kang Dang": [
+    "red curry",
+    "spicy",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
     "duck"
-  ],
-  "prawn (comes with bamboo shoot and green bean)": [
+  ], 
+  "Kang Dang": [
+    "red curry",
+    "spicy",
+    "coconut milk",
+    "bamboo shoot",
+    "basil",
     "prawn"
   ],
-  "25. Kang Keaw": [
-    "kang",
-    "keaw",
-    "*",
-    "green",
-    "curry",
+  "Kang Keaw": [
+    "green curry",
     "spicy",
-    "green",
-    "curry",
-    "coconut",
-    "milk",
-    "long",
-    "purple",
+    "coconut milk",
     "eggplant",
-    "thai",
     "basil"
   ],
-  "26. Mussaman Chicken Curry": [
-    "mussaman",
+  "Mussaman Chicken Curry": [
+    "mild curry",
     "chicken",
-    "curry",
-    "southern",
-    "thai",
-    "style",
-    "mild",
-    "curry",
-    "chunks",
-    "chicken",
-    "coconut",
-    "milk",
+    "coconut milk",
     "potatoes",
     "peanut"
   ],
-  "27. Pad Kaprow": [
-    "pad",
-    "kaprow",
-    "*",
-    "choice",
-    "meat",
-    "sautéed",
-    "fresh",
+  "Pad Kaprow": [
+    "meat ball",
     "chili",
     "garlic",
-    "thai",
     "basil"
-  ],
-  "chopped chicken, minced pork or sliced beef": [
-    "chopped",
-    "chicken",
-    "minced",
-    "pork",
-    "or",
-    "sliced",
-    "beef"
-  ],
-  "roasted duck (sliced)": [
-    "roasted",
-    "duck"
-  ],
-  "prawns or prawns and calamari with yellow onion": [
-    "prawns",
-    "or",
-    "prawns",
-    "calamari",
-    "yellow",
-    "onion"
-  ],
-  "28. Pad Ginger": [
-    "pad",
+    ],
+  "Pad Ginger": [
     "ginger",
-    "choice",
-    "chicken",
-    "or",
-    "pork",
-    "sautéed",
-    "ginger",
-    "dried",
-    "fungus",
+    "dried fungus",
     "mushroom",
     "onions",
-    "soybean",
-    "sauce"
+    "soybean sauce",
+    "chiken"
   ],
-  "with roasted duck or fish": [
-    "roasted",
-    "duck",
-    "or",
+  "Pad Ginger": [
+    "ginger",
+    "dried fungus",
+    "mushroom",
+    "onions",
+    "soybean sauce",
+    "beef"
+  ],
+  "Pad Ginger": [
+    "ginger",
+    "dried fungus",
+    "mushroom",
+    "onions",
+    "soybean sauce",
+    "pork"
+  ],  
+  "Pad Ginger": [
+    "ginger",
+    "dried fungus",
+    "mushroom",
+    "onions",
+    "soybean sauce",
+    "duck"
+  ],
+  "Pad Ginger": [
+    "ginger",
+    "dried fungus",
+    "mushroom",
+    "onions",
+    "soybean sauce",
     "fish"
   ],
-  "29. Pad Prig Khing": [
-    "pad",
-    "prig",
-    "khing",
-    "*",
-    "choice",
+  "Pad Prig Khing": [
     "chicken",
-    "beef",
-    "or",
-    "pork",
-    "sautéed",
-    "hot",
-    "chili",
-    "paste",
-    "string",
-    "beans"
+    "hot chili paste",
+    "string beans",
   ],
-  "30. Pad Prig Pao": [
-    "pad",
-    "prig",
-    "pao",
-    "*",
-    "choice",
-    "chicken",
-    "or",
+  "Pad Prig Khing": [
     "pork",
-    "sautéed",
-    "baby",
-    "corn",
-    "bamboo",
-    "shoot",
+    "hot chili paste",
+    "string beans"
+  ],
+  "Pad Prig Khing": [
+    "beef",
+    "hot chili paste",
+    "string beans"
+  ],
+  "Pad Prig Pao": [
+    "chicken",
+    "pork",
+    "baby corn",
+    "bamboo shoot",
     "mushroom",
-    "bell",
-    "pepper",
+    "bell pepper",
     "onion",
-    "homemade",
-    "roasted",
-    "chili",
-    "paste"
+    "roasted chili paste"
   ],
   "31. Pad Garlic": [
-    "pad",
-    "garlic",
-    "sliced",
     "pork",
-    "sautéed",
     "fresh",
     "garlic",
-    "black",
-    "pepper"
+    "black pepper"
   ],
-  "32. Pad Woonsen": [
-    "pad",
-    "woonsen",
-    "choice",
+  "Pad Woonsen": [
     "chicken",
-    "or",
-    "pork",
-    "sautéed",
-    "silver",
-    "noodles",
-    "black",
-    "fungus",
-    "mushroom",
+    "silver noodles",
+    "black fungus mushroom",
     "egg",
     "onion"
   ],
-  "33. Pad Ma Kuer": [
-    "pad",
-    "ma",
-    "kuer",
-    "sautéed",
-    "long",
-    "purple",
-    "eggplant",
-    "choice",
-    "sliced",
-    "chicken",
-    "or",
-    "ground",
+  "Pad Woonsen": [
     "pork",
-    "bell",
-    "peppers",
-    "thai",
-    "basil",
-    "soy",
-    "bean",
-    "sauce"
+    "silver noodles",
+    "black fungus mushroom",
+    "egg",
+    "onion"
   ],
-  "34. Pad Prew Wharn": [
-    "pad",
-    "prew",
-    "wharn",
-    "sautéed",
+  "Pad Ma Kuer": [
+    "eggplant",
+    "chicken",
+    "bell peppers",
+    "basil",
+    "soy bean sauce"
+  ],
+  "Pad Ma Kuer": [
+    "eggplant",
+    "ground pork",
+    "bell peppers",
+    "basil",
+    "soy bean sauce"
+  ],
+  "Pad Prew Wharn": [
     "chicken",
     "pineapple",
     "tomato",
     "cucumber",
-    "bell",
-    "pepper",
-    "onion",
-    "sweet",
-    "sour",
-    "sauce"
+    "bell pepper",
+    "onion sweet",
+    "sour sauce"
   ],
-  "35. Pad Cashew Nuts": [
-    "pad",
-    "cashew",
-    "nuts",
-    "sautéed",
-    "sliced",
+  "Pad cashew Nuts": [
     "chicken",
-    "roasted",
-    "chili",
-    "cashew",
-    "nut",
+    "roasted chili",
+    "cashew nut",
     "onion"
   ],
-  "36. Pad Pra Ram": [
+  "Pad Pra Ram": [
     "pad",
     "pra",
     "ram",
@@ -1101,39 +882,23 @@ MenuApp.menus["marnee-thai"] = {
     "sauce",
     "spinach"
   ],
-  "37. Pad Phed": [
-    "pad",
-    "phed",
-    "*",
-    "choice",
-    "sliced",
-    "pork",
-    "beef",
-    "or",
-    "chicken",
-    "sauteed",
-    "baby",
-    "corn",
+  "Pad Phed": [
+    "baby corn",
     "mushroom",
     "onion",
-    "bamboo",
-    "shoot",
-    "fresh",
+    "bamboo shoot",
     "chili",
     "garlic",
-    "thai",
     "basil"
-  ],
-  "with calamari or fish": [
     "calamari",
-    "or",
     "fish"
-  ],
-  "scallop and prawn": [
     "scallop",
     "prawn"
+    "pork",
+    "beef",
+    "chicken",
   ],
-  "38. BBQ Chicken": [
+  "BBQ Chicken": [
     "bbq",
     "chicken",
     "marinated",
@@ -1159,7 +924,7 @@ MenuApp.menus["marnee-thai"] = {
     "special",
     "sauce"
   ],
-  "40. BBQ Pork": [
+  "40. BBQ pork": [
     "bbq",
     "pork",
     "broiled",
@@ -1184,23 +949,23 @@ MenuApp.menus["marnee-thai"] = {
     "fresh",
     "herbs"
   ],
-  "42. Pad Nor Mai": [
+  "42. Pad N Mai": [
     "pad",
-    "nor",
+    "n",
     "mai",
     "*",
     "ground",
     "pork",
-    "or",
+    "",
     "sliced",
     "chicken",
     "sautéed",
     "chili",
     "garlic",
     "bamboo",
-    "shoots",
+    "bamboo shoots",
     "egg",
-    "thai",
+    "",
     "basil"
   ],
   "43. Basa Fillet": [
@@ -1210,7 +975,7 @@ MenuApp.menus["marnee-thai"] = {
     "fillet",
     "pan-seared",
     "your",
-    "choice",
+    "",
     "sauce",
     "fresh",
     "garlic",
@@ -1247,14 +1012,14 @@ MenuApp.menus["marnee-thai"] = {
     "fresh",
     "herbal",
     "sauce",
-    "thai",
+    "",
     "basil",
     "natural",
     "antidotes"
   ],
-  "46. Pad Thai": [
+  "46. Pad ": [
     "pad",
-    "thai"
+    ""
   ],
   "47. Chan Pad Poo": [
     "chan",
@@ -1266,7 +1031,7 @@ MenuApp.menus["marnee-thai"] = {
     "stick",
     "noodles",
     "crab",
-    "meat",
+    "meat ball",
     "egg",
     "chili",
     "garlic",
@@ -1281,16 +1046,16 @@ MenuApp.menus["marnee-thai"] = {
     "noodles",
     "pan",
     "fried",
-    "choice",
+    "",
     "chicken",
     "beef",
-    "or",
+    "",
     "pork",
     "chili",
     "garlic",
     "tomatoes",
     "sweet",
-    "thai",
+    "",
     "basil",
     "bed",
     "lettuce"
@@ -1307,63 +1072,63 @@ MenuApp.menus["marnee-thai"] = {
     "bean",
     "broccoli",
     "egg",
-    "choice",
+    "",
     "chicken",
     "beef",
-    "or",
+    "",
     "pork"
   ],
-  "50. Guay Tiew Koor": [
+  "50. Guay Tiew Ko": [
     "guay",
     "tiew",
-    "koor",
+    "ko",
     "fried",
     "rice",
     "noodles",
     "chicken",
     "egg",
     "bean",
-    "sprouts",
+    "bean sprouts",
     "ground",
     "peanuts"
   ],
-  "with prawns or roasted duck": [
+  "with prawns  roasted duck": [
     "prawns",
-    "or",
+    "",
     "roasted",
     "duck"
   ],
-  "51. Thai Style Fried Rice": [
-    "thai",
+  "51.  Style Fried Rice": [
+    "",
     "style",
     "fried",
     "rice",
-    "thai",
+    "",
     "style",
     "fried",
     "rice",
     "egg",
     "tomatoes",
     "onion",
-    "choice",
+    "",
     "sliced",
     "chicken",
     "beef",
     "roasted",
     "pork",
-    "or",
+    "",
     "chicken",
     "sausage"
   ],
-  "with prawns & pineapple, roasted duck with pineapple or crab meat without pineapple": [
+  "with prawns & pineapple, roasted duck with pineapple  crab meat ball without pineapple": [
     "prawns",
     "pineapple",
     "roasted",
     "duck",
     "pineapple",
-    "or",
+    "",
     "crab",
-    "meat",
+    "meat ball",
     "without",
     "pineapple"
   ],
@@ -1371,13 +1136,13 @@ MenuApp.menus["marnee-thai"] = {
     "vegetable",
     "deluxe",
     "sautéed",
-    "assorted",
+    "assted",
     "fresh",
     "vegetables",
     "tofu",
     "mushroom",
     "baby",
-    "corn",
+    "cn",
     "light",
     "oyster",
     "sauce"
@@ -1388,13 +1153,13 @@ MenuApp.menus["marnee-thai"] = {
     "soft",
     "tofu",
     "your",
-    "choice",
+    "",
     "cooking",
     "spicy",
     "fresh",
     "chili",
     "garlic",
-    "thai",
+    "",
     "basil"
   ],
   "54. Mixed Vegetable Curry": [
@@ -1406,7 +1171,7 @@ MenuApp.menus["marnee-thai"] = {
     "vegetables",
     "mushrooms",
     "baby",
-    "corn",
+    "cn",
     "tofu",
     "red",
     "curry",
@@ -1423,12 +1188,12 @@ MenuApp.menus["marnee-thai"] = {
     "fried",
     "tofu",
     "baby",
-    "corn",
+    "cn",
     "bell",
     "pepper",
     "chili",
     "garlic",
-    "thai",
+    "",
     "basil"
   ],
   "56. Woonsen Vegetarian": [
@@ -1442,25 +1207,25 @@ MenuApp.menus["marnee-thai"] = {
     "vegetables",
     "mushroom",
     "baby",
-    "corn",
+    "cn",
     "green",
     "onion"
   ],
-  "57. Pad Thai Vegetarian": [
+  "57. Pad  Vegetarian": [
     "pad",
-    "thai",
+    "",
     "vegetarian",
     "fried",
     "rice",
     "stick",
     "noodles",
-    "assorted",
+    "assted",
     "vegetables",
     "bean",
-    "curd",
+    "bean curd",
     "egg",
     "bean",
-    "sprouts",
+    "bean sprouts",
     "ground",
     "peanut"
   ],
@@ -1473,7 +1238,7 @@ MenuApp.menus["marnee-thai"] = {
     "abalone",
     "onions",
     "mints",
-    "leaves",
+    "mint leaves",
     "touch",
     "rice",
     "powder",
@@ -1488,15 +1253,15 @@ MenuApp.menus["marnee-thai"] = {
     "pak",
     "soup",
     "*",
-    "assorted",
+    "assted",
     "fresh",
     "vegetables",
     "coconut",
-    "milk",
+    "coconut milk",
     "mushrooms",
     "tofu",
     "baby",
-    "corn",
+    "cn",
     "galanga",
     "lemon",
     "grass",
@@ -1518,12 +1283,12 @@ MenuApp.menus["marnee-thai"] = {
   "61. Praram Phak": [
     "praram",
     "phak",
-    "assorted",
+    "assted",
     "fresh",
     "vegetables",
     "mushrooms",
     "baby",
-    "corn",
+    "cn",
     "fried",
     "tofu",
     "peanut",
@@ -1539,7 +1304,7 @@ MenuApp.menus["marnee-thai"] = {
     "beans",
     "tofu",
     "baby",
-    "corn",
+    "cn",
     "mushrooms",
     "sautéed",
     "hot",
@@ -1555,10 +1320,10 @@ MenuApp.menus["marnee-thai"] = {
     "bean",
     "sauce"
   ],
-  "64. Pumpkin Curry": [
-    "pumpkin",
+  "64. Pumporkin Curry": [
+    "pumporkin",
     "curry",
-    "choice",
+    "",
     "yellow",
     "curry",
     "sauce",
@@ -1574,16 +1339,16 @@ MenuApp.menus["marnee-thai"] = {
     "rice",
     "crackers",
     "traditional",
-    "thai",
+    "",
     "curry",
     "dip",
     "made",
     "coconut",
-    "milk",
+    "coconut milk",
     "minced",
     "shrimp",
     "pork",
-    "thai",
+    "",
     "herbs",
     "spices"
   ],
@@ -1647,11 +1412,11 @@ MenuApp.menus["marnee-thai"] = {
     "satay",
     "rice",
     "noodles",
-    "thai",
+    "",
     "basil",
     "cilantro",
     "bean",
-    "sprouts",
+    "bean sprouts",
     "coconut",
     "cucumber",
     "salad",
@@ -1663,7 +1428,7 @@ MenuApp.menus["marnee-thai"] = {
     "fresh",
     "butter",
     "lettuce",
-    "leaves"
+    "mint leaves"
   ],
   "Homemade Hotcakes (Seasonal)": [
     "homemade",
@@ -1679,13 +1444,13 @@ MenuApp.menus["marnee-thai"] = {
     "coconut",
     "cream",
     "fresh",
-    "corn",
+    "cn",
     "green",
     "onions",
-    "pumpkin"
+    "pumporkin"
   ],
-  "Thai Style Potstickers": [
-    "thai",
+  " Style Potstickers": [
+    "",
     "style",
     "potstickers",
     "pork",
@@ -1705,9 +1470,9 @@ MenuApp.menus["marnee-thai"] = {
     "pan-seared",
     "sea",
     "bass",
-    "choice",
+    "",
     "sauce",
-    "choice",
+    "",
     "sauces",
     "fresh",
     "garlic",
@@ -1718,7 +1483,7 @@ MenuApp.menus["marnee-thai"] = {
     "curry",
     "mushroom",
     "sauce",
-    "thai",
+    "",
     "herbs",
     "minced",
     "pork",
@@ -1727,7 +1492,7 @@ MenuApp.menus["marnee-thai"] = {
     "onion",
     "sauce"
   ],
-  "Mango Fried Rice (Choice Of Meat)": [
+  "Mango Fried Rice ( Of meat ball)": [
     "mango",
     "fried",
     "rice",
@@ -1738,27 +1503,11 @@ MenuApp.menus["marnee-thai"] = {
     "fried",
     "rice",
     "your",
-    "choice",
-    "meat"
-  ],
-  "shrimp": [
+    "",
+    "meat ball"
     "shrimp"
   ],
-  "Hor Mok (Weekends Only)": [
-    "hor",
-    "mok",
-    "steamed",
-    "snapper",
-    "curry",
-    "mousse",
-    "cabbage",
-    "thai",
-    "basil",
-    "banana",
-    "leaf",
-    "bowl"
-  ],
-  "Simmered Panang Pork Curry": [
+  "Simmered Panang pork Curry": [
     "simmered",
     "panang",
     "pork",
@@ -1771,41 +1520,25 @@ MenuApp.menus["marnee-thai"] = {
     "curry",
     "sauce",
     "coconut",
-    "milk",
-    "thai",
+    "coconut milk",
+    "",
     "basil",
     "broccoli"
   ],
-  "Three Flavored Snapper (Seasonal)": [
-    "flavored",
+  "Three Flaved Snapper (Seasonal)": [
+    "flaved",
     "snapper",
     "fresh",
     "whole",
     "snapper",
-    "flavored",
+    "flaved",
     "sweet",
     "sour",
     "spicy",
     "sauce"
   ],
-  "Stir-Fried Morning Glory (Seasonal)": [
-    "morning",
-    "glory",
-    "similar",
-    "to",
-    "spinach",
-    "but",
-    "not",
-    "as",
-    "leafy",
-    "more",
-    "crisp",
-    "garlic",
-    "soybean",
-    "sauce"
-  ],
-  "meat": [
-    "meat"
+  "meat ball": [
+    "meat ball"
   ],
   "prawns": [
     "prawns"
@@ -1861,13 +1594,13 @@ MenuApp.menus["marnee-thai"] = {
     "coffee/hot",
     "tea"
   ],
-  "Thai Ice Coffee": [
-    "thai",
+  " Ice Coffee": [
+    "",
     "ice",
     "coffee"
   ],
-  "Thai Ice Tea": [
-    "thai",
+  " Ice Tea": [
+    "",
     "ice",
     "tea"
   ],
@@ -1890,14 +1623,14 @@ MenuApp.menus["marnee-thai"] = {
     "domestic",
     "beer"
   ],
-  "Anchor Steam": [
-    "anchor",
+  "Anch Steam": [
+    "anch",
     "steam"
   ],
-  "Thai Beer Or Non Alcoholic Beer": [
-    "thai",
+  " Beer  Non Alcoholic Beer": [
+    "",
     "beer",
-    "or",
+    "",
     "non",
     "alcoholic",
     "beer"
@@ -1905,14 +1638,16 @@ MenuApp.menus["marnee-thai"] = {
   "Sake": [
     "sake"
   ],
-  "Thai Sake (Zato)": [
-    "thai",
+  " Sake (Zato)": [
+    "",
     "sake"
-  ],
-  "* Hot & Spicy, (V) Vegetarian.": [
-    "*",
-    "hot",
-    "spicy",
-    "vegetarian"
   ]
 }
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["little-star-pizza"] = menu;
+}
+
+

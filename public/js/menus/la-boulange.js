@@ -1,189 +1,115 @@
-MenuApp.menus["la-boulange"] = {
-  "Warm Goat Cheese": [
-    "warm",
-    "goat",
-    "cheese",
-    "herbed",
-    "goat",
-    "cheese",
-    "sourdough",
-    "croutons",
-    "candied",
-    "pecans",
+var menu = {
+  "Warm goat cheese Cheese": [
+    "warm goat cheese cheese",
+    "herbed goat cheese cheese",
+    "sourdough croutons",
+    "candied pecans",
     "tomato",
-    "greens"
+    "salad greens"
   ],
   "Beet": [
     "beet",
-    "goat",
-    "cheese",
+    "goat cheese cheese",
     "orange",
-    "candied",
-    "pecans",
-    "greens"
+    "candied pecans",
+    "salad greens"
   ],
   "Niçoise": [
-    "niçoise",
     "tuna",
     "potatoes",
-    "green",
-    "beans",
+    "green beans",
     "tomato",
     "olives",
-    "roasted",
-    "red",
-    "pepper",
+    "roasted red pepper",
     "egg",
     "aioli",
-    "greens"
+    "salad greens"
   ],
   "Smoked Trout": [
-    "smoked",
-    "trout",
+    "smoked trout",
     "apple",
     "potatoes",
     "avocado",
     "walnut",
     "croutons",
-    "greens"
+    "salad greens"
   ],
   "La Boulange Cobb": [
-    "la",
-    "boulange",
-    "cobb",
-    "poached",
-    "chicken",
-    "breast",
+    "poached chicken breast",
     "bacon",
-    "lardons",
     "tomato",
-    "hardboiled",
-    "egg",
-    "blue",
-    "cheese",
+    "hardboiled egg",
+    "blue cheese cheese",
     "avocado",
-    "sourdough",
-    "croutons",
-    "gribiche",
-    "vinaigrette"
+    "sourdough croutons",
+    "gribiche vinaigrette"
   ],
   "Caesar": [
-    "caesar",
+    "caesar dressing",
     "parmesan",
     "croutons",
-    "romaine"
+    "roma tomatoine"
   ],
   "Quinoa & Arugula": [
     "quinoa",
     "arugula",
-    "grilled",
-    "chicken",
-    "breast",
+    "grilled chicken breast",
     "tomato",
-    "lemon",
-    "vinaigrette"
-  ],
-  "Add To Any Salad: Chicken Breast $2, Grilled Steak $3, Smoked Salmon $4.": [
-    "add",
-    "to",
-    "any",
-    "salad",
-    "chicken",
-    "breast",
-    "$",
-    "grilled",
-    "steak",
-    "$",
-    "smoked",
-    "salmon",
-    "$"
+    "lemon vinaigrette"
   ],
   "Boulange Club": [
-    "boulange",
-    "club",
     "turkey",
     "bacon",
     "avocado",
     "tomato",
     "lettuce",
     "aioli",
-    "pain",
-    "de",
-    "mie"
+    "pain de mie",
   ],
   "Provencal BLT": [
-    "provencal",
-    "blt",
     "bacon",
     "lettuce",
     "tomato",
-    "goat",
-    "cheese",
+    "goat cheese",
     "aioli",
     "ciabatta"
   ],
   "Tri-Tip Steak Sandwich": [
-    "tri-tip",
-    "steak",
+    "tri-tip steak",
     "sandwich",
-    "caramelized",
-    "onions",
-    "roma",
-    "tomato",
+    "caramelized onions",
+    "roma tomato",
     "arugula",
-    "tarragon",
-    "aioli",
+    "tarragon aioli",
     "ciabatta"
   ],
-  "add swiss": [
-    "add",
-    "swiss"
-  ],
   "Grilled Cheese Sandwich": [
-    "grilled",
-    "cheese",
+    "grilled cheese",
     "sandwich",
     "fruit"
   ],
-  "Portobello Veggie Burger": [
-    "portobello",
-    "veggie",
-    "burger",
-    "oven",
-    "roasted",
-    "portobello",
+  "portobello mushroom Veggie Burger": [
+    "portobello mushroom",
+    "veggie burger",
+    "portobello mushroom",
     "arugula",
     "tomato",
-    "organic",
     "bun"
   ],
-  "add brie": [
-    "add",
-    "brie"
-  ],
   "Croque Monsieur": [
-    "croque",
-    "monsieur"
-  ],
-  "make it a madame! (add a fried egg)": [
-    "make",
-    "it",
-    "madame!"
+    "croque monsieur"
   ],
   "Smoked Turkey": [
-    "smoked",
-    "turkey",
+    "smoked turkey",
     "tomato",
     "provolone",
     "aioli"
   ],
   "Roasted Chicken": [
-    "roasted",
-    "chicken",
+    "roasted chicken",
     "bacon",
     "swiss",
-    "dijon",
-    "sauce"
+    "dijon sauce"
   ],
   "Hummus": [
     "hummus",
@@ -192,133 +118,77 @@ MenuApp.menus["la-boulange"] = {
     "tomato",
     "sprouts"
   ],
-  "Goat Cheese": [
-    "goat",
+  "goat cheese Cheese": [
+    "goat cheese",
     "cheese",
-    "portobello",
+    "portobello mushroom",
     "mushroom",
     "pesto",
-    "roasted",
-    "red",
-    "pepper"
+    "roasted red pepper"
   ],
   "Smoked Salmon": [
-    "smoked",
-    "salmon",
+    "smoked salmon",
     "cucumber",
-    "light",
-    "crème",
-    "fraiche",
+    "crème fraiche",
     "shallots",
     "capers"
   ],
   "Creamy Mushroom": [
-    "creamy",
     "mushroom",
-    "roasted",
-    "chicken",
+    "roasted chicken",
     "chives",
-    "caramelized",
+    "caramelized onions",
     "onion",
-    "mushroom",
-    "sauce"
+    "mushroom sauce"
   ],
   "Tuna Melt": [
     "tuna",
-    "melt",
     "apple",
     "celery",
     "tomato",
     "cheddar"
   ],
-  "La Combo": [
-    "la",
-    "combo",
-    "any",
-    "open",
-    "face",
-    "sandwich",
-    "cup",
-    "soup",
-    "or",
-    "side",
-    "greens"
-  ],
   "Wild Mushroom Mac & Cheese": [
-    "wild",
-    "mushroom",
-    "mac",
+    "wild mushroom",
+    "macaroni",
     "cheese",
-    "truffle",
-    "oil"
+    "truffle oil"
   ],
   "French Onion Soup": [
-    "french",
     "onion",
     "soup"
   ],
-  "Soup Du Jour": [
-    "soup",
-    "du",
-    "jour"
-  ],
   "La Boulange Burger": [
-    "la",
-    "boulange",
-    "burger",
-    "all",
-    "natural",
-    "anti-biotic",
-    "free",
-    "beef",
-    "carmelized",
-    "onions",
-    "blue",
+    "anti-biotic free beef",
+    "carmelized onions",
+    "blue cheese",
     "cheese",
     "lettuce",
     "tomato",
-    "michette",
-    "bun"
-  ],
-  "additions: cheddar, swiss, bacon, fried egg, avocado, portobello mushroom": [
-    "additions",
-    "cheddar",
-    "swiss",
-    "bacon",
-    "fried",
-    "egg",
-    "avocado",
-    "portobello",
-    "mushroom"
+    "michette bun"
   ],
   "Lobster Sandwich": [
-    "lobster",
     "sandwich",
-    "maine",
-    "lobster",
+    "maine lobster",
     "aioli",
-    "celery",
-    "root",
-    "remoulade",
+    "celery root remoulade",
     "croissant",
     "bun"
   ],
   "Pommes Frites": [
-    "pommes",
-    "frites",
-    "aioli"
+    "pommes frites",
+    "aioli",
+    "potato"
   ],
-  "parmesan & truffle oil": [
+  "pommes frites parmesan & truffle oil ": [
     "parmesan",
-    "truffle",
-    "oil"
+    "truffle oil",
+    "pommes frites"
   ],
   "Pommes Frites Sweet Potato": [
-    "pommes",
-    "frites",
-    "sweet",
-    "potato",
-    "carmelized",
+    "pommes frites",
+    "sweet potato",
+    "carmelized onion",
     "onion",
     "aioli"
   ],
@@ -329,18 +199,15 @@ MenuApp.menus["la-boulange"] = {
     "honey"
   ],
   "Organic Oats": [
-    "organic",
     "oats",
     "fruit"
   ],
   "Chicken Tenderloins": [
-    "chicken",
-    "tenderloins",
-    "penne",
-    "pasta"
+    "chicken tenderloins",
+    "penne pasta"
   ],
   "Mac & Cheese": [
-    "mac",
+    "macaroni",
     "cheese"
   ],
   "Banana & Nutella": [
@@ -349,8 +216,7 @@ MenuApp.menus["la-boulange"] = {
     "brioche"
   ],
   "Kid’s Hot Chocolate": [
-    "kid’s",
-    "hot",
+    "milk",
     "chocolate",
     "whipped",
     "cream"
@@ -366,53 +232,30 @@ MenuApp.menus["la-boulange"] = {
   "Homemade Granola": [
     "homemade",
     "granola",
-    "w/yogurt",
-    "or",
+    "yogurt",
     "milk",
     "fresh",
     "fruit"
   ],
   "Fantastic French Toast": [
-    "fantastic",
-    "french",
-    "toast",
-    "baked",
+    "bread",
     "brioche",
-    "w/fresh",
     "fruit",
-    "pure",
-    "vermont",
-    "maple",
-    "syrup"
+    "maple syrup"
   ],
   "Healthful Organic Oats": [
-    "healthful",
-    "organic",
     "oats",
-    "low",
-    "fat",
-    "milk",
-    "flax",
-    "seed",
+    "low fat milk",
+    "flax seed",
     "fresh",
     "fruit",
-    "w/",
-    "pure",
-    "vermont",
-    "maple",
-    "syrup",
-    "honey",
-    "or",
-    "brown",
-    "sugar"
+    "maple syrup",
   ],
   "Egg & Cheese Sandwich": [
     "egg",
     "cheese",
-    "sandwich",
-    "eggs",
+    "sandwich",,
     "tomato",
-    "choice",
     "bacon",
     "ham",
     "smoked",
@@ -422,154 +265,109 @@ MenuApp.menus["la-boulange"] = {
     "croissant",
     "plain",
     "or",
-    "multigrain",
-    "country",
-    "bread",
-    "w/fresh",
+    "multigrain bread",
     "fruit"
   ],
-  "smoked salmon add": [
-    "smoked",
-    "salmon",
-    "add"
+  "Egg & Cheese Sandwich": [
+    "egg",
+    "cheese",
+    "sandwich",,
+    "tomato",
+    "choice",
+    "ham",
+    "multigrain bread",
+    "fruit"
+  ],
+  "Egg & Cheese Sandwich": [
+    "egg",
+    "cheese",
+    "sandwich",,
+    "tomato",
+    "smoked salmon",
+    "croissant",
+    "fruit"
   ],
   "Scramble": [
-    "scramble",
-    "eggs",
-    "w/",
-    "boulange",
+    "scrambled eggs",
     "potatoes",
-    "organic",
     "toast",
-    "choose",
-    "ingredients",
     "swiss",
     "cheddar",
-    "goat",
     "cheese",
     "onions",
     "spinach",
     "tomato",
     "mushrooms",
     "bacon",
-    "roasted",
-    "red",
-    "peppers",
-    "bacon&",
+    "roasted red peppers",
+    "bacon",
     "ham"
   ],
-  "for each add’l ingredient, for egg whites add": [
-    "for",
-    "each",
-    "add’l",
-    "ingredient",
-    "for",
-    "egg",
-    "whites",
-    "add"
-  ],
   "Omelette De Paris": [
-    "omelette",
-    "de",
-    "paris",
     "eggs",
-    "w/ham",
-    "swiss",
+    "ham",
+    "swiss cheese",
     "cheese",
     "mushrooms",
     "spinach",
-    "w/boulange",
     "potatoes",
-    "or",
-    "greens"
+    "salad greens"
   ],
   "Frittata Breakfast Sandwich": [
     "frittata",
     "breakfast",
     "sandwich",
-    "choice",
-    "lorraine"
   ],
   "Organic Bread Basket": [
-    "organic",
-    "bread",
-    "basket"
+    "bread"
   ],
   "Side Of Bacon": [
     "side",
     "bacon"
   ],
   "Fresh Fruit Salad": [
-    "fresh",
     "fruit",
-    "salad"
   ],
   "Boulange Potatoes": [
-    "boulange",
     "potatoes"
   ],
   "All Eggs Are Cage-Free.": [
-    "all",
-    "eggs",
-    "are",
-    "cage-free"
+    "cage-free eggs"
   ],
   "Organic Baguette": [
-    "organic",
     "baguette"
   ],
   "Cheese Baguette": [
-    "cheese",
-    "baguette"
+    "cheese baguette",
+    "cheese"
   ],
   "Walnut Baguette": [
-    "walnut",
-    "baguette"
+    "walnut baguette".
+    "walnut"
   ],
   "Organic Epi Baguette": [
-    "organic",
-    "epi",
     "baguette"
   ],
   "Small Plain Roll": [
-    "small",
-    "plain",
-    "roll"
+    "roll",
+    "bread"
   ],
   "Small Olive Roll": [
-    "small",
-    "olive",
-    "roll"
+    "olive roll"
   ],
   "Small Walnut Roll": [
-    "small",
-    "walnut",
-    "roll"
+    "walnut roll"
   ],
   "Organic Plain Mini Ficelle": [
-    "organic",
-    "plain",
-    "mini",
-    "ficelle"
+    "mini ficelle"
   ],
   "Herb Pain De Mie Hamburger Bun": [
-    "herb",
-    "pain",
-    "de",
-    "mie",
-    "hamburger",
-    "bun"
+    "herb pain de mie hamburger bun"
   ],
   "Plain Pain De Mie Hamburger Bun": [
-    "plain",
-    "pain",
-    "de",
-    "mie",
-    "hamburger",
-    "bun"
+    "Plain Pain De Mie Hamburger Bun"
   ],
   "Breakfast Roll": [
-    "breakfast",
     "roll",
     "apple",
     "apricot",
@@ -586,9 +384,7 @@ MenuApp.menus["la-boulange"] = {
     "roll"
   ],
   "Organic Whole Grain Batard": [
-    "organic",
-    "whole",
-    "grain",
+    "whole grain",
     "batard"
   ],
   "Boulot": [
@@ -606,48 +402,33 @@ MenuApp.menus["la-boulange"] = {
   "Organic Plain Peasant": [
     "organic",
     "plain",
-    "peasant"
+    "peasant bread"
   ],
   "Walnut Peasant": [
     "walnut",
-    "peasant"
+    "peasant bread"
   ],
   "Organic Multigrain Peasant": [
     "organic",
     "multigrain",
-    "peasant"
+    "peasant bread"
   ],
   "Pain De Mie Sandwich Bread": [
-    "pain",
-    "de",
-    "mie",
-    "sandwich",
-    "bread"
+    "Pain De Mie Sandwich Bread"
   ],
   "Pull Apart Brioche Loaf": [
-    "pull",
-    "apart",
-    "brioche",
-    "loaf"
+    "brioche loaf"
   ],
   "Organic- Sliced 8 Grain Bread": [
-    "organic-",
-    "sliced",
-    "grain",
+    "sliced 8 grain bread"
     "bread"
   ],
   "Sliced Whole Wheat Bread": [
-    "sliced",
-    "whole",
-    "wheat",
+    "Sliced Whole Wheat Bread",
     "bread"
   ],
-  "Organic Sliced Sourdoug H Bread": [
-    "organic",
-    "sliced",
-    "sourdoug",
-    "h",
-    "bread"
+  "Organic Sliced Sourdoug Bread": [
+    "Organic Sliced Sourdoug Bread"
   ],
   "Filone": [
     "filone",
@@ -662,12 +443,9 @@ MenuApp.menus["la-boulange"] = {
     "poppy"
   ],
   "Large Plain Challah": [
-    "large",
-    "plain",
-    "challah"
+    "plain challah"
   ],
   "Medium Brioche Rolls": [
-    "medium",
     "brioche",
     "rolls"
   ],
@@ -675,7 +453,6 @@ MenuApp.menus["la-boulange"] = {
     "brioche",
     "hamburger",
     "buns",
-    "-pack"
   ],
   "Croissant": [
     "croissant"
@@ -705,16 +482,13 @@ MenuApp.menus["la-boulange"] = {
   "Raisin Custard Swirl": [
     "raisin",
     "custard",
-    "swirl"
   ],
   "Sticky Bun": [
-    "sticky",
-    "bun"
+    "sticky bun"
   ],
   "Orange & Cinnamon Morning Bun": [
     "orange",
     "cinnamon",
-    "morning",
     "bun"
   ],
   "Sugar Brioche": [
@@ -722,20 +496,16 @@ MenuApp.menus["la-boulange"] = {
     "brioche"
   ],
   "Apple Turnover": [
-    "apple",
-    "turnover"
+    "apple turnover"
   ],
   "Lemon Turnover": [
-    "lemon",
-    "turnover"
+    "lemon turnover"
   ],
   "Cheese Danish": [
-    "cheese",
-    "danish"
+    "cheese danish"
   ],
   "Fruit Danish": [
-    "fruit",
-    "danish"
+    "fruit danish"
   ],
   "Seasonal Kouign Amman": [
     "seasonal",
@@ -746,9 +516,9 @@ MenuApp.menus["la-boulange"] = {
     "large",
     "palmier"
   ],
-  "Vanilla Blueberry Pound Cake": [
+  "Vanilla   blueberry Pound Cake": [
     "vanilla",
-    "blueberry",
+    " blueberry",
     "pound",
     "cake"
   ],
@@ -845,8 +615,8 @@ MenuApp.menus["la-boulange"] = {
     "lemon",
     "tart"
   ],
-  "Goat Cheese & Pear Tart": [
-    "goat",
+  "goat cheese Cheese & Pear Tart": [
+    "goat cheese",
     "cheese",
     "pear",
     "tart"
@@ -962,17 +732,15 @@ MenuApp.menus["la-boulange"] = {
     "tuna",
     "cheddar"
   ],
-  "Goat Cheese & Tomato": [
-    "goat",
+  "goat cheese Cheese & Tomato": [
+    "goat cheese",
     "cheese",
     "tomato",
-    "w/",
     "basil"
   ],
   "Salmon & Crème Fraiche": [
     "salmon",
-    "crème",
-    "fraiche"
+    "crème fraiche"
   ],
   "Prosciutto & Swiss": [
     "prosciutto",
@@ -1005,51 +773,38 @@ MenuApp.menus["la-boulange"] = {
   ],
   "Almond Croquet Bordelaise": [
     "almond",
-    "croquet",
-    "bordelaise"
+    "croquet bordelaise"
   ],
   "Petit Palmiers": [
-    "petit",
-    "palmiers"
+    "petit palmiers"
   ],
   "Mini Raspberry Financiers": [
-    "mini",
-    "raspberry",
-    "financiers"
+    "raspberry financiers"
   ],
   "Meringue Cookies": [
     "meringue",
     "cookies",
-    "cocoa",
-    "nibs",
+    "cocoa nibs",
     "rose",
     "lemon"
   ],
   "Shortbread Cookies": [
     "shortbread",
     "cookies",
-    "chocolate",
-    "chocolate",
-    "chip",
-    "orange",
-    "blossom",
+    "chocolate chip",
+    "orange blossom",
     "espresso",
-    "herbs",
-    "de",
-    "provence",
+    "herbs de provence",
     "spicy",
     "parmesan",
     "hazelnut"
   ],
   "Vanilla Pound Cake": [
     "vanilla",
-    "pound",
-    "cake"
+    "pound cake"
   ],
   "Seasonal Pound Cake": [
-    "seasonal",
-    "pound",
-    "cake"
+    "pound cake"
   ],
   "Bagged Homemade Granola": [
     "bagged",
@@ -1072,54 +827,47 @@ MenuApp.menus["la-boulange"] = {
     "spread"
   ],
   "Mini Croissants": [
-    "mini",
     "croissants"
   ],
   "Mini Chocolate Croissants": [
-    "mini",
     "chocolate",
     "croissants"
   ],
   "Mini Sticky Buns": [
-    "mini",
-    "sticky",
-    "buns"
+    "sticky buns"
   ],
   "Mini Fruit Danishes": [
-    "mini",
-    "fruit",
-    "danishes"
+    "fruit danishes"
   ],
   "Mini Cinnamon Twists": [
-    "mini",
-    "cinnamon",
-    "twists"
+    "cinnamon twists"
   ],
   "Mini Raisin Swirls": [
-    "mini",
     "raisin",
     "swirls"
   ],
   "Mini Chocolate Tartlettes": [
-    "mini",
     "chocolate",
     "tartlettes"
   ],
   "Mini Red Fruit Tartlettes": [
-    "mini",
-    "red",
-    "fruit",
+    "red fruit",
     "tartlettes"
   ],
   "Mini Lemon Tartlettes": [
-    "mini",
     "lemon",
     "tartlettes"
   ],
-  "Mini Goat Cheese Tartlettes": [
-    "mini",
-    "goat",
+  "Mini goat cheese Cheese Tartlettes": [
+    "goat cheese",
     "cheese",
     "tartlettes"
   ]
+};
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["la-boulange"] = menu;
 }
+

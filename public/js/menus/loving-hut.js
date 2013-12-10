@@ -1,8 +1,5 @@
 MenuApp.menus["loving-hut"] = {
   "1. Combination Delicacy": [
-    "combination",
-    "delicacy",
-    "layered",
     "bean",
     "curd",
     "tofu",

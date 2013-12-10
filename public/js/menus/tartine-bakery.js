@@ -1,4 +1,4 @@
-MenuApp.menus["tartine-bakery"] = {
+var menu = {
   "Croissant": [
     "croissant"
   ],

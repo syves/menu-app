@@ -1,4 +1,4 @@
-MenuApp.menus["savor"] = {
+var menu = {
   "Coronado": [
     "avocado",
     "mild",
@@ -1309,3 +1309,10 @@ MenuApp.menus["savor"] = {
     "vegetarian"
   ]
 }
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["roku-izakaya"] = menu;
+}
+

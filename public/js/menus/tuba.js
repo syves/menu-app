@@ -1,4 +1,4 @@
-MenuApp.menus["tuba"] = {
+var menu = {
   "Dolma": [
     "dolma",
     "stuffed",
@@ -6,7 +6,7 @@ MenuApp.menus["tuba"] = {
     "leaves",
     "rice",
     "currants",
-    "pine",
+    "pine nut",
     "nuts",
     "house",
     "blended",
@@ -17,7 +17,7 @@ MenuApp.menus["tuba"] = {
     "salatas",
     "eggplant",
     "puree",
-    "bell",
+    "bell pepper",
     "pepper",
     "tomato",
     "garlic"
@@ -28,7 +28,7 @@ MenuApp.menus["tuba"] = {
     "garbanzo",
     "beans",
     "lemon",
-    "tahini",
+    "tahini sauce",
     "sauce"
   ],
   "Mercimek Kofte": [
@@ -47,7 +47,7 @@ MenuApp.menus["tuba"] = {
     "dill",
     "mint",
     "yogurt",
-    "light",
+    "",
     "garlic"
   ],
   "Piyaz": [
@@ -58,7 +58,7 @@ MenuApp.menus["tuba"] = {
     "green",
     "onion",
     "tomatoes",
-    "tahini",
+    "tahini sauce",
     "lemon",
     "vinegar"
   ],
@@ -79,7 +79,7 @@ MenuApp.menus["tuba"] = {
     "mint",
     "thick",
     "yogurt",
-    "light",
+    "",
     "garlic"
   ],
   "Tuba Cold Platter": [
@@ -94,16 +94,15 @@ MenuApp.menus["tuba"] = {
   "Feta Prawns": [
     "feta",
     "prawns",
-    "sauteed",
+    "",
     "pepperoncini",
     "sauce"
   ],
-  "Crab Cakes": [
-    "crab",
-    "cakes",
+  "Crab cakes": [
+    "crab cakes",
     "polenta",
     "herbs",
-    "pine",
+    "pine nut",
     "nuts"
   ],
   "Icli Kofte": [
@@ -127,8 +126,8 @@ MenuApp.menus["tuba"] = {
   "Crispy Boregi": [
     "crispy",
     "boregi",
-    "drizzled",
-    "tahini",
+    "",
+    "tahini sauce",
     "sauce"
   ],
   "Mucver": [
@@ -187,7 +186,7 @@ MenuApp.menus["tuba"] = {
     "prawn",
     "salad",
     "mixed",
-    "greens",
+    "salad sgreens",
     "mango",
     "salsa"
   ],
@@ -195,15 +194,15 @@ MenuApp.menus["tuba"] = {
     "stuffed",
     "falafel",
     "salad",
-    "goat",
+    "goat cheese",
     "cheese",
     "avocado",
     "salsa",
     "mixed",
-    "greens"
+    "salad greens"
   ],
-  "Sauteed Chicken": [
-    "sauteed",
+  " Chicken": [
+    "",
     "chicken",
     "herb",
     "tomato",
@@ -221,7 +220,7 @@ MenuApp.menus["tuba"] = {
     "eggplant",
     "mozzarella",
     "cheese",
-    "topped",
+    "",
     "lamb",
     "cubes"
   ],
@@ -236,22 +235,19 @@ MenuApp.menus["tuba"] = {
     "salmon",
     "fume",
     "sauce",
-    "over",
+    "",
     "rice"
   ],
-  "Lamb Chops": [
-    "lamb",
-    "chops",
-    "lamb",
-    "chops",
+  "Lamb lamb chops": [
+    "lamb chops",
     "rice",
-    "sauteed",
+    "",
     "vegetables"
   ],
   "Beyti": [
     "beyti",
     "adana",
-    "wrapped",
+    "",
     "lavash",
     "bread",
     "tomato",
@@ -261,7 +257,7 @@ MenuApp.menus["tuba"] = {
   "Stuffed Eggplant": [
     "stuffed",
     "eggplant",
-    "pine",
+    "pine nut",
     "nuts",
     "onions",
     "tomatoes",
@@ -274,22 +270,21 @@ MenuApp.menus["tuba"] = {
     "potatoes",
     "squash",
     "zucchini",
-    "bechamel",
-    "sauce",
+    "bechamel sauce",
     "rice"
   ],
-  "Lamb Shish Kebab": [
+  "Lamb shish Kebab": [
     "lamb",
-    "shish",
+    "shish kebab",
     "kebab",
     "skewered",
     "onion",
     "red",
     "peppers"
   ],
-  "Chicken Shish Kebab": [
+  "Chicken shish Kebab": [
     "chicken",
-    "shish",
+    "shish kebab",
     "kebab",
     "skewered",
     "onion",
@@ -327,7 +322,7 @@ MenuApp.menus["tuba"] = {
     "grill",
     "chicken",
     "lamb",
-    "shish",
+    "shish kebab",
     "kofte",
     "adana",
     "lamb",
@@ -381,7 +376,7 @@ MenuApp.menus["tuba"] = {
     "coarsely",
     "ground",
     "wheat",
-    "pine",
+    "pine nut",
     "nuts",
     "sautéed",
     "butter",
@@ -429,4 +424,10 @@ MenuApp.menus["tuba"] = {
     "turkish",
     "coffee"
   ]
+}
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["roku-izakaya"] = menu;
 }

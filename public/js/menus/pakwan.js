@@ -1,4 +1,4 @@
-MenuApp.menus["pakwan"] = {
+var menu = {
   "Papadum": [
     "papadum"
   ],

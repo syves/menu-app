@@ -1,102 +1,66 @@
-MenuApp.menus["little-star-pizza"] = {
+var menu = {
   "Garlic Bread": [
-    "garlic",
-    "bread",
+    "garlic bread",
     "warm",
-    "housemade",
-    "bread",
+    "housemade bread",
     "butter",
-    "fresh",
     "garlic",
     "mozzarella",
-    "fresh",
     "basil"
   ],
   "Caprese Salad": [
-    "caprese",
-    "salad",
-    "fresh",
+    "caprese salad",
+    "",
     "mozzarella",
-    "sliced",
-    "tomatoes",
+    "sliced tomatoes",
     "basil",
-    "drizzled",
-    "extra",
-    "virgin",
-    "olive",
-    "oil",
-    "balsamic",
-    "vinegar"
+    "olive oil",
+    "balsamic vinegar"
   ],
   "Spicy Chicken Wings": [
     "spicy",
-    "chicken",
-    "wings",
-    "pound",
-    "wings",
-    "baby",
-    "carrots",
-    "blue",
+    "chicken wings",
+    "baby carrots",
+    "blue cheese",
     "cheese",
     "dressing"
   ],
   "Mixed Salad": [
-    "mixed",
-    "salad",
-    "organic",
-    "mixed",
-    "greens",
-    "cherry",
-    "tomatoes",
-    "red",
-    "bells",
-    "red",
-    "onions",
-    "gorgonzola",
-    "cheese",
-    "chopped",
+    "salad greens",
+    "cherry tomato",
+    "red bell peppers",
+    "red onions",
+    "gorgonzola cheese",
     "walnuts",
-    "housemade",
-    "vinaigrette",
-    "dressing"
+    "vinaigrette dressing"
   ],
-  "Classic": [
-    "classic",
+  "Classic pizza": [
     "sausage",
     "mushrooms",
     "onions",
-    "green",
-    "bells"
+    "green bell peppers"
   ],
-  "Mediterranean Chicken": [
-    "mediterranean",
-    "chicken",
-    "chicken",
-    "breast",
-    "artichoke",
-    "hearts",
-    "red",
-    "bells",
-    "green",
-    "olives",
+  "Mediterranean Chicken pizza": [
+    "chicken breast",
+    "artichoke hearts",
+    "red bell peppers",
+    "green olives",
     "onions",
     "feta"
   ],
-  "Vegetarian": [
+  "Vegetarian pizza": [
     "vegetarian",
     "mushrooms",
     "onions",
     "black",
     "olives",
     "red",
-    "bells",
+    "bell peppers",
     "garlic",
     "roasted",
     "zucchini"
   ],
-  "Little Star": [
-    "little",
-    "star",
+  "Little Star pizza": [
     "spinach",
     "blended",
     "ricotta",
@@ -105,41 +69,27 @@ MenuApp.menus["little-star-pizza"] = {
     "onions",
     "garlic"
   ],
-  "Cheese": [
-    "cheese",
-    "each"
+  "Cheese pizza": [
+    "cheese"
   ],
-  "add any topping": [
-    "add",
-    "any",
-    "topping"
-  ],
-  "Pesto Chicken": [
+  "Pesto Chicken pizza": [
     "pesto",
     "chicken",
-    "pesto",
-    "base",
     "roasted",
-    "chicken",
-    "roasted",
-    "red",
-    "peppers",
+    "chicken roasted",
+    "red peppers",
     "mushrooms",
     "onions"
   ],
-  "Italian Combo": [
-    "italian",
-    "combo",
+  "Italian Combo pizza": [
     "pepperoni",
     "salami",
     "onions",
-    "green",
-    "bells",
-    "black",
-    "olives",
+    "green bell peppers",
+    "black olives",
     "pepperoncini"
   ],
-  "Greek": [
+  "Greek pizza": [
     "greek",
     "spinach",
     "black",
@@ -150,102 +100,25 @@ MenuApp.menus["little-star-pizza"] = {
     "sun-dried",
     "tomatoes"
   ],
-  "White Pie": [
-    "white",
-    "pie",
+  "White Pie pizza": [
     "garlic",
-    "olive",
-    "oil",
-    "base",
+    "olive oil",
     "mozzarella",
-    "roasted",
     "zucchini",
-    "fresh",
     "tomatoes",
     "feta"
   ],
-  "Anchovies": [
-    "anchovies"
-  ],
-  "Artichoke Hearts": [
-    "artichoke",
-    "hearts"
-  ],
-  "Bell Peppers": [
-    "bell",
-    "peppers"
-  ],
-  "Chicken": [
-    "chicken"
-  ],
-  "Feta": [
-    "feta"
-  ],
-  "Fresh Basil": [
-    "fresh",
-    "basil"
-  ],
-  "Fresh Mozzarella": [
-    "fresh",
-    "mozzarella"
-  ],
-  "Garlic": [
-    "garlic"
-  ],
-  "Gorgonzola": [
-    "gorgonzola"
-  ],
-  "Mushrooms": [
-    "mushrooms"
-  ],
-  "Olives": [
-    "olives"
-  ],
-  "Onions": [
-    "onions"
-  ],
-  "Pepperoncini": [
-    "pepperoncini"
-  ],
-  "Pepperoni": [
-    "pepperoni"
-  ],
-  "Pesto": [
-    "pesto"
-  ],
-  "Ricotta": [
-    "ricotta"
-  ],
-  "Roasted Garlic": [
-    "roasted",
-    "garlic"
-  ],
-  "Roasted Zucchini": [
-    "roasted",
-    "zucchini"
-  ],
-  "Salami": [
-    "salami"
-  ],
-  "Sausage": [
-    "sausage"
-  ],
-  "Spinach": [
-    "spinach"
-  ],
-  "Sun-Dried Tomatoes": [
-    "sun-dried",
-    "tomatoes"
-  ],
-  "Fresh Tomatoes": [
-    "fresh",
-    "tomatoes"
-  ],
   "Housemade Cheesecake": [
-    "housemade",
     "cheesecake"
   ],
   "Gelato": [
     "gelato"
   ]
+};
+
+if (typeof module !== "undefined") { // node
+  module.exports = menu;
+} else { // browser
+  MenuApp.menus["little-star-pizza"] = menu;
 }
+

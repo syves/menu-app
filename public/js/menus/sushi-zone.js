@@ -7,7 +7,6 @@ var menu = {
     "edamame"
   ],
   "Steamed Soybeans": [
-    "steamed",
     "soybeans"
   ],
   "Mussel On Half Shell": [
@@ -30,43 +29,35 @@ var menu = {
     "gari-saba"
   ],
   "California Roll": [
-    "california",
-    "roll"
+    "californiaroll"
   ],
   "New York Roll": [
     "new",
-    "york",
-    "roll"
+    "york roll"
   ],
   "Alaskan Roll": [
-    "alaskan",
-    "roll"
+    "alaskan roll"
   ],
   "New Zealand Roll": [
-    "new",
-    "zealand",
-    "roll"
+    "New Zealand Roll"
   ],
   "King California": [
-    "king",
-    "california"
+    "King California"
   ],
   "Tuna-Masa Roll": [
-    "tuna-masa",
-    "roll"
+    "tuna-masa roll"
   ],
   "Hama-Masa Roll": [
-    "hama-masa",
-    "roll"
+    "hama-masa roll"
   ],
   "Spicy Tuna": [
     "spicy",
     "tuna"
   ],
   "Rock ‘N Roll": [
-    "rock",
-    "n",
-    "roll"
+    "eel",
+    "avacado",
+    "unagi"
   ],
   "Papaya Unagi": [
     "papaya",
@@ -77,30 +68,17 @@ var menu = {
     "hamachi"
   ],
   "Sushi Combination Plate": [
-    "sushi",
-    "combination",
-    "plate",
-    "pieces",
-    "nigiri",
-    "sushi",
-    "california",
-    "roll"
+    "nigiri sushi",
+    "california roll"
   ],
   "Chirashi-Sushi": [
     "chirashi-sushi",
-    "assorted",
-    "fish",
-    "veg",
-    "bowl"
   ],
   "Sashimi": [
     "sashimi",
-    "kind"
   ],
   "Sashimi Combination Plate": [
     "sashimi",
-    "combination",
-    "plate"
   ],
   "Ebi": [
     "ebi"

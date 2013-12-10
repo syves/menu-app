@@ -1,116 +1,72 @@
 var menu = {
   "Imperial Rolls": [
-    "imperial",
-    "rolls"
+    "imperial rolls"
   ],
-  "Vegetarian Imperial Rolls": [
-    "vegetarian",
-    "imperial",
-    "rolls",
-    "vegetarian",
-    "sauce"
+  "vegetarianetarian Imperial Rolls": [
+    "vegetarianetarian imperial rolls",
+    "vegetarianetarian sauce"
   ],
   "Fresh Spring Rolls": [
-    "fresh",
-    "spring",
-    "rolls",
+    "fresh spring rolls",
     "shrimp",
-    "bean",
-    "sprouts",
+    "bean sprouts",
     "mint",
     "vermicelli",
-    "peanut",
-    "sauce"
+    "peanut sauce"
   ],
   "Fresh Chicken Rolls": [
-    "fresh",
-    "chicken",
-    "rolls",
-    "sauteed",
-    "chicken",
-    "bean",
-    "sprouts",
+    "chicken rolls",
+    "sauteed chicken",
+    "bean sprouts",
     "mint",
     "vermicelli"
   ],
-  "Fresh Vegetarian Spring Rolls": [
-    "fresh",
-    "vegetarian",
-    "spring",
-    "rolls",
+  "Fresh vegetarianetarian Spring Rolls": [
+    "fresh spring rolls",
     "tofu",
-    "sprouts",
+    "bean sprouts",
     "mushrooms",
     "cabbage",
-    "greens"
+    "salad green beanss"
   ],
-  "Vietnamese Pot Stickers": [
-    "vietnamese",
-    "pot",
-    "stickers",
-    "deep",
-    "fried",
-    "rice",
-    "balls",
+  "Vietnamese Pot pot stickers": [
+    "pot stickers",
+    "deep fried rice balls",
     "pork",
     "shrimp",
     "mushrooms",
     "carrots",
-    "hoisin",
-    "sauce"
+    "hoisin sauce",
   ],
-  "Vegetarian Pot Stickers": [
-    "vegetarian",
-    "pot",
-    "stickers",
-    "steamed",
-    "or",
-    "fried",
+  "vegetarianetarian Pot pot stickers": [
+    "pot stickers",
     "dumplings",
     "tofu",
     "mushrooms",
     "cabbage",
-    "peanut",
-    "sauce"
+    "peanut sauce"
   ],
   "Sunflower Crepe": [
-    "sunflower",
-    "crepe",
-    "rice",
-    "crepe",
+    "rice crepe",
     "chicken",
     "shrimp",
     "bean",
-    "sprouts",
+    "bean sprouts",
     "mint",
-    "greens"
+    "salad green beanss"
   ],
-  "Vegetarian Crepe": [
-    "vegetarian",
+  "vegetarianetarian Crepe": [
+    "vegetarianetarian",
     "crepe",
     "tofu",
     "mushrooms",
-    "bean",
-    "sprouts",
+    "bean sprouts",
     "mint",
-    "greens"
+    "salad green beanss"
   ],
   "Vietnamese Deep Fried Tofu": [
-    "vietnamese",
-    "deep",
-    "fried",
-    "tofu",
-    "tofu",
-    "infused",
+    "deep fried tofu",
     "lemongrass"
-  ],
-  "** Some Dishes Served With Fish Or Vegetarian Sauce": [
-    "some",
-    "dishes",
-    "fish",
-    "or",
-    "vegetarian",
-    "sauce"
   ],
   "Chicken": [
     "chicken"
@@ -128,107 +84,69 @@ var menu = {
     "shrimp",
     "pork"
   ],
-  "Vegetarian": [
-    "vegetarian"
+  "vegetarianetarian": [
+    "vegetarianetarian"
   ],
   "Seafood": [
-    "seafood",
     "shrimp",
     "calamari",
-    "imitation",
-    "crab",
-    "fish",
-    "cake"
+    "imitation crab",
+    "fish cake"
   ],
-  "Vegetarian Hot & Sour": [
-    "vegetarian",
-    "hot",
-    "sour",
+  "vegetarianetarian Hot & Sour": [
+    "vegetarianetarian",
+    "hot and sour sauce",
     "tofu",
     "mushrooms",
-    "bean",
-    "sprouts",
+    "bean sprouts",
     "tomatoes",
     "pineapples"
   ],
-  "Five Spice Roasted Chicken & Imperial Rolls": [
-    "five",
-    "spice",
-    "roasted",
-    "chicken",
-    "imperial",
-    "rolls"
+  "five spices Spice roasted Chicken & Imperial Rolls": [
+    "five spices spice",
+    "roasted chicken",
+    "imperial rolls"
   ],
   "B.B.Q Pork (Lemongrass Marinade) & Imperial Rolls": [
-    "bbq",
-    "pork",
-    "imperial",
-    "rolls"
+    "bbq pork",
+    "imperial rolls"
   ],
   "B.B.Q Beef (Lemongrass Marinade) & Imperial Rolls": [
-    "bbq",
-    "beef",
-    "imperial",
-    "rolls"
+    "bbq beef",
+    "imperial rolls"
   ],
   "Grilled Shrimp & Imperial Rolls": [
-    "grilled",
-    "shrimp",
-    "imperial",
-    "rolls"
+    "grilled shrimp",
+    "imperial rolls"
   ],
   "Curry Prawns": [
-    "curry",
-    "prawns",
-    "sauteed",
-    "prawns",
-    "mixed",
-    "vegetables",
-    "coconut",
-    "curry",
-    "sauce"
+    "curry prawns",
+    "sauteed prawns",
+    "mixed vegetarianetables",
+    "coconut curry sauce"
   ],
   "Curry Chicken": [
-    "curry",
-    "chicken",
-    "mixed",
-    "vegetables",
-    "coconut",
-    "curry",
-    "sauce"
+    "curry chicken",
+    "mixed vegetarianetables",
+    "coconut curry sauce"
   ],
   "Curry Seafood": [
-    "curry",
-    "seafood",
-    "sauteed",
     "prawns",
     "calamari",
-    "imitation",
-    "crab",
-    "meat",
-    "fish",
-    "cake",
-    "coconut",
-    "curry",
-    "sauce"
+    "imitation crab",
+    "fish cake",
+    "coconut curry sauce"
   ],
-  "Curry Vegetables": [
+  "Curry vegetarianetables": [
     "curry",
-    "vegetables",
-    "sauteed",
-    "mixed",
-    "vegetables",
+    "vegetarianetables",
     "tofu",
-    "coconut",
-    "curry",
-    "sauce"
+    "coconut curry sauce"
   ],
-  "Lemongrass Chicken Or Beef": [
+  "Lemongrass Chicken": [
     "lemongrass",
     "chicken",
-    "or",
-    "beef",
-    "green",
+    "green beans",
     "beans",
     "onions",
     "chilies"
@@ -239,54 +157,36 @@ var menu = {
     "sauteed",
     "prawns",
     "lemongrass",
-    "green",
+    "green beans",
     "beans",
     "chilies"
   ],
   "Prawns With String Beans": [
     "prawns",
-    "string",
-    "beans",
-    "green",
+    "string beans",
+    "green beans",
     "beans",
     "mushrooms",
     "garlic",
     "onions"
   ],
-  "Five Spices Roasted Chicken": [
-    "five",
-    "spices",
-    "roasted",
-    "chicken",
-    "tender",
-    "roasted",
-    "chicken",
-    "five",
-    "spices"
+  "five Spices roasted Chicken": [
+    "five spices",
+    "roasted chicken"
   ],
   "Garlic Eggplant": [
     "garlic",
     "eggplant",
-    "eggplant",
-    "sautéed",
-    "garlic",
     "sauce"
   ],
   "Curry Eggplant": [
     "curry",
     "eggplant",
-    "sauteed",
-    "eggplant",
-    "coconut",
-    "curry",
-    "sauce"
+    "coconut curry sauce"
   ],
-  "Garlic Vegetables": [
+  "Garlic vegetarianetables": [
     "garlic",
-    "vegetables",
-    "sauteed",
-    "mixed",
-    "vegetables",
+    "vegetarianetables",
     "tofu",
     "garlic",
     "sauce"
@@ -303,394 +203,280 @@ var menu = {
   "Garlic Chicken": [
     "garlic",
     "chicken",
-    "mixed",
-    "vegetables",
+    "vegetarianetables",
     "garlic",
     "sauce"
   ],
   "Garlic Noodles": [
     "garlic",
     "noodles",
-    "our",
-    "house",
-    "favorite",
-    "pan",
-    "fried",
-    "noodles",
-    "garlic"
   ],
-  "add mixed vegetables or tofu": [
-    "add",
-    "mixed",
-    "vegetables",
-    "or",
+  "Garlic Noodles": [
+    "garlic",
+    "noodles",
     "tofu"
   ],
-  "add chicken, beef, or shrimp (4pcs)": [
-    "add",
-    "chicken",
-    "beef",
-    "or",
+  "Garlic Noodles": [
+    "garlic",
+    "noodles",
     "shrimp"
   ],
+  "Garlic Noodles": [
+    "garlic",
+    "noodles",
+    "beef"
+  ],
   "Sunflower Prawns": [
-    "sunflower",
-    "prawns",
-    "tiger",
-    "prawns",
+    "prawns tiger",
     "garlic",
     "noodles"
   ],
-  "Prawns": [
-    "prawns"
-  ],
-  "Combination": [
-    "combination",
+  "Chicken Fried Rice": [
     "chicken",
-    "shrimp",
-    "mixed",
-    "vegetables"
+    "fried rice"
   ],
-  "Chicken Or Beef Fried Rice": [
-    "chicken",
-    "or",
+  "Beef Fried Rice": [
     "beef",
-    "fried",
-    "rice"
+    "fried rice"
   ],
+
   "House Fried Rice": [
-    "house",
-    "fried",
-    "rice",
+    "fried rice",
     "chicken",
     "prawns",
     "pineapple"
   ],
-  "Prawn Or Crab Meat Fried Rice": [
+  "Prawn Fried Rice": [
     "prawn",
-    "or",
-    "crab",
-    "meat",
-    "fried",
-    "rice"
+    "fried rice"
   ],
-  "Vegetarian Fried Rice": [
-    "vegetarian",
-    "fried",
-    "rice",
-    "vegetables",
+  "Crab Meat Fried Rice": [
+    "crab meat",
+    "fried rice"
+  ],
+  "vegetarianetarian Fried Rice": [
+    "vegetarianetarian",
+    "fried rice",
+    "vegetarianetables",
     "mushrooms",
     "tofu"
   ],
   "Clay Pot Special": [
-    "clay",
-    "pot",
-    "special",
     "chicken",
     "prawns",
     "sausage",
     "mushrooms",
-    "clay",
-    "pot"
+    "clay pot"
   ],
   "Steamed Jasmine Rice": [
-    "steamed",
-    "jasmine",
-    "rice"
+    "jasmine rice"
   ],
   "Brown Rice": [
-    "brown",
-    "rice"
+    "brown rice"
   ],
-  "#1. Soup, Imperial Roll, Salad, Five Spice Chicken": [
+  "1. Soup, Imperial Roll, Salad, five spices Spice Chicken": [
     "soup",
-    "imperial",
-    "roll",
+    "imperial roll",
     "salad",
-    "five",
+    "five spices",
     "spice",
     "chicken"
   ],
-  "#2. Soup, Imperial Roll, Salad, Bbq Pork": [
+  "2. Soup, Imperial Roll, Salad, Bbq Pork": [
     "soup",
-    "imperial",
-    "roll",
+    "imperial roll",
     "salad",
-    "bbq",
-    "pork"
+    "bbq pork"
   ],
-  "#3. Soup, Imperial Roll, Salad, Lemongrass Chicken (Spicy)": [
+  "3. Soup, Imperial Roll, Salad, Lemongrass Chicken (Spicy)": [
     "soup",
-    "imperial",
-    "roll",
+    "imperial roll",
     "salad",
     "lemongrass",
     "chicken"
   ],
-  "#4. Soup, Imperial Roll, Salad, Lemongrass Beef (Spicy)": [
+  "4. Soup, Imperial Roll, Salad, Lemongrass Beef (Spicy)": [
     "soup",
-    "imperial",
-    "roll",
+    "imperial roll",
     "salad",
     "lemongrass",
     "beef"
   ],
-  "#5. Soup, Imperial Roll, Salad, Lemongrass Prawns (Spicy)": [
+  "5. Soup, Imperial Roll, Salad, Lemongrass Prawns (Spicy)": [
     "soup",
-    "imperial",
-    "roll",
+    "imperial roll",
     "salad",
     "lemongrass",
     "prawns"
   ],
-  "** Brown Rice Or Vegetarian Roll Substitution Add $0.50": [
-    "brown",
-    "rice",
-    "or",
+  "vegetarian Soup, vegetarian Imperial Roll, Salad, Lemongrass Tofu (Spicy)": [
     "vegetarian",
-    "roll",
-    "substitution",
-    "add"
-  ],
-  "#6. Veg Soup, Veg Imperial Roll, Salad, Lemongrass Tofu (Spicy)": [
-    "veg",
     "soup",
-    "veg",
-    "imperial",
-    "roll",
+    "vegetarian imperial roll",
     "salad",
     "lemongrass",
     "tofu"
   ],
-  "#7. Veg Soup, Veg Imperial Roll, Salad, Spicy Green Beans": [
-    "veg",
+  "vegetarian Soup, vegetarian Imperial Roll, Salad, Spicy green Beans": [
+    "vegetarian",
     "soup",
-    "veg",
-    "imperial",
-    "roll",
+    "vegetarian imperial roll",    
     "salad",
     "spicy",
-    "green",
-    "beans"
+    "green beans",
+  
   ],
   "Combo Appetizer": [
-    "combo",
-    "appetizer",
-    "imperial",
-    "rolls",
-    "grilled",
-    "shrimp",
+    "imperial rolls",
+    "grilled shrimp",
+    "bbq",
+    "lemongrass",
+    "beef",
+    "salad green beanss",
+    "rice"
+  ],
+  "Combo Appetizer": [
+    "imperial rolls",
+    "grilled shrimp",
     "bbq",
     "lemongrass",
     "pork",
-    "or",
-    "beef",
-    "greens",
+    "salad green beanss",
     "rice"
   ],
-  "Hot & Sour Fish Or Shrimp": [
+  "Hot & Sour Fish": [
+    "hot and sour",
+    "fish",
+    "bean sprouts",
+    "tomatoes",
+    "pineapples"
+  ],
+  "Hot & Sour Shrimp": [
     "hot",
     "sour",
-    "fish",
-    "or",
     "shrimp",
-    "sprouts",
+    "bean sprouts",
     "tomatoes",
     "pineapples"
   ],
   "Crab Meat & Sweet Corn": [
-    "crab",
-    "meat",
+    "crab meat",
     "sweet",
     "corn"
   ],
   "Crab Meat & Asparagus": [
-    "crab",
-    "meat",
+    "crab meat",
     "asparagus"
   ],
   "B.B.Q. Pork (Lemongrass Marinade) & Imperial Rolls": [
-    "bbq",
-    "pork",
-    "imperial",
-    "rolls"
+    "bbq pork",
+    "imperial rolls"
   ],
   "B.B.Q. Beef (Lemongrass Marinade) & Imperial Rolls": [
-    "bbq",
-    "beef",
-    "imperial",
-    "rolls"
+    "bbq beef",
+    "imperial rolls"
   ],
   "Combo": [
-    "combo",
     "chicken",
     "shrimp",
     "mixed",
     "vegetables"
   ],
   "Shaken Beef": [
-    "shaken",
     "beef",
-    "favorite",
-    "tender",
-    "beef",
-    "cubes",
-    "our",
-    "garlic",
-    "chili",
-    "sauce"
+    "garlic chili sauce"
   ],
   "Lemongrass Beef": [
     "lemongrass",
     "beef",
-    "lemongrass",
-    "infused",
-    "green",
-    "beans",
+    "green beans",
     "onions",
     "chilies"
   ],
   "Curry Beef": [
     "curry",
     "beef",
-    "mixed",
-    "vegetables",
-    "coconut",
-    "curry",
-    "sauce"
+    "mixed vegetables",
+    "coconut curry sauce"
   ],
   "Garlic Beef": [
     "garlic",
     "beef",
-    "mixed",
-    "vegetables",
-    "garlic",
-    "sauce"
+    "mixed vegetables",
+    "garlic sauce"
   ],
   "B.B.Q Lemongrass Beef": [
-    "bbq",
+    "bbq beef",
     "lemongrass",
-    "beef",
-    "marinated",
-    "lemongrass",
-    "grilled",
-    "to",
-    "delicious"
   ],
   "Flaming Beef And Prawns": [
-    "flaming",
-    "beef",
-    "prawns",
-    "marinated",
+    "spicey",
     "beef",
     "prawns",
     "tomato",
     "onion",
     "rice",
-    "greens",
+    "salad greens",
     "mint"
   ],
   "Grilled Beef": [
-    "grilled",
-    "beef",
-    "tender",
-    "grilled",
-    "beef",
+    "grilled beef",
     "rice",
-    "greens",
+    "salad greens",
     "mint"
   ],
   "Lemongrass Chicken": [
     "lemongrass",
     "chicken",
-    "lemongrass",
-    "chicken",
-    "green",
-    "beans",
+    "green beans",
     "onions",
     "chilies"
   ],
   "Grilled Lemongrass Chicken": [
-    "grilled",
-    "lemongrass",
-    "chicken",
+    "grilled chicken",
     "chicken",
     "rice",
     "mint",
-    "greens"
+    "salad greens"
   ],
   "B.B.Q Pork": [
-    "bbq",
-    "pork",
-    "tender",
-    "boneless",
-    "bbq",
-    "pork",
-    "marinated",
+    "bbq pork",
     "lemongrass"
   ],
   "Steamed Sea Bass": [
-    "steamed",
-    "sea",
-    "bass",
+    "sea bass",
     "ginger",
-    "green",
+    "green beans",
     "onions"
   ],
   "Crispy Sea Bass": [
-    "crispy",
-    "sea",
-    "bass",
-    "deep",
-    "fried",
-    "sizzling",
-    "plate"
+    "crispy sea bass",
   ],
   "Pan Fried Fish Filet": [
-    "pan",
-    "fried",
-    "fish",
-    "filet",
     "pan-fried",
-    "fish",
-    "filet",
-    "special",
-    "ginger",
-    "sauce"
+    "fish filet",
+    "ginger sauce"
   ],
   "Grilled Prawns": [
-    "grilled",
-    "prawns",
-    "grilled",
-    "marinated",
-    "prawns",
-    "rice",
-    "greens",
+    "grilled prawns",
+    "salad greens",
     "mint"
   ],
   "Pepper Prawns": [
     "pepper",
     "prawns",
-    "sauteed",
-    "prawns",
     "garlic",
     "onion",
-    "black",
-    "pepper"
+    "black pepper"
   ],
   "Spicy Calamari": [
     "spicy",
-    "calamari",
-    "sauteed",
-    "tender",
     "calamari",
     "garlic",
     "chilies"
   ],
   "Spicy Seafood Combo": [
     "spicy",
-    "seafood",
-    "combo",
     "sauteed",
     "prawns",
     "calamari",
@@ -698,35 +484,21 @@ var menu = {
     "chilies"
   ],
   "Fish Clay Pot": [
-    "fish",
-    "clay",
-    "pot",
-    "fish",
-    "fillet",
-    "simmered",
-    "clay",
-    "pot"
+    "clay pot",
+    "fish fillet",
   ],
   "Sizzling Seafood": [
-    "sizzling",
-    "seafood",
-    "sauteed",
     "prawns",
     "fish",
-    "filet",
     "calamari",
     "garlic",
-    "chili",
-    "sauce"
+    "chili sauce"
   ],
-  "Spicy Green Beans": [
+  "Spicy green beans Beans": [
     "spicy",
-    "green",
-    "beans",
+    "green beans",
     "stir-fried",
-    "tender",
-    "green",
-    "bean",
+    "green beans",
     "mushroom",
     "garlic",
     "chilies"
