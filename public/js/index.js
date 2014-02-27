@@ -101,9 +101,6 @@ document.getElementById("cuisines").addEventListener('change', function() {
   selectCuisine(this.value);
 }, false);
 
-
-
-
 // Takes a number representing a star rating and returns a string
 // of HTML containing the stars, as images.
 var starScore = function(rating) {
@@ -135,7 +132,6 @@ channel.subscribe('starSelect', MenuApp.store.set);
 //channel.subscribe('dietSelect',function(ingredient, starNumber){
 //  channel.broadcast('renderStars', starNumber);
 //});
-
 
 var showNextIngredient = function() {
   if (index >= ingredients.length) {
